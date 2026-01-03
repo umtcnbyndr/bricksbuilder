@@ -1,0 +1,897 @@
+{
+  "content": [
+    {
+      "id": "testimonials1",
+      "name": "section",
+      "parent": 0,
+      "children": ["testcont"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#f8fafc"
+          }
+        },
+        "_padding": {
+          "top": "120",
+          "bottom": "120"
+        },
+        "_padding:tablet_portrait": {
+          "top": "100",
+          "bottom": "100"
+        },
+        "_padding:mobile_portrait": {
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "label": "Testimonials Section"
+    },
+    {
+      "id": "testcont",
+      "name": "container",
+      "parent": "testimonials1",
+      "children": ["testheader", "testgrid"],
+      "settings": {
+        "_width": "90%",
+        "_widthMax": "1400",
+        "_direction": "column",
+        "_rowGap": "60"
+      }
+    },
+    {
+      "id": "testheader",
+      "name": "block",
+      "parent": "testcont",
+      "children": ["testbadge", "testtitle", "testsubtitle"],
+      "settings": {
+        "_width": "100%",
+        "_direction": "column",
+        "_alignItems": "center",
+        "_rowGap": "20",
+        "_textAlign": "center"
+      },
+      "label": "Section Header"
+    },
+    {
+      "id": "testbadge",
+      "name": "block",
+      "parent": "testheader",
+      "children": ["testbadgetext"],
+      "settings": {
+        "_width": "auto",
+        "_display": "inline-flex",
+        "_padding": {
+          "top": "8",
+          "bottom": "8",
+          "left": "20",
+          "right": "20"
+        },
+        "_background": {
+          "color": {
+            "rgb": "rgba(59, 130, 246, 0.1)"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "100",
+            "right": "100",
+            "bottom": "100",
+            "left": "100"
+          }
+        }
+      }
+    },
+    {
+      "id": "testbadgetext",
+      "name": "text-basic",
+      "parent": "testbadge",
+      "children": [],
+      "settings": {
+        "text": "MÜŞTERİ YORUMLARI",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "13px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#3b82f6"
+          },
+          "letter-spacing": "1px"
+        }
+      }
+    },
+    {
+      "id": "testtitle",
+      "name": "heading",
+      "parent": "testheader",
+      "children": [],
+      "settings": {
+        "text": "Müşterilerimiz Ne Diyor?",
+        "tag": "h2",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-size:tablet_portrait": "38px",
+          "font-size:mobile_portrait": "32px",
+          "font-weight": "800",
+          "color": {
+            "hex": "#1a1a1a"
+          },
+          "line-height": "1.2",
+          "letter-spacing": "-0.5px"
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "testsubtitle",
+      "name": "text-basic",
+      "parent": "testheader",
+      "children": [],
+      "settings": {
+        "text": "Binlerce mutlu müşterimizin deneyimlerini keşfedin",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "18px",
+          "font-size:mobile_portrait": "16px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.6"
+        },
+        "_width": "100%",
+        "_widthMax": "600"
+      }
+    },
+    {
+      "id": "testgrid",
+      "name": "block",
+      "parent": "testcont",
+      "children": ["test1", "test2", "test3"],
+      "settings": {
+        "_width": "100%",
+        "_display": "grid",
+        "_gridTemplateColumns": "1fr 1fr 1fr",
+        "_gridTemplateColumns:tablet_portrait": "1fr",
+        "_columnGap": "32",
+        "_rowGap": "32"
+      }
+    },
+    {
+      "id": "test1",
+      "name": "block",
+      "parent": "testgrid",
+      "children": ["t1stars", "t1quote", "t1author"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "24",
+        "_padding": {
+          "top": "40",
+          "bottom": "40",
+          "left": "32",
+          "right": "32"
+        },
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "16",
+            "right": "16",
+            "bottom": "16",
+            "left": "16"
+          }
+        },
+        "_boxShadow": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "4",
+            "blur": "20"
+          },
+          "color": {
+            "rgb": "rgba(0, 0, 0, 0.06)"
+          }
+        },
+        "_cssTransition": "all 0.3s ease"
+      },
+      "label": "Testimonial 1"
+    },
+    {
+      "id": "t1stars",
+      "name": "block",
+      "parent": "test1",
+      "children": ["t1s1", "t1s2", "t1s3", "t1s4", "t1s5"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "4"
+      }
+    },
+    {
+      "id": "t1s1",
+      "name": "icon",
+      "parent": "t1stars",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-star"
+        },
+        "_typography": {
+          "font-size": "18px",
+          "color": {
+            "hex": "#fbbf24"
+          }
+        }
+      }
+    },
+    {
+      "id": "t1s2",
+      "name": "icon",
+      "parent": "t1stars",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-star"
+        },
+        "_typography": {
+          "font-size": "18px",
+          "color": {
+            "hex": "#fbbf24"
+          }
+        }
+      }
+    },
+    {
+      "id": "t1s3",
+      "name": "icon",
+      "parent": "t1stars",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-star"
+        },
+        "_typography": {
+          "font-size": "18px",
+          "color": {
+            "hex": "#fbbf24"
+          }
+        }
+      }
+    },
+    {
+      "id": "t1s4",
+      "name": "icon",
+      "parent": "t1stars",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-star"
+        },
+        "_typography": {
+          "font-size": "18px",
+          "color": {
+            "hex": "#fbbf24"
+          }
+        }
+      }
+    },
+    {
+      "id": "t1s5",
+      "name": "icon",
+      "parent": "t1stars",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-star"
+        },
+        "_typography": {
+          "font-size": "18px",
+          "color": {
+            "hex": "#fbbf24"
+          }
+        }
+      }
+    },
+    {
+      "id": "t1quote",
+      "name": "text-basic",
+      "parent": "test1",
+      "children": [],
+      "settings": {
+        "text": "\"Bu platform sayesinde işlerimizi çok daha hızlı ve profesyonel bir şekilde yönetebiliyoruz. Müşteri desteği harika, özellikler tam ihtiyacımız olan şey.\"",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1a1a1a"
+          },
+          "line-height": "1.7",
+          "font-style": "italic"
+        }
+      }
+    },
+    {
+      "id": "t1author",
+      "name": "block",
+      "parent": "test1",
+      "children": ["t1avatar", "t1info"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "16",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "t1avatar",
+      "name": "image",
+      "parent": "t1author",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://i.pravatar.cc/100?img=1",
+          "alt": "Ahmet Yılmaz"
+        },
+        "_width": "56px",
+        "_height": "56px",
+        "_border": {
+          "radius": {
+            "top": "100",
+            "right": "100",
+            "bottom": "100",
+            "left": "100"
+          }
+        }
+      }
+    },
+    {
+      "id": "t1info",
+      "name": "block",
+      "parent": "t1author",
+      "children": ["t1name", "t1position"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "4"
+      }
+    },
+    {
+      "id": "t1name",
+      "name": "heading",
+      "parent": "t1info",
+      "children": [],
+      "settings": {
+        "text": "Ahmet Yılmaz",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "t1position",
+      "name": "text-basic",
+      "parent": "t1info",
+      "children": [],
+      "settings": {
+        "text": "Genel Müdür, ABC Teknoloji",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          }
+        }
+      }
+    },
+    {
+      "id": "test2",
+      "name": "block",
+      "parent": "testgrid",
+      "children": ["t2stars", "t2quote", "t2author"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "24",
+        "_padding": {
+          "top": "40",
+          "bottom": "40",
+          "left": "32",
+          "right": "32"
+        },
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "16",
+            "right": "16",
+            "bottom": "16",
+            "left": "16"
+          }
+        },
+        "_boxShadow": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "4",
+            "blur": "20"
+          },
+          "color": {
+            "rgb": "rgba(0, 0, 0, 0.06)"
+          }
+        },
+        "_cssTransition": "all 0.3s ease"
+      },
+      "label": "Testimonial 2"
+    },
+    {
+      "id": "t2stars",
+      "name": "block",
+      "parent": "test2",
+      "children": ["t2s1", "t2s2", "t2s3", "t2s4", "t2s5"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "4"
+      }
+    },
+    {
+      "id": "t2s1",
+      "name": "icon",
+      "parent": "t2stars",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-star"
+        },
+        "_typography": {
+          "font-size": "18px",
+          "color": {
+            "hex": "#fbbf24"
+          }
+        }
+      }
+    },
+    {
+      "id": "t2s2",
+      "name": "icon",
+      "parent": "t2stars",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-star"
+        },
+        "_typography": {
+          "font-size": "18px",
+          "color": {
+            "hex": "#fbbf24"
+          }
+        }
+      }
+    },
+    {
+      "id": "t2s3",
+      "name": "icon",
+      "parent": "t2stars",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-star"
+        },
+        "_typography": {
+          "font-size": "18px",
+          "color": {
+            "hex": "#fbbf24"
+          }
+        }
+      }
+    },
+    {
+      "id": "t2s4",
+      "name": "icon",
+      "parent": "t2stars",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-star"
+        },
+        "_typography": {
+          "font-size": "18px",
+          "color": {
+            "hex": "#fbbf24"
+          }
+        }
+      }
+    },
+    {
+      "id": "t2s5",
+      "name": "icon",
+      "parent": "t2stars",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-star"
+        },
+        "_typography": {
+          "font-size": "18px",
+          "color": {
+            "hex": "#fbbf24"
+          }
+        }
+      }
+    },
+    {
+      "id": "t2quote",
+      "name": "text-basic",
+      "parent": "test2",
+      "children": [],
+      "settings": {
+        "text": "\"Kullanımı çok kolay ve sezgisel. Ekip olarak hızlı adapte olduk. Raporlama özellikleri işimizi çok kolaylaştırdı. Kesinlikle tavsiye ederim!\"",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1a1a1a"
+          },
+          "line-height": "1.7",
+          "font-style": "italic"
+        }
+      }
+    },
+    {
+      "id": "t2author",
+      "name": "block",
+      "parent": "test2",
+      "children": ["t2avatar", "t2info"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "16",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "t2avatar",
+      "name": "image",
+      "parent": "t2author",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://i.pravatar.cc/100?img=5",
+          "alt": "Ayşe Demir"
+        },
+        "_width": "56px",
+        "_height": "56px",
+        "_border": {
+          "radius": {
+            "top": "100",
+            "right": "100",
+            "bottom": "100",
+            "left": "100"
+          }
+        }
+      }
+    },
+    {
+      "id": "t2info",
+      "name": "block",
+      "parent": "t2author",
+      "children": ["t2name", "t2position"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "4"
+      }
+    },
+    {
+      "id": "t2name",
+      "name": "heading",
+      "parent": "t2info",
+      "children": [],
+      "settings": {
+        "text": "Ayşe Demir",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "t2position",
+      "name": "text-basic",
+      "parent": "t2info",
+      "children": [],
+      "settings": {
+        "text": "Pazarlama Direktörü, XYZ Ajans",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          }
+        }
+      }
+    },
+    {
+      "id": "test3",
+      "name": "block",
+      "parent": "testgrid",
+      "children": ["t3stars", "t3quote", "t3author"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "24",
+        "_padding": {
+          "top": "40",
+          "bottom": "40",
+          "left": "32",
+          "right": "32"
+        },
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "16",
+            "right": "16",
+            "bottom": "16",
+            "left": "16"
+          }
+        },
+        "_boxShadow": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "4",
+            "blur": "20"
+          },
+          "color": {
+            "rgb": "rgba(0, 0, 0, 0.06)"
+          }
+        },
+        "_cssTransition": "all 0.3s ease"
+      },
+      "label": "Testimonial 3"
+    },
+    {
+      "id": "t3stars",
+      "name": "block",
+      "parent": "test3",
+      "children": ["t3s1", "t3s2", "t3s3", "t3s4", "t3s5"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "4"
+      }
+    },
+    {
+      "id": "t3s1",
+      "name": "icon",
+      "parent": "t3stars",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-star"
+        },
+        "_typography": {
+          "font-size": "18px",
+          "color": {
+            "hex": "#fbbf24"
+          }
+        }
+      }
+    },
+    {
+      "id": "t3s2",
+      "name": "icon",
+      "parent": "t3stars",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-star"
+        },
+        "_typography": {
+          "font-size": "18px",
+          "color": {
+            "hex": "#fbbf24"
+          }
+        }
+      }
+    },
+    {
+      "id": "t3s3",
+      "name": "icon",
+      "parent": "t3stars",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-star"
+        },
+        "_typography": {
+          "font-size": "18px",
+          "color": {
+            "hex": "#fbbf24"
+          }
+        }
+      }
+    },
+    {
+      "id": "t3s4",
+      "name": "icon",
+      "parent": "t3stars",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-star"
+        },
+        "_typography": {
+          "font-size": "18px",
+          "color": {
+            "hex": "#fbbf24"
+          }
+        }
+      }
+    },
+    {
+      "id": "t3s5",
+      "name": "icon",
+      "parent": "t3stars",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-star"
+        },
+        "_typography": {
+          "font-size": "18px",
+          "color": {
+            "hex": "#fbbf24"
+          }
+        }
+      }
+    },
+    {
+      "id": "t3quote",
+      "name": "text-basic",
+      "parent": "test3",
+      "children": [],
+      "settings": {
+        "text": "\"ROI'miz %200 arttı! Hem zaman hem de maliyet tasarrufu sağladık. Gerçekten oyunun kurallarını değiştiren bir platform. Başka bir şeye geçmeyi düşünmüyorum.\"",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1a1a1a"
+          },
+          "line-height": "1.7",
+          "font-style": "italic"
+        }
+      }
+    },
+    {
+      "id": "t3author",
+      "name": "block",
+      "parent": "test3",
+      "children": ["t3avatar", "t3info"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "16",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "t3avatar",
+      "name": "image",
+      "parent": "t3author",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://i.pravatar.cc/100?img=12",
+          "alt": "Mehmet Kaya"
+        },
+        "_width": "56px",
+        "_height": "56px",
+        "_border": {
+          "radius": {
+            "top": "100",
+            "right": "100",
+            "bottom": "100",
+            "left": "100"
+          }
+        }
+      }
+    },
+    {
+      "id": "t3info",
+      "name": "block",
+      "parent": "t3author",
+      "children": ["t3name", "t3position"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "4"
+      }
+    },
+    {
+      "id": "t3name",
+      "name": "heading",
+      "parent": "t3info",
+      "children": [],
+      "settings": {
+        "text": "Mehmet Kaya",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "t3position",
+      "name": "text-basic",
+      "parent": "t3info",
+      "children": [],
+      "settings": {
+        "text": "CEO, Digital Plus",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          }
+        }
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}
