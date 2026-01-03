@@ -1,0 +1,30 @@
+# Büyük arşiv dosyaları
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Design dosyaları
+*.psd
+*.ai
+*.sketch
+*.fig
+
+# Node & PHP bağımlılıkları
+node_modules/
+vendor/
+
+# WordPress core (eğer varsa)
+wp-admin/
+wp-includes/
+
+# Geçici dosyalar
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE dosyaları
+.vscode/
+.idea/
+*.sublime-*
