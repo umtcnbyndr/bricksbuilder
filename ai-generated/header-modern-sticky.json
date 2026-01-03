@@ -1,0 +1,289 @@
+{
+  "id": "modern-header-ai-generated",
+  "name": "modern-header-sticky",
+  "title": "Modern Sticky Header - AI Generated",
+  "date": "2026-01-03 20:00:00",
+  "date_formatted": "January 3, 2026",
+  "author": {
+    "name": "AI Builder",
+    "avatar": "",
+    "url": ""
+  },
+  "type": "header",
+  "content": [
+    {
+      "id": "header1",
+      "name": "section",
+      "parent": 0,
+      "children": ["cont1"],
+      "settings": {
+        "_position": "fixed",
+        "_top": "0",
+        "_width": "100%",
+        "_zIndex": "1000",
+        "_background": {
+          "color": {
+            "hex": "#ffffff",
+            "rgb": "rgba(255, 255, 255, 0.95)"
+          }
+        },
+        "_backdropFilter": "blur(10px)",
+        "_boxShadow": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "2",
+            "blur": "20"
+          },
+          "color": {
+            "hex": "#000000",
+            "rgb": "rgba(0, 0, 0, 0.08)"
+          }
+        },
+        "_cssTransition": "all 0.3s ease",
+        "_padding": {
+          "top": "0",
+          "bottom": "0"
+        }
+      },
+      "label": "Header Section"
+    },
+    {
+      "id": "cont1",
+      "name": "container",
+      "parent": "header1",
+      "children": ["logo1", "nav1", "cta1", "mobile1"],
+      "settings": {
+        "_width": "90%",
+        "_widthMax": "1400",
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_alignItems": "center",
+        "_padding": {
+          "top": "20",
+          "bottom": "20"
+        },
+        "_padding:mobile_portrait": {
+          "top": "15",
+          "bottom": "15"
+        }
+      }
+    },
+    {
+      "id": "logo1",
+      "name": "block",
+      "parent": "cont1",
+      "children": ["logotext"],
+      "settings": {
+        "_width": "auto"
+      },
+      "label": "Logo"
+    },
+    {
+      "id": "logotext",
+      "name": "heading",
+      "parent": "logo1",
+      "children": [],
+      "settings": {
+        "text": "YourBrand",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "28px",
+          "font-weight": "800",
+          "color": {
+            "hex": "#1a1a1a"
+          },
+          "letter-spacing": "-0.5px"
+        },
+        "_typography:mobile_portrait": {
+          "font-size": "24px"
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "nav1",
+      "name": "nav-menu",
+      "parent": "cont1",
+      "children": [],
+      "settings": {
+        "menu": "primary",
+        "_display": "flex",
+        "_display:tablet_portrait": "none",
+        "_columnGap": "40",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#4a5568"
+          }
+        },
+        "linkTypography": {
+          "color": {
+            "hex": "#4a5568"
+          }
+        },
+        "linkTypographyHover": {
+          "color": {
+            "hex": "#3b82f6"
+          }
+        },
+        "_cssTransition": "color 0.2s ease"
+      },
+      "label": "Desktop Nav"
+    },
+    {
+      "id": "cta1",
+      "name": "button",
+      "parent": "cont1",
+      "children": [],
+      "settings": {
+        "text": "Get Started",
+        "link": {
+          "type": "internal",
+          "url": "#contact"
+        },
+        "_display": "inline-flex",
+        "_display:mobile_portrait": "none",
+        "_background": {
+          "color": {
+            "hex": "#3b82f6"
+          }
+        },
+        "_background_hover": {
+          "color": {
+            "hex": "#2563eb"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "12",
+          "bottom": "12",
+          "left": "28",
+          "right": "28"
+        },
+        "_border": {
+          "radius": {
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8"
+          }
+        },
+        "_cssTransition": "all 0.3s ease",
+        "_transform_hover": {
+          "translateY": "-2px"
+        },
+        "_boxShadow_hover": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "8",
+            "blur": "20"
+          },
+          "color": {
+            "rgb": "rgba(59, 130, 246, 0.4)"
+          }
+        }
+      },
+      "label": "CTA Button"
+    },
+    {
+      "id": "mobile1",
+      "name": "block",
+      "parent": "cont1",
+      "children": ["hamburger"],
+      "settings": {
+        "_display": "none",
+        "_display:tablet_portrait": "flex",
+        "_alignItems": "center"
+      },
+      "label": "Mobile Menu Trigger"
+    },
+    {
+      "id": "hamburger",
+      "name": "icon",
+      "parent": "mobile1",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-bars"
+        },
+        "_typography": {
+          "font-size": "24px",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_cursor": "pointer",
+        "link": {
+          "type": "action",
+          "action": "toggleOffcanvas"
+        }
+      }
+    },
+    {
+      "id": "offcanvas1",
+      "name": "offcanvas",
+      "parent": 0,
+      "children": ["offnav"],
+      "settings": {
+        "position": "right",
+        "_width": "280px",
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "80",
+          "left": "30",
+          "right": "30",
+          "bottom": "40"
+        }
+      },
+      "label": "Mobile Menu"
+    },
+    {
+      "id": "offnav",
+      "name": "nav-menu",
+      "parent": "offcanvas1",
+      "children": [],
+      "settings": {
+        "menu": "primary",
+        "_direction": "column",
+        "_rowGap": "24",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "linkTypography": {
+          "color": {
+            "hex": "#4a5568"
+          }
+        },
+        "linkTypographyHover": {
+          "color": {
+            "hex": "#3b82f6"
+          }
+        }
+      }
+    }
+  ],
+  "globalClasses": [],
+  "globalElements": []
+}
