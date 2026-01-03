@@ -1,0 +1,623 @@
+{
+  "content": [
+    {
+      "id": "contact1",
+      "name": "section",
+      "parent": 0,
+      "children": ["contactcont"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#f8fafc"
+          }
+        },
+        "_padding": {
+          "top": "120",
+          "bottom": "120"
+        },
+        "_padding:tablet_portrait": {
+          "top": "100",
+          "bottom": "100"
+        },
+        "_padding:mobile_portrait": {
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "label": "Contact Section"
+    },
+    {
+      "id": "contactcont",
+      "name": "container",
+      "parent": "contact1",
+      "children": ["contactgrid"],
+      "settings": {
+        "_width": "90%",
+        "_widthMax": "1200",
+        "_direction": "column"
+      }
+    },
+    {
+      "id": "contactgrid",
+      "name": "block",
+      "parent": "contactcont",
+      "children": ["contactleft", "contactright"],
+      "settings": {
+        "_width": "100%",
+        "_display": "grid",
+        "_gridTemplateColumns": "1fr 1fr",
+        "_gridTemplateColumns:tablet_portrait": "1fr",
+        "_columnGap": "80",
+        "_rowGap": "60",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "contactleft",
+      "name": "block",
+      "parent": "contactgrid",
+      "children": ["ctbadge", "cttitle", "ctsubtitle", "ctinfo"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "32"
+      },
+      "label": "Contact Info"
+    },
+    {
+      "id": "ctbadge",
+      "name": "block",
+      "parent": "contactleft",
+      "children": ["ctbadgetext"],
+      "settings": {
+        "_width": "auto",
+        "_display": "inline-flex",
+        "_padding": {
+          "top": "8",
+          "bottom": "8",
+          "left": "20",
+          "right": "20"
+        },
+        "_background": {
+          "color": {
+            "rgb": "rgba(59, 130, 246, 0.1)"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "100",
+            "right": "100",
+            "bottom": "100",
+            "left": "100"
+          }
+        }
+      }
+    },
+    {
+      "id": "ctbadgetext",
+      "name": "text-basic",
+      "parent": "ctbadge",
+      "children": [],
+      "settings": {
+        "text": "İLETİŞİM",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "13px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#3b82f6"
+          },
+          "letter-spacing": "1px"
+        }
+      }
+    },
+    {
+      "id": "cttitle",
+      "name": "heading",
+      "parent": "contactleft",
+      "children": [],
+      "settings": {
+        "text": "Bizimle İletişime Geçin",
+        "tag": "h2",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "42px",
+          "font-size:tablet_portrait": "36px",
+          "font-size:mobile_portrait": "32px",
+          "font-weight": "800",
+          "color": {
+            "hex": "#1a1a1a"
+          },
+          "line-height": "1.2",
+          "letter-spacing": "-0.5px"
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "ctsubtitle",
+      "name": "text-basic",
+      "parent": "contactleft",
+      "children": [],
+      "settings": {
+        "text": "Sorularınız mı var? Ekibimiz size yardımcı olmaktan mutluluk duyar. Formu doldurun, en kısa sürede size dönüş yapalım.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "17px",
+          "font-size:mobile_portrait": "16px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.6"
+        }
+      }
+    },
+    {
+      "id": "ctinfo",
+      "name": "block",
+      "parent": "contactleft",
+      "children": ["info1", "info2", "info3"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "24"
+      },
+      "label": "Contact Details"
+    },
+    {
+      "id": "info1",
+      "name": "block",
+      "parent": "ctinfo",
+      "children": ["infoicon1", "infotext1"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "16",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "infoicon1",
+      "name": "icon",
+      "parent": "info1",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-envelope"
+        },
+        "_typography": {
+          "font-size": "20px",
+          "color": {
+            "hex": "#3b82f6"
+          }
+        }
+      }
+    },
+    {
+      "id": "infotext1",
+      "name": "text-basic",
+      "parent": "info1",
+      "children": [],
+      "settings": {
+        "text": "info@yourcompany.com",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "info2",
+      "name": "block",
+      "parent": "ctinfo",
+      "children": ["infoicon2", "infotext2"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "16",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "infoicon2",
+      "name": "icon",
+      "parent": "info2",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-phone"
+        },
+        "_typography": {
+          "font-size": "20px",
+          "color": {
+            "hex": "#3b82f6"
+          }
+        }
+      }
+    },
+    {
+      "id": "infotext2",
+      "name": "text-basic",
+      "parent": "info2",
+      "children": [],
+      "settings": {
+        "text": "+90 (212) 555 0000",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "info3",
+      "name": "block",
+      "parent": "ctinfo",
+      "children": ["infoicon3", "infotext3"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "16",
+        "_alignItems": "flex-start"
+      }
+    },
+    {
+      "id": "infoicon3",
+      "name": "icon",
+      "parent": "info3",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-map-marker-alt"
+        },
+        "_typography": {
+          "font-size": "20px",
+          "color": {
+            "hex": "#3b82f6"
+          }
+        },
+        "_margin": {
+          "top": "2"
+        }
+      }
+    },
+    {
+      "id": "infotext3",
+      "name": "text-basic",
+      "parent": "info3",
+      "children": [],
+      "settings": {
+        "text": "İstanbul, Türkiye<br>Maslak Mahallesi, 34398",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1a1a1a"
+          },
+          "line-height": "1.6"
+        }
+      }
+    },
+    {
+      "id": "contactright",
+      "name": "block",
+      "parent": "contactgrid",
+      "children": ["formcard"],
+      "settings": {
+        "_width": "100%"
+      },
+      "label": "Form Side"
+    },
+    {
+      "id": "formcard",
+      "name": "block",
+      "parent": "contactright",
+      "children": ["contactform"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "40",
+          "bottom": "40",
+          "left": "40",
+          "right": "40"
+        },
+        "_padding:mobile_portrait": {
+          "top": "30",
+          "bottom": "30",
+          "left": "24",
+          "right": "24"
+        },
+        "_border": {
+          "radius": {
+            "top": "16",
+            "right": "16",
+            "bottom": "16",
+            "left": "16"
+          }
+        },
+        "_boxShadow": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "10",
+            "blur": "40"
+          },
+          "color": {
+            "rgb": "rgba(0, 0, 0, 0.08)"
+          }
+        }
+      }
+    },
+    {
+      "id": "contactform",
+      "name": "form",
+      "parent": "formcard",
+      "children": ["fname", "femail", "fsubject", "fmessage", "fsubmit"],
+      "settings": {
+        "fields": [
+          {
+            "id": "name",
+            "type": "text",
+            "label": "Ad Soyad",
+            "required": true
+          },
+          {
+            "id": "email",
+            "type": "email",
+            "label": "E-posta",
+            "required": true
+          },
+          {
+            "id": "subject",
+            "type": "text",
+            "label": "Konu"
+          },
+          {
+            "id": "message",
+            "type": "textarea",
+            "label": "Mesajınız",
+            "required": true
+          }
+        ],
+        "actions": [
+          {
+            "action": "email",
+            "to": "{admin_email}",
+            "subject": "Yeni İletişim Formu: {field_subject}",
+            "message": "Ad: {field_name}\nE-posta: {field_email}\nKonu: {field_subject}\n\nMesaj:\n{field_message}"
+          }
+        ],
+        "successMessage": "Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.",
+        "_direction": "column",
+        "_rowGap": "20"
+      }
+    },
+    {
+      "id": "fname",
+      "name": "form-field",
+      "parent": "contactform",
+      "children": [],
+      "settings": {
+        "type": "text",
+        "label": "Ad Soyad",
+        "required": true,
+        "fieldId": "name",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px"
+        },
+        "_padding": {
+          "top": "14",
+          "bottom": "14",
+          "left": "16",
+          "right": "16"
+        },
+        "_border": {
+          "width": {
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1"
+          },
+          "color": {
+            "hex": "#e2e8f0"
+          },
+          "radius": {
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8"
+          }
+        }
+      }
+    },
+    {
+      "id": "femail",
+      "name": "form-field",
+      "parent": "contactform",
+      "children": [],
+      "settings": {
+        "type": "email",
+        "label": "E-posta",
+        "required": true,
+        "fieldId": "email",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px"
+        },
+        "_padding": {
+          "top": "14",
+          "bottom": "14",
+          "left": "16",
+          "right": "16"
+        },
+        "_border": {
+          "width": {
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1"
+          },
+          "color": {
+            "hex": "#e2e8f0"
+          },
+          "radius": {
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8"
+          }
+        }
+      }
+    },
+    {
+      "id": "fsubject",
+      "name": "form-field",
+      "parent": "contactform",
+      "children": [],
+      "settings": {
+        "type": "text",
+        "label": "Konu",
+        "fieldId": "subject",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px"
+        },
+        "_padding": {
+          "top": "14",
+          "bottom": "14",
+          "left": "16",
+          "right": "16"
+        },
+        "_border": {
+          "width": {
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1"
+          },
+          "color": {
+            "hex": "#e2e8f0"
+          },
+          "radius": {
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8"
+          }
+        }
+      }
+    },
+    {
+      "id": "fmessage",
+      "name": "form-field",
+      "parent": "contactform",
+      "children": [],
+      "settings": {
+        "type": "textarea",
+        "label": "Mesajınız",
+        "required": true,
+        "fieldId": "message",
+        "rows": "6",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px"
+        },
+        "_padding": {
+          "top": "14",
+          "bottom": "14",
+          "left": "16",
+          "right": "16"
+        },
+        "_border": {
+          "width": {
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1"
+          },
+          "color": {
+            "hex": "#e2e8f0"
+          },
+          "radius": {
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8"
+          }
+        }
+      }
+    },
+    {
+      "id": "fsubmit",
+      "name": "button",
+      "parent": "contactform",
+      "children": [],
+      "settings": {
+        "text": "Mesaj Gönder",
+        "type": "submit",
+        "_width": "100%",
+        "_display": "flex",
+        "_justifyContent": "center",
+        "_background": {
+          "color": {
+            "hex": "#3b82f6"
+          }
+        },
+        "_background_hover": {
+          "color": {
+            "hex": "#2563eb"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "16",
+          "bottom": "16",
+          "left": "32",
+          "right": "32"
+        },
+        "_border": {
+          "radius": {
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8"
+          }
+        },
+        "_cssTransition": "all 0.3s ease",
+        "_cursor": "pointer",
+        "_margin": {
+          "top": "8"
+        }
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}
