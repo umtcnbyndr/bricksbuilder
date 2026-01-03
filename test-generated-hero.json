@@ -1,0 +1,398 @@
+{
+  "id": "test-hero-ai-generated",
+  "name": "test-hero-ai-generated",
+  "title": "AI Generated Hero - Startup Landing",
+  "date": "2026-01-03 12:00:00",
+  "date_formatted": "January 3, 2026",
+  "author": {
+    "name": "AI Builder",
+    "avatar": "",
+    "url": ""
+  },
+  "permalink": "",
+  "thumbnail": false,
+  "bundles": ["test"],
+  "tags": ["hero", "startup", "landing"],
+  "type": "section",
+  "content": [
+    {
+      "id": "qwerty",
+      "name": "section",
+      "parent": 0,
+      "children": ["asdfgh"],
+      "settings": {
+        "_background": {
+          "color": {
+            "hex": "#0F172A",
+            "id": "dark-bg"
+          }
+        },
+        "_padding": {
+          "top": "120",
+          "bottom": "120"
+        },
+        "_padding:tablet_portrait": {
+          "top": "80",
+          "bottom": "80"
+        },
+        "_padding:mobile_portrait": {
+          "top": "60",
+          "bottom": "60"
+        }
+      },
+      "label": "Hero Section"
+    },
+    {
+      "id": "asdfgh",
+      "name": "container",
+      "parent": "qwerty",
+      "children": ["zxcvbn"],
+      "settings": {
+        "_width": "90%",
+        "_widthMax": "1200",
+        "_direction": "row",
+        "_columnGap": "60",
+        "_alignItems": "center",
+        "_direction:tablet_portrait": "column",
+        "_columnGap:tablet_portrait": "40"
+      }
+    },
+    {
+      "id": "zxcvbn",
+      "name": "block",
+      "parent": "asdfgh",
+      "children": ["hjklop", "uiopas", "dfghjk", "vbnmqw"],
+      "settings": {
+        "_width": "50%",
+        "_width:tablet_portrait": "100%",
+        "_rowGap": "24"
+      },
+      "label": "Content Column"
+    },
+    {
+      "id": "hjklop",
+      "name": "heading",
+      "parent": "zxcvbn",
+      "children": [],
+      "settings": {
+        "text": "Launch Your Startup Faster",
+        "tag": "h1",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "56px",
+          "font-weight": "800",
+          "line-height": "1.1",
+          "color": {
+            "hex": "#FFFFFF",
+            "id": "white-text"
+          }
+        },
+        "_typography:tablet_portrait": {
+          "font-size": "48px"
+        },
+        "_typography:mobile_portrait": {
+          "font-size": "36px"
+        },
+        "_margin": {
+          "bottom": "20"
+        }
+      }
+    },
+    {
+      "id": "uiopas",
+      "name": "text",
+      "parent": "zxcvbn",
+      "children": [],
+      "settings": {
+        "text": "<p>Build beautiful websites without code. Our AI-powered platform helps you create professional landing pages in minutes.</p>",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "18px",
+          "line-height": "1.6",
+          "color": {
+            "hex": "#94A3B8",
+            "id": "gray-text"
+          }
+        },
+        "_typography:mobile_portrait": {
+          "font-size": "16px"
+        },
+        "_margin": {
+          "bottom": "32"
+        }
+      }
+    },
+    {
+      "id": "dfghjk",
+      "name": "container",
+      "parent": "zxcvbn",
+      "children": ["bnmzxc", "cvbnma"],
+      "settings": {
+        "_direction": "row",
+        "_columnGap": "16",
+        "_direction:mobile_portrait": "column",
+        "_rowGap:mobile_portrait": "16"
+      },
+      "label": "Button Group"
+    },
+    {
+      "id": "bnmzxc",
+      "name": "button",
+      "parent": "dfghjk",
+      "children": [],
+      "settings": {
+        "text": "Get Started Free",
+        "circle": true,
+        "size": "lg",
+        "_background": {
+          "color": {
+            "hex": "#3B82F6",
+            "id": "primary-blue"
+          }
+        },
+        "_background_hover": {
+          "color": {
+            "hex": "#2563EB",
+            "id": "primary-blue-dark"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#FFFFFF",
+            "id": "white-text"
+          }
+        },
+        "_padding": {
+          "top": "14",
+          "bottom": "14",
+          "left": "32",
+          "right": "32"
+        },
+        "_cssTransition": "all 0.3s ease-in-out",
+        "_transform_hover": {
+          "translateY": "-2px"
+        },
+        "_boxShadow_hover": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "8",
+            "blur": "20"
+          },
+          "color": {
+            "rgb": "rgba(59, 130, 246, 0.4)"
+          }
+        }
+      }
+    },
+    {
+      "id": "cvbnma",
+      "name": "button",
+      "parent": "dfghjk",
+      "children": [],
+      "settings": {
+        "text": "Watch Demo",
+        "circle": true,
+        "size": "lg",
+        "_background": {
+          "color": {
+            "hex": "transparent",
+            "id": "transparent"
+          }
+        },
+        "_background_hover": {
+          "color": {
+            "hex": "#1E293B",
+            "id": "dark-gray"
+          }
+        },
+        "_border": {
+          "width": {
+            "top": "2",
+            "right": "2",
+            "bottom": "2",
+            "left": "2"
+          },
+          "style": "solid",
+          "color": {
+            "hex": "#475569",
+            "id": "border-gray"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#FFFFFF",
+            "id": "white-text"
+          }
+        },
+        "_padding": {
+          "top": "14",
+          "bottom": "14",
+          "left": "32",
+          "right": "32"
+        },
+        "_cssTransition": "all 0.3s ease-in-out"
+      }
+    },
+    {
+      "id": "vbnmqw",
+      "name": "container",
+      "parent": "zxcvbn",
+      "children": ["qweasd", "zxcrty", "vbngfh"],
+      "settings": {
+        "_direction": "row",
+        "_columnGap": "24",
+        "_margin": {
+          "top": "40"
+        }
+      },
+      "label": "Stats"
+    },
+    {
+      "id": "qweasd",
+      "name": "block",
+      "parent": "vbnmqw",
+      "children": ["tyuiop", "ghjkla"],
+      "settings": {
+        "_rowGap": "4"
+      }
+    },
+    {
+      "id": "tyuiop",
+      "name": "heading",
+      "parent": "qweasd",
+      "children": [],
+      "settings": {
+        "text": "10k+",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "32px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#3B82F6",
+            "id": "primary-blue"
+          }
+        }
+      }
+    },
+    {
+      "id": "ghjkla",
+      "name": "text-basic",
+      "parent": "qweasd",
+      "children": [],
+      "settings": {
+        "text": "Active Users",
+        "tag": "span",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#64748B",
+            "id": "muted-text"
+          }
+        }
+      }
+    },
+    {
+      "id": "zxcrty",
+      "name": "block",
+      "parent": "vbnmqw",
+      "children": ["sdfghj", "xcvbnm"],
+      "settings": {
+        "_rowGap": "4"
+      }
+    },
+    {
+      "id": "sdfghj",
+      "name": "heading",
+      "parent": "zxcrty",
+      "children": [],
+      "settings": {
+        "text": "4.9/5",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "32px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#3B82F6",
+            "id": "primary-blue"
+          }
+        }
+      }
+    },
+    {
+      "id": "xcvbnm",
+      "name": "text-basic",
+      "parent": "zxcrty",
+      "children": [],
+      "settings": {
+        "text": "Rating",
+        "tag": "span",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#64748B",
+            "id": "muted-text"
+          }
+        }
+      }
+    },
+    {
+      "id": "vbngfh",
+      "name": "block",
+      "parent": "vbnmqw",
+      "children": ["poiuyt", "lkjhgf"],
+      "settings": {
+        "_rowGap": "4"
+      }
+    },
+    {
+      "id": "poiuyt",
+      "name": "heading",
+      "parent": "vbngfh",
+      "children": [],
+      "settings": {
+        "text": "99%",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "32px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#3B82F6",
+            "id": "primary-blue"
+          }
+        }
+      }
+    },
+    {
+      "id": "lkjhgf",
+      "name": "text-basic",
+      "parent": "vbngfh",
+      "children": [],
+      "settings": {
+        "text": "Uptime",
+        "tag": "span",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#64748B",
+            "id": "muted-text"
+          }
+        }
+      }
+    }
+  ],
+  "templateType": "section",
+  "globalClasses": [],
+  "globalElements": []
+}
