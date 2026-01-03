@@ -1,0 +1,734 @@
+{
+  "content": [
+    {
+      "id": "features1",
+      "name": "section",
+      "parent": 0,
+      "children": ["featurescont"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "120",
+          "bottom": "120"
+        },
+        "_padding:tablet_portrait": {
+          "top": "100",
+          "bottom": "100"
+        },
+        "_padding:mobile_portrait": {
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "label": "Features Section"
+    },
+    {
+      "id": "featurescont",
+      "name": "container",
+      "parent": "features1",
+      "children": ["featuresheader", "featuresgrid"],
+      "settings": {
+        "_width": "90%",
+        "_widthMax": "1400",
+        "_direction": "column",
+        "_rowGap": "60"
+      }
+    },
+    {
+      "id": "featuresheader",
+      "name": "block",
+      "parent": "featurescont",
+      "children": ["featuresbadge", "featurestitle", "featuressubtitle"],
+      "settings": {
+        "_width": "100%",
+        "_direction": "column",
+        "_alignItems": "center",
+        "_rowGap": "20",
+        "_textAlign": "center"
+      },
+      "label": "Section Header"
+    },
+    {
+      "id": "featuresbadge",
+      "name": "block",
+      "parent": "featuresheader",
+      "children": ["featuresbadgetext"],
+      "settings": {
+        "_width": "auto",
+        "_display": "inline-flex",
+        "_padding": {
+          "top": "8",
+          "bottom": "8",
+          "left": "20",
+          "right": "20"
+        },
+        "_background": {
+          "color": {
+            "rgb": "rgba(59, 130, 246, 0.1)"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "100",
+            "right": "100",
+            "bottom": "100",
+            "left": "100"
+          }
+        }
+      }
+    },
+    {
+      "id": "featuresbadgetext",
+      "name": "text-basic",
+      "parent": "featuresbadge",
+      "children": [],
+      "settings": {
+        "text": "FEATURES",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "13px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#3b82f6"
+          },
+          "letter-spacing": "1px"
+        }
+      }
+    },
+    {
+      "id": "featurestitle",
+      "name": "heading",
+      "parent": "featuresheader",
+      "children": [],
+      "settings": {
+        "text": "Everything You Need to Succeed",
+        "tag": "h2",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-size:tablet_portrait": "38px",
+          "font-size:mobile_portrait": "32px",
+          "font-weight": "800",
+          "color": {
+            "hex": "#1a1a1a"
+          },
+          "line-height": "1.2",
+          "letter-spacing": "-0.5px"
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "featuressubtitle",
+      "name": "text-basic",
+      "parent": "featuresheader",
+      "children": [],
+      "settings": {
+        "text": "Powerful features to help you create, manage, and grow your business online",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "18px",
+          "font-size:mobile_portrait": "16px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.6"
+        },
+        "_width": "100%",
+        "_widthMax": "700"
+      }
+    },
+    {
+      "id": "featuresgrid",
+      "name": "block",
+      "parent": "featurescont",
+      "children": ["feature1", "feature2", "feature3", "feature4", "feature5", "feature6"],
+      "settings": {
+        "_width": "100%",
+        "_display": "grid",
+        "_gridTemplateColumns": "1fr 1fr 1fr",
+        "_gridTemplateColumns:tablet_portrait": "1fr 1fr",
+        "_gridTemplateColumns:mobile_portrait": "1fr",
+        "_columnGap": "40",
+        "_rowGap": "60",
+        "_rowGap:mobile_portrait": "40"
+      }
+    },
+    {
+      "id": "feature1",
+      "name": "block",
+      "parent": "featuresgrid",
+      "children": ["icon1", "ftitle1", "fdesc1"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "20"
+      },
+      "label": "Feature 1"
+    },
+    {
+      "id": "icon1",
+      "name": "block",
+      "parent": "feature1",
+      "children": ["iconinner1"],
+      "settings": {
+        "_width": "64px",
+        "_height": "64px",
+        "_display": "flex",
+        "_justifyContent": "center",
+        "_alignItems": "center",
+        "_background": {
+          "color": {
+            "rgb": "rgba(59, 130, 246, 0.1)"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        }
+      }
+    },
+    {
+      "id": "iconinner1",
+      "name": "icon",
+      "parent": "icon1",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-bolt"
+        },
+        "_typography": {
+          "font-size": "28px",
+          "color": {
+            "hex": "#3b82f6"
+          }
+        }
+      }
+    },
+    {
+      "id": "ftitle1",
+      "name": "heading",
+      "parent": "feature1",
+      "children": [],
+      "settings": {
+        "text": "Lightning Fast",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "22px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "fdesc1",
+      "name": "text-basic",
+      "parent": "feature1",
+      "children": [],
+      "settings": {
+        "text": "Optimized for speed and performance. Your site loads instantly, keeping visitors engaged.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.6"
+        }
+      }
+    },
+    {
+      "id": "feature2",
+      "name": "block",
+      "parent": "featuresgrid",
+      "children": ["icon2", "ftitle2", "fdesc2"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "20"
+      },
+      "label": "Feature 2"
+    },
+    {
+      "id": "icon2",
+      "name": "block",
+      "parent": "feature2",
+      "children": ["iconinner2"],
+      "settings": {
+        "_width": "64px",
+        "_height": "64px",
+        "_display": "flex",
+        "_justifyContent": "center",
+        "_alignItems": "center",
+        "_background": {
+          "color": {
+            "rgb": "rgba(59, 130, 246, 0.1)"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        }
+      }
+    },
+    {
+      "id": "iconinner2",
+      "name": "icon",
+      "parent": "icon2",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-shield-alt"
+        },
+        "_typography": {
+          "font-size": "28px",
+          "color": {
+            "hex": "#3b82f6"
+          }
+        }
+      }
+    },
+    {
+      "id": "ftitle2",
+      "name": "heading",
+      "parent": "feature2",
+      "children": [],
+      "settings": {
+        "text": "Secure & Safe",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "22px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "fdesc2",
+      "name": "text-basic",
+      "parent": "feature2",
+      "children": [],
+      "settings": {
+        "text": "Enterprise-grade security with SSL encryption, automatic backups, and DDoS protection.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.6"
+        }
+      }
+    },
+    {
+      "id": "feature3",
+      "name": "block",
+      "parent": "featuresgrid",
+      "children": ["icon3", "ftitle3", "fdesc3"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "20"
+      },
+      "label": "Feature 3"
+    },
+    {
+      "id": "icon3",
+      "name": "block",
+      "parent": "feature3",
+      "children": ["iconinner3"],
+      "settings": {
+        "_width": "64px",
+        "_height": "64px",
+        "_display": "flex",
+        "_justifyContent": "center",
+        "_alignItems": "center",
+        "_background": {
+          "color": {
+            "rgb": "rgba(59, 130, 246, 0.1)"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        }
+      }
+    },
+    {
+      "id": "iconinner3",
+      "name": "icon",
+      "parent": "icon3",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-mobile-alt"
+        },
+        "_typography": {
+          "font-size": "28px",
+          "color": {
+            "hex": "#3b82f6"
+          }
+        }
+      }
+    },
+    {
+      "id": "ftitle3",
+      "name": "heading",
+      "parent": "feature3",
+      "children": [],
+      "settings": {
+        "text": "Fully Responsive",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "22px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "fdesc3",
+      "name": "text-basic",
+      "parent": "feature3",
+      "children": [],
+      "settings": {
+        "text": "Looks perfect on all devices. From desktop to tablet to mobile, your site adapts beautifully.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.6"
+        }
+      }
+    },
+    {
+      "id": "feature4",
+      "name": "block",
+      "parent": "featuresgrid",
+      "children": ["icon4", "ftitle4", "fdesc4"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "20"
+      },
+      "label": "Feature 4"
+    },
+    {
+      "id": "icon4",
+      "name": "block",
+      "parent": "feature4",
+      "children": ["iconinner4"],
+      "settings": {
+        "_width": "64px",
+        "_height": "64px",
+        "_display": "flex",
+        "_justifyContent": "center",
+        "_alignItems": "center",
+        "_background": {
+          "color": {
+            "rgb": "rgba(59, 130, 246, 0.1)"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        }
+      }
+    },
+    {
+      "id": "iconinner4",
+      "name": "icon",
+      "parent": "icon4",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-chart-line"
+        },
+        "_typography": {
+          "font-size": "28px",
+          "color": {
+            "hex": "#3b82f6"
+          }
+        }
+      }
+    },
+    {
+      "id": "ftitle4",
+      "name": "heading",
+      "parent": "feature4",
+      "children": [],
+      "settings": {
+        "text": "Analytics Included",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "22px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "fdesc4",
+      "name": "text-basic",
+      "parent": "feature4",
+      "children": [],
+      "settings": {
+        "text": "Track your visitors, conversions, and revenue with built-in analytics and detailed reports.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.6"
+        }
+      }
+    },
+    {
+      "id": "feature5",
+      "name": "block",
+      "parent": "featuresgrid",
+      "children": ["icon5", "ftitle5", "fdesc5"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "20"
+      },
+      "label": "Feature 5"
+    },
+    {
+      "id": "icon5",
+      "name": "block",
+      "parent": "feature5",
+      "children": ["iconinner5"],
+      "settings": {
+        "_width": "64px",
+        "_height": "64px",
+        "_display": "flex",
+        "_justifyContent": "center",
+        "_alignItems": "center",
+        "_background": {
+          "color": {
+            "rgb": "rgba(59, 130, 246, 0.1)"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        }
+      }
+    },
+    {
+      "id": "iconinner5",
+      "name": "icon",
+      "parent": "icon5",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-headset"
+        },
+        "_typography": {
+          "font-size": "28px",
+          "color": {
+            "hex": "#3b82f6"
+          }
+        }
+      }
+    },
+    {
+      "id": "ftitle5",
+      "name": "heading",
+      "parent": "feature5",
+      "children": [],
+      "settings": {
+        "text": "24/7 Support",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "22px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "fdesc5",
+      "name": "text-basic",
+      "parent": "feature5",
+      "children": [],
+      "settings": {
+        "text": "Our expert team is available around the clock to help you with any questions or issues.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.6"
+        }
+      }
+    },
+    {
+      "id": "feature6",
+      "name": "block",
+      "parent": "featuresgrid",
+      "children": ["icon6", "ftitle6", "fdesc6"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "20"
+      },
+      "label": "Feature 6"
+    },
+    {
+      "id": "icon6",
+      "name": "block",
+      "parent": "feature6",
+      "children": ["iconinner6"],
+      "settings": {
+        "_width": "64px",
+        "_height": "64px",
+        "_display": "flex",
+        "_justifyContent": "center",
+        "_alignItems": "center",
+        "_background": {
+          "color": {
+            "rgb": "rgba(59, 130, 246, 0.1)"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        }
+      }
+    },
+    {
+      "id": "iconinner6",
+      "name": "icon",
+      "parent": "icon6",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-puzzle-piece"
+        },
+        "_typography": {
+          "font-size": "28px",
+          "color": {
+            "hex": "#3b82f6"
+          }
+        }
+      }
+    },
+    {
+      "id": "ftitle6",
+      "name": "heading",
+      "parent": "feature6",
+      "children": [],
+      "settings": {
+        "text": "Easy Integration",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "22px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "fdesc6",
+      "name": "text-basic",
+      "parent": "feature6",
+      "children": [],
+      "settings": {
+        "text": "Connect with your favorite tools and services. Integrations with 100+ popular platforms.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.6"
+        }
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}
