@@ -1,0 +1,2448 @@
+{
+  "content": [
+    {
+      "id": "header-law",
+      "name": "section",
+      "parent": 0,
+      "children": ["header-container"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "20",
+          "bottom": "20"
+        },
+        "_position": "sticky",
+        "_top": "0",
+        "_zIndex": "1000",
+        "_boxShadow": {
+          "values": [
+            {
+              "x": "0",
+              "y": "2",
+              "blur": "10",
+              "spread": "0",
+              "color": {
+                "hex": "#00000010"
+              }
+            }
+          ]
+        }
+      },
+      "label": "Header"
+    },
+    {
+      "id": "header-container",
+      "name": "container",
+      "parent": "header-law",
+      "children": ["header-flex"],
+      "settings": {
+        "_width": "95%",
+        "_widthMax": "1200"
+      }
+    },
+    {
+      "id": "header-flex",
+      "name": "block",
+      "parent": "header-container",
+      "children": ["logo-group", "nav-menu-group", "header-buttons"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "logo-group",
+      "name": "block",
+      "parent": "header-flex",
+      "children": ["logo-icon", "logo-text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "logo-icon",
+      "name": "icon",
+      "parent": "logo-group",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-balance-scale"
+        },
+        "_typography": {
+          "font-size": "28px",
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "logo-text",
+      "name": "heading",
+      "parent": "logo-group",
+      "children": [],
+      "settings": {
+        "text": "Kaya Hukuk",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "22px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "nav-menu-group",
+      "name": "block",
+      "parent": "header-flex",
+      "children": ["nav-links-flex"],
+      "settings": {
+        "_display": "flex",
+        "_display:mobile_portrait": "none"
+      }
+    },
+    {
+      "id": "nav-links-flex",
+      "name": "block",
+      "parent": "nav-menu-group",
+      "children": ["nav-link-1", "nav-link-2", "nav-link-3"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "40",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "nav-link-1",
+      "name": "text-link",
+      "parent": "nav-links-flex",
+      "children": [],
+      "settings": {
+        "text": "Hizmetlerimiz",
+        "link": {
+          "type": "internal",
+          "url": "#services"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#6b7280"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "nav-link-2",
+      "name": "text-link",
+      "parent": "nav-links-flex",
+      "children": [],
+      "settings": {
+        "text": "Uzmanlık Alanları",
+        "link": {
+          "type": "internal",
+          "url": "#expertise"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#6b7280"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "nav-link-3",
+      "name": "text-link",
+      "parent": "nav-links-flex",
+      "children": [],
+      "settings": {
+        "text": "İletişim",
+        "link": {
+          "type": "internal",
+          "url": "#contact"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#6b7280"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "header-buttons",
+      "name": "block",
+      "parent": "header-flex",
+      "children": ["header-btn-signin", "header-btn-cta"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "20",
+        "_alignItems": "center",
+        "_display:mobile_portrait": "none"
+      }
+    },
+    {
+      "id": "header-btn-signin",
+      "name": "text-link",
+      "parent": "header-buttons",
+      "children": [],
+      "settings": {
+        "text": "Giriş Yap",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#6b7280"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "header-btn-cta",
+      "name": "button",
+      "parent": "header-buttons",
+      "children": [],
+      "settings": {
+        "text": "Ücretsiz Danışma",
+        "link": {
+          "type": "internal",
+          "url": "#contact"
+        },
+        "_background": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        },
+        "_background_hover": {
+          "color": {
+            "hex": "#1e40af"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "12",
+          "bottom": "12",
+          "left": "28",
+          "right": "28"
+        },
+        "_border": {
+          "radius": {
+            "top": "25",
+            "right": "25",
+            "bottom": "25",
+            "left": "25"
+          }
+        }
+      }
+    },
+    {
+      "id": "hero-section",
+      "name": "section",
+      "parent": 0,
+      "children": ["hero-container"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "gradient": {
+            "type": "linear",
+            "angle": "180",
+            "colors": [
+              {
+                "hex": "#1e3a8a",
+                "position": "0"
+              },
+              {
+                "hex": "#3b82f6",
+                "position": "100"
+              }
+            ]
+          }
+        },
+        "_padding": {
+          "top": "100",
+          "bottom": "100",
+          "top:mobile_portrait": "60",
+          "bottom:mobile_portrait": "60"
+        }
+      },
+      "label": "Hero Section"
+    },
+    {
+      "id": "hero-container",
+      "name": "container",
+      "parent": "hero-section",
+      "children": ["hero-content"],
+      "settings": {
+        "_width": "95%",
+        "_widthMax": "1200"
+      }
+    },
+    {
+      "id": "hero-content",
+      "name": "block",
+      "parent": "hero-container",
+      "children": ["hero-badge", "hero-heading", "hero-subheading", "hero-platforms", "hero-cards"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_alignItems": "center",
+        "_textAlign": "center",
+        "_rowGap": "32"
+      }
+    },
+    {
+      "id": "hero-badge",
+      "name": "block",
+      "parent": "hero-content",
+      "children": ["hero-badge-text"],
+      "settings": {
+        "_background": {
+          "color": {
+            "hex": "#ffffff20"
+          }
+        },
+        "_padding": {
+          "top": "8",
+          "bottom": "8",
+          "left": "20",
+          "right": "20"
+        },
+        "_border": {
+          "radius": {
+            "top": "20",
+            "right": "20",
+            "bottom": "20",
+            "left": "20"
+          }
+        }
+      }
+    },
+    {
+      "id": "hero-badge-text",
+      "name": "text-basic",
+      "parent": "hero-badge",
+      "children": [],
+      "settings": {
+        "text": "25 Yıllık Deneyim",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "hero-heading",
+      "name": "heading",
+      "parent": "hero-content",
+      "children": [],
+      "settings": {
+        "text": "Hukuki Haklarınızı Profesyonelce Koruyoruz",
+        "tag": "h1",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "56px",
+          "font-weight": "700",
+          "line-height": "1.2",
+          "color": {
+            "hex": "#ffffff"
+          },
+          "font-size:mobile_portrait": "36px"
+        },
+        "_margin": {
+          "bottom": "0"
+        },
+        "_width": "100%",
+        "_widthMax": "900"
+      }
+    },
+    {
+      "id": "hero-subheading",
+      "name": "text-basic",
+      "parent": "hero-content",
+      "children": [],
+      "settings": {
+        "text": "Ticaret hukuku, gayrimenkul hukuku ve aile hukuku alanlarında uzman kadromuzla yanınızdayız. Güvenilir çözümler için hemen iletişime geçin.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "18px",
+          "font-weight": "400",
+          "line-height": "1.6",
+          "color": {
+            "hex": "#e0e7ff"
+          },
+          "font-size:mobile_portrait": "16px"
+        },
+        "_width": "100%",
+        "_widthMax": "700"
+      }
+    },
+    {
+      "id": "hero-platforms",
+      "name": "block",
+      "parent": "hero-content",
+      "children": ["platform-1", "platform-2", "platform-3"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "16",
+        "_alignItems": "center",
+        "_justifyContent": "center",
+        "_direction:mobile_portrait": "column",
+        "_rowGap:mobile_portrait": "12"
+      }
+    },
+    {
+      "id": "platform-1",
+      "name": "block",
+      "parent": "hero-platforms",
+      "children": ["platform-1-icon", "platform-1-text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_alignItems": "center",
+        "_columnGap": "8",
+        "_background": {
+          "color": {
+            "hex": "#ffffff15"
+          }
+        },
+        "_padding": {
+          "top": "10",
+          "bottom": "10",
+          "left": "16",
+          "right": "16"
+        },
+        "_border": {
+          "radius": {
+            "top": "20",
+            "right": "20",
+            "bottom": "20",
+            "left": "20"
+          }
+        }
+      }
+    },
+    {
+      "id": "platform-1-icon",
+      "name": "icon",
+      "parent": "platform-1",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-certificate"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "platform-1-text",
+      "name": "text-basic",
+      "parent": "platform-1",
+      "children": [],
+      "settings": {
+        "text": "İstanbul Barosu",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "platform-2",
+      "name": "block",
+      "parent": "hero-platforms",
+      "children": ["platform-2-icon", "platform-2-text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_alignItems": "center",
+        "_columnGap": "8",
+        "_background": {
+          "color": {
+            "hex": "#ffffff15"
+          }
+        },
+        "_padding": {
+          "top": "10",
+          "bottom": "10",
+          "left": "16",
+          "right": "16"
+        },
+        "_border": {
+          "radius": {
+            "top": "20",
+            "right": "20",
+            "bottom": "20",
+            "left": "20"
+          }
+        }
+      }
+    },
+    {
+      "id": "platform-2-icon",
+      "name": "icon",
+      "parent": "platform-2",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-award"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "platform-2-text",
+      "name": "text-basic",
+      "parent": "platform-2",
+      "children": [],
+      "settings": {
+        "text": "TBB Üyesi",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "platform-3",
+      "name": "block",
+      "parent": "hero-platforms",
+      "children": ["platform-3-icon", "platform-3-text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_alignItems": "center",
+        "_columnGap": "8",
+        "_background": {
+          "color": {
+            "hex": "#ffffff15"
+          }
+        },
+        "_padding": {
+          "top": "10",
+          "bottom": "10",
+          "left": "16",
+          "right": "16"
+        },
+        "_border": {
+          "radius": {
+            "top": "20",
+            "right": "20",
+            "bottom": "20",
+            "left": "20"
+          }
+        }
+      }
+    },
+    {
+      "id": "platform-3-icon",
+      "name": "icon",
+      "parent": "platform-3",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-shield-alt"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "platform-3-text",
+      "name": "text-basic",
+      "parent": "platform-3",
+      "children": [],
+      "settings": {
+        "text": "Sigortalı Hizmet",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "hero-cards",
+      "name": "block",
+      "parent": "hero-content",
+      "children": ["service-card-1", "service-card-2", "service-card-3"],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(3, 1fr)",
+        "_gridTemplateColumns:tablet_portrait": "1fr",
+        "_columnGap": "24",
+        "_rowGap": "24",
+        "_width": "100%",
+        "_widthMax": "1100"
+      }
+    },
+    {
+      "id": "service-card-1",
+      "name": "block",
+      "parent": "hero-cards",
+      "children": ["card-1-icon", "card-1-title", "card-1-desc"],
+      "settings": {
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "32",
+          "bottom": "32",
+          "left": "28",
+          "right": "28"
+        },
+        "_border": {
+          "radius": {
+            "top": "16",
+            "right": "16",
+            "bottom": "16",
+            "left": "16"
+          }
+        },
+        "_boxShadow": {
+          "values": [
+            {
+              "x": "0",
+              "y": "4",
+              "blur": "20",
+              "spread": "0",
+              "color": {
+                "hex": "#00000015"
+              }
+            }
+          ]
+        },
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "16",
+        "_alignItems": "flex-start"
+      }
+    },
+    {
+      "id": "card-1-icon",
+      "name": "icon",
+      "parent": "service-card-1",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-gavel"
+        },
+        "_typography": {
+          "font-size": "36px",
+          "color": {
+            "hex": "#d4af37"
+          }
+        }
+      }
+    },
+    {
+      "id": "card-1-title",
+      "name": "heading",
+      "parent": "service-card-1",
+      "children": [],
+      "settings": {
+        "text": "Ticaret Hukuku",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "22px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "card-1-desc",
+      "name": "text-basic",
+      "parent": "service-card-1",
+      "children": [],
+      "settings": {
+        "text": "Şirket kuruluşu, birleşme ve devir işlemlerinde profesyonel danışmanlık hizmeti sunuyoruz.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "line-height": "1.6",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "service-card-2",
+      "name": "block",
+      "parent": "hero-cards",
+      "children": ["card-2-icon", "card-2-title", "card-2-desc"],
+      "settings": {
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "32",
+          "bottom": "32",
+          "left": "28",
+          "right": "28"
+        },
+        "_border": {
+          "radius": {
+            "top": "16",
+            "right": "16",
+            "bottom": "16",
+            "left": "16"
+          }
+        },
+        "_boxShadow": {
+          "values": [
+            {
+              "x": "0",
+              "y": "4",
+              "blur": "20",
+              "spread": "0",
+              "color": {
+                "hex": "#00000015"
+              }
+            }
+          ]
+        },
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "16",
+        "_alignItems": "flex-start"
+      }
+    },
+    {
+      "id": "card-2-icon",
+      "name": "icon",
+      "parent": "service-card-2",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-home"
+        },
+        "_typography": {
+          "font-size": "36px",
+          "color": {
+            "hex": "#d4af37"
+          }
+        }
+      }
+    },
+    {
+      "id": "card-2-title",
+      "name": "heading",
+      "parent": "service-card-2",
+      "children": [],
+      "settings": {
+        "text": "Gayrimenkul Hukuku",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "22px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "card-2-desc",
+      "name": "text-basic",
+      "parent": "service-card-2",
+      "children": [],
+      "settings": {
+        "text": "Tapu işlemleri, kira sözleşmeleri ve tahliye davaları konusunda uzman kadromuz size yardımcı olur.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "line-height": "1.6",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "service-card-3",
+      "name": "block",
+      "parent": "hero-cards",
+      "children": ["card-3-icon", "card-3-title", "card-3-desc"],
+      "settings": {
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "32",
+          "bottom": "32",
+          "left": "28",
+          "right": "28"
+        },
+        "_border": {
+          "radius": {
+            "top": "16",
+            "right": "16",
+            "bottom": "16",
+            "left": "16"
+          }
+        },
+        "_boxShadow": {
+          "values": [
+            {
+              "x": "0",
+              "y": "4",
+              "blur": "20",
+              "spread": "0",
+              "color": {
+                "hex": "#00000015"
+              }
+            }
+          ]
+        },
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "16",
+        "_alignItems": "flex-start"
+      }
+    },
+    {
+      "id": "card-3-icon",
+      "name": "icon",
+      "parent": "service-card-3",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-users"
+        },
+        "_typography": {
+          "font-size": "36px",
+          "color": {
+            "hex": "#d4af37"
+          }
+        }
+      }
+    },
+    {
+      "id": "card-3-title",
+      "name": "heading",
+      "parent": "service-card-3",
+      "children": [],
+      "settings": {
+        "text": "Aile Hukuku",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "22px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "card-3-desc",
+      "name": "text-basic",
+      "parent": "service-card-3",
+      "children": [],
+      "settings": {
+        "text": "Boşanma, velayet ve nafaka davalarında hassas ve gizli süreçlerinizde yanınızdayız.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "line-height": "1.6",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "features-section-1",
+      "name": "section",
+      "parent": 0,
+      "children": ["features-1-container"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#f9fafb"
+          }
+        },
+        "_padding": {
+          "top": "100",
+          "bottom": "100",
+          "top:mobile_portrait": "60",
+          "bottom:mobile_portrait": "60"
+        }
+      },
+      "label": "Features Section 1"
+    },
+    {
+      "id": "features-1-container",
+      "name": "container",
+      "parent": "features-section-1",
+      "children": ["features-1-grid"],
+      "settings": {
+        "_width": "95%",
+        "_widthMax": "1200"
+      }
+    },
+    {
+      "id": "features-1-grid",
+      "name": "block",
+      "parent": "features-1-container",
+      "children": ["features-1-left", "features-1-right"],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(2, 1fr)",
+        "_gridTemplateColumns:tablet_portrait": "1fr",
+        "_columnGap": "80",
+        "_rowGap": "40",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "features-1-left",
+      "name": "block",
+      "parent": "features-1-grid",
+      "children": ["f1-left-title", "f1-left-desc"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "20"
+      }
+    },
+    {
+      "id": "f1-left-title",
+      "name": "heading",
+      "parent": "features-1-left",
+      "children": [],
+      "settings": {
+        "text": "Tüm Hukuki İhtiyaçlarınızda Yanınızdayız",
+        "tag": "h2",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "36px",
+          "font-weight": "700",
+          "line-height": "1.3",
+          "color": {
+            "hex": "#1f2937"
+          },
+          "font-size:mobile_portrait": "28px"
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "f1-left-desc",
+      "name": "text-basic",
+      "parent": "features-1-left",
+      "children": [],
+      "settings": {
+        "text": "Bireysel ve kurumsal müvekkillerimize en son Google değerlendirmelerinizi, Instagram feed'lerinizi ve daha fazlasını sergileyerek çözümler sunuyoruz.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "1.7",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "features-1-right",
+      "name": "block",
+      "parent": "features-1-grid",
+      "children": ["f1-right-title", "f1-right-desc"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "20"
+      }
+    },
+    {
+      "id": "f1-right-title",
+      "name": "heading",
+      "parent": "features-1-right",
+      "children": [],
+      "settings": {
+        "text": "Deneyimli Kadro ile Hızlı Çözümler",
+        "tag": "h2",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "36px",
+          "font-weight": "700",
+          "line-height": "1.3",
+          "color": {
+            "hex": "#1f2937"
+          },
+          "font-size:mobile_portrait": "28px"
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "f1-right-desc",
+      "name": "text-basic",
+      "parent": "features-1-right",
+      "children": [],
+      "settings": {
+        "text": "25 yıllık deneyimimiz ile dava süreçlerinizde %100 kontrol ve esneklik sağlayarak, hukuki haklarınızı en iyi şekilde koruyoruz.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "1.7",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "features-section-2",
+      "name": "section",
+      "parent": 0,
+      "children": ["features-2-container"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "100",
+          "bottom": "100",
+          "top:mobile_portrait": "60",
+          "bottom:mobile_portrait": "60"
+        }
+      },
+      "label": "Features Section 2"
+    },
+    {
+      "id": "features-2-container",
+      "name": "container",
+      "parent": "features-section-2",
+      "children": ["features-2-grid"],
+      "settings": {
+        "_width": "95%",
+        "_widthMax": "1200"
+      }
+    },
+    {
+      "id": "features-2-grid",
+      "name": "block",
+      "parent": "features-2-container",
+      "children": ["features-2-left", "features-2-right"],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(2, 1fr)",
+        "_gridTemplateColumns:tablet_portrait": "1fr",
+        "_columnGap": "80",
+        "_rowGap": "40",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "features-2-left",
+      "name": "block",
+      "parent": "features-2-grid",
+      "children": ["f2-left-title", "f2-left-desc"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "20"
+      }
+    },
+    {
+      "id": "f2-left-title",
+      "name": "heading",
+      "parent": "features-2-left",
+      "children": [],
+      "settings": {
+        "text": "Webflow, Framer ve HTML İçin Tasarlandı",
+        "tag": "h2",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "36px",
+          "font-weight": "700",
+          "line-height": "1.3",
+          "color": {
+            "hex": "#1f2937"
+          },
+          "font-size:mobile_portrait": "28px"
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "f2-left-desc",
+      "name": "text-basic",
+      "parent": "features-2-left",
+      "children": [],
+      "settings": {
+        "text": "Favori geliştirme platformlarınızın gücünden yararlanın ve güzel feed'lerinizi doğrudan içlerinde oluşturun!",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "1.7",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "features-2-right",
+      "name": "block",
+      "parent": "features-2-grid",
+      "children": ["f2-right-title", "f2-right-desc"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "20"
+      }
+    },
+    {
+      "id": "f2-right-title",
+      "name": "heading",
+      "parent": "features-2-right",
+      "children": [],
+      "settings": {
+        "text": "Sınırsız Feed Bağlantısı",
+        "tag": "h2",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "36px",
+          "font-weight": "700",
+          "line-height": "1.3",
+          "color": {
+            "hex": "#1f2937"
+          },
+          "font-size:mobile_portrait": "28px"
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "f2-right-desc",
+      "name": "text-basic",
+      "parent": "features-2-right",
+      "children": [],
+      "settings": {
+        "text": "Ajanslar ve freelancer'lar için mükemmel, sınırsız bağlantı ve web siteleri ile.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "1.7",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "faq-section",
+      "name": "section",
+      "parent": 0,
+      "children": ["faq-container"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "100",
+          "bottom": "100",
+          "top:mobile_portrait": "60",
+          "bottom:mobile_portrait": "60"
+        }
+      },
+      "label": "FAQ Section"
+    },
+    {
+      "id": "faq-container",
+      "name": "container",
+      "parent": "faq-section",
+      "children": ["faq-content"],
+      "settings": {
+        "_width": "95%",
+        "_widthMax": "800"
+      }
+    },
+    {
+      "id": "faq-content",
+      "name": "block",
+      "parent": "faq-container",
+      "children": ["faq-icon", "faq-tag", "faq-heading", "faq-list", "faq-cta-btn"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_alignItems": "center",
+        "_textAlign": "center",
+        "_rowGap": "40"
+      }
+    },
+    {
+      "id": "faq-icon",
+      "name": "icon",
+      "parent": "faq-content",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-question-circle"
+        },
+        "_typography": {
+          "font-size": "48px",
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "faq-tag",
+      "name": "text-basic",
+      "parent": "faq-content",
+      "children": [],
+      "settings": {
+        "text": "Sık Sorulan Sorular",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "600",
+          "text-transform": "uppercase",
+          "letter-spacing": "0.05em",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "faq-heading",
+      "name": "heading",
+      "parent": "faq-content",
+      "children": [],
+      "settings": {
+        "text": "Sıkça Sorulan Sorular",
+        "tag": "h2",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "42px",
+          "font-weight": "700",
+          "line-height": "1.3",
+          "color": {
+            "hex": "#1f2937"
+          },
+          "font-size:mobile_portrait": "32px"
+        },
+        "_margin": {
+          "top": "-20",
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "faq-list",
+      "name": "block",
+      "parent": "faq-content",
+      "children": ["faq-item-1", "faq-item-2", "faq-item-3", "faq-item-4", "faq-item-5"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "16",
+        "_width": "100%"
+      }
+    },
+    {
+      "id": "faq-item-1",
+      "name": "block",
+      "parent": "faq-list",
+      "children": ["faq-1-text", "faq-1-icon"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_alignItems": "center",
+        "_background": {
+          "color": {
+            "hex": "#f9fafb"
+          }
+        },
+        "_padding": {
+          "top": "20",
+          "bottom": "20",
+          "left": "28",
+          "right": "28"
+        },
+        "_border": {
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        },
+        "_cursor": "pointer"
+      }
+    },
+    {
+      "id": "faq-1-text",
+      "name": "text-basic",
+      "parent": "faq-item-1",
+      "children": [],
+      "settings": {
+        "text": "Hukuk büronuz hangi alanlarda hizmet veriyor?",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_textAlign": "left"
+      }
+    },
+    {
+      "id": "faq-1-icon",
+      "name": "icon",
+      "parent": "faq-item-1",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-chevron-right"
+        },
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "faq-item-2",
+      "name": "block",
+      "parent": "faq-list",
+      "children": ["faq-2-text", "faq-2-icon"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_alignItems": "center",
+        "_background": {
+          "color": {
+            "hex": "#f9fafb"
+          }
+        },
+        "_padding": {
+          "top": "20",
+          "bottom": "20",
+          "left": "28",
+          "right": "28"
+        },
+        "_border": {
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        },
+        "_cursor": "pointer"
+      }
+    },
+    {
+      "id": "faq-2-text",
+      "name": "text-basic",
+      "parent": "faq-item-2",
+      "children": [],
+      "settings": {
+        "text": "İlk danışmanlık ücretsiz mi?",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_textAlign": "left"
+      }
+    },
+    {
+      "id": "faq-2-icon",
+      "name": "icon",
+      "parent": "faq-item-2",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-chevron-right"
+        },
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "faq-item-3",
+      "name": "block",
+      "parent": "faq-list",
+      "children": ["faq-3-text", "faq-3-icon"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_alignItems": "center",
+        "_background": {
+          "color": {
+            "hex": "#f9fafb"
+          }
+        },
+        "_padding": {
+          "top": "20",
+          "bottom": "20",
+          "left": "28",
+          "right": "28"
+        },
+        "_border": {
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        },
+        "_cursor": "pointer"
+      }
+    },
+    {
+      "id": "faq-3-text",
+      "name": "text-basic",
+      "parent": "faq-item-3",
+      "children": [],
+      "settings": {
+        "text": "Dava süreçleri ne kadar sürüyor?",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_textAlign": "left"
+      }
+    },
+    {
+      "id": "faq-3-icon",
+      "name": "icon",
+      "parent": "faq-item-3",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-chevron-right"
+        },
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "faq-item-4",
+      "name": "block",
+      "parent": "faq-list",
+      "children": ["faq-4-text", "faq-4-icon"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_alignItems": "center",
+        "_background": {
+          "color": {
+            "hex": "#f9fafb"
+          }
+        },
+        "_padding": {
+          "top": "20",
+          "bottom": "20",
+          "left": "28",
+          "right": "28"
+        },
+        "_border": {
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        },
+        "_cursor": "pointer"
+      }
+    },
+    {
+      "id": "faq-4-text",
+      "name": "text-basic",
+      "parent": "faq-item-4",
+      "children": [],
+      "settings": {
+        "text": "Uzaktan danışmanlık hizmeti veriyor musunuz?",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_textAlign": "left"
+      }
+    },
+    {
+      "id": "faq-4-icon",
+      "name": "icon",
+      "parent": "faq-item-4",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-chevron-right"
+        },
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "faq-item-5",
+      "name": "block",
+      "parent": "faq-list",
+      "children": ["faq-5-text", "faq-5-icon"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_alignItems": "center",
+        "_background": {
+          "color": {
+            "hex": "#f9fafb"
+          }
+        },
+        "_padding": {
+          "top": "20",
+          "bottom": "20",
+          "left": "28",
+          "right": "28"
+        },
+        "_border": {
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        },
+        "_cursor": "pointer"
+      }
+    },
+    {
+      "id": "faq-5-text",
+      "name": "text-basic",
+      "parent": "faq-item-5",
+      "children": [],
+      "settings": {
+        "text": "Ödeme planları nasıl çalışıyor?",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_textAlign": "left"
+      }
+    },
+    {
+      "id": "faq-5-icon",
+      "name": "icon",
+      "parent": "faq-item-5",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-chevron-right"
+        },
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "faq-cta-btn",
+      "name": "button",
+      "parent": "faq-content",
+      "children": [],
+      "settings": {
+        "text": "Tüm Sorular",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_background": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        },
+        "_background_hover": {
+          "color": {
+            "hex": "#1e40af"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "14",
+          "bottom": "14",
+          "left": "32",
+          "right": "32"
+        },
+        "_border": {
+          "radius": {
+            "top": "25",
+            "right": "25",
+            "bottom": "25",
+            "left": "25"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-section",
+      "name": "section",
+      "parent": 0,
+      "children": ["footer-container"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#f9fafb"
+          }
+        },
+        "_padding": {
+          "top": "80",
+          "bottom": "40",
+          "top:mobile_portrait": "50",
+          "bottom:mobile_portrait": "30"
+        }
+      },
+      "label": "Footer"
+    },
+    {
+      "id": "footer-container",
+      "name": "container",
+      "parent": "footer-section",
+      "children": ["footer-content"],
+      "settings": {
+        "_width": "95%",
+        "_widthMax": "1200"
+      }
+    },
+    {
+      "id": "footer-content",
+      "name": "block",
+      "parent": "footer-container",
+      "children": ["footer-top", "footer-bottom"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "60"
+      }
+    },
+    {
+      "id": "footer-top",
+      "name": "block",
+      "parent": "footer-content",
+      "children": ["footer-col-1", "footer-col-2", "footer-col-3", "footer-col-4"],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(4, 1fr)",
+        "_gridTemplateColumns:tablet_portrait": "repeat(2, 1fr)",
+        "_gridTemplateColumns:mobile_portrait": "1fr",
+        "_columnGap": "40",
+        "_rowGap": "40"
+      }
+    },
+    {
+      "id": "footer-col-1",
+      "name": "block",
+      "parent": "footer-top",
+      "children": ["footer-col-1-title", "footer-col-1-link-1", "footer-col-1-link-2", "footer-col-1-link-3", "footer-col-1-link-4"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "16"
+      }
+    },
+    {
+      "id": "footer-col-1-title",
+      "name": "heading",
+      "parent": "footer-col-1",
+      "children": [],
+      "settings": {
+        "text": "HİZMETLER",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "12px",
+          "font-weight": "700",
+          "text-transform": "uppercase",
+          "letter-spacing": "0.05em",
+          "color": {
+            "hex": "#6b7280"
+          }
+        },
+        "_margin": {
+          "bottom": "4"
+        }
+      }
+    },
+    {
+      "id": "footer-col-1-link-1",
+      "name": "text-link",
+      "parent": "footer-col-1",
+      "children": [],
+      "settings": {
+        "text": "Ticaret Hukuku",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-col-1-link-2",
+      "name": "text-link",
+      "parent": "footer-col-1",
+      "children": [],
+      "settings": {
+        "text": "Gayrimenkul Hukuku",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-col-1-link-3",
+      "name": "text-link",
+      "parent": "footer-col-1",
+      "children": [],
+      "settings": {
+        "text": "Aile Hukuku",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-col-1-link-4",
+      "name": "text-link",
+      "parent": "footer-col-1",
+      "children": [],
+      "settings": {
+        "text": "Ceza Hukuku",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-col-2",
+      "name": "block",
+      "parent": "footer-top",
+      "children": ["footer-col-2-title", "footer-col-2-link-1", "footer-col-2-link-2", "footer-col-2-link-3", "footer-col-2-link-4"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "16"
+      }
+    },
+    {
+      "id": "footer-col-2-title",
+      "name": "heading",
+      "parent": "footer-col-2",
+      "children": [],
+      "settings": {
+        "text": "UZMANLIK",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "12px",
+          "font-weight": "700",
+          "text-transform": "uppercase",
+          "letter-spacing": "0.05em",
+          "color": {
+            "hex": "#6b7280"
+          }
+        },
+        "_margin": {
+          "bottom": "4"
+        }
+      }
+    },
+    {
+      "id": "footer-col-2-link-1",
+      "name": "text-link",
+      "parent": "footer-col-2",
+      "children": [],
+      "settings": {
+        "text": "Ticaret Davaları",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-col-2-link-2",
+      "name": "text-link",
+      "parent": "footer-col-2",
+      "children": [],
+      "settings": {
+        "text": "İcra Takibi",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-col-2-link-3",
+      "name": "text-link",
+      "parent": "footer-col-2",
+      "children": [],
+      "settings": {
+        "text": "Tahkim",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-col-2-link-4",
+      "name": "text-link",
+      "parent": "footer-col-2",
+      "children": [],
+      "settings": {
+        "text": "Danışmanlık",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-col-3",
+      "name": "block",
+      "parent": "footer-top",
+      "children": ["footer-col-3-title", "footer-col-3-link-1", "footer-col-3-link-2", "footer-col-3-link-3"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "16"
+      }
+    },
+    {
+      "id": "footer-col-3-title",
+      "name": "heading",
+      "parent": "footer-col-3",
+      "children": [],
+      "settings": {
+        "text": "KURUMSAL",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "12px",
+          "font-weight": "700",
+          "text-transform": "uppercase",
+          "letter-spacing": "0.05em",
+          "color": {
+            "hex": "#6b7280"
+          }
+        },
+        "_margin": {
+          "bottom": "4"
+        }
+      }
+    },
+    {
+      "id": "footer-col-3-link-1",
+      "name": "text-link",
+      "parent": "footer-col-3",
+      "children": [],
+      "settings": {
+        "text": "Hakkımızda",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-col-3-link-2",
+      "name": "text-link",
+      "parent": "footer-col-3",
+      "children": [],
+      "settings": {
+        "text": "Ekibimiz",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-col-3-link-3",
+      "name": "text-link",
+      "parent": "footer-col-3",
+      "children": [],
+      "settings": {
+        "text": "Referanslar",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-col-4",
+      "name": "block",
+      "parent": "footer-top",
+      "children": ["footer-discord-card"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column"
+      }
+    },
+    {
+      "id": "footer-discord-card",
+      "name": "block",
+      "parent": "footer-col-4",
+      "children": ["discord-title", "discord-desc", "discord-btn"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "16",
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "28",
+          "bottom": "28",
+          "left": "24",
+          "right": "24"
+        },
+        "_border": {
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        }
+      }
+    },
+    {
+      "id": "discord-title",
+      "name": "heading",
+      "parent": "footer-discord-card",
+      "children": [],
+      "settings": {
+        "text": "Hemen İletişime Geçin",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "18px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1f2937"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "discord-desc",
+      "name": "text-basic",
+      "parent": "footer-discord-card",
+      "children": [],
+      "settings": {
+        "text": "Sorularınızı paylaşın, önerilerinizi bildirin veya deneyimli avukat kadromuzla sohbet edin.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "line-height": "1.6",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "discord-btn",
+      "name": "button",
+      "parent": "footer-discord-card",
+      "children": [],
+      "settings": {
+        "text": "İletişim",
+        "link": {
+          "type": "internal",
+          "url": "#contact"
+        },
+        "_background": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        },
+        "_background_hover": {
+          "color": {
+            "hex": "#1e40af"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "12",
+          "bottom": "12",
+          "left": "24",
+          "right": "24"
+        },
+        "_border": {
+          "radius": {
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8"
+          }
+        },
+        "_width": "100%",
+        "_justifyContent": "center"
+      }
+    },
+    {
+      "id": "footer-bottom",
+      "name": "block",
+      "parent": "footer-content",
+      "children": ["footer-copyright", "footer-legal-links"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_alignItems": "center",
+        "_direction:mobile_portrait": "column",
+        "_rowGap:mobile_portrait": "16",
+        "_borderTop": {
+          "width": "1",
+          "style": "solid",
+          "color": {
+            "hex": "#e5e7eb"
+          }
+        },
+        "_paddingTop": "28"
+      }
+    },
+    {
+      "id": "footer-copyright",
+      "name": "text-basic",
+      "parent": "footer-bottom",
+      "children": [],
+      "settings": {
+        "text": "©2025 Kaya Hukuk. Tüm hakları saklıdır.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-legal-links",
+      "name": "block",
+      "parent": "footer-bottom",
+      "children": ["footer-terms", "footer-privacy"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "28"
+      }
+    },
+    {
+      "id": "footer-terms",
+      "name": "text-link",
+      "parent": "footer-legal-links",
+      "children": [],
+      "settings": {
+        "text": "Kullanım Koşulları",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#6b7280"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-privacy",
+      "name": "text-link",
+      "parent": "footer-legal-links",
+      "children": [],
+      "settings": {
+        "text": "Gizlilik Politikası",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#6b7280"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}
