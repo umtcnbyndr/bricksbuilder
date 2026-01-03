@@ -1,0 +1,1484 @@
+{
+  "content": [
+    {
+      "id": "header-law",
+      "name": "section",
+      "parent": 0,
+      "children": ["header-cont-law"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "20",
+          "bottom": "20"
+        },
+        "_position": "sticky",
+        "_top": "0",
+        "_zIndex": "999",
+        "_boxShadow": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "2",
+            "blur": "10"
+          },
+          "color": {
+            "rgb": "rgba(0, 0, 0, 0.05)"
+          }
+        }
+      },
+      "label": "Header - Avukatlık"
+    },
+    {
+      "id": "header-cont-law",
+      "name": "container",
+      "parent": "header-law",
+      "children": ["header-flex-law"],
+      "settings": {
+        "_width": "90%",
+        "_widthMax": "1400"
+      }
+    },
+    {
+      "id": "header-flex-law",
+      "name": "block",
+      "parent": "header-cont-law",
+      "children": ["logo-law", "nav-law", "cta-header-law"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "logo-law",
+      "name": "block",
+      "parent": "header-flex-law",
+      "children": ["logo-icon-law", "logo-text-law"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "logo-icon-law",
+      "name": "icon",
+      "parent": "logo-law",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-balance-scale"
+        },
+        "_typography": {
+          "font-size": "32px",
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "logo-text-law",
+      "name": "heading",
+      "parent": "logo-law",
+      "children": [],
+      "settings": {
+        "text": "Kaya Hukuk",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "24px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "nav-law",
+      "name": "block",
+      "parent": "header-flex-law",
+      "children": ["nav-links-law"],
+      "settings": {
+        "_display": "flex",
+        "_display:mobile_portrait": "none"
+      }
+    },
+    {
+      "id": "nav-links-law",
+      "name": "block",
+      "parent": "nav-law",
+      "children": ["navlink1", "navlink2", "navlink3", "navlink4"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "32",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "navlink1",
+      "name": "text-link",
+      "parent": "nav-links-law",
+      "children": [],
+      "settings": {
+        "text": "Hizmetlerimiz",
+        "link": {
+          "type": "internal",
+          "url": "#hizmetler"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#64748b"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "navlink2",
+      "name": "text-link",
+      "parent": "nav-links-law",
+      "children": [],
+      "settings": {
+        "text": "Uzmanlık Alanları",
+        "link": {
+          "type": "internal",
+          "url": "#uzmanlik"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#64748b"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "navlink3",
+      "name": "text-link",
+      "parent": "nav-links-law",
+      "children": [],
+      "settings": {
+        "text": "Hakkımızda",
+        "link": {
+          "type": "internal",
+          "url": "#hakkimizda"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#64748b"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "navlink4",
+      "name": "text-link",
+      "parent": "nav-links-law",
+      "children": [],
+      "settings": {
+        "text": "İletişim",
+        "link": {
+          "type": "internal",
+          "url": "#iletisim"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#64748b"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "cta-header-law",
+      "name": "button",
+      "parent": "header-flex-law",
+      "children": [],
+      "settings": {
+        "text": "Ücretsiz Danışma",
+        "link": {
+          "type": "internal",
+          "url": "#randevu"
+        },
+        "_display": "inline-flex",
+        "_background": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        },
+        "_background_hover": {
+          "color": {
+            "hex": "#1e40af"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "12",
+          "bottom": "12",
+          "left": "24",
+          "right": "24"
+        },
+        "_border": {
+          "radius": {
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8"
+          }
+        }
+      }
+    },
+    {
+      "id": "hero-law",
+      "name": "section",
+      "parent": 0,
+      "children": ["hero-cont-law"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "gradient": {
+            "type": "linear-gradient",
+            "angle": "180deg",
+            "colors": [
+              {
+                "hex": "#dbeafe",
+                "position": "0"
+              },
+              {
+                "hex": "#ffffff",
+                "position": "100"
+              }
+            ]
+          }
+        },
+        "_padding": {
+          "top": "120",
+          "bottom": "80"
+        },
+        "_padding:mobile_portrait": {
+          "top": "80",
+          "bottom": "60"
+        }
+      },
+      "label": "Hero - Avukatlık"
+    },
+    {
+      "id": "hero-cont-law",
+      "name": "container",
+      "parent": "hero-law",
+      "children": ["hero-content-law"],
+      "settings": {
+        "_width": "90%",
+        "_widthMax": "1200",
+        "_direction": "column",
+        "_alignItems": "center",
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "hero-content-law",
+      "name": "block",
+      "parent": "hero-cont-law",
+      "children": ["hero-badge-law", "hero-title-law", "hero-subtitle-law", "hero-cards-law"],
+      "settings": {
+        "_width": "100%",
+        "_direction": "column",
+        "_alignItems": "center",
+        "_rowGap": "32"
+      }
+    },
+    {
+      "id": "hero-badge-law",
+      "name": "block",
+      "parent": "hero-content-law",
+      "children": ["hero-badge-text-law"],
+      "settings": {
+        "_display": "inline-flex",
+        "_padding": {
+          "top": "8",
+          "bottom": "8",
+          "left": "20",
+          "right": "20"
+        },
+        "_background": {
+          "color": {
+            "rgb": "rgba(30, 58, 138, 0.1)"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "100",
+            "right": "100",
+            "bottom": "100",
+            "left": "100"
+          }
+        }
+      }
+    },
+    {
+      "id": "hero-badge-text-law",
+      "name": "text-basic",
+      "parent": "hero-badge-law",
+      "children": [],
+      "settings": {
+        "text": "⚖️ İstanbul'un Güvenilir Hukuk Bürosu",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "hero-title-law",
+      "name": "heading",
+      "parent": "hero-content-law",
+      "children": [],
+      "settings": {
+        "text": "Hukuki Haklarınızı Koruyoruz",
+        "tag": "h1",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "56px",
+          "font-size:tablet_portrait": "42px",
+          "font-size:mobile_portrait": "36px",
+          "font-weight": "800",
+          "color": {
+            "hex": "#1e3a8a"
+          },
+          "line-height": "1.2",
+          "letter-spacing": "-1px"
+        },
+        "_margin": {
+          "bottom": "0"
+        },
+        "_width": "100%",
+        "_widthMax": "900"
+      }
+    },
+    {
+      "id": "hero-subtitle-law",
+      "name": "text-basic",
+      "parent": "hero-content-law",
+      "children": [],
+      "settings": {
+        "text": "25 yıllık deneyim ve %95 dava başarı oranı ile tüm hukuki süreçlerinizde yanınızdayız. Uzman kadromuzla güvenilir çözümler sunuyoruz.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "20px",
+          "font-size:mobile_portrait": "18px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#475569"
+          },
+          "line-height": "1.6"
+        },
+        "_width": "100%",
+        "_widthMax": "700"
+      }
+    },
+    {
+      "id": "hero-cards-law",
+      "name": "block",
+      "parent": "hero-content-law",
+      "children": ["card1-law", "card2-law", "card3-law"],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "1fr 1fr 1fr",
+        "_gridTemplateColumns:tablet_portrait": "1fr",
+        "_columnGap": "24",
+        "_rowGap": "24",
+        "_width": "100%",
+        "_margin": {
+          "top": "20"
+        }
+      }
+    },
+    {
+      "id": "card1-law",
+      "name": "block",
+      "parent": "hero-cards-law",
+      "children": ["card1-icon-law", "card1-title-law", "card1-desc-law"],
+      "settings": {
+        "_direction": "column",
+        "_alignItems": "center",
+        "_rowGap": "16",
+        "_padding": {
+          "top": "40",
+          "bottom": "40",
+          "left": "32",
+          "right": "32"
+        },
+        "_background": {
+          "color": {
+            "rgb": "rgba(255, 255, 255, 0.9)"
+          }
+        },
+        "_backdropFilter": "blur(10px)",
+        "_border": {
+          "width": {
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1"
+          },
+          "color": {
+            "rgb": "rgba(30, 58, 138, 0.1)"
+          },
+          "radius": {
+            "top": "16",
+            "right": "16",
+            "bottom": "16",
+            "left": "16"
+          }
+        },
+        "_boxShadow": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "10",
+            "blur": "30"
+          },
+          "color": {
+            "rgb": "rgba(30, 58, 138, 0.1)"
+          }
+        },
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "card1-icon-law",
+      "name": "icon",
+      "parent": "card1-law",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-gavel"
+        },
+        "_typography": {
+          "font-size": "40px",
+          "color": {
+            "hex": "#d4af37"
+          }
+        }
+      }
+    },
+    {
+      "id": "card1-title-law",
+      "name": "heading",
+      "parent": "card1-law",
+      "children": [],
+      "settings": {
+        "text": "Ticaret Hukuku",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "20px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "card1-desc-law",
+      "name": "text-basic",
+      "parent": "card1-law",
+      "children": [],
+      "settings": {
+        "text": "Şirket kuruluşu, sözleşme yönetimi ve ticari uyuşmazlıklar",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.6"
+        }
+      }
+    },
+    {
+      "id": "card2-law",
+      "name": "block",
+      "parent": "hero-cards-law",
+      "children": ["card2-icon-law", "card2-title-law", "card2-desc-law"],
+      "settings": {
+        "_direction": "column",
+        "_alignItems": "center",
+        "_rowGap": "16",
+        "_padding": {
+          "top": "40",
+          "bottom": "40",
+          "left": "32",
+          "right": "32"
+        },
+        "_background": {
+          "color": {
+            "rgb": "rgba(255, 255, 255, 0.9)"
+          }
+        },
+        "_backdropFilter": "blur(10px)",
+        "_border": {
+          "width": {
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1"
+          },
+          "color": {
+            "rgb": "rgba(30, 58, 138, 0.1)"
+          },
+          "radius": {
+            "top": "16",
+            "right": "16",
+            "bottom": "16",
+            "left": "16"
+          }
+        },
+        "_boxShadow": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "10",
+            "blur": "30"
+          },
+          "color": {
+            "rgb": "rgba(30, 58, 138, 0.1)"
+          }
+        },
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "card2-icon-law",
+      "name": "icon",
+      "parent": "card2-law",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-home"
+        },
+        "_typography": {
+          "font-size": "40px",
+          "color": {
+            "hex": "#d4af37"
+          }
+        }
+      }
+    },
+    {
+      "id": "card2-title-law",
+      "name": "heading",
+      "parent": "card2-law",
+      "children": [],
+      "settings": {
+        "text": "Gayrimenkul Hukuku",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "20px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "card2-desc-law",
+      "name": "text-basic",
+      "parent": "card2-law",
+      "children": [],
+      "settings": {
+        "text": "Tapu işlemleri, kira sözleşmeleri ve tahliye davaları",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.6"
+        }
+      }
+    },
+    {
+      "id": "card3-law",
+      "name": "block",
+      "parent": "hero-cards-law",
+      "children": ["card3-icon-law", "card3-title-law", "card3-desc-law"],
+      "settings": {
+        "_direction": "column",
+        "_alignItems": "center",
+        "_rowGap": "16",
+        "_padding": {
+          "top": "40",
+          "bottom": "40",
+          "left": "32",
+          "right": "32"
+        },
+        "_background": {
+          "color": {
+            "rgb": "rgba(255, 255, 255, 0.9)"
+          }
+        },
+        "_backdropFilter": "blur(10px)",
+        "_border": {
+          "width": {
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1"
+          },
+          "color": {
+            "rgb": "rgba(30, 58, 138, 0.1)"
+          },
+          "radius": {
+            "top": "16",
+            "right": "16",
+            "bottom": "16",
+            "left": "16"
+          }
+        },
+        "_boxShadow": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "10",
+            "blur": "30"
+          },
+          "color": {
+            "rgb": "rgba(30, 58, 138, 0.1)"
+          }
+        },
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "card3-icon-law",
+      "name": "icon",
+      "parent": "card3-law",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-users"
+        },
+        "_typography": {
+          "font-size": "40px",
+          "color": {
+            "hex": "#d4af37"
+          }
+        }
+      }
+    },
+    {
+      "id": "card3-title-law",
+      "name": "heading",
+      "parent": "card3-law",
+      "children": [],
+      "settings": {
+        "text": "Aile Hukuku",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "20px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "card3-desc-law",
+      "name": "text-basic",
+      "parent": "card3-law",
+      "children": [],
+      "settings": {
+        "text": "Boşanma, velayet ve nafaka davalarında uzman destek",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.6"
+        }
+      }
+    },
+    {
+      "id": "stats-law",
+      "name": "section",
+      "parent": 0,
+      "children": ["stats-cont-law"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        },
+        "_padding": {
+          "top": "80",
+          "bottom": "80"
+        },
+        "_padding:mobile_portrait": {
+          "top": "60",
+          "bottom": "60"
+        }
+      },
+      "label": "İstatistikler"
+    },
+    {
+      "id": "stats-cont-law",
+      "name": "container",
+      "parent": "stats-law",
+      "children": ["stats-grid-law"],
+      "settings": {
+        "_width": "90%",
+        "_widthMax": "1200"
+      }
+    },
+    {
+      "id": "stats-grid-law",
+      "name": "block",
+      "parent": "stats-cont-law",
+      "children": ["stat1-law", "stat2-law", "stat3-law", "stat4-law"],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "1fr 1fr 1fr 1fr",
+        "_gridTemplateColumns:tablet_portrait": "1fr 1fr",
+        "_gridTemplateColumns:mobile_portrait": "1fr",
+        "_columnGap": "40",
+        "_rowGap": "40"
+      }
+    },
+    {
+      "id": "stat1-law",
+      "name": "block",
+      "parent": "stats-grid-law",
+      "children": ["stat1-number", "stat1-label"],
+      "settings": {
+        "_direction": "column",
+        "_alignItems": "center",
+        "_rowGap": "8",
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "stat1-number",
+      "name": "heading",
+      "parent": "stat1-law",
+      "children": [],
+      "settings": {
+        "text": "25+",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-weight": "800",
+          "color": {
+            "hex": "#d4af37"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "stat1-label",
+      "name": "text-basic",
+      "parent": "stat1-law",
+      "children": [],
+      "settings": {
+        "text": "Yıllık Deneyim",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#e0e7ff"
+          }
+        }
+      }
+    },
+    {
+      "id": "stat2-law",
+      "name": "block",
+      "parent": "stats-grid-law",
+      "children": ["stat2-number", "stat2-label"],
+      "settings": {
+        "_direction": "column",
+        "_alignItems": "center",
+        "_rowGap": "8",
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "stat2-number",
+      "name": "heading",
+      "parent": "stat2-law",
+      "children": [],
+      "settings": {
+        "text": "%95",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-weight": "800",
+          "color": {
+            "hex": "#d4af37"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "stat2-label",
+      "name": "text-basic",
+      "parent": "stat2-law",
+      "children": [],
+      "settings": {
+        "text": "Başarı Oranı",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#e0e7ff"
+          }
+        }
+      }
+    },
+    {
+      "id": "stat3-law",
+      "name": "block",
+      "parent": "stats-grid-law",
+      "children": ["stat3-number", "stat3-label"],
+      "settings": {
+        "_direction": "column",
+        "_alignItems": "center",
+        "_rowGap": "8",
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "stat3-number",
+      "name": "heading",
+      "parent": "stat3-law",
+      "children": [],
+      "settings": {
+        "text": "2500+",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-weight": "800",
+          "color": {
+            "hex": "#d4af37"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "stat3-label",
+      "name": "text-basic",
+      "parent": "stat3-law",
+      "children": [],
+      "settings": {
+        "text": "Çözülen Dava",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#e0e7ff"
+          }
+        }
+      }
+    },
+    {
+      "id": "stat4-law",
+      "name": "block",
+      "parent": "stats-grid-law",
+      "children": ["stat4-number", "stat4-label"],
+      "settings": {
+        "_direction": "column",
+        "_alignItems": "center",
+        "_rowGap": "8",
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "stat4-number",
+      "name": "heading",
+      "parent": "stat4-law",
+      "children": [],
+      "settings": {
+        "text": "24/7",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-weight": "800",
+          "color": {
+            "hex": "#d4af37"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "stat4-label",
+      "name": "text-basic",
+      "parent": "stat4-law",
+      "children": [],
+      "settings": {
+        "text": "Destek Hattı",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#e0e7ff"
+          }
+        }
+      }
+    },
+    {
+      "id": "cta-law",
+      "name": "section",
+      "parent": 0,
+      "children": ["cta-cont-law"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#f8fafc"
+          }
+        },
+        "_padding": {
+          "top": "100",
+          "bottom": "100"
+        }
+      },
+      "label": "Call to Action"
+    },
+    {
+      "id": "cta-cont-law",
+      "name": "container",
+      "parent": "cta-law",
+      "children": ["cta-content-law"],
+      "settings": {
+        "_width": "90%",
+        "_widthMax": "900"
+      }
+    },
+    {
+      "id": "cta-content-law",
+      "name": "block",
+      "parent": "cta-cont-law",
+      "children": ["cta-title-law", "cta-desc-law", "cta-button-law"],
+      "settings": {
+        "_direction": "column",
+        "_alignItems": "center",
+        "_rowGap": "24",
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "cta-title-law",
+      "name": "heading",
+      "parent": "cta-content-law",
+      "children": [],
+      "settings": {
+        "text": "Hukuki Desteğe Mi İhtiyacınız Var?",
+        "tag": "h2",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "42px",
+          "font-size:mobile_portrait": "32px",
+          "font-weight": "800",
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "cta-desc-law",
+      "name": "text-basic",
+      "parent": "cta-content-law",
+      "children": [],
+      "settings": {
+        "text": "Ücretsiz ön görüşme için hemen iletişime geçin. Uzman avukat kadromuz size en kısa sürede dönüş yapacaktır.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.6"
+        }
+      }
+    },
+    {
+      "id": "cta-button-law",
+      "name": "button",
+      "parent": "cta-content-law",
+      "children": [],
+      "settings": {
+        "text": "Hemen Randevu Alın",
+        "link": {
+          "type": "internal",
+          "url": "#iletisim"
+        },
+        "_display": "inline-flex",
+        "_background": {
+          "color": {
+            "hex": "#d4af37"
+          }
+        },
+        "_background_hover": {
+          "color": {
+            "hex": "#b8941f"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "18px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1e3a8a"
+          }
+        },
+        "_padding": {
+          "top": "18",
+          "bottom": "18",
+          "left": "40",
+          "right": "40"
+        },
+        "_border": {
+          "radius": {
+            "top": "10",
+            "right": "10",
+            "bottom": "10",
+            "left": "10"
+          }
+        },
+        "_boxShadow": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "4",
+            "blur": "20"
+          },
+          "color": {
+            "rgb": "rgba(212, 175, 55, 0.3)"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-law",
+      "name": "section",
+      "parent": 0,
+      "children": ["footer-cont-law"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#0f172a"
+          }
+        },
+        "_padding": {
+          "top": "60",
+          "bottom": "30"
+        }
+      },
+      "label": "Footer"
+    },
+    {
+      "id": "footer-cont-law",
+      "name": "container",
+      "parent": "footer-law",
+      "children": ["footer-grid-law", "footer-bottom-law"],
+      "settings": {
+        "_width": "90%",
+        "_widthMax": "1400",
+        "_direction": "column",
+        "_rowGap": "40"
+      }
+    },
+    {
+      "id": "footer-grid-law",
+      "name": "block",
+      "parent": "footer-cont-law",
+      "children": ["footer-col1-law", "footer-col2-law", "footer-col3-law"],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "2fr 1fr 1fr",
+        "_gridTemplateColumns:tablet_portrait": "1fr",
+        "_columnGap": "60",
+        "_rowGap": "40"
+      }
+    },
+    {
+      "id": "footer-col1-law",
+      "name": "block",
+      "parent": "footer-grid-law",
+      "children": ["footer-logo-law", "footer-desc-law"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "20"
+      }
+    },
+    {
+      "id": "footer-logo-law",
+      "name": "heading",
+      "parent": "footer-col1-law",
+      "children": [],
+      "settings": {
+        "text": "⚖️ Kaya Hukuk",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "24px",
+          "font-weight": "800",
+          "color": {
+            "hex": "#d4af37"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "footer-desc-law",
+      "name": "text-basic",
+      "parent": "footer-col1-law",
+      "children": [],
+      "settings": {
+        "text": "25 yıldır hukuki haklarınızı savunuyoruz. Güvenilir, profesyonel ve sonuç odaklı hizmet anlayışımızla yanınızdayız.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#94a3b8"
+          },
+          "line-height": "1.6"
+        }
+      }
+    },
+    {
+      "id": "footer-col2-law",
+      "name": "block",
+      "parent": "footer-grid-law",
+      "children": ["footer-col2-title", "footer-link1", "footer-link2", "footer-link3"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "16"
+      }
+    },
+    {
+      "id": "footer-col2-title",
+      "name": "heading",
+      "parent": "footer-col2-law",
+      "children": [],
+      "settings": {
+        "text": "Hizmetler",
+        "tag": "h4",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_margin": {
+          "bottom": "8"
+        }
+      }
+    },
+    {
+      "id": "footer-link1",
+      "name": "text-link",
+      "parent": "footer-col2-law",
+      "children": [],
+      "settings": {
+        "text": "Ticaret Hukuku",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#94a3b8"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#d4af37"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-link2",
+      "name": "text-link",
+      "parent": "footer-col2-law",
+      "children": [],
+      "settings": {
+        "text": "Gayrimenkul Hukuku",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#94a3b8"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#d4af37"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-link3",
+      "name": "text-link",
+      "parent": "footer-col2-law",
+      "children": [],
+      "settings": {
+        "text": "Aile Hukuku",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#94a3b8"
+          }
+        },
+        "_typography_hover": {
+          "color": {
+            "hex": "#d4af37"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-col3-law",
+      "name": "block",
+      "parent": "footer-grid-law",
+      "children": ["footer-col3-title", "footer-contact1", "footer-contact2", "footer-contact3"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "16"
+      }
+    },
+    {
+      "id": "footer-col3-title",
+      "name": "heading",
+      "parent": "footer-col3-law",
+      "children": [],
+      "settings": {
+        "text": "İletişim",
+        "tag": "h4",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_margin": {
+          "bottom": "8"
+        }
+      }
+    },
+    {
+      "id": "footer-contact1",
+      "name": "text-basic",
+      "parent": "footer-col3-law",
+      "children": [],
+      "settings": {
+        "text": "📞 +90 (212) 555 0000",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#94a3b8"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-contact2",
+      "name": "text-basic",
+      "parent": "footer-col3-law",
+      "children": [],
+      "settings": {
+        "text": "✉️ info@kayahukuk.com",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#94a3b8"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-contact3",
+      "name": "text-basic",
+      "parent": "footer-col3-law",
+      "children": [],
+      "settings": {
+        "text": "📍 Maslak, İstanbul",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#94a3b8"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-bottom-law",
+      "name": "block",
+      "parent": "footer-cont-law",
+      "children": ["footer-copyright"],
+      "settings": {
+        "_width": "100%",
+        "_padding": {
+          "top": "20"
+        },
+        "_border": {
+          "top": {
+            "width": "1",
+            "color": {
+              "rgb": "rgba(255, 255, 255, 0.1)"
+            }
+          }
+        },
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "footer-copyright",
+      "name": "text-basic",
+      "parent": "footer-bottom-law",
+      "children": [],
+      "settings": {
+        "text": "© 2026 Kaya Hukuk Bürosu. Tüm hakları saklıdır.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          }
+        }
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}
