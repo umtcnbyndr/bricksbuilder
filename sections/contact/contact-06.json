@@ -1,0 +1,318 @@
+{
+  "content": [
+    {
+      "id": "liodbj",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "gjgnnf",
+        "zpjlva"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jkkjia",
+          "zbmxmc"
+        ]
+      }
+    },
+    {
+      "id": "gjgnnf",
+      "name": "container",
+      "parent": "liodbj",
+      "children": [
+        "tocggf",
+        "hxtehp",
+        "reyfzl"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "xzcptv",
+          "knafbb"
+        ],
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "tocggf",
+      "name": "heading",
+      "parent": "gjgnnf",
+      "children": [],
+      "settings": {
+        "text": "Pre-header",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "kbxyvq",
+          "qqnlaw",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "hxtehp",
+      "name": "heading",
+      "parent": "gjgnnf",
+      "children": [],
+      "settings": {
+        "text": "Replace with your headline",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "ulvqfz",
+          "qqnlaw",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "reyfzl",
+      "name": "text",
+      "parent": "gjgnnf",
+      "children": [],
+      "settings": {
+        "text": "<p>Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas, or information effectively.</p>",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "qagqdx",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "zpjlva",
+      "name": "container",
+      "parent": "liodbj",
+      "children": [
+        "kkpznq",
+        "xfufru",
+        "tmszlw"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "duychn",
+          "yfsras",
+          "zznifr"
+        ],
+        "_gridTemplateColumns:mobile_portrait": "var(--grid-1)",
+        "_gridTemplateColumns:tablet_portrait": "var(--grid-2)"
+      },
+      "label": "Grid"
+    },
+    {
+      "id": "kkpznq",
+      "name": "icon-box",
+      "parent": "zpjlva",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "themify",
+          "icon": "ti-layers"
+        },
+        "content": "<h3>Icon box heading</h3><p>Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas, or information effectively. </p>",
+        "_cssGlobalClasses": [
+          "ukwrey"
+        ]
+      }
+    },
+    {
+      "id": "xfufru",
+      "name": "icon-box",
+      "parent": "zpjlva",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "themify",
+          "icon": "ti-layers"
+        },
+        "content": "<h3>Icon box heading</h3><p>Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas, or information effectively. </p>",
+        "_cssGlobalClasses": [
+          "ukwrey"
+        ]
+      }
+    },
+    {
+      "id": "tmszlw",
+      "name": "icon-box",
+      "parent": "zpjlva",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "themify",
+          "icon": "ti-layers"
+        },
+        "content": "<h3>Icon box heading</h3><p>Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas, or information effectively. </p>",
+        "_cssGlobalClasses": [
+          "ukwrey"
+        ]
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://renmoe.com/bricksnativeglobal",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "jkkjia",
+      "name": "ren-pad-top-bottom-lg",
+      "settings": {
+        "_padding": {
+          "bottom": "var(--spacing-lg)",
+          "top": "var(--spacing-lg)"
+        }
+      }
+    },
+    {
+      "id": "zbmxmc",
+      "name": "ren-gap-lg",
+      "settings": {
+        "_columnGap": "var(--spacing-lg)",
+        "_rowGap": "var(--spacing-lg)"
+      }
+    },
+    {
+      "id": "xzcptv",
+      "name": "ren-container-width-sm",
+      "settings": {
+        "_width": "90%",
+        "_widthMax": "750"
+      },
+      "modified": 1739553536,
+      "user_id": 1
+    },
+    {
+      "id": "knafbb",
+      "name": "ren-gap-xs",
+      "settings": {
+        "_columnGap": "var(--spacing-xs)",
+        "_rowGap": "var(--spacing-xs)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "kbxyvq",
+      "name": "ren-pre-header",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter",
+          "font-weight": "500"
+        },
+        "_margin": {
+          "bottom": "-1rem"
+        }
+      },
+      "modified": 1740312141,
+      "user_id": 1
+    },
+    {
+      "id": "qqnlaw",
+      "name": "ren-text-secondary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-secondary)"
+          }
+        }
+      },
+      "modified": 1733661236,
+      "user_id": 1
+    },
+    {
+      "id": "sddasx",
+      "name": "ren-text-center",
+      "settings": {
+        "_typography": {
+          "text-align": "center"
+        }
+      }
+    },
+    {
+      "id": "ulvqfz",
+      "name": "ren-heading-2",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-2xl)"
+        }
+      },
+      "modified": 1733551470,
+      "user_id": 1
+    },
+    {
+      "id": "ywlqpc",
+      "name": "ren-text-p",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter"
+        }
+      }
+    },
+    {
+      "id": "qagqdx",
+      "name": "ren-text-tertiary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-tertiary)"
+          }
+        }
+      },
+      "modified": 1733661236,
+      "user_id": 1
+    },
+    {
+      "id": "duychn",
+      "name": "ren-container-width-lg",
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      },
+      "modified": 1739690341,
+      "user_id": 1
+    },
+    {
+      "id": "yfsras",
+      "name": "ren-grid-3col",
+      "settings": {
+        "_gridTemplateColumns": "var(--grid-3)",
+        "_display": "grid"
+      },
+      "modified": 1734246223,
+      "user_id": 1
+    },
+    {
+      "id": "zznifr",
+      "name": "ren-grid-gap-md",
+      "settings": {
+        "_gridGap": "var(--spacing-md)"
+      },
+      "modified": 1734224977,
+      "user_id": 1
+    },
+    {
+      "id": "ukwrey",
+      "name": "ren-icon-box",
+      "settings": {
+        "typographyBody": {
+          "font-family": "Inter",
+          "color": {
+            "raw": "var(--color-tertiary)"
+          },
+          "font-size": "var(--text-sm)"
+        },
+        "typographyHeading": {
+          "color": {
+            "raw": "var(--color-secondary)"
+          },
+          "font-size": "var(--text-md)"
+        },
+        "gap": "var(--spacing-xs)",
+        "_cssCustom": ".ren-icon-box h3 {\n  margin-bottom: var(--spacing-3xs);\n}",
+        "iconSize": "3rem"
+      },
+      "modified": 1737996594,
+      "user_id": 1
+    }
+  ],
+  "globalElements": []
+}

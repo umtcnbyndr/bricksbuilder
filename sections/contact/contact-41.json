@@ -1,0 +1,771 @@
+{
+  "content": [
+    {
+      "id": "xuzqry",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "xkmyql"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "xjczpw"
+        ]
+      },
+      "label": "How It Works 14"
+    },
+    {
+      "id": "xkmyql",
+      "name": "container",
+      "parent": "xuzqry",
+      "children": [
+        "hpqlxb",
+        "wxfcsv"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "fcqhlv"
+        ]
+      }
+    },
+    {
+      "id": "hpqlxb",
+      "name": "div",
+      "parent": "xkmyql",
+      "children": [
+        "hcxtpp",
+        "dzzdrl",
+        "snlibb"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "muadbq"
+        ],
+        "_typography": {
+          "text-align": "center"
+        }
+      },
+      "label": "Intro"
+    },
+    {
+      "id": "hcxtpp",
+      "name": "heading",
+      "parent": "hpqlxb",
+      "children": [],
+      "settings": {
+        "text": "Long headline to turn your visitors into customers",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "wnpikx"
+        ]
+      }
+    },
+    {
+      "id": "dzzdrl",
+      "name": "text-basic",
+      "parent": "hpqlxb",
+      "children": [],
+      "settings": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "_cssGlobalClasses": [
+          "prgilv"
+        ],
+        "_padding:mobile_portrait": {
+          "left": "clamp(3.1992rem, calc(1.355vw + 2.7656rem), 4.5rem)",
+          "right": "clamp(3.1992rem, calc(1.355vw + 2.7656rem), 4.5rem)"
+        },
+        "tag": "p"
+      }
+    },
+    {
+      "id": "snlibb",
+      "name": "text-basic",
+      "parent": "hpqlxb",
+      "children": [],
+      "settings": {
+        "text": "Accent heading",
+        "_cssGlobalClasses": [
+          "samysq"
+        ],
+        "tag": "span"
+      },
+      "label": "Tagline"
+    },
+    {
+      "id": "wxfcsv",
+      "name": "block",
+      "parent": "xkmyql",
+      "children": [
+        "terqao",
+        "ortlok",
+        "erdbmn",
+        "gizpyk"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "buurrs"
+        ],
+        "tag": "ul"
+      },
+      "label": "List"
+    },
+    {
+      "id": "terqao",
+      "name": "block",
+      "parent": "wxfcsv",
+      "children": [
+        "tmddzw",
+        "mvqxlv",
+        "xqchqq"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "vphfbw"
+        ],
+        "tag": "li"
+      },
+      "label": "Card"
+    },
+    {
+      "id": "tmddzw",
+      "name": "block",
+      "parent": "terqao",
+      "children": [
+        "iukvux"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "hwciyw"
+        ]
+      },
+      "label": "Line-wrapper"
+    },
+    {
+      "id": "iukvux",
+      "name": "div",
+      "parent": "tmddzw",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": [
+          "dkrurt"
+        ]
+      },
+      "label": "Line"
+    },
+    {
+      "id": "mvqxlv",
+      "name": "block",
+      "parent": "terqao",
+      "children": [
+        "ehcxmq"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "nxgrti"
+        ]
+      },
+      "label": "Media"
+    },
+    {
+      "id": "ehcxmq",
+      "name": "image",
+      "parent": "mvqxlv",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": [
+          "pshfyf"
+        ],
+        "tag": "figure",
+        "image": {
+          "id": 10841,
+          "filename": "hero-18_2-1.jpg",
+          "size": "full",
+          "full": "https://css.bricksmaven.com/wp-content/uploads/2023/04/hero-18_2-1.jpg",
+          "url": "https://css.bricksmaven.com/wp-content/uploads/2023/04/hero-18_2-1.jpg"
+        }
+      }
+    },
+    {
+      "id": "xqchqq",
+      "name": "block",
+      "parent": "terqao",
+      "children": [
+        "nyroea",
+        "owxyad"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "ovyahh"
+        ]
+      },
+      "label": "Content"
+    },
+    {
+      "id": "nyroea",
+      "name": "heading",
+      "parent": "xqchqq",
+      "children": [],
+      "settings": {
+        "text": "What is Lorem Ipsum?",
+        "_cssGlobalClasses": [
+          "xqmznp"
+        ]
+      }
+    },
+    {
+      "id": "owxyad",
+      "name": "text-basic",
+      "parent": "xqchqq",
+      "children": [],
+      "settings": {
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "tag": "p",
+        "_cssGlobalClasses": [
+          "eehofr"
+        ]
+      },
+      "label": "Text"
+    },
+    {
+      "id": "ortlok",
+      "name": "block",
+      "parent": "wxfcsv",
+      "children": [
+        "sbgdly",
+        "fapwpd",
+        "apewlj"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "vphfbw"
+        ],
+        "tag": "li"
+      },
+      "label": "Card"
+    },
+    {
+      "id": "sbgdly",
+      "name": "block",
+      "parent": "ortlok",
+      "children": [
+        "vvqhvu"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "hwciyw"
+        ]
+      },
+      "label": "Line-wrapper"
+    },
+    {
+      "id": "vvqhvu",
+      "name": "div",
+      "parent": "sbgdly",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": [
+          "dkrurt"
+        ]
+      },
+      "label": "Line"
+    },
+    {
+      "id": "fapwpd",
+      "name": "block",
+      "parent": "ortlok",
+      "children": [
+        "iugvcu"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "nxgrti"
+        ]
+      },
+      "label": "Media"
+    },
+    {
+      "id": "iugvcu",
+      "name": "image",
+      "parent": "fapwpd",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": [
+          "pshfyf"
+        ],
+        "tag": "figure",
+        "image": {
+          "id": 10845,
+          "filename": "hero-19_1-1.jpg",
+          "size": "full",
+          "full": "https://css.bricksmaven.com/wp-content/uploads/2023/04/hero-19_1-1.jpg",
+          "url": "https://css.bricksmaven.com/wp-content/uploads/2023/04/hero-19_1-1.jpg"
+        }
+      }
+    },
+    {
+      "id": "apewlj",
+      "name": "block",
+      "parent": "ortlok",
+      "children": [
+        "ytjstj",
+        "zannjo"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "ovyahh"
+        ]
+      },
+      "label": "Content"
+    },
+    {
+      "id": "ytjstj",
+      "name": "heading",
+      "parent": "apewlj",
+      "children": [],
+      "settings": {
+        "text": "What is Lorem Ipsum?",
+        "_cssGlobalClasses": [
+          "xqmznp"
+        ]
+      }
+    },
+    {
+      "id": "zannjo",
+      "name": "text-basic",
+      "parent": "apewlj",
+      "children": [],
+      "settings": {
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "tag": "p",
+        "_cssGlobalClasses": [
+          "eehofr"
+        ]
+      },
+      "label": "Text"
+    },
+    {
+      "id": "erdbmn",
+      "name": "block",
+      "parent": "wxfcsv",
+      "children": [
+        "uutdvg",
+        "eklxwt",
+        "ywfgzn"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "vphfbw"
+        ],
+        "tag": "li"
+      },
+      "label": "Card"
+    },
+    {
+      "id": "uutdvg",
+      "name": "block",
+      "parent": "erdbmn",
+      "children": [
+        "aaimoc"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "hwciyw"
+        ]
+      },
+      "label": "Line-wrapper"
+    },
+    {
+      "id": "aaimoc",
+      "name": "div",
+      "parent": "uutdvg",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": [
+          "dkrurt"
+        ]
+      },
+      "label": "Line"
+    },
+    {
+      "id": "eklxwt",
+      "name": "block",
+      "parent": "erdbmn",
+      "children": [
+        "xzghrq"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "nxgrti"
+        ]
+      },
+      "label": "Media"
+    },
+    {
+      "id": "xzghrq",
+      "name": "image",
+      "parent": "eklxwt",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": [
+          "pshfyf"
+        ],
+        "tag": "figure",
+        "image": {
+          "id": 10840,
+          "filename": "hero-18_1-1.jpg",
+          "size": "full",
+          "full": "https://css.bricksmaven.com/wp-content/uploads/2023/04/hero-18_1-1.jpg",
+          "url": "https://css.bricksmaven.com/wp-content/uploads/2023/04/hero-18_1-1.jpg"
+        }
+      }
+    },
+    {
+      "id": "ywfgzn",
+      "name": "block",
+      "parent": "erdbmn",
+      "children": [
+        "swetfl",
+        "qxtlql"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "ovyahh"
+        ]
+      },
+      "label": "Content"
+    },
+    {
+      "id": "swetfl",
+      "name": "heading",
+      "parent": "ywfgzn",
+      "children": [],
+      "settings": {
+        "text": "What is Lorem Ipsum?",
+        "_cssGlobalClasses": [
+          "xqmznp"
+        ]
+      }
+    },
+    {
+      "id": "qxtlql",
+      "name": "text-basic",
+      "parent": "ywfgzn",
+      "children": [],
+      "settings": {
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "tag": "p",
+        "_cssGlobalClasses": [
+          "eehofr"
+        ]
+      },
+      "label": "Text"
+    },
+    {
+      "id": "gizpyk",
+      "name": "block",
+      "parent": "wxfcsv",
+      "children": [
+        "dsihup",
+        "wdylty",
+        "ifjvwm"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "vphfbw"
+        ],
+        "tag": "li"
+      },
+      "label": "Card"
+    },
+    {
+      "id": "dsihup",
+      "name": "block",
+      "parent": "gizpyk",
+      "children": [
+        "kpxvtu"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "hwciyw"
+        ]
+      },
+      "label": "Line-wrapper"
+    },
+    {
+      "id": "kpxvtu",
+      "name": "div",
+      "parent": "dsihup",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": [
+          "dkrurt"
+        ]
+      },
+      "label": "Line"
+    },
+    {
+      "id": "wdylty",
+      "name": "block",
+      "parent": "gizpyk",
+      "children": [
+        "ttwict"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "nxgrti"
+        ]
+      },
+      "label": "Media"
+    },
+    {
+      "id": "ttwict",
+      "name": "image",
+      "parent": "wdylty",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": [
+          "pshfyf"
+        ],
+        "tag": "figure",
+        "image": {
+          "id": 10846,
+          "filename": "hero-19_2-1.jpg",
+          "size": "full",
+          "full": "https://css.bricksmaven.com/wp-content/uploads/2023/04/hero-19_2-1.jpg",
+          "url": "https://css.bricksmaven.com/wp-content/uploads/2023/04/hero-19_2-1.jpg"
+        }
+      }
+    },
+    {
+      "id": "ifjvwm",
+      "name": "block",
+      "parent": "gizpyk",
+      "children": [
+        "uhgrsp",
+        "kotxgh"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "ovyahh"
+        ]
+      },
+      "label": "Content"
+    },
+    {
+      "id": "uhgrsp",
+      "name": "heading",
+      "parent": "ifjvwm",
+      "children": [],
+      "settings": {
+        "text": "What is Lorem Ipsum?",
+        "_cssGlobalClasses": [
+          "xqmznp"
+        ]
+      }
+    },
+    {
+      "id": "kotxgh",
+      "name": "text-basic",
+      "parent": "ifjvwm",
+      "children": [],
+      "settings": {
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "tag": "p",
+        "_cssGlobalClasses": [
+          "eehofr"
+        ]
+      },
+      "label": "Text"
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://css.bricksmaven.com",
+  "version": "1.9.6.1",
+  "globalClasses": [
+    {
+      "id": "xjczpw",
+      "name": "hworks-14",
+      "settings": {
+        "_padding": {
+          "top": "8rem",
+          "right": "4rem",
+          "bottom": "8rem",
+          "left": "4rem"
+        }
+      }
+    },
+    {
+      "id": "fcqhlv",
+      "name": "hworks-14-container",
+      "settings": {
+        "_rowGap": "6.4rem"
+      }
+    },
+    {
+      "id": "muadbq",
+      "name": "intro__head",
+      "settings": {
+        "_typography": {
+          "text-align": "center"
+        },
+        "_direction": "column",
+        "_display": "flex",
+        "_alignItems": "center",
+        "_rowGap": "2.4rem",
+        "_width:mobile_landscape": "100%",
+        "_alignSelf": "center",
+        "_width": "100%"
+      }
+    },
+    {
+      "id": "wnpikx",
+      "name": "intro__heading",
+      "settings": {
+        "_margin": {
+          "top": "0"
+        }
+      }
+    },
+    {
+      "id": "prgilv",
+      "name": "intro__subheading",
+      "settings": []
+    },
+    {
+      "id": "samysq",
+      "name": "intro__accent-heading",
+      "settings": {
+        "_typography": {
+          "color": {
+            "hex": "#db2323",
+            "id": "anxxov",
+            "name": "Color #13"
+          }
+        },
+        "_order": "-1"
+      }
+    },
+    {
+      "id": "buurrs",
+      "name": "hworks-14-list",
+      "settings": {
+        "_cssCustom": ".hworks-14-list {\n/* Define & Initialize Counter */\n\tcounter-reset: hworks-counter;\n}\n\n\n.hworks-14-list li::before {\n  /* Increment Counter */\n  counter-increment: hworks-counter;\n  /* Display Counter */\n  content: counters(hworks-counter,\".\") \" \";\n  background-color: #db2323;\n  padding-inline:1.8rem;\n  padding-block:1rem;\n  color: #ffffff;\n  font-size: 1.2rem;\n  font-weight: 700;\n  border-radius: 50%;\n  position:absolute;\n  left:0%;\n  top:0%;\n  transform: translateY(-50%);\n  transform: translateX(-45%);\n  \n}",
+        "_width": "100%",
+        "_widthMax": "70rem",
+        "_alignSelf": "center",
+        "_padding": {
+          "left": "0"
+        }
+      }
+    },
+    {
+      "id": "vphfbw",
+      "name": "hworks-14-card",
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(12, minmax(0, 1fr))",
+        "_gridGap": "2.4rem",
+        "_position": "relative"
+      }
+    },
+    {
+      "id": "hwciyw",
+      "name": "hworks-14-card__line-wrapper",
+      "settings": {
+        "_gridItemColumnSpan": "span 1",
+        "_display": "flex",
+        "_direction": "column",
+        "_alignItems": "flex-start",
+        "_gridItemRowSpan:mobile_landscape": "span 2"
+      }
+    },
+    {
+      "id": "dkrurt",
+      "name": "hworks-14-card__line",
+      "settings": {
+        "_width": "1px",
+        "_height": "100%",
+        "_border": {
+          "width": {
+            "top": ".1rem",
+            "right": ".1rem",
+            "bottom": ".1rem",
+            "left": ".1rem"
+          },
+          "style": "solid",
+          "color": {
+            "hex": "#e8818f",
+            "id": "evmtqe",
+            "name": "Color #9"
+          }
+        }
+      }
+    },
+    {
+      "id": "nxgrti",
+      "name": "hworks-14-card__media",
+      "settings": {
+        "_gridItemColumnSpan": "span 4",
+        "_display": "flex",
+        "_direction": "column",
+        "_alignItems": "center",
+        "_gridItemColumnSpan:mobile_landscape": "span 11",
+        "_alignItems:mobile_landscape": "flex-start",
+        "_padding": {
+          "top": "2.4rem",
+          "bottom": "2.4rem"
+        },
+        "_padding:mobile_landscape": {
+          "top": "0",
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "pshfyf",
+      "name": "hworks-14-card__image",
+      "settings": {
+        "_objectFit": "cover",
+        "_overflow": "hidden",
+        "_border": {
+          "radius": {
+            "top": "50%",
+            "right": "50%",
+            "bottom": "50%",
+            "left": "50%"
+          }
+        },
+        "_height": "20rem",
+        "_width": "20rem",
+        "_width:mobile_landscape": "16rem",
+        "_height:mobile_landscape": "16rem"
+      }
+    },
+    {
+      "id": "ovyahh",
+      "name": "hworks-14-card__content",
+      "settings": {
+        "_gridItemColumnSpan": "span 7",
+        "_rowGap": "1.6rem",
+        "_gridItemColumnSpan:mobile_landscape": "span 11",
+        "_display": "flex",
+        "_direction": "column",
+        "_justifyContent": "center",
+        "_padding:mobile_landscape": {
+          "bottom": "2.4rem"
+        }
+      }
+    },
+    {
+      "id": "xqmznp",
+      "name": "hworks-14-card__heading",
+      "settings": []
+    },
+    {
+      "id": "eehofr",
+      "name": "hworks-14-card__text",
+      "settings": []
+    }
+  ],
+  "globalElements": []
+}

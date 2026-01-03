@@ -1,0 +1,264 @@
+{
+  "content": [
+    {
+      "id": "mxbjkd",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "ngwlmx"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jkkjia"
+        ]
+      }
+    },
+    {
+      "id": "ngwlmx",
+      "name": "container",
+      "parent": "mxbjkd",
+      "children": [
+        "vtdwvf",
+        "lzralm"
+      ],
+      "settings": {
+        "_direction": "row",
+        "_cssGlobalClasses": [
+          "duychn",
+          "zbmxmc",
+          "ilzmml",
+          "tcnlng"
+        ],
+        "_direction:tablet_portrait": "column"
+      }
+    },
+    {
+      "id": "vtdwvf",
+      "name": "block",
+      "parent": "ngwlmx",
+      "children": [
+        "ouquhn",
+        "halfni"
+      ],
+      "settings": {
+        "_alignSelf": "center",
+        "_cssGlobalClasses": [
+          "knafbb"
+        ]
+      },
+      "label": "Column"
+    },
+    {
+      "id": "ouquhn",
+      "name": "heading",
+      "parent": "vtdwvf",
+      "children": [],
+      "settings": {
+        "text": "Your pre-header",
+        "tag": "h5",
+        "_cssGlobalClasses": [
+          "uhktys",
+          "xwpagz"
+        ]
+      }
+    },
+    {
+      "id": "halfni",
+      "name": "heading",
+      "parent": "vtdwvf",
+      "children": [],
+      "settings": {
+        "text": "Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts!",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "ulvqfz",
+          "qqnlaw"
+        ]
+      }
+    },
+    {
+      "id": "lzralm",
+      "name": "block",
+      "parent": "ngwlmx",
+      "children": [
+        "bykcyo"
+      ],
+      "settings": [],
+      "label": "Column"
+    },
+    {
+      "id": "bykcyo",
+      "name": "video",
+      "parent": "lzralm",
+      "children": [],
+      "settings": {
+        "videoType": "file",
+        "youTubeId": "5DGo0AYOJ7s",
+        "youtubeControls": true,
+        "youtubeShowinfo": true,
+        "vimeoByline": true,
+        "vimeoTitle": true,
+        "vimeoPortrait": true,
+        "fileUrl": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/Video-by-Google-DeepMind-from-Pexels-Renmoe-Library.mp4",
+        "videoPoster": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/Renmoe-Library-Placeholder-Video-Half-Width.jpg",
+          "external": true,
+          "filename": "Renmoe-Library-Placeholder-Video-Half-Width.jpg"
+        },
+        "fileLoop": true,
+        "fileMute": true,
+        "_cssGlobalClasses": [
+          "mnupss",
+          "tajpyr"
+        ],
+        "fileAutoplay": true
+      },
+      "themeStyles": []
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://renmoe.com/bricksnativeglobal",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "jkkjia",
+      "name": "ren-pad-top-bottom-lg",
+      "settings": {
+        "_padding": {
+          "bottom": "var(--spacing-lg)",
+          "top": "var(--spacing-lg)"
+        }
+      }
+    },
+    {
+      "id": "duychn",
+      "name": "ren-container-width-lg",
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      },
+      "modified": 1739690341,
+      "user_id": 1
+    },
+    {
+      "id": "zbmxmc",
+      "name": "ren-gap-lg",
+      "settings": {
+        "_columnGap": "var(--spacing-lg)",
+        "_rowGap": "var(--spacing-lg)"
+      }
+    },
+    {
+      "id": "ilzmml",
+      "name": "ren-pad-md",
+      "settings": {
+        "_padding": {
+          "left": "var(--spacing-md)",
+          "top": "var(--spacing-md)",
+          "right": "var(--spacing-md)",
+          "bottom": "var(--spacing-md)"
+        }
+      },
+      "modified": 1733413614,
+      "user_id": 1
+    },
+    {
+      "id": "tcnlng",
+      "name": "ren-box-shadow-md",
+      "settings": {
+        "_boxShadow": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "4",
+            "blur": "16"
+          },
+          "color": {
+            "hex": "#000000",
+            "rgb": "rgba(0, 0, 0, 0.06)",
+            "hsl": "hsla(0, 0%, 0%, 0.06)"
+          }
+        }
+      },
+      "modified": 1734214716,
+      "user_id": 1
+    },
+    {
+      "id": "knafbb",
+      "name": "ren-gap-xs",
+      "settings": {
+        "_columnGap": "var(--spacing-xs)",
+        "_rowGap": "var(--spacing-xs)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "uhktys",
+      "name": "ren-heading-5",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-md)",
+          "font-family": "Inter"
+        }
+      },
+      "modified": 1733551470,
+      "user_id": 1
+    },
+    {
+      "id": "xwpagz",
+      "name": "ren-text-accent",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-accent)"
+          }
+        }
+      }
+    },
+    {
+      "id": "ulvqfz",
+      "name": "ren-heading-2",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-2xl)"
+        }
+      },
+      "modified": 1733551470,
+      "user_id": 1
+    },
+    {
+      "id": "qqnlaw",
+      "name": "ren-text-secondary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-secondary)"
+          }
+        }
+      },
+      "modified": 1733661236,
+      "user_id": 1
+    },
+    {
+      "id": "mnupss",
+      "name": "ren-aspect-1",
+      "settings": {
+        "_aspectRatio": "1 / 1",
+        "_width": "100%"
+      },
+      "modified": 1734050403,
+      "user_id": 1
+    },
+    {
+      "id": "tajpyr",
+      "name": "ren-object-fit-cover",
+      "settings": {
+        "_objectFit": "cover"
+      },
+      "modified": 1734056915,
+      "user_id": 1
+    }
+  ],
+  "globalElements": []
+}

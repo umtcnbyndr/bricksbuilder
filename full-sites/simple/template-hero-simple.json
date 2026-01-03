@@ -1,0 +1,184 @@
+{
+    "id": "hero-simple-generated",
+    "name": "hero-simple-generated",
+    "title": "Hero - Simple Generated",
+    "date": "2023-10-27 12:00:00",
+    "date_formatted": "October 27, 2023",
+    "author": {
+        "name": "admin",
+        "avatar": "",
+        "url": ""
+    },
+    "permalink": "",
+    "thumbnail": false,
+    "bundles": [
+        "simple"
+    ],
+    "tags": [],
+    "type": "section",
+    "content": [
+        {
+            "id": "zvmfva",
+            "name": "container",
+            "settings": {
+                "_width": "100%",
+                "_background": {
+                    "color": {
+                        "hex": "#ffffff",
+                        "id": "white-bg"
+                    }
+                },
+                "_height": "auto",
+                "_minHeight": "80vh",
+                "_justifyContent": "center",
+                "_alignItems": "center",
+                "_padding_tablet_portrait": {
+                    "right": "15",
+                    "left": "15"
+                },
+                "_padding_mobile_landscape": {
+                    "top": "80",
+                    "bottom": "80"
+                }
+            },
+            "children": [
+                "wzwdwl"
+            ],
+            "parent": 0,
+            "label": "Hero"
+        },
+        {
+            "id": "wzwdwl",
+            "name": "container",
+            "settings": {
+                "_alignItems": "center",
+                "_textAlign": "center",
+                "_direction": "column"
+            },
+            "children": [
+                "ypyjef",
+                "qrdsta",
+                "apozok",
+                "oplmhd"
+            ],
+            "parent": "zvmfva"
+        },
+        {
+            "id": "ypyjef",
+            "name": "heading",
+            "settings": {
+                "text": "v2.0 Released",
+                "tag": "h6",
+                "_typography": {
+                    "font-size": "14px",
+                    "font-family": "Inter",
+                    "font-weight": "600",
+                    "color": {
+                        "hex": "#3B82F6",
+                        "id": "primary-blue"
+                    },
+                    "text-transform": "uppercase",
+                    "letter-spacing": "1px"
+                },
+                "_margin": {
+                    "bottom": "20"
+                }
+            },
+            "children": [],
+            "parent": "wzwdwl"
+        },
+        {
+            "id": "qrdsta",
+            "name": "heading",
+            "settings": {
+                "text": "The website builder you're looking for",
+                "tag": "h1",
+                "_typography": {
+                    "color": {
+                        "hex": "#111827",
+                        "id": "dark-text"
+                    },
+                    "font-size": "64px",
+                    "font-family": "Inter",
+                    "font-weight": "800",
+                    "line-height": "1.1em",
+                    "text-align": "center"
+                },
+                "_width": "800px",
+                "_margin": {
+                    "bottom": "20"
+                },
+                "_typography_mobile_landscape": {
+                    "font-size": "42px"
+                },
+                "_width_mobile_portrait": "100%"
+            },
+            "children": [],
+            "parent": "wzwdwl"
+        },
+        {
+            "id": "apozok",
+            "name": "text",
+            "settings": {
+                "text": "<p>Simple helps you create beautiful websites in minutes. No coding required. Just drag, drop, and launch.</p>",
+                "_typography": {
+                    "color": {
+                        "hex": "#4B5563",
+                        "id": "gray-text"
+                    },
+                    "font-size": "18px",
+                    "font-family": "Inter",
+                    "text-align": "center"
+                },
+                "_width": "600px",
+                "_padding": {
+                    "bottom": "30"
+                },
+                "_width_mobile_portrait": "100%"
+            },
+            "children": [],
+            "parent": "wzwdwl"
+        },
+        {
+            "id": "oplmhd",
+            "name": "button",
+            "settings": {
+                "text": "Start Free Trial",
+                "circle": true,
+                "size": "lg",
+                "_background": {
+                    "color": {
+                        "hex": "#3B82F6",
+                        "id": "primary-blue"
+                    }
+                },
+                "_typography": {
+                    "font-size": "16px",
+                    "color": {
+                        "hex": "#ffffff",
+                        "id": "white-text"
+                    },
+                    "font-family": "Inter",
+                    "font-weight": "600"
+                },
+                "_cssTransition": "all 0.2s ease-in-out",
+                "_transform_hover": {
+                    "translateY": "-3px"
+                },
+                "_boxShadow_hover": {
+                    "values": {
+                        "offsetY": "5",
+                        "blur": "10"
+                    },
+                    "color": {
+                        "hex": "#3B82F6",
+                        "rgb": "rgba(59, 130, 246, 0.4)"
+                    }
+                }
+            },
+            "children": [],
+            "parent": "wzwdwl"
+        }
+    ],
+    "templateType": "section"
+}

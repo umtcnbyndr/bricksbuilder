@@ -1,0 +1,430 @@
+{
+  "content": [
+    {
+      "id": "vbsgmf",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "xgkduu"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jkkjia",
+          "nlujfa",
+          "upuhyr",
+          "yhtlrd",
+          "gpnmpl"
+        ],
+        "_background": {
+          "image": {
+            "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/Renmoe-Library-Placeholder-Image-Full-Width.jpg",
+            "external": true,
+            "filename": "Renmoe-Library-Placeholder-Image-Full-Width.jpg"
+          }
+        }
+      }
+    },
+    {
+      "id": "xgkduu",
+      "name": "container",
+      "parent": "vbsgmf",
+      "children": [
+        "jgldax",
+        "uebeiu",
+        "qksnnz"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "duychn",
+          "knafbb"
+        ],
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "jgldax",
+      "name": "heading",
+      "parent": "xgkduu",
+      "children": [],
+      "settings": {
+        "text": "Contact",
+        "tag": "h5",
+        "_cssGlobalClasses": [
+          "uhktys",
+          "cfldig",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "uebeiu",
+      "name": "heading",
+      "parent": "xgkduu",
+      "children": [],
+      "settings": {
+        "text": "contact@yourwebsite.com",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "cfldig",
+          "sddasx",
+          "lzhfkb",
+          "dptwdx"
+        ],
+        "_width:tablet_portrait": "100%"
+      }
+    },
+    {
+      "id": "qksnnz",
+      "name": "block",
+      "parent": "xgkduu",
+      "children": [
+        "ymeree",
+        "povefl",
+        "kvphjj"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "yfsras",
+          "wrmhsg",
+          "ocunjd"
+        ],
+        "_gridTemplateColumns:mobile_portrait": "var(--grid-1)",
+        "_gridTemplateColumns:tablet_portrait": "var(--grid-2)"
+      },
+      "label": "Grid"
+    },
+    {
+      "id": "ymeree",
+      "name": "block",
+      "parent": "qksnnz",
+      "children": [
+        "gajtxe",
+        "kumxdr"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "knafbb"
+        ],
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "gajtxe",
+      "name": "heading",
+      "parent": "ymeree",
+      "children": [],
+      "settings": {
+        "text": "Contact",
+        "tag": "h5",
+        "_cssGlobalClasses": [
+          "uhktys",
+          "cfldig",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "kumxdr",
+      "name": "text",
+      "parent": "ymeree",
+      "children": [],
+      "settings": {
+        "text": "<p>(207) 345 6789</p>",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "cfldig",
+          "sddasx"
+        ],
+        "_width:tablet_portrait": "100%",
+        "_typography": {
+          "font-size": "var(--text-lg)"
+        }
+      }
+    },
+    {
+      "id": "povefl",
+      "name": "block",
+      "parent": "qksnnz",
+      "children": [
+        "gtvdit",
+        "mfoapj"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "knafbb"
+        ],
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "gtvdit",
+      "name": "heading",
+      "parent": "povefl",
+      "children": [],
+      "settings": {
+        "text": "Support",
+        "tag": "h5",
+        "_cssGlobalClasses": [
+          "uhktys",
+          "cfldig",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "mfoapj",
+      "name": "text",
+      "parent": "povefl",
+      "children": [],
+      "settings": {
+        "text": "<p>support@yourwebsite.com</p>",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "cfldig",
+          "sddasx"
+        ],
+        "_width:tablet_portrait": "100%",
+        "_typography": {
+          "font-size": "var(--text-lg)"
+        }
+      }
+    },
+    {
+      "id": "kvphjj",
+      "name": "block",
+      "parent": "qksnnz",
+      "children": [
+        "lbnzhj",
+        "kktthm"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "knafbb"
+        ],
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "lbnzhj",
+      "name": "heading",
+      "parent": "kvphjj",
+      "children": [],
+      "settings": {
+        "text": "Sales",
+        "tag": "h5",
+        "_cssGlobalClasses": [
+          "uhktys",
+          "cfldig",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "kktthm",
+      "name": "text",
+      "parent": "kvphjj",
+      "children": [],
+      "settings": {
+        "text": "sales@yourwebsite.com",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "cfldig",
+          "sddasx"
+        ],
+        "_width:tablet_portrait": "100%",
+        "_typography": {
+          "font-size": "var(--text-lg)"
+        }
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://renmoe.com/bricksnativeglobal",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "jkkjia",
+      "name": "ren-pad-top-bottom-lg",
+      "settings": {
+        "_padding": {
+          "bottom": "var(--spacing-lg)",
+          "top": "var(--spacing-lg)"
+        }
+      }
+    },
+    {
+      "id": "nlujfa",
+      "name": "ren-bg-img-cover",
+      "settings": {
+        "_background": {
+          "size": "cover"
+        }
+      },
+      "modified": 1734051417,
+      "user_id": 1
+    },
+    {
+      "id": "upuhyr",
+      "name": "ren-bg-img-center",
+      "settings": {
+        "_background": {
+          "position": "center center"
+        }
+      },
+      "modified": 1734051663,
+      "user_id": 1
+    },
+    {
+      "id": "yhtlrd",
+      "name": "ren-bg-overlay-dark",
+      "settings": {
+        "_gradient": {
+          "applyTo": "overlay",
+          "colors": [
+            {
+              "id": "qcwwvk",
+              "color": {
+                "hex": "#000000",
+                "rgb": "rgba(0, 0, 0, 0.5)",
+                "hsl": "hsla(0, 0%, 0%, 0.5)"
+              }
+            },
+            {
+              "id": "qcwwvk",
+              "color": {
+                "hex": "#000000",
+                "rgb": "rgba(0, 0, 0, 0.5)",
+                "hsl": "hsla(0, 0%, 0%, 0.5)"
+              }
+            }
+          ]
+        }
+      },
+      "modified": 1739255096,
+      "user_id": 1
+    },
+    {
+      "id": "gpnmpl",
+      "name": "ren-bg-img-no-repeat",
+      "settings": {
+        "_background": {
+          "repeat": "no-repeat"
+        }
+      },
+      "modified": 1735204481,
+      "user_id": 1
+    },
+    {
+      "id": "duychn",
+      "name": "ren-container-width-lg",
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      },
+      "modified": 1739690341,
+      "user_id": 1
+    },
+    {
+      "id": "knafbb",
+      "name": "ren-gap-xs",
+      "settings": {
+        "_columnGap": "var(--spacing-xs)",
+        "_rowGap": "var(--spacing-xs)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "uhktys",
+      "name": "ren-heading-5",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-md)",
+          "font-family": "Inter"
+        }
+      },
+      "modified": 1733551470,
+      "user_id": 1
+    },
+    {
+      "id": "cfldig",
+      "name": "ren-text-light",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-light)"
+          }
+        }
+      }
+    },
+    {
+      "id": "sddasx",
+      "name": "ren-text-center",
+      "settings": {
+        "_typography": {
+          "text-align": "center"
+        }
+      }
+    },
+    {
+      "id": "lzhfkb",
+      "name": "ren-width-60",
+      "settings": {
+        "_width": "60%"
+      },
+      "modified": 1734262290,
+      "user_id": 1
+    },
+    {
+      "id": "dptwdx",
+      "name": "ren-heading-3",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-xl)"
+        }
+      },
+      "modified": 1733551470,
+      "user_id": 1
+    },
+    {
+      "id": "yfsras",
+      "name": "ren-grid-3col",
+      "settings": {
+        "_gridTemplateColumns": "var(--grid-3)",
+        "_display": "grid"
+      },
+      "modified": 1734246223,
+      "user_id": 1
+    },
+    {
+      "id": "wrmhsg",
+      "name": "ren-grid-gap-lg",
+      "settings": {
+        "_gridGap": "var(--spacing-lg)"
+      },
+      "modified": 1734224977,
+      "user_id": 1
+    },
+    {
+      "id": "ocunjd",
+      "name": "ren-margin-top-md",
+      "settings": {
+        "_margin": {
+          "top": "var(--spacing-md)"
+        }
+      }
+    },
+    {
+      "id": "ywlqpc",
+      "name": "ren-text-p",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter"
+        }
+      }
+    }
+  ],
+  "globalElements": []
+}

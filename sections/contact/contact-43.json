@@ -1,0 +1,454 @@
+{
+  "content": [
+    {
+      "id": "ctvdng",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "sekgan"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "ulenlj"
+        ]
+      },
+      "label": "Hero 44"
+    },
+    {
+      "id": "sekgan",
+      "name": "container",
+      "parent": "ctvdng",
+      "children": [
+        "nshdhg"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "xlgunz"
+        ]
+      }
+    },
+    {
+      "id": "nshdhg",
+      "name": "block",
+      "parent": "sekgan",
+      "children": [
+        "rhtjsb",
+        "qldlur",
+        "vnejaf",
+        "jzzlob"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "pabilw"
+        ]
+      },
+      "label": "Content"
+    },
+    {
+      "id": "rhtjsb",
+      "name": "block",
+      "parent": "nshdhg",
+      "children": [
+        "keargg",
+        "xphzpw"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "sepzce"
+        ]
+      },
+      "label": "Intro"
+    },
+    {
+      "id": "keargg",
+      "name": "heading",
+      "parent": "rhtjsb",
+      "children": [],
+      "settings": {
+        "text": "Cut your design & development time in half",
+        "tag": "h1",
+        "_cssGlobalClasses": [
+          "elznby"
+        ]
+      }
+    },
+    {
+      "id": "xphzpw",
+      "name": "text-basic",
+      "parent": "rhtjsb",
+      "children": [],
+      "settings": {
+        "text": "Alpha template by Bricksmaven helps you accelerate your design & development workflow and decrease your development time.",
+        "tag": "p",
+        "_cssGlobalClasses": [
+          "qspatl"
+        ]
+      },
+      "label": "Text"
+    },
+    {
+      "id": "qldlur",
+      "name": "block",
+      "parent": "nshdhg",
+      "children": [
+        "sigmgq"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "wbfwef"
+        ]
+      },
+      "label": "Media Big"
+    },
+    {
+      "id": "sigmgq",
+      "name": "image",
+      "parent": "qldlur",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": [
+          "btxzfr"
+        ],
+        "tag": "figure",
+        "image": {
+          "id": 10830,
+          "filename": "hero-16_1-1.jpg",
+          "size": "large",
+          "full": "https://css.bricksmaven.com/wp-content/uploads/2023/04/hero-16_1-1.jpg",
+          "url": "https://css.bricksmaven.com/wp-content/uploads/2023/04/hero-16_1-1-683x1024.jpg"
+        }
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "vnejaf",
+      "name": "block",
+      "parent": "nshdhg",
+      "children": [
+        "ntngne"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "zrjsec"
+        ]
+      },
+      "label": "Media Small"
+    },
+    {
+      "id": "ntngne",
+      "name": "image",
+      "parent": "vnejaf",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": [
+          "xxqqsl"
+        ],
+        "tag": "figure",
+        "image": {
+          "id": 10821,
+          "filename": "hero-14-1229x1536-1.jpg",
+          "size": "full",
+          "full": "https://css.bricksmaven.com/wp-content/uploads/2023/04/hero-14-1229x1536-1.jpg",
+          "url": "https://css.bricksmaven.com/wp-content/uploads/2023/04/hero-14-1229x1536-1.jpg"
+        }
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "jzzlob",
+      "name": "block",
+      "parent": "nshdhg",
+      "children": [
+        "tnaihz",
+        "glchhy"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "rdbhyt"
+        ]
+      },
+      "label": "CTA"
+    },
+    {
+      "id": "tnaihz",
+      "name": "icon",
+      "parent": "jzzlob",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "themify",
+          "icon": "ti-arrow-top-right"
+        },
+        "_cssGlobalClasses": [
+          "hqzkuv"
+        ],
+        "link": {
+          "type": "external",
+          "url": "#"
+        }
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "glchhy",
+      "name": "text-basic",
+      "parent": "jzzlob",
+      "children": [],
+      "settings": {
+        "text": "Our services",
+        "_cssGlobalClasses": [
+          "dlbmzs"
+        ],
+        "tag": "p"
+      },
+      "label": "Micro text"
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://css.bricksmaven.com",
+  "version": "1.9.6.1",
+  "globalClasses": [
+    {
+      "id": "ulenlj",
+      "name": "hero-44",
+      "settings": {
+        "_height": "100vh",
+        "_padding": {
+          "top": "8rem",
+          "right": "4rem",
+          "bottom": "8rem",
+          "left": "4rem"
+        }
+      }
+    },
+    {
+      "id": "xlgunz",
+      "name": "hero-44-container",
+      "settings": []
+    },
+    {
+      "id": "pabilw",
+      "name": "hero-44__content",
+      "settings": {
+        "_display": "grid",
+        "_gridGap": "2.4rem",
+        "_gridTemplateColumns": "repeat(6, minmax(0, 1fr))",
+        "_gridTemplateRows": "repeat(3, minmax(0, 1fr))"
+      }
+    },
+    {
+      "id": "sepzce",
+      "name": "hero-44__intro",
+      "settings": {
+        "_gridItemRowSpan": "span 2",
+        "_gridItemColumnSpan": "span 3",
+        "_padding": {
+          "top": "3.2rem",
+          "right": "3.2rem",
+          "bottom": "3.2rem",
+          "left": "3.2rem"
+        },
+        "_rowGap": "6.4rem",
+        "_background": {
+          "color": {
+            "hex": "#242424",
+            "id": "kzmpsb",
+            "name": "Color #3"
+          }
+        },
+        "_typography": {
+          "color": {
+            "hex": "#ffffff",
+            "id": "onmzxd",
+            "name": "Color #10"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "2.4rem",
+            "right": "2.4rem",
+            "bottom": "2.4rem",
+            "left": "2.4rem"
+          }
+        },
+        "_justifyContent": "space-between",
+        "_gridItemColumnSpan:mobile_landscape": "span 6",
+        "_gridItemRowSpan:mobile_landscape": "span 1"
+      }
+    },
+    {
+      "id": "elznby",
+      "name": "hero-44__heading",
+      "settings": {
+        "_typography": {
+          "font-size": "calc(3.2rem * 1.6)"
+        },
+        "_typography:mobile_portrait": {
+          "font-size": "calc(3.2rem * 1.1)"
+        }
+      }
+    },
+    {
+      "id": "qspatl",
+      "name": "hero-44__text",
+      "settings": []
+    },
+    {
+      "id": "wbfwef",
+      "name": "hero-44__media-big",
+      "settings": {
+        "_gridItemRowSpan": "span 3",
+        "_gridItemColumnSpan": "span 3",
+        "_padding": {
+          "top": "2.4rem",
+          "right": "2.4rem",
+          "bottom": "2.4rem",
+          "left": "2.4rem"
+        },
+        "_background": {
+          "color": {
+            "hex": "#242424",
+            "id": "kzmpsb",
+            "name": "Color #3"
+          }
+        },
+        "_position": "relative",
+        "_alignItems": "center",
+        "_border": {
+          "radius": {
+            "right": "2.4rem",
+            "top": "2.4rem",
+            "bottom": "2.4rem",
+            "left": "2.4rem"
+          }
+        },
+        "_gridItemColumnSpan:mobile_landscape": "span 6"
+      }
+    },
+    {
+      "id": "btxzfr",
+      "name": "hero-44__image-big",
+      "settings": {
+        "_objectFit": "cover",
+        "_height": "calc(100% + 3.2rem)",
+        "_margin": {
+          "top": "calc(3.2rem * -1)"
+        },
+        "_aspectRatio": "9/12",
+        "_border": {
+          "radius": {
+            "right": "2.4rem",
+            "top": "2.4rem",
+            "bottom": "2.4rem",
+            "left": "2.4rem"
+          }
+        },
+        "_overflow": "hidden",
+        "_cssCustom": ".hero-44__image-big {\n\ttransition: .5s ease;\n}\n\n.hero-44__image-big:hover {\n\tbox-shadow: 0 0 20px 0 rgb(0,0,0,0.2);\n}",
+        "_margin:mobile_landscape": {
+          "top": "0"
+        },
+        "_height:mobile_landscape": "100%",
+        "_width": "100%"
+      }
+    },
+    {
+      "id": "zrjsec",
+      "name": "hero-44__media-small",
+      "settings": {
+        "_gridItemColumnSpan": "span 2",
+        "_background": {
+          "color": {
+            "hex": "#242424",
+            "id": "kzmpsb",
+            "name": "Color #3"
+          }
+        },
+        "_border": {
+          "radius": {
+            "right": "2.4rem",
+            "top": "2.4rem",
+            "bottom": "2.4rem",
+            "left": "2.4rem"
+          }
+        },
+        "_overflow": "hidden",
+        "_gridItemColumnSpan:mobile_landscape": "span 3"
+      }
+    },
+    {
+      "id": "xxqqsl",
+      "name": "hero-44__image-small",
+      "settings": {
+        "_objectFit": "cover",
+        "_aspectRatio": "16/9",
+        "_height": "100%",
+        "_width": "100%",
+        "_cssCustom": ".hero-44__image-small {\n\ttransition: 1s ease;\n}\n\n.hero-44__image-small:hover {\n\tscale:1.1;\n}"
+      }
+    },
+    {
+      "id": "rdbhyt",
+      "name": "hero-44__cta",
+      "settings": {
+        "_gridItemColumnSpan": "span 1",
+        "_background": {
+          "color": {
+            "hex": "#242424",
+            "id": "kzmpsb",
+            "name": "Color #3"
+          }
+        },
+        "_display": "flex",
+        "_direction": "column",
+        "_alignItems": "center",
+        "_justifyContent": "center",
+        "_border": {
+          "radius": {
+            "bottom": "2.4rem",
+            "top": "2.4rem",
+            "right": "2.4rem",
+            "left": "2.4rem"
+          }
+        },
+        "_cssCustom": ".hero-44__cta {\n\ttransition: .5s ease;\n}\n\n.hero-44__cta:hover {\n\tbackground-color: #db2323;\n  cursor: pointer;\n}",
+        "_padding": {
+          "top": "1.6rem",
+          "right": "1.6rem",
+          "bottom": "1.6rem",
+          "left": "1.6rem"
+        },
+        "_gridItemColumnSpan:mobile_landscape": "span 3"
+      }
+    },
+    {
+      "id": "hqzkuv",
+      "name": "hero-44__cta-icon",
+      "settings": {
+        "iconColor": {
+          "hex": "#ffffff",
+          "id": "onmzxd",
+          "name": "Color #10"
+        },
+        "iconSize": "9rem"
+      }
+    },
+    {
+      "id": "dlbmzs",
+      "name": "hero-44__cta-micro",
+      "settings": {
+        "_typography": {
+          "color": {
+            "hex": "#ffffff",
+            "id": "onmzxd",
+            "name": "Color #10"
+          },
+          "text-transform": "uppercase",
+          "letter-spacing": "1",
+          "font-size": "1.2rem"
+        }
+      }
+    }
+  ],
+  "globalElements": []
+}

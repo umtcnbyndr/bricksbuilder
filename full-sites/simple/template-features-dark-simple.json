@@ -1,0 +1,378 @@
+{
+    "id": "features-dark-simple-generated",
+    "name": "features-dark-simple-generated",
+    "title": "Features Dark - Simple Generated",
+    "date": "2023-10-27 12:00:00",
+    "date_formatted": "October 27, 2023",
+    "author": {
+        "name": "admin",
+        "avatar": "",
+        "url": ""
+    },
+    "permalink": "",
+    "thumbnail": false,
+    "bundles": [
+        "simple"
+    ],
+    "tags": [],
+    "type": "section",
+    "content": [
+        {
+            "id": "vrkbrv",
+            "name": "container",
+            "settings": {
+                "_padding": {
+                    "top": "120",
+                    "left": "15",
+                    "bottom": "120",
+                    "right": "15"
+                },
+                "_width": "100%",
+                "_alignItems": "center",
+                "_justifyContent": "center",
+                "_alignSelf": "center",
+                "_background": {
+                    "color": {
+                        "hex": "#0B1120",
+                        "id": "ultra-dark-bg"
+                    },
+                    "image": "",
+                    "position": "bottom center",
+                    "size": "custom",
+                    "repeat": "no-repeat",
+                    "custom": "1920px"
+                },
+                "_padding:tablet_portrait": {
+                    "top": "80",
+                    "bottom": "80"
+                },
+                "_cssId": "features-dark"
+            },
+            "children": [
+                "slqnhy"
+            ],
+            "parent": 0,
+            "label": "Features Dark"
+        },
+        {
+            "id": "slqnhy",
+            "name": "container",
+            "settings": {
+                "_direction": "row",
+                "_flexWrap": "wrap",
+                "_width": "1200px"
+            },
+            "children": [
+                "gcycac",
+                "gtjmpv",
+                "wawtbl",
+                "ijbbkp",
+                "kyjhqm"
+            ],
+            "parent": "vrkbrv"
+        },
+        {
+            "id": "gcycac",
+            "name": "heading",
+            "settings": {
+                "text": "COLLABORATION",
+                "tag": "h4",
+                "_width": "100%",
+                "_typography": {
+                    "color": {
+                        "hex": "#3B82F6",
+                        "id": "primary-blue"
+                    },
+                    "font-size": "16px",
+                    "font-family": "Inter",
+                    "font-weight": "700",
+                    "letter-spacing": "1px",
+                    "text-align": "center"
+                },
+                "_margin": {
+                    "bottom": "20"
+                },
+                "_typography:tablet_portrait": {
+                    "text-align": "center"
+                }
+            },
+            "children": [],
+            "parent": "slqnhy"
+        },
+        {
+            "id": "gtjmpv",
+            "name": "heading",
+            "settings": {
+                "text": "Simple helps your teams work more efficiently together",
+                "tag": "h2",
+                "_width": "100%",
+                "_typography": {
+                    "color": {
+                        "hex": "#ffffff",
+                        "id": "white-text"
+                    },
+                    "font-size": "42px",
+                    "font-family": "Inter",
+                    "font-weight": "800",
+                    "line-height": 1.2,
+                    "text-align": "center"
+                },
+                "_margin": {
+                    "bottom": "60"
+                },
+                "_typography:tablet_portrait": {
+                    "text-align": "center"
+                },
+                "_typography:mobile_landscape": {
+                    "font-size": "32px"
+                }
+            },
+            "children": [],
+            "parent": "slqnhy"
+        },
+        {
+            "id": "wawtbl",
+            "name": "container",
+            "settings": {
+                "_width": "33.33%",
+                "_margin": {
+                    "top": "0",
+                    "bottom": "35"
+                },
+                "_padding": {
+                    "top": 25,
+                    "right": 25,
+                    "bottom": 25,
+                    "left": 25
+                },
+                "_width:tablet_portrait": "100%",
+                "_alignSelf:tablet_portrait": "center",
+                "_justifyContent:tablet_portrait": "center",
+                "_alignItems:tablet_portrait": "center",
+                "_margin:tablet_portrait": {
+                    "top": "35"
+                },
+                "_alignItems:mobile_landscape": "flex-start"
+            },
+            "children": [
+                "apcort",
+                "kxwijr"
+            ],
+            "parent": "slqnhy",
+            "label": "feature"
+        },
+        {
+            "id": "apcort",
+            "name": "social-icons",
+            "settings": {
+                "_typography": {
+                    "color": {
+                        "hex": "#3B82F6"
+                    },
+                    "font-size": "24px",
+                    "font-family": "Inter"
+                },
+                "icons": [
+                    {
+                        "label": "Real-time updates",
+                        "icon": {
+                            "library": "fontawesomeSolid",
+                            "icon": "fas fa-sync"
+                        },
+                        "id": "zahgaj"
+                    }
+                ],
+                "direction": "row",
+                "alignIcons": "flex-start",
+                "_padding:mobile_portrait": {
+                    "top": "10"
+                }
+            },
+            "children": [],
+            "parent": "wawtbl"
+        },
+        {
+            "id": "kxwijr",
+            "name": "text",
+            "settings": {
+                "text": "<h4>Real-time updates</h4><p>See changes as they happen with instant synchronization across all devices.</p>",
+                "_typography": {
+                    "color": {
+                        "hex": "#9CA3AF",
+                        "id": "gray-light-text"
+                    },
+                    "font-size": "16px",
+                    "font-family": "Inter",
+                    "line-height": "1.6"
+                }
+            },
+            "children": [],
+            "parent": "wawtbl"
+        },
+        {
+            "id": "ijbbkp",
+            "name": "container",
+            "settings": {
+                "_width": "33.33%",
+                "_margin": {
+                    "top": "0",
+                    "bottom": "35"
+                },
+                "_padding": {
+                    "top": 25,
+                    "right": 25,
+                    "bottom": 25,
+                    "left": 25
+                },
+                "_width:tablet_portrait": "100%",
+                "_alignSelf:tablet_portrait": "center",
+                "_justifyContent:tablet_portrait": "center",
+                "_alignItems:tablet_portrait": "center",
+                "_margin:tablet_portrait": {
+                    "top": "35"
+                },
+                "_alignItems:mobile_landscape": "flex-start"
+            },
+            "children": [
+                "mdifme",
+                "riqmrs"
+            ],
+            "parent": "slqnhy",
+            "label": "feature"
+        },
+        {
+            "id": "mdifme",
+            "name": "social-icons",
+            "settings": {
+                "_typography": {
+                    "color": {
+                        "hex": "#3B82F6"
+                    },
+                    "font-size": "24px",
+                    "font-family": "Inter"
+                },
+                "icons": [
+                    {
+                        "label": "Comments",
+                        "icon": {
+                            "library": "fontawesomeSolid",
+                            "icon": "fas fa-comment-alt"
+                        },
+                        "id": "zahgaj"
+                    }
+                ],
+                "direction": "row",
+                "alignIcons": "flex-start",
+                "_padding:mobile_portrait": {
+                    "top": "10",
+                    "right": "10",
+                    "bottom": "10",
+                    "left": "10"
+                }
+            },
+            "children": [],
+            "parent": "ijbbkp"
+        },
+        {
+            "id": "riqmrs",
+            "name": "text",
+            "settings": {
+                "text": "<h4>Comments</h4><p>Leave feedback directly on the design and tag team members for quick resolution.</p>",
+                "_typography": {
+                    "color": {
+                        "hex": "#9CA3AF",
+                        "id": "gray-light-text"
+                    },
+                    "font-size": "16px",
+                    "font-family": "Inter",
+                    "line-height": "1.6"
+                }
+            },
+            "children": [],
+            "parent": "ijbbkp"
+        },
+        {
+            "id": "kyjhqm",
+            "name": "container",
+            "settings": {
+                "_width": "33.33%",
+                "_margin": {
+                    "top": "0",
+                    "bottom": "35"
+                },
+                "_padding": {
+                    "top": 25,
+                    "right": 25,
+                    "bottom": 25,
+                    "left": 25
+                },
+                "_width:tablet_portrait": "100%",
+                "_alignSelf:tablet_portrait": "center",
+                "_justifyContent:tablet_portrait": "center",
+                "_alignItems:tablet_portrait": "center",
+                "_margin:tablet_portrait": {
+                    "top": "35"
+                },
+                "_alignItems:mobile_landscape": "flex-start"
+            },
+            "children": [
+                "qvrtdc",
+                "vszqvv"
+            ],
+            "parent": "slqnhy",
+            "label": "feature"
+        },
+        {
+            "id": "qvrtdc",
+            "name": "social-icons",
+            "settings": {
+                "_typography": {
+                    "color": {
+                        "hex": "#3B82F6"
+                    },
+                    "font-size": "24px",
+                    "font-family": "Inter"
+                },
+                "icons": [
+                    {
+                        "label": "Version Control",
+                        "icon": {
+                            "library": "fontawesomeSolid",
+                            "icon": "fas fa-code-branch"
+                        },
+                        "id": "zahgaj"
+                    }
+                ],
+                "direction": "row",
+                "alignIcons": "flex-start",
+                "_padding:mobile_portrait": {
+                    "top": 10,
+                    "right": 10,
+                    "bottom": 10,
+                    "left": 10
+                }
+            },
+            "children": [],
+            "parent": "kyjhqm"
+        },
+        {
+            "id": "vszqvv",
+            "name": "text",
+            "settings": {
+                "text": "<h4>Version Control</h4><p>Never lose work again with automatic history and one-click rollbacks.</p>",
+                "_typography": {
+                    "color": {
+                        "hex": "#9CA3AF",
+                        "id": "gray-light-text"
+                    },
+                    "font-size": "16px",
+                    "font-family": "Inter",
+                    "line-height": "1.6"
+                }
+            },
+            "children": [],
+            "parent": "kyjhqm"
+        }
+    ],
+    "templateType": "section"
+}

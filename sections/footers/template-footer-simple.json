@@ -1,0 +1,161 @@
+{
+    "id": "footer-simple-generated",
+    "name": "footer-simple-generated",
+    "title": "Footer - Simple Generated",
+    "date": "2023-10-27 12:00:00",
+    "date_formatted": "October 27, 2023",
+    "author": {
+        "name": "admin",
+        "avatar": "",
+        "url": ""
+    },
+    "permalink": "",
+    "thumbnail": false,
+    "bundles": [
+        "simple"
+    ],
+    "tags": [],
+    "type": "footer",
+    "footer": [
+        {
+            "id": "nziqos",
+            "name": "container",
+            "settings": {
+                "_width": "100%",
+                "_padding": {
+                    "top": "50",
+                    "bottom": "50"
+                },
+                "_background": {
+                    "color": {
+                        "hex": "#ffffff",
+                        "id": "white-bg"
+                    }
+                },
+                "_direction": "row",
+                "_alignItems": "center",
+                "_justifyContent": "space-between",
+                "_alignSelf": "center",
+                "_padding_tablet_portrait": {
+                    "right": "15",
+                    "left": "15"
+                }
+            },
+            "children": [
+                "dhoqfw",
+                "gmrcha"
+            ],
+            "parent": 0,
+            "label": "Footer"
+        },
+        {
+            "id": "dhoqfw",
+            "name": "container",
+            "settings": {
+                "_width": "40%",
+                "_width_tablet_portrait": "50%",
+                "_width_mobile_landscape": "100%",
+                "_alignSelf_mobile_landscape": "center",
+                "_alignItems_mobile_landscape": "center"
+            },
+            "children": [
+                "jfimmh",
+                "otpnce"
+            ],
+            "parent": "nziqos",
+            "label": "column 1"
+        },
+        {
+            "id": "jfimmh",
+            "name": "logo",
+            "settings": {
+                "logoText": "Simple.",
+                "_typography": {
+                    "color": {
+                        "hex": "#3B82F6",
+                        "id": "primary-blue"
+                    },
+                    "font-size": "24px",
+                    "font-family": "Inter",
+                    "font-weight": "800"
+                },
+                "logo": {
+                    "url": "",
+                    "full": ""
+                }
+            },
+            "children": [],
+            "parent": "dhoqfw"
+        },
+        {
+            "id": "otpnce",
+            "name": "text",
+            "settings": {
+                "text": "<p>Copyright \u00a9 2023 Simple. All Rights Reserved</p>",
+                "_typography": {
+                    "color": {
+                        "hex": "#6B7280",
+                        "id": "gray-text"
+                    },
+                    "font-size": "14px",
+                    "font-family": "Inter"
+                }
+            },
+            "children": [],
+            "parent": "dhoqfw"
+        },
+        {
+            "id": "gmrcha",
+            "name": "container",
+            "settings": {
+                "_width": "60%",
+                "_width_tablet_portrait": "50%",
+                "_typography_mobile_landscape": {
+                    "text-align": "center"
+                },
+                "_margin_mobile_landscape": {
+                    "top": "20"
+                },
+                "_width_mobile_portrait": "100%",
+                "_width_mobile_landscape": "100%"
+            },
+            "children": [
+                "inqwgd"
+            ],
+            "parent": "nziqos",
+            "label": "column 2"
+        },
+        {
+            "id": "inqwgd",
+            "name": "text",
+            "settings": {
+                "text": "<p>Product\u00a0 \u00a0 \u00a0 Company\u00a0 \u00a0 \u00a0 Resources\u00a0 \u00a0 \u00a0 Support</p>",
+                "_typography": {
+                    "color": {
+                        "hex": "#4B5563",
+                        "id": "gray-dark-text"
+                    },
+                    "font-size": "16px",
+                    "font-family": "Inter",
+                    "font-weight": "500"
+                },
+                "_alignSelf": "flex-end",
+                "_alignSelf_mobile_landscape": "center"
+            },
+            "children": [],
+            "parent": "gmrcha"
+        }
+    ],
+    "pageSettings": {
+        "templateConditions": [
+            {
+                "id": "hotodg",
+                "main": "ids",
+                "ids": [
+                    "679"
+                ]
+            }
+        ]
+    },
+    "templateType": "footer"
+}

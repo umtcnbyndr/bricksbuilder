@@ -1,0 +1,164 @@
+{
+    "id": "cta-simple-generated",
+    "name": "cta-simple-generated",
+    "title": "CTA - Simple Generated",
+    "date": "2023-10-27 12:00:00",
+    "date_formatted": "October 27, 2023",
+    "author": {
+        "name": "admin",
+        "avatar": "",
+        "url": ""
+    },
+    "permalink": "",
+    "thumbnail": false,
+    "bundles": [
+        "simple"
+    ],
+    "tags": [],
+    "type": "section",
+    "content": [
+        {
+            "id": "fgmkam",
+            "name": "container",
+            "settings": {
+                "_width": "100%",
+                "_padding": {
+                    "top": "50",
+                    "bottom": "50"
+                },
+                "_backgroundColor": {
+                    "hex": "#ffffff"
+                }
+            },
+            "children": [
+                "lavbuk"
+            ],
+            "parent": 0,
+            "label": "CTA Wrapper"
+        },
+        {
+            "id": "lavbuk",
+            "name": "container",
+            "settings": {
+                "_width": "1200px",
+                "_padding": {
+                    "top": "80",
+                    "right": "50",
+                    "bottom": "80",
+                    "left": "50"
+                },
+                "_background": {
+                    "color": {
+                        "hex": "#111827",
+                        "id": "dark-bg"
+                    }
+                },
+                "_border": {
+                    "radius": {
+                        "top": "24",
+                        "right": "24",
+                        "bottom": "24",
+                        "left": "24"
+                    }
+                },
+                "_direction": "column",
+                "_alignSelf": "center",
+                "_alignItems": "center",
+                "_justifyContent": "center",
+                "_zIndex": "5",
+                "_position": "relative",
+                "backgroundImage": {
+                    "url": "https:\/\/uidepot.net\/wp-content\/uploads\/2021\/12\/svg-bg.svg",
+                    "size": "cover",
+                    "position": "center"
+                }
+            },
+            "children": [
+                "mvhgxv",
+                "zelaud"
+            ],
+            "parent": "fgmkam",
+            "label": "Call to Action"
+        },
+        {
+            "id": "mvhgxv",
+            "name": "heading",
+            "settings": {
+                "text": "Create your next project with Simple",
+                "tag": "h2",
+                "_typography": {
+                    "color": {
+                        "hex": "#ffffff",
+                        "id": "white-text"
+                    },
+                    "font-size": "48px",
+                    "font-family": "Inter",
+                    "font-weight": "800",
+                    "line-height": "1.2",
+                    "text-align": "center"
+                },
+                "_width": "700px",
+                "_margin": {
+                    "bottom": "30"
+                },
+                "_width_mobile_portrait": "100%"
+            },
+            "children": [],
+            "parent": "lavbuk"
+        },
+        {
+            "id": "zelaud",
+            "name": "button",
+            "settings": {
+                "text": "Start Free Trial",
+                "size": "lg",
+                "_typography": {
+                    "color": {
+                        "hex": "#ffffff",
+                        "id": "white-text"
+                    },
+                    "font-size": "18px",
+                    "font-family": "Inter",
+                    "font-weight": "600"
+                },
+                "_padding": {
+                    "top": "15",
+                    "bottom": "15",
+                    "right": "40",
+                    "left": "40"
+                },
+                "_background": {
+                    "color": {
+                        "hex": "#3B82F6",
+                        "id": "primary-blue"
+                    }
+                },
+                "_border": {
+                    "radius": {
+                        "top": "50",
+                        "right": "50",
+                        "bottom": "50",
+                        "left": "50"
+                    }
+                },
+                "_transform:hover": {
+                    "translateY": "-5px"
+                },
+                "_cssTransition": "all 0.3s ease-in-out",
+                "_boxShadow:hover": {
+                    "values": {
+                        "offsetY": "10",
+                        "blur": "20"
+                    },
+                    "color": {
+                        "hex": "#3B82F6",
+                        "rgb": "rgba(59, 130, 246, 0.4)"
+                    }
+                }
+            },
+            "children": [],
+            "parent": "lavbuk"
+        }
+    ],
+    "templateType": "section"
+}

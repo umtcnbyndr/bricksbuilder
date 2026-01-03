@@ -1,0 +1,352 @@
+{
+  "content": [
+    {
+      "id": "zzryez",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "ywekku"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "hzanub",
+          "jkkjia"
+        ]
+      }
+    },
+    {
+      "id": "ywekku",
+      "name": "container",
+      "parent": "zzryez",
+      "children": [
+        "aucmwn",
+        "xonkzm",
+        "iuianz"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "duychn",
+          "wotlge"
+        ],
+        "_gridTemplateColumns:tablet_portrait": "var(--grid-2)",
+        "_direction:tablet_portrait": "column",
+        "_direction": "row",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "aucmwn",
+      "name": "block",
+      "parent": "ywekku",
+      "children": [
+        "tbwatg"
+      ],
+      "settings": {
+        "_alignItems": "flex-start",
+        "_cssGlobalClasses": [
+          "ngsctz"
+        ],
+        "_alignItems:tablet_portrait": "center",
+        "_width:tablet_portrait": "100%"
+      },
+      "label": "Column"
+    },
+    {
+      "id": "tbwatg",
+      "name": "logo",
+      "parent": "aucmwn",
+      "children": [],
+      "settings": {
+        "logoWidth": "clamp(16.0rem, 14.7763rem + 3.8241vw, 20.0rem)",
+        "logo": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/logoipsum-218.svg",
+          "external": true,
+          "filename": "logoipsum-218.svg"
+        }
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "xonkzm",
+      "name": "block",
+      "parent": "ywekku",
+      "children": [
+        "upsrxh"
+      ],
+      "settings": {
+        "_alignItems": "center",
+        "_cssGlobalClasses": [
+          "lzhfkb"
+        ],
+        "_width:tablet_portrait": "100%"
+      },
+      "label": "Column"
+    },
+    {
+      "id": "upsrxh",
+      "name": "block",
+      "parent": "xonkzm",
+      "children": [
+        "uxzbvv",
+        "rddesh",
+        "rzmagh",
+        "dzhyja"
+      ],
+      "settings": {
+        "_direction": "row",
+        "_cssGlobalClasses": [
+          "tlfcvy",
+          "knafbb"
+        ],
+        "_justifyContent": "center"
+      }
+    },
+    {
+      "id": "uxzbvv",
+      "name": "text",
+      "parent": "upsrxh",
+      "children": [],
+      "settings": {
+        "text": "<p>Link One</p>",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "qagqdx",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "rddesh",
+      "name": "text",
+      "parent": "upsrxh",
+      "children": [],
+      "settings": {
+        "text": "<p>Link Two</p>",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "qagqdx",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "rzmagh",
+      "name": "text",
+      "parent": "upsrxh",
+      "children": [],
+      "settings": {
+        "text": "<p>Link Three</p>",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "qagqdx",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "dzhyja",
+      "name": "text",
+      "parent": "upsrxh",
+      "children": [],
+      "settings": {
+        "text": "<p>Link Four</p>",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "qagqdx",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "iuianz",
+      "name": "block",
+      "parent": "ywekku",
+      "children": [
+        "pyhutm"
+      ],
+      "settings": {
+        "_alignItems": "flex-end",
+        "_cssGlobalClasses": [
+          "ngsctz"
+        ],
+        "_alignItems:tablet_portrait": "center",
+        "_width:tablet_portrait": "100%"
+      },
+      "label": "Column"
+    },
+    {
+      "id": "pyhutm",
+      "name": "social-icons",
+      "parent": "iuianz",
+      "children": [],
+      "settings": {
+        "icons": [
+          {
+            "icon": {
+              "library": "fontawesomeBrands",
+              "icon": "fab fa-facebook-f"
+            },
+            "id": "uquvgn"
+          },
+          {
+            "id": "gcvwpt",
+            "icon": {
+              "library": "fontawesomeBrands",
+              "icon": "fab fa-instagram"
+            }
+          },
+          {
+            "icon": {
+              "library": "fontawesomeBrands",
+              "icon": "fab fa-linkedin-in"
+            },
+            "id": "gjativ"
+          }
+        ],
+        "_cssGlobalClasses": [
+          "hdmsag"
+        ]
+      },
+      "themeStyles": []
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://renmoe.com/bricksnativeglobal",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "hzanub",
+      "name": "ren-gap-md",
+      "settings": {
+        "_columnGap": "var(--spacing-md)",
+        "_rowGap": "var(--spacing-md)"
+      },
+      "modified": 1734227689,
+      "user_id": 1
+    },
+    {
+      "id": "jkkjia",
+      "name": "ren-pad-top-bottom-lg",
+      "settings": {
+        "_padding": {
+          "bottom": "var(--spacing-lg)",
+          "top": "var(--spacing-lg)"
+        }
+      }
+    },
+    {
+      "id": "duychn",
+      "name": "ren-container-width-lg",
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      },
+      "modified": 1739690341,
+      "user_id": 1
+    },
+    {
+      "id": "wotlge",
+      "name": "ren-gap-sm",
+      "settings": {
+        "_rowGap": "var(--spacing-sm)",
+        "_columnGap": "var(--spacing-sm)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "ngsctz",
+      "name": "ren-width-30",
+      "settings": {
+        "_width": "30%"
+      },
+      "modified": 1734262290,
+      "user_id": 1
+    },
+    {
+      "id": "lzhfkb",
+      "name": "ren-width-60",
+      "settings": {
+        "_width": "60%"
+      },
+      "modified": 1734262290,
+      "user_id": 1
+    },
+    {
+      "id": "tlfcvy",
+      "name": "ren-auto-width",
+      "settings": {
+        "_width": "auto"
+      }
+    },
+    {
+      "id": "knafbb",
+      "name": "ren-gap-xs",
+      "settings": {
+        "_columnGap": "var(--spacing-xs)",
+        "_rowGap": "var(--spacing-xs)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "ywlqpc",
+      "name": "ren-text-p",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter"
+        }
+      }
+    },
+    {
+      "id": "qagqdx",
+      "name": "ren-text-tertiary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-tertiary)"
+          }
+        }
+      },
+      "modified": 1733661236,
+      "user_id": 1
+    },
+    {
+      "id": "sddasx",
+      "name": "ren-text-center",
+      "settings": {
+        "_typography": {
+          "text-align": "center"
+        }
+      }
+    },
+    {
+      "id": "hdmsag",
+      "name": "ren-socials",
+      "settings": {
+        "_cssCustom": ".ren-socials li {\n  min-width: 4.5rem;\n  min-height: 4.5rem;\n}",
+        "iconColor": {
+          "raw": "var(--color-secondary)"
+        },
+        "gap": "var(--spacing-2xs)",
+        "_background": {
+          "color": {
+            "raw": "var(--bg-surface)"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "var(--radius-full)",
+            "right": "var(--radius-full)",
+            "bottom": "var(--radius-full)",
+            "left": "var(--radius-full)"
+          }
+        }
+      },
+      "modified": 1735454389,
+      "user_id": 1
+    }
+  ],
+  "globalElements": []
+}

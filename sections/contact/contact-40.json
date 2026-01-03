@@ -1,0 +1,417 @@
+{
+  "content": [
+    {
+      "id": "ymcdau",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "umznre"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "mlksyr"
+        ]
+      },
+      "label": "How it works 17"
+    },
+    {
+      "id": "umznre",
+      "name": "container",
+      "parent": "ymcdau",
+      "children": [
+        "euzmtq",
+        "tdpppi"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "lxkcaz"
+        ]
+      }
+    },
+    {
+      "id": "euzmtq",
+      "name": "div",
+      "parent": "umznre",
+      "children": [
+        "jzkjiw",
+        "aqrnkx",
+        "xmxbyn"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "muadbq",
+          "jhiwic"
+        ],
+        "_typography": {
+          "text-align": "left"
+        },
+        "_alignSelf": "center",
+        "_widthMax": "100%"
+      },
+      "label": "Intro"
+    },
+    {
+      "id": "jzkjiw",
+      "name": "heading",
+      "parent": "euzmtq",
+      "children": [],
+      "settings": {
+        "text": "Long headline to turn your visitors into users",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "wnpikx"
+        ]
+      }
+    },
+    {
+      "id": "aqrnkx",
+      "name": "text-basic",
+      "parent": "euzmtq",
+      "children": [],
+      "settings": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "_cssGlobalClasses": [
+          "prgilv"
+        ],
+        "tag": "p"
+      }
+    },
+    {
+      "id": "xmxbyn",
+      "name": "text-basic",
+      "parent": "euzmtq",
+      "children": [],
+      "settings": {
+        "text": "Tagline",
+        "_cssGlobalClasses": [
+          "samysq"
+        ],
+        "tag": "span"
+      },
+      "label": "Tagline"
+    },
+    {
+      "id": "tdpppi",
+      "name": "block",
+      "parent": "umznre",
+      "children": [
+        "jipdth",
+        "bfzeol",
+        "isnhbc",
+        "kuezae"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jwqysy"
+        ],
+        "tag": "ul"
+      },
+      "label": "List"
+    },
+    {
+      "id": "jipdth",
+      "name": "block",
+      "parent": "tdpppi",
+      "children": [
+        "xcbrzr",
+        "snoyqn"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "wuelvd"
+        ],
+        "tag": "li"
+      },
+      "label": "Card"
+    },
+    {
+      "id": "xcbrzr",
+      "name": "heading",
+      "parent": "jipdth",
+      "children": [],
+      "settings": {
+        "text": "I am a heading",
+        "_cssGlobalClasses": [
+          "jinmuy"
+        ]
+      }
+    },
+    {
+      "id": "snoyqn",
+      "name": "text-basic",
+      "parent": "jipdth",
+      "children": [],
+      "settings": {
+        "text": "Here goes your text ... Select any part of your text to access the formatting toolbar.",
+        "_cssGlobalClasses": [
+          "geouin"
+        ]
+      },
+      "label": "Text"
+    },
+    {
+      "id": "bfzeol",
+      "name": "block",
+      "parent": "tdpppi",
+      "children": [
+        "zbinta",
+        "qshtkq"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "wuelvd"
+        ],
+        "tag": "li"
+      },
+      "label": "Card"
+    },
+    {
+      "id": "zbinta",
+      "name": "heading",
+      "parent": "bfzeol",
+      "children": [],
+      "settings": {
+        "text": "I am a heading",
+        "_cssGlobalClasses": [
+          "jinmuy"
+        ]
+      }
+    },
+    {
+      "id": "qshtkq",
+      "name": "text-basic",
+      "parent": "bfzeol",
+      "children": [],
+      "settings": {
+        "text": "Here goes your text ... Select any part of your text to access the formatting toolbar.",
+        "_cssGlobalClasses": [
+          "geouin"
+        ]
+      },
+      "label": "Text"
+    },
+    {
+      "id": "isnhbc",
+      "name": "block",
+      "parent": "tdpppi",
+      "children": [
+        "jaozhs",
+        "stcgqe"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "wuelvd"
+        ],
+        "tag": "li"
+      },
+      "label": "Card"
+    },
+    {
+      "id": "jaozhs",
+      "name": "heading",
+      "parent": "isnhbc",
+      "children": [],
+      "settings": {
+        "text": "I am a heading",
+        "_cssGlobalClasses": [
+          "jinmuy"
+        ]
+      }
+    },
+    {
+      "id": "stcgqe",
+      "name": "text-basic",
+      "parent": "isnhbc",
+      "children": [],
+      "settings": {
+        "text": "Here goes your text ... Select any part of your text to access the formatting toolbar.",
+        "_cssGlobalClasses": [
+          "geouin"
+        ]
+      },
+      "label": "Text"
+    },
+    {
+      "id": "kuezae",
+      "name": "block",
+      "parent": "tdpppi",
+      "children": [
+        "zqzwkc",
+        "deicaq"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "wuelvd"
+        ],
+        "tag": "li"
+      },
+      "label": "Card"
+    },
+    {
+      "id": "zqzwkc",
+      "name": "heading",
+      "parent": "kuezae",
+      "children": [],
+      "settings": {
+        "text": "I am a heading",
+        "_cssGlobalClasses": [
+          "jinmuy"
+        ]
+      }
+    },
+    {
+      "id": "deicaq",
+      "name": "text-basic",
+      "parent": "kuezae",
+      "children": [],
+      "settings": {
+        "text": "Here goes your text ... Select any part of your text to access the formatting toolbar.",
+        "_cssGlobalClasses": [
+          "geouin"
+        ]
+      },
+      "label": "Text"
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://css.bricksmaven.com",
+  "version": "1.9.6.1",
+  "globalClasses": [
+    {
+      "id": "mlksyr",
+      "name": "hworks-17",
+      "settings": {
+        "_padding": {
+          "top": "8rem",
+          "right": "4rem",
+          "bottom": "8rem",
+          "left": "4rem"
+        }
+      }
+    },
+    {
+      "id": "lxkcaz",
+      "name": "hworks-17-container",
+      "settings": {
+        "_rowGap": "var(--container-gap)",
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(2, minmax(0, 1fr))",
+        "_gridGap": "2.4rem",
+        "_gridTemplateColumns:mobile_landscape": "var(--grid-1)"
+      }
+    },
+    {
+      "id": "muadbq",
+      "name": "intro__head",
+      "settings": {
+        "_typography": {
+          "text-align": "center"
+        },
+        "_direction": "column",
+        "_display": "flex",
+        "_alignItems": "center",
+        "_rowGap": "2.4rem",
+        "_width:mobile_landscape": "100%",
+        "_alignSelf": "center",
+        "_width": "100%"
+      }
+    },
+    {
+      "id": "jhiwic",
+      "name": "intro--left",
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_alignItems": "flex-start",
+        "_typography": {
+          "text-align": "left"
+        },
+        "_alignSelf": "flex-start"
+      }
+    },
+    {
+      "id": "wnpikx",
+      "name": "intro__heading",
+      "settings": {
+        "_margin": {
+          "top": "0"
+        }
+      }
+    },
+    {
+      "id": "prgilv",
+      "name": "intro__subheading",
+      "settings": []
+    },
+    {
+      "id": "samysq",
+      "name": "intro__accent-heading",
+      "settings": {
+        "_typography": {
+          "color": {
+            "hex": "#db2323",
+            "id": "anxxov",
+            "name": "Color #13"
+          }
+        },
+        "_order": "-1"
+      }
+    },
+    {
+      "id": "jwqysy",
+      "name": "hworks-17-list",
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(2, minmax(0, 1fr))",
+        "_gridGap": "2.4rem",
+        "_cssCustom": ".hworks-17-list {\n/* Define & Initialize Counter */\n\tcounter-reset: hworks-counter;\n}\n\n\n.hworks-17-list li::before {\n  /* Increment Counter */\n  counter-increment: hworks-counter;\n  /* Display Counter */\n  content: counters(hworks-counter,\".\") \" \";\n  background-color: #fae1e4;\n  padding-inline:2.2rem;\n  padding-block:1.2rem;\n  color: #db2323;\n  font-size: 1.6rem;\n  font-weight: 700;\n  border-radius: 50%;\n  position:absolute;\n  left: 2.4rem);\n    top: 4rem;\n  transform: translateY(-50%);\n}",
+        "_gridTemplateColumns:mobile_portrait": "repeat(1, minmax(0, 1fr))",
+        "_padding": {
+          "left": "0"
+        }
+      }
+    },
+    {
+      "id": "wuelvd",
+      "name": "hworks-17-card",
+      "settings": {
+        "_position": "relative",
+        "_rowGap": "2.4rem",
+        "_padding": {
+          "top": "calc(6.4rem * 1.3)",
+          "right": "2.4rem",
+          "bottom": "2.4rem",
+          "left": "2.4rem"
+        },
+        "_background": {
+          "color": {
+            "hex": "#ffffff",
+            "id": "onmzxd",
+            "name": "Color #10"
+          }
+        },
+        "_boxShadow": {
+          "color": {
+            "hex": "#000000",
+            "rgb": "rgba(0, 0, 0, 0.2)",
+            "hsl": "hsla(0, 0%, 0%, 0.2)"
+          },
+          "values": {
+            "blur": "1rem"
+          }
+        }
+      }
+    },
+    {
+      "id": "jinmuy",
+      "name": "hworks-17-card__heading",
+      "settings": []
+    },
+    {
+      "id": "geouin",
+      "name": "hworks-17-card__text",
+      "settings": []
+    }
+  ],
+  "globalElements": []
+}

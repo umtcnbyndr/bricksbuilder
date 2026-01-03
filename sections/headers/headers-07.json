@@ -1,0 +1,299 @@
+{
+  "content": [
+    {
+      "id": "rmikio",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "bbhirh"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jkkjia",
+          "zbmxmc"
+        ]
+      }
+    },
+    {
+      "id": "bbhirh",
+      "name": "container",
+      "parent": "rmikio",
+      "children": [
+        "jspfnh",
+        "gumgwx"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "duychn",
+          "zbmxmc",
+          "dnmezm"
+        ],
+        "_direction": "row",
+        "_alignItems": "center",
+        "_direction:tablet_portrait": "column"
+      }
+    },
+    {
+      "id": "jspfnh",
+      "name": "block",
+      "parent": "bbhirh",
+      "children": [
+        "tlndgq",
+        "etzhcb"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "knafbb"
+        ]
+      },
+      "label": "Column"
+    },
+    {
+      "id": "tlndgq",
+      "name": "heading",
+      "parent": "jspfnh",
+      "children": [],
+      "settings": {
+        "text": "Pre-header",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "kbxyvq",
+          "qqnlaw"
+        ]
+      }
+    },
+    {
+      "id": "etzhcb",
+      "name": "heading",
+      "parent": "jspfnh",
+      "children": [],
+      "settings": {
+        "text": "Replace this text with your own headline",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "ulvqfz",
+          "qqnlaw"
+        ]
+      }
+    },
+    {
+      "id": "gumgwx",
+      "name": "block",
+      "parent": "bbhirh",
+      "children": [
+        "ticltc"
+      ],
+      "settings": {
+        "_cssGlobalClasses": []
+      },
+      "label": "Column"
+    },
+    {
+      "id": "ticltc",
+      "name": "block",
+      "parent": "gumgwx",
+      "children": [
+        "urucrh",
+        "grnyau",
+        "gbsdqc",
+        "adwkjy"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "admyse",
+          "zznifr"
+        ],
+        "_alignItemsGrid": "center",
+        "_gridTemplateColumns:mobile_landscape": "var(--grid-2)"
+      },
+      "label": "Grid"
+    },
+    {
+      "id": "urucrh",
+      "name": "image",
+      "parent": "ticltc",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/logoipsum-211.svg",
+          "external": true,
+          "filename": "logoipsum-211.svg"
+        },
+        "_cssGlobalClasses": [
+          "mcaawo"
+        ]
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "grnyau",
+      "name": "image",
+      "parent": "ticltc",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/logoipsum-214.svg",
+          "external": true,
+          "filename": "logoipsum-214.svg"
+        },
+        "_cssGlobalClasses": [
+          "mcaawo"
+        ]
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "gbsdqc",
+      "name": "image",
+      "parent": "ticltc",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/logoipsum-217.svg",
+          "external": true,
+          "filename": "logoipsum-217.svg"
+        },
+        "_cssGlobalClasses": [
+          "mcaawo"
+        ]
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "adwkjy",
+      "name": "image",
+      "parent": "ticltc",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/logoipsum-216.svg",
+          "external": true,
+          "filename": "logoipsum-216.svg"
+        },
+        "_cssGlobalClasses": [
+          "mcaawo"
+        ]
+      },
+      "themeStyles": []
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://renmoe.com/bricksnativeglobal",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "jkkjia",
+      "name": "ren-pad-top-bottom-lg",
+      "settings": {
+        "_padding": {
+          "bottom": "var(--spacing-lg)",
+          "top": "var(--spacing-lg)"
+        }
+      }
+    },
+    {
+      "id": "zbmxmc",
+      "name": "ren-gap-lg",
+      "settings": {
+        "_columnGap": "var(--spacing-lg)",
+        "_rowGap": "var(--spacing-lg)"
+      }
+    },
+    {
+      "id": "duychn",
+      "name": "ren-container-width-lg",
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      },
+      "modified": 1739690341,
+      "user_id": 1
+    },
+    {
+      "id": "dnmezm",
+      "name": "ren-gap-md-md",
+      "settings": {
+        "_columnGap:tablet_portrait": "var(--spacing-md)",
+        "_rowGap:tablet_portrait": "var(--spacing-md)"
+      }
+    },
+    {
+      "id": "knafbb",
+      "name": "ren-gap-xs",
+      "settings": {
+        "_columnGap": "var(--spacing-xs)",
+        "_rowGap": "var(--spacing-xs)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "kbxyvq",
+      "name": "ren-pre-header",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter",
+          "font-weight": "500"
+        },
+        "_margin": {
+          "bottom": "-1rem"
+        }
+      },
+      "modified": 1740312141,
+      "user_id": 1
+    },
+    {
+      "id": "qqnlaw",
+      "name": "ren-text-secondary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-secondary)"
+          }
+        }
+      },
+      "modified": 1733661236,
+      "user_id": 1
+    },
+    {
+      "id": "ulvqfz",
+      "name": "ren-heading-2",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-2xl)"
+        }
+      },
+      "modified": 1733551470,
+      "user_id": 1
+    },
+    {
+      "id": "admyse",
+      "name": "ren-grid-4col",
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "var(--grid-4)"
+      },
+      "modified": 1738151063,
+      "user_id": 1
+    },
+    {
+      "id": "zznifr",
+      "name": "ren-grid-gap-md",
+      "settings": {
+        "_gridGap": "var(--spacing-md)"
+      },
+      "modified": 1734224977,
+      "user_id": 1
+    },
+    {
+      "id": "mcaawo",
+      "name": "ren-object-fit-contain",
+      "settings": {
+        "_objectFit": "contain"
+      }
+    }
+  ],
+  "globalElements": []
+}

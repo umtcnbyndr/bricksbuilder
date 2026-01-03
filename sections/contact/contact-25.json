@@ -1,0 +1,356 @@
+{
+  "content": [
+    {
+      "id": "rnzpcz",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "abcwsq",
+        "pnreej"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jkkjia",
+          "zbmxmc"
+        ]
+      }
+    },
+    {
+      "id": "abcwsq",
+      "name": "container",
+      "parent": "rnzpcz",
+      "children": [
+        "mpsgis",
+        "gfjgif",
+        "uuqatv"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "xzcptv",
+          "knafbb"
+        ],
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "mpsgis",
+      "name": "heading",
+      "parent": "abcwsq",
+      "children": [],
+      "settings": {
+        "text": "Pre-header",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "kbxyvq",
+          "qqnlaw",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "gfjgif",
+      "name": "heading",
+      "parent": "abcwsq",
+      "children": [],
+      "settings": {
+        "text": "Replace with your headline",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "ulvqfz",
+          "qqnlaw",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "uuqatv",
+      "name": "text",
+      "parent": "abcwsq",
+      "children": [],
+      "settings": {
+        "text": "<p>Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas, or information effectively.</p>",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "qagqdx",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "pnreej",
+      "name": "container",
+      "parent": "rnzpcz",
+      "children": [
+        "hysefh",
+        "bthgkl"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "duychn",
+          "knafbb"
+        ],
+        "_alignItems": "center",
+        "_direction": "row"
+      }
+    },
+    {
+      "id": "hysefh",
+      "name": "block",
+      "parent": "pnreej",
+      "children": [
+        "fijcll",
+        "apngob"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "knafbb"
+        ]
+      },
+      "label": "Column"
+    },
+    {
+      "id": "fijcll",
+      "name": "image",
+      "parent": "hysefh",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/Renmoe-Library-Placeholder-Image-Half-Width-Longer.jpg",
+          "external": true,
+          "filename": "Renmoe-Library-Placeholder-Image-Half-Width-Longer.jpg"
+        },
+        "_cssGlobalClasses": [
+          "tajpyr",
+          "jhjtqp"
+        ]
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "apngob",
+      "name": "image",
+      "parent": "hysefh",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/Renmoe-Library-Placeholder-Image-Half-Width.jpg",
+          "external": true,
+          "filename": "Renmoe-Library-Placeholder-Image-Half-Width.jpg"
+        },
+        "_cssGlobalClasses": [
+          "tajpyr",
+          "dmvsgq"
+        ]
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "bthgkl",
+      "name": "block",
+      "parent": "pnreej",
+      "children": [
+        "nkdenq",
+        "arefbb"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "knafbb"
+        ],
+        "_direction:mobile_landscape": "column-reverse"
+      },
+      "label": "Column"
+    },
+    {
+      "id": "nkdenq",
+      "name": "image",
+      "parent": "bthgkl",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/Renmoe-Library-Placeholder-Image-Half-Width.jpg",
+          "external": true,
+          "filename": "Renmoe-Library-Placeholder-Image-Half-Width.jpg"
+        },
+        "_cssGlobalClasses": [
+          "tajpyr",
+          "dmvsgq"
+        ]
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "arefbb",
+      "name": "image",
+      "parent": "bthgkl",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/Renmoe-Library-Placeholder-Image-Half-Width-Longer.jpg",
+          "external": true,
+          "filename": "Renmoe-Library-Placeholder-Image-Half-Width-Longer.jpg"
+        },
+        "_cssGlobalClasses": [
+          "tajpyr",
+          "jhjtqp"
+        ]
+      },
+      "themeStyles": []
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://renmoe.com/bricksnativeglobal",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "jkkjia",
+      "name": "ren-pad-top-bottom-lg",
+      "settings": {
+        "_padding": {
+          "bottom": "var(--spacing-lg)",
+          "top": "var(--spacing-lg)"
+        }
+      }
+    },
+    {
+      "id": "zbmxmc",
+      "name": "ren-gap-lg",
+      "settings": {
+        "_columnGap": "var(--spacing-lg)",
+        "_rowGap": "var(--spacing-lg)"
+      }
+    },
+    {
+      "id": "xzcptv",
+      "name": "ren-container-width-sm",
+      "settings": {
+        "_width": "90%",
+        "_widthMax": "750"
+      },
+      "modified": 1739553536,
+      "user_id": 1
+    },
+    {
+      "id": "knafbb",
+      "name": "ren-gap-xs",
+      "settings": {
+        "_columnGap": "var(--spacing-xs)",
+        "_rowGap": "var(--spacing-xs)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "kbxyvq",
+      "name": "ren-pre-header",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter",
+          "font-weight": "500"
+        },
+        "_margin": {
+          "bottom": "-1rem"
+        }
+      },
+      "modified": 1740312141,
+      "user_id": 1
+    },
+    {
+      "id": "qqnlaw",
+      "name": "ren-text-secondary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-secondary)"
+          }
+        }
+      },
+      "modified": 1733661236,
+      "user_id": 1
+    },
+    {
+      "id": "sddasx",
+      "name": "ren-text-center",
+      "settings": {
+        "_typography": {
+          "text-align": "center"
+        }
+      }
+    },
+    {
+      "id": "ulvqfz",
+      "name": "ren-heading-2",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-2xl)"
+        }
+      },
+      "modified": 1733551470,
+      "user_id": 1
+    },
+    {
+      "id": "ywlqpc",
+      "name": "ren-text-p",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter"
+        }
+      }
+    },
+    {
+      "id": "qagqdx",
+      "name": "ren-text-tertiary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-tertiary)"
+          }
+        }
+      },
+      "modified": 1733661236,
+      "user_id": 1
+    },
+    {
+      "id": "duychn",
+      "name": "ren-container-width-lg",
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      },
+      "modified": 1739690341,
+      "user_id": 1
+    },
+    {
+      "id": "tajpyr",
+      "name": "ren-object-fit-cover",
+      "settings": {
+        "_objectFit": "cover"
+      },
+      "modified": 1734056915,
+      "user_id": 1
+    },
+    {
+      "id": "jhjtqp",
+      "name": "ren-aspect-3-4",
+      "settings": {
+        "_aspectRatio": "3 / 4",
+        "_width": "100%"
+      },
+      "modified": 1734050403,
+      "user_id": 1
+    },
+    {
+      "id": "dmvsgq",
+      "name": "ren-aspect-3-2",
+      "settings": {
+        "_aspectRatio": "3 / 2",
+        "_width": "100%"
+      },
+      "modified": 1734050403,
+      "user_id": 1
+    }
+  ],
+  "globalElements": []
+}

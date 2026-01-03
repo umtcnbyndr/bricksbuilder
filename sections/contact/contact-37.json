@@ -1,0 +1,509 @@
+{
+  "content": [
+    {
+      "id": "gnzifv",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "vdwpit",
+        "xlsjzq"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jkkjia",
+          "zbmxmc"
+        ]
+      }
+    },
+    {
+      "id": "vdwpit",
+      "name": "container",
+      "parent": "gnzifv",
+      "children": [
+        "ckmxfo",
+        "hwrahx",
+        "yhntot"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "xzcptv",
+          "knafbb"
+        ],
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "ckmxfo",
+      "name": "heading",
+      "parent": "vdwpit",
+      "children": [],
+      "settings": {
+        "text": "Pre-header",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "kbxyvq",
+          "qqnlaw",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "hwrahx",
+      "name": "heading",
+      "parent": "vdwpit",
+      "children": [],
+      "settings": {
+        "text": "Customer Testimonials",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "ulvqfz",
+          "qqnlaw",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "yhntot",
+      "name": "text",
+      "parent": "vdwpit",
+      "children": [],
+      "settings": {
+        "text": "<p>Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas, or information effectively.</p>",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "qagqdx",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "xlsjzq",
+      "name": "container",
+      "parent": "gnzifv",
+      "children": [
+        "khoivh",
+        "qsitxk"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "duychn",
+          "zbmxmc"
+        ],
+        "_direction": "row",
+        "_direction:tablet_portrait": "column"
+      }
+    },
+    {
+      "id": "khoivh",
+      "name": "block",
+      "parent": "xlsjzq",
+      "children": [
+        "pgtfce",
+        "zpkbuc",
+        "uklzsu"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "wotlge"
+        ]
+      },
+      "label": "Column"
+    },
+    {
+      "id": "pgtfce",
+      "name": "rating",
+      "parent": "khoivh",
+      "children": [],
+      "settings": {
+        "iconSize": "var(--text-xs)",
+        "iconColorFull": {
+          "raw": "var(--color-primary)"
+        },
+        "rating": "3.5"
+      }
+    },
+    {
+      "id": "zpkbuc",
+      "name": "text",
+      "parent": "khoivh",
+      "children": [],
+      "settings": {
+        "text": "<p>I can't express how amazed I am by this product! From the moment I started using it, my life genuinely improved in ways I didn’t think were possible. The quality is absolutely top-notch, with impeccable attention to detail that truly stands out. I’ve tried countless solutions before, but nothing came close to delivering the results this has. It not only exceeded my expectations but has become an essential part of my daily routine. I’m already recommending it to friends and family, and I can’t thank you enough for creating something so transformative and reliable!</p>",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "qagqdx"
+        ]
+      }
+    },
+    {
+      "id": "uklzsu",
+      "name": "block",
+      "parent": "khoivh",
+      "children": [
+        "gcngbk",
+        "yetzlk"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "knafbb"
+        ],
+        "_direction": "row",
+        "_alignItems": "center"
+      },
+      "label": "Reviewer"
+    },
+    {
+      "id": "gcngbk",
+      "name": "image",
+      "parent": "uklzsu",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": [
+          "tajpyr",
+          "vtoele"
+        ],
+        "image": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/Renmoe-Library-Placeholder-Image.jpg",
+          "external": true,
+          "filename": "Renmoe-Library-Placeholder-Image.jpg"
+        },
+        "_width": "75",
+        "_height": "75"
+      }
+    },
+    {
+      "id": "yetzlk",
+      "name": "block",
+      "parent": "uklzsu",
+      "children": [
+        "xorzmz",
+        "uxkodv"
+      ],
+      "settings": []
+    },
+    {
+      "id": "xorzmz",
+      "name": "heading",
+      "parent": "yetzlk",
+      "children": [],
+      "settings": {
+        "text": "Name Surname",
+        "_cssGlobalClasses": [
+          "yeedkb",
+          "qqnlaw",
+          "sddasx"
+        ],
+        "tag": "h4"
+      }
+    },
+    {
+      "id": "uxkodv",
+      "name": "text-basic",
+      "parent": "yetzlk",
+      "children": [],
+      "settings": {
+        "text": "Position, Company name",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "qagqdx"
+        ],
+        "tag": "span",
+        "_typography": {
+          "font-size": "var(--text-2xs)"
+        }
+      }
+    },
+    {
+      "id": "qsitxk",
+      "name": "block",
+      "parent": "xlsjzq",
+      "children": [
+        "qrukye",
+        "hhmnzy",
+        "yzmjzx"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "wotlge"
+        ]
+      },
+      "label": "Column"
+    },
+    {
+      "id": "qrukye",
+      "name": "rating",
+      "parent": "qsitxk",
+      "children": [],
+      "settings": {
+        "iconSize": "var(--text-xs)",
+        "iconColorFull": {
+          "raw": "var(--color-primary)"
+        },
+        "rating": "3.5"
+      }
+    },
+    {
+      "id": "hhmnzy",
+      "name": "text",
+      "parent": "qsitxk",
+      "children": [],
+      "settings": {
+        "text": "<p>I can't express how amazed I am by this product! From the moment I started using it, my life genuinely improved in ways I didn’t think were possible. The quality is absolutely top-notch, with impeccable attention to detail that truly stands out. I’ve tried countless solutions before, but nothing came close to delivering the results this has. It not only exceeded my expectations but has become an essential part of my daily routine. I’m already recommending it to friends and family, and I can’t thank you enough for creating something so transformative and reliable!</p>",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "qagqdx"
+        ]
+      }
+    },
+    {
+      "id": "yzmjzx",
+      "name": "block",
+      "parent": "qsitxk",
+      "children": [
+        "unievw",
+        "posztc"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "knafbb"
+        ],
+        "_direction": "row",
+        "_alignItems": "center"
+      },
+      "label": "Reviewer"
+    },
+    {
+      "id": "unievw",
+      "name": "image",
+      "parent": "yzmjzx",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": [
+          "tajpyr",
+          "vtoele"
+        ],
+        "image": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/Renmoe-Library-Placeholder-Image.jpg",
+          "external": true,
+          "filename": "Renmoe-Library-Placeholder-Image.jpg"
+        },
+        "_width": "75",
+        "_height": "75"
+      }
+    },
+    {
+      "id": "posztc",
+      "name": "block",
+      "parent": "yzmjzx",
+      "children": [
+        "bsxuwf",
+        "houzkz"
+      ],
+      "settings": []
+    },
+    {
+      "id": "bsxuwf",
+      "name": "heading",
+      "parent": "posztc",
+      "children": [],
+      "settings": {
+        "text": "Name Surname",
+        "_cssGlobalClasses": [
+          "yeedkb",
+          "qqnlaw",
+          "sddasx"
+        ],
+        "tag": "h4"
+      }
+    },
+    {
+      "id": "houzkz",
+      "name": "text-basic",
+      "parent": "posztc",
+      "children": [],
+      "settings": {
+        "text": "Position, Company name",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "qagqdx"
+        ],
+        "tag": "span",
+        "_typography": {
+          "font-size": "var(--text-2xs)"
+        }
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://renmoe.com/bricksnativeglobal",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "jkkjia",
+      "name": "ren-pad-top-bottom-lg",
+      "settings": {
+        "_padding": {
+          "bottom": "var(--spacing-lg)",
+          "top": "var(--spacing-lg)"
+        }
+      }
+    },
+    {
+      "id": "zbmxmc",
+      "name": "ren-gap-lg",
+      "settings": {
+        "_columnGap": "var(--spacing-lg)",
+        "_rowGap": "var(--spacing-lg)"
+      }
+    },
+    {
+      "id": "xzcptv",
+      "name": "ren-container-width-sm",
+      "settings": {
+        "_width": "90%",
+        "_widthMax": "750"
+      },
+      "modified": 1739553536,
+      "user_id": 1
+    },
+    {
+      "id": "knafbb",
+      "name": "ren-gap-xs",
+      "settings": {
+        "_columnGap": "var(--spacing-xs)",
+        "_rowGap": "var(--spacing-xs)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "kbxyvq",
+      "name": "ren-pre-header",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter",
+          "font-weight": "500"
+        },
+        "_margin": {
+          "bottom": "-1rem"
+        }
+      },
+      "modified": 1740312141,
+      "user_id": 1
+    },
+    {
+      "id": "qqnlaw",
+      "name": "ren-text-secondary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-secondary)"
+          }
+        }
+      },
+      "modified": 1733661236,
+      "user_id": 1
+    },
+    {
+      "id": "sddasx",
+      "name": "ren-text-center",
+      "settings": {
+        "_typography": {
+          "text-align": "center"
+        }
+      }
+    },
+    {
+      "id": "ulvqfz",
+      "name": "ren-heading-2",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-2xl)"
+        }
+      },
+      "modified": 1733551470,
+      "user_id": 1
+    },
+    {
+      "id": "ywlqpc",
+      "name": "ren-text-p",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter"
+        }
+      }
+    },
+    {
+      "id": "qagqdx",
+      "name": "ren-text-tertiary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-tertiary)"
+          }
+        }
+      },
+      "modified": 1733661236,
+      "user_id": 1
+    },
+    {
+      "id": "duychn",
+      "name": "ren-container-width-lg",
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      },
+      "modified": 1739690341,
+      "user_id": 1
+    },
+    {
+      "id": "wotlge",
+      "name": "ren-gap-sm",
+      "settings": {
+        "_rowGap": "var(--spacing-sm)",
+        "_columnGap": "var(--spacing-sm)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "tajpyr",
+      "name": "ren-object-fit-cover",
+      "settings": {
+        "_objectFit": "cover"
+      },
+      "modified": 1734056915,
+      "user_id": 1
+    },
+    {
+      "id": "vtoele",
+      "name": "ren-radius-full",
+      "settings": {
+        "_border": {
+          "radius": {
+            "right": "var(--radius-full)",
+            "top": "var(--radius-full)",
+            "bottom": "var(--radius-full)",
+            "left": "var(--radius-full)"
+          }
+        }
+      }
+    },
+    {
+      "id": "yeedkb",
+      "name": "ren-heading-4",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-sm)"
+        }
+      },
+      "modified": 1742384686,
+      "user_id": 1
+    }
+  ],
+  "globalElements": []
+}

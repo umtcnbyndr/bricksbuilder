@@ -1,0 +1,261 @@
+{
+  "content": [
+    {
+      "id": "ugigkr",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "yjfhdc"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jkkjia"
+        ]
+      }
+    },
+    {
+      "id": "yjfhdc",
+      "name": "container",
+      "parent": "ugigkr",
+      "children": [
+        "ilppgm",
+        "wvqymc"
+      ],
+      "settings": {
+        "_direction": "row",
+        "_cssGlobalClasses": [
+          "duychn",
+          "zbmxmc"
+        ],
+        "_direction:tablet_portrait": "column-reverse"
+      }
+    },
+    {
+      "id": "ilppgm",
+      "name": "block",
+      "parent": "yjfhdc",
+      "children": [
+        "pzyoef",
+        "rvexxu",
+        "pflmnc",
+        "vlcovd"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "hzanub"
+        ],
+        "_alignSelf": "center"
+      },
+      "label": "Column"
+    },
+    {
+      "id": "pzyoef",
+      "name": "icon-box",
+      "parent": "ilppgm",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "themify",
+          "icon": "ti-layers"
+        },
+        "content": "<h3>Icon box heading</h3><p>Please feel free to replace me with your own unique and meaningful message or content.</p>",
+        "_cssGlobalClasses": [
+          "ukwrey"
+        ],
+        "direction": "row"
+      }
+    },
+    {
+      "id": "rvexxu",
+      "name": "icon-box",
+      "parent": "ilppgm",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "themify",
+          "icon": "ti-layers"
+        },
+        "content": "<h3>Icon box heading</h3><p>Please feel free to replace me with your own unique and meaningful message or content.</p>",
+        "_cssGlobalClasses": [
+          "ukwrey"
+        ],
+        "direction": "row"
+      }
+    },
+    {
+      "id": "pflmnc",
+      "name": "icon-box",
+      "parent": "ilppgm",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "themify",
+          "icon": "ti-layers"
+        },
+        "content": "<h3>Icon box heading</h3><p>Please feel free to replace me with your own unique and meaningful message or content.</p>",
+        "_cssGlobalClasses": [
+          "ukwrey"
+        ],
+        "direction": "row"
+      }
+    },
+    {
+      "id": "vlcovd",
+      "name": "icon-box",
+      "parent": "ilppgm",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "themify",
+          "icon": "ti-layers"
+        },
+        "content": "<h3>Icon box heading</h3><p>Please feel free to replace me with your own unique and meaningful message or content.</p>",
+        "_cssGlobalClasses": [
+          "ukwrey"
+        ],
+        "direction": "row"
+      }
+    },
+    {
+      "id": "wvqymc",
+      "name": "block",
+      "parent": "yjfhdc",
+      "children": [
+        "cknpks"
+      ],
+      "settings": {
+        "_alignSelf": "center",
+        "_cssGlobalClasses": [
+          "knafbb"
+        ]
+      },
+      "label": "Column"
+    },
+    {
+      "id": "cknpks",
+      "name": "video",
+      "parent": "wvqymc",
+      "children": [],
+      "settings": {
+        "videoType": "file",
+        "youTubeId": "5DGo0AYOJ7s",
+        "youtubeControls": true,
+        "youtubeShowinfo": true,
+        "vimeoByline": true,
+        "vimeoTitle": true,
+        "vimeoPortrait": true,
+        "fileUrl": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/Video-by-Google-DeepMind-from-Pexels-Renmoe-Library.mp4",
+        "videoPoster": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/Renmoe-Library-Placeholder-Video-Half-Width.jpg",
+          "external": true,
+          "filename": "Renmoe-Library-Placeholder-Video-Half-Width.jpg"
+        },
+        "fileLoop": true,
+        "fileMute": true,
+        "_cssGlobalClasses": [
+          "mnupss",
+          "tajpyr"
+        ],
+        "fileAutoplay": true
+      },
+      "themeStyles": []
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://renmoe.com/bricksnativeglobal",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "jkkjia",
+      "name": "ren-pad-top-bottom-lg",
+      "settings": {
+        "_padding": {
+          "bottom": "var(--spacing-lg)",
+          "top": "var(--spacing-lg)"
+        }
+      }
+    },
+    {
+      "id": "duychn",
+      "name": "ren-container-width-lg",
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      },
+      "modified": 1739690341,
+      "user_id": 1
+    },
+    {
+      "id": "zbmxmc",
+      "name": "ren-gap-lg",
+      "settings": {
+        "_columnGap": "var(--spacing-lg)",
+        "_rowGap": "var(--spacing-lg)"
+      }
+    },
+    {
+      "id": "hzanub",
+      "name": "ren-gap-md",
+      "settings": {
+        "_columnGap": "var(--spacing-md)",
+        "_rowGap": "var(--spacing-md)"
+      },
+      "modified": 1734227689,
+      "user_id": 1
+    },
+    {
+      "id": "ukwrey",
+      "name": "ren-icon-box",
+      "settings": {
+        "typographyBody": {
+          "font-family": "Inter",
+          "color": {
+            "raw": "var(--color-tertiary)"
+          },
+          "font-size": "var(--text-sm)"
+        },
+        "typographyHeading": {
+          "color": {
+            "raw": "var(--color-secondary)"
+          },
+          "font-size": "var(--text-md)"
+        },
+        "gap": "var(--spacing-xs)",
+        "_cssCustom": ".ren-icon-box h3 {\n  margin-bottom: var(--spacing-3xs);\n}",
+        "iconSize": "3rem"
+      },
+      "modified": 1737996594,
+      "user_id": 1
+    },
+    {
+      "id": "knafbb",
+      "name": "ren-gap-xs",
+      "settings": {
+        "_columnGap": "var(--spacing-xs)",
+        "_rowGap": "var(--spacing-xs)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "mnupss",
+      "name": "ren-aspect-1",
+      "settings": {
+        "_aspectRatio": "1 / 1",
+        "_width": "100%"
+      },
+      "modified": 1734050403,
+      "user_id": 1
+    },
+    {
+      "id": "tajpyr",
+      "name": "ren-object-fit-cover",
+      "settings": {
+        "_objectFit": "cover"
+      },
+      "modified": 1734056915,
+      "user_id": 1
+    }
+  ],
+  "globalElements": []
+}

@@ -1,0 +1,266 @@
+{
+  "content": [
+    {
+      "id": "todtpo",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "prsvtf"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jkkjia",
+          "nlujfa",
+          "upuhyr",
+          "wwdxtt"
+        ],
+        "_background": {
+          "image": {
+            "url": "https://renmoe.com/brickscomponents/wp-content/uploads/2023/10/Renmoe-Library-Placeholder-Image-Colored-Full-Width.jpg",
+            "external": true,
+            "filename": "Renmoe-Library-Placeholder-Image-Colored-Full-Width.jpg"
+          }
+        }
+      }
+    },
+    {
+      "id": "prsvtf",
+      "name": "container",
+      "parent": "todtpo",
+      "children": [
+        "wxmixj",
+        "qxqroh"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "duychn",
+          "zbmxmc",
+          "jltrtr"
+        ],
+        "_direction": "row",
+        "_direction:tablet_portrait": "column"
+      }
+    },
+    {
+      "id": "wxmixj",
+      "name": "block",
+      "parent": "prsvtf",
+      "children": [
+        "quwezl",
+        "khckii"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "knafbb"
+        ]
+      },
+      "label": "Column"
+    },
+    {
+      "id": "quwezl",
+      "name": "heading",
+      "parent": "wxmixj",
+      "children": [],
+      "settings": {
+        "text": "Pre-header",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "kbxyvq",
+          "cfldig"
+        ]
+      }
+    },
+    {
+      "id": "khckii",
+      "name": "heading",
+      "parent": "wxmixj",
+      "children": [],
+      "settings": {
+        "text": "Replace this text with your own headline",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "ulvqfz",
+          "cfldig"
+        ],
+        "_width:mobile_landscape": "100%",
+        "_width:tablet_portrait": "100%"
+      }
+    },
+    {
+      "id": "qxqroh",
+      "name": "block",
+      "parent": "prsvtf",
+      "children": [
+        "sxmrgv"
+      ],
+      "settings": [],
+      "label": "Column"
+    },
+    {
+      "id": "sxmrgv",
+      "name": "text-basic",
+      "parent": "qxqroh",
+      "children": [],
+      "settings": {
+        "text": "Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas, or information effectively. Your words are what give life and purpose to this space, and I eagerly await the transformation that will make this text truly yours.",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "cfldig"
+        ],
+        "tag": "p",
+        "_width:mobile_landscape": "100%",
+        "_width:tablet_portrait": "100%"
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://renmoe.com/bricksnativeglobal",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "jkkjia",
+      "name": "ren-pad-top-bottom-lg",
+      "settings": {
+        "_padding": {
+          "bottom": "var(--spacing-lg)",
+          "top": "var(--spacing-lg)"
+        }
+      }
+    },
+    {
+      "id": "nlujfa",
+      "name": "ren-bg-img-cover",
+      "settings": {
+        "_background": {
+          "size": "cover"
+        }
+      },
+      "modified": 1734051417,
+      "user_id": 1
+    },
+    {
+      "id": "upuhyr",
+      "name": "ren-bg-img-center",
+      "settings": {
+        "_background": {
+          "position": "center center"
+        }
+      },
+      "modified": 1734051663,
+      "user_id": 1
+    },
+    {
+      "id": "wwdxtt",
+      "name": "ren-bg-overlay-primary",
+      "settings": {
+        "_gradient": {
+          "applyTo": "overlay",
+          "colors": [
+            {
+              "id": "okjqaw",
+              "color": {
+                "hex": "#7f4afc",
+                "rgb": "rgba(127, 74, 252, 0.75)",
+                "hsl": "hsla(258, 97%, 64%, 0.75)"
+              }
+            },
+            {
+              "id": "okjqaw",
+              "color": {
+                "hex": "#7f4afc",
+                "rgb": "rgba(127, 74, 252, 0.75)",
+                "hsl": "hsla(258, 97%, 64%, 0.75)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "duychn",
+      "name": "ren-container-width-lg",
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      },
+      "modified": 1739690341,
+      "user_id": 1
+    },
+    {
+      "id": "zbmxmc",
+      "name": "ren-gap-lg",
+      "settings": {
+        "_columnGap": "var(--spacing-lg)",
+        "_rowGap": "var(--spacing-lg)"
+      }
+    },
+    {
+      "id": "jltrtr",
+      "name": "ren-gap-md-xs",
+      "settings": {
+        "_columnGap:tablet_portrait": "var(--spacing-xs)",
+        "_rowGap:tablet_portrait": "var(--spacing-xs)"
+      }
+    },
+    {
+      "id": "knafbb",
+      "name": "ren-gap-xs",
+      "settings": {
+        "_columnGap": "var(--spacing-xs)",
+        "_rowGap": "var(--spacing-xs)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "kbxyvq",
+      "name": "ren-pre-header",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter",
+          "font-weight": "500"
+        },
+        "_margin": {
+          "bottom": "-1rem"
+        }
+      },
+      "modified": 1740312141,
+      "user_id": 1
+    },
+    {
+      "id": "cfldig",
+      "name": "ren-text-light",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-light)"
+          }
+        }
+      }
+    },
+    {
+      "id": "ulvqfz",
+      "name": "ren-heading-2",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-2xl)"
+        }
+      },
+      "modified": 1733551470,
+      "user_id": 1
+    },
+    {
+      "id": "ywlqpc",
+      "name": "ren-text-p",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter"
+        }
+      }
+    }
+  ],
+  "globalElements": []
+}

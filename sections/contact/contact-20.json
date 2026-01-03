@@ -1,0 +1,644 @@
+{
+  "content": [
+    {
+      "id": "hweyie",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "nniihn",
+        "whryrg"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jkkjia",
+          "zbmxmc"
+        ]
+      }
+    },
+    {
+      "id": "nniihn",
+      "name": "container",
+      "parent": "hweyie",
+      "children": [
+        "smfnte",
+        "szhnlu",
+        "rvltmk"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "duychn",
+          "knafbb"
+        ]
+      }
+    },
+    {
+      "id": "smfnte",
+      "name": "heading",
+      "parent": "nniihn",
+      "children": [],
+      "settings": {
+        "text": "Pre-header",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "kbxyvq",
+          "qqnlaw"
+        ]
+      }
+    },
+    {
+      "id": "szhnlu",
+      "name": "heading",
+      "parent": "nniihn",
+      "children": [],
+      "settings": {
+        "text": "Frequently Asked Questions",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "ulvqfz",
+          "qqnlaw"
+        ]
+      }
+    },
+    {
+      "id": "rvltmk",
+      "name": "text",
+      "parent": "nniihn",
+      "children": [],
+      "settings": {
+        "text": "<p>Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas, or information effectively.</p>",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "qagqdx"
+        ]
+      }
+    },
+    {
+      "id": "whryrg",
+      "name": "container",
+      "parent": "hweyie",
+      "children": [
+        "tltvcc"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "duychn"
+        ]
+      }
+    },
+    {
+      "id": "tltvcc",
+      "name": "accordion-nested",
+      "parent": "whryrg",
+      "children": [
+        "jvxvaa",
+        "hnzxzw",
+        "qoevmq",
+        "jkpzfj",
+        "phivxz"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "iduecm",
+          "rwgepq"
+        ],
+        "expandItem": "0"
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "jvxvaa",
+      "name": "block",
+      "parent": "tltvcc",
+      "children": [
+        "ybiuqj",
+        "xxaaku"
+      ],
+      "settings": [],
+      "label": "Item"
+    },
+    {
+      "id": "ybiuqj",
+      "name": "block",
+      "parent": "jvxvaa",
+      "children": [
+        "webvun",
+        "tzvuot"
+      ],
+      "settings": {
+        "_alignItems": "center",
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_hidden": {
+          "_cssClasses": "accordion-title-wrapper"
+        }
+      },
+      "label": "Title"
+    },
+    {
+      "id": "webvun",
+      "name": "heading",
+      "parent": "ybiuqj",
+      "children": [],
+      "settings": {
+        "text": "Question One text goes here",
+        "tag": "h3"
+      }
+    },
+    {
+      "id": "tzvuot",
+      "name": "icon",
+      "parent": "ybiuqj",
+      "children": [],
+      "settings": {
+        "icon": {
+          "icon": "ion-ios-arrow-forward",
+          "library": "ionicons"
+        },
+        "iconSize": "1em"
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "xxaaku",
+      "name": "block",
+      "parent": "jvxvaa",
+      "children": [
+        "zicqfe"
+      ],
+      "settings": {
+        "_hidden": {
+          "_cssClasses": "accordion-content-wrapper"
+        }
+      },
+      "label": "Content"
+    },
+    {
+      "id": "zicqfe",
+      "name": "text",
+      "parent": "xxaaku",
+      "children": [],
+      "settings": {
+        "text": "<p>Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas.</p>"
+      }
+    },
+    {
+      "id": "hnzxzw",
+      "name": "block",
+      "parent": "tltvcc",
+      "children": [
+        "fvbtsk",
+        "rdhizo"
+      ],
+      "settings": [],
+      "label": "Item"
+    },
+    {
+      "id": "fvbtsk",
+      "name": "block",
+      "parent": "hnzxzw",
+      "children": [
+        "bkmvbz",
+        "qzedob"
+      ],
+      "settings": {
+        "_alignItems": "center",
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_hidden": {
+          "_cssClasses": "accordion-title-wrapper"
+        }
+      },
+      "label": "Title"
+    },
+    {
+      "id": "bkmvbz",
+      "name": "heading",
+      "parent": "fvbtsk",
+      "children": [],
+      "settings": {
+        "text": "Question two text goes here",
+        "tag": "h3"
+      }
+    },
+    {
+      "id": "qzedob",
+      "name": "icon",
+      "parent": "fvbtsk",
+      "children": [],
+      "settings": {
+        "icon": {
+          "icon": "ion-ios-arrow-forward",
+          "library": "ionicons"
+        },
+        "iconSize": "1em"
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "rdhizo",
+      "name": "block",
+      "parent": "hnzxzw",
+      "children": [
+        "hunuph"
+      ],
+      "settings": {
+        "_hidden": {
+          "_cssClasses": "accordion-content-wrapper"
+        }
+      },
+      "label": "Content"
+    },
+    {
+      "id": "hunuph",
+      "name": "text",
+      "parent": "rdhizo",
+      "children": [],
+      "settings": {
+        "text": "<p>Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas.</p>"
+      }
+    },
+    {
+      "id": "qoevmq",
+      "name": "block",
+      "parent": "tltvcc",
+      "children": [
+        "ofkttz",
+        "qksvan"
+      ],
+      "settings": [],
+      "label": "Item"
+    },
+    {
+      "id": "ofkttz",
+      "name": "block",
+      "parent": "qoevmq",
+      "children": [
+        "dfyfgd",
+        "utibpx"
+      ],
+      "settings": {
+        "_alignItems": "center",
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_hidden": {
+          "_cssClasses": "accordion-title-wrapper"
+        }
+      },
+      "label": "Title"
+    },
+    {
+      "id": "dfyfgd",
+      "name": "heading",
+      "parent": "ofkttz",
+      "children": [],
+      "settings": {
+        "text": "Question three text goes here",
+        "tag": "h3"
+      }
+    },
+    {
+      "id": "utibpx",
+      "name": "icon",
+      "parent": "ofkttz",
+      "children": [],
+      "settings": {
+        "icon": {
+          "icon": "ion-ios-arrow-forward",
+          "library": "ionicons"
+        },
+        "iconSize": "1em"
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "qksvan",
+      "name": "block",
+      "parent": "qoevmq",
+      "children": [
+        "pfevts"
+      ],
+      "settings": {
+        "_hidden": {
+          "_cssClasses": "accordion-content-wrapper"
+        }
+      },
+      "label": "Content"
+    },
+    {
+      "id": "pfevts",
+      "name": "text",
+      "parent": "qksvan",
+      "children": [],
+      "settings": {
+        "text": "<p>Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas.</p>"
+      }
+    },
+    {
+      "id": "jkpzfj",
+      "name": "block",
+      "parent": "tltvcc",
+      "children": [
+        "snkhki",
+        "gjmoyo"
+      ],
+      "settings": [],
+      "label": "Item"
+    },
+    {
+      "id": "snkhki",
+      "name": "block",
+      "parent": "jkpzfj",
+      "children": [
+        "afvumi",
+        "zizcvr"
+      ],
+      "settings": {
+        "_alignItems": "center",
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_hidden": {
+          "_cssClasses": "accordion-title-wrapper"
+        }
+      },
+      "label": "Title"
+    },
+    {
+      "id": "afvumi",
+      "name": "heading",
+      "parent": "snkhki",
+      "children": [],
+      "settings": {
+        "text": "Question four text goes here",
+        "tag": "h3"
+      }
+    },
+    {
+      "id": "zizcvr",
+      "name": "icon",
+      "parent": "snkhki",
+      "children": [],
+      "settings": {
+        "icon": {
+          "icon": "ion-ios-arrow-forward",
+          "library": "ionicons"
+        },
+        "iconSize": "1em"
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "gjmoyo",
+      "name": "block",
+      "parent": "jkpzfj",
+      "children": [
+        "busstb"
+      ],
+      "settings": {
+        "_hidden": {
+          "_cssClasses": "accordion-content-wrapper"
+        }
+      },
+      "label": "Content"
+    },
+    {
+      "id": "busstb",
+      "name": "text",
+      "parent": "gjmoyo",
+      "children": [],
+      "settings": {
+        "text": "<p>Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas.</p>"
+      }
+    },
+    {
+      "id": "phivxz",
+      "name": "block",
+      "parent": "tltvcc",
+      "children": [
+        "eqyrrz",
+        "qcgpkb"
+      ],
+      "settings": [],
+      "label": "Item"
+    },
+    {
+      "id": "eqyrrz",
+      "name": "block",
+      "parent": "phivxz",
+      "children": [
+        "igftld",
+        "qrnlck"
+      ],
+      "settings": {
+        "_alignItems": "center",
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_hidden": {
+          "_cssClasses": "accordion-title-wrapper"
+        }
+      },
+      "label": "Title"
+    },
+    {
+      "id": "igftld",
+      "name": "heading",
+      "parent": "eqyrrz",
+      "children": [],
+      "settings": {
+        "text": "Question five text goes here",
+        "tag": "h3"
+      }
+    },
+    {
+      "id": "qrnlck",
+      "name": "icon",
+      "parent": "eqyrrz",
+      "children": [],
+      "settings": {
+        "icon": {
+          "icon": "ion-ios-arrow-forward",
+          "library": "ionicons"
+        },
+        "iconSize": "1em"
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "qcgpkb",
+      "name": "block",
+      "parent": "phivxz",
+      "children": [
+        "cyjluy"
+      ],
+      "settings": {
+        "_hidden": {
+          "_cssClasses": "accordion-content-wrapper"
+        }
+      },
+      "label": "Content"
+    },
+    {
+      "id": "cyjluy",
+      "name": "text",
+      "parent": "qcgpkb",
+      "children": [],
+      "settings": {
+        "text": "<p>Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas.</p>"
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://renmoe.com/bricksnativeglobal",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "jkkjia",
+      "name": "ren-pad-top-bottom-lg",
+      "settings": {
+        "_padding": {
+          "bottom": "var(--spacing-lg)",
+          "top": "var(--spacing-lg)"
+        }
+      }
+    },
+    {
+      "id": "zbmxmc",
+      "name": "ren-gap-lg",
+      "settings": {
+        "_columnGap": "var(--spacing-lg)",
+        "_rowGap": "var(--spacing-lg)"
+      }
+    },
+    {
+      "id": "duychn",
+      "name": "ren-container-width-lg",
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      },
+      "modified": 1739690341,
+      "user_id": 1
+    },
+    {
+      "id": "knafbb",
+      "name": "ren-gap-xs",
+      "settings": {
+        "_columnGap": "var(--spacing-xs)",
+        "_rowGap": "var(--spacing-xs)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "kbxyvq",
+      "name": "ren-pre-header",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter",
+          "font-weight": "500"
+        },
+        "_margin": {
+          "bottom": "-1rem"
+        }
+      },
+      "modified": 1740312141,
+      "user_id": 1
+    },
+    {
+      "id": "qqnlaw",
+      "name": "ren-text-secondary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-secondary)"
+          }
+        }
+      },
+      "modified": 1733661236,
+      "user_id": 1
+    },
+    {
+      "id": "ulvqfz",
+      "name": "ren-heading-2",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-2xl)"
+        }
+      },
+      "modified": 1733551470,
+      "user_id": 1
+    },
+    {
+      "id": "ywlqpc",
+      "name": "ren-text-p",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter"
+        }
+      }
+    },
+    {
+      "id": "qagqdx",
+      "name": "ren-text-tertiary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-tertiary)"
+          }
+        }
+      },
+      "modified": 1733661236,
+      "user_id": 1
+    },
+    {
+      "id": "iduecm",
+      "name": "ren-accordion",
+      "settings": {
+        "_cssCustom": ".ren-accordion .brxe-icon {\n  margin-right: 5px;\n  transition: transform 0.3s ease;\n}\n\n.ren-accordion .brx-open .brxe-icon {\n  transform: rotate(90deg);\n}",
+        "titleTypography": {
+          "font-size": "var(--text-md)",
+          "color": {
+            "raw": "var(--color-secondary)"
+          }
+        },
+        "contentTypography": {
+          "font-size": "var(--text-sm)",
+          "color": {
+            "raw": "var(--color-tertiary)"
+          }
+        },
+        "titleMargin": {
+          "bottom": "var(--spacing-xs)"
+        },
+        "contentMargin": {
+          "bottom": "var(--spacing-md)"
+        }
+      },
+      "modified": 1738036851,
+      "user_id": 1
+    },
+    {
+      "id": "rwgepq",
+      "name": "ren-accordion--style-underline",
+      "settings": {
+        "titleBorder": {
+          "width": {
+            "bottom": "1"
+          },
+          "style": "solid",
+          "color": {
+            "raw": "var(--color-tertiary)"
+          }
+        },
+        "titlePadding": {
+          "bottom": "var(--spacing-2xs)"
+        }
+      },
+      "modified": 1738037305,
+      "user_id": 1
+    }
+  ],
+  "globalElements": []
+}

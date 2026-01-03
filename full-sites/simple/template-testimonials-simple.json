@@ -1,0 +1,271 @@
+{
+    "id": "testimonials-simple-generated",
+    "name": "testimonials-simple-generated",
+    "title": "Testimonials - Simple Generated",
+    "date": "2023-10-27 12:00:00",
+    "date_formatted": "October 27, 2023",
+    "author": {
+        "name": "admin",
+        "avatar": "",
+        "url": ""
+    },
+    "permalink": "",
+    "thumbnail": false,
+    "bundles": [
+        "simple"
+    ],
+    "tags": [],
+    "type": "section",
+    "content": [
+        {
+            "id": "fcmlyo",
+            "name": "container",
+            "settings": {
+                "_padding": {
+                    "top": "100",
+                    "bottom": "100"
+                },
+                "_width": "100%",
+                "_background": {
+                    "color": {
+                        "hex": "#F9FAFB",
+                        "id": "light-gray-bg"
+                    }
+                },
+                "_direction": "column",
+                "_alignItems": "center",
+                "_justifyContent": "center",
+                "_alignSelf": "center",
+                "_cssId": "testimonials"
+            },
+            "children": [
+                "votcks"
+            ],
+            "parent": 0,
+            "label": "Testimonials"
+        },
+        {
+            "id": "votcks",
+            "name": "container",
+            "settings": {
+                "_width": "1200px",
+                "_direction": "column",
+                "_alignItems": "center"
+            },
+            "children": [
+                "msagcc",
+                "jqayrc"
+            ],
+            "parent": "fcmlyo"
+        },
+        {
+            "id": "msagcc",
+            "name": "container",
+            "settings": {
+                "_padding": {
+                    "top": "15",
+                    "right": "15",
+                    "bottom": "50",
+                    "left": "15"
+                },
+                "_width": "100%",
+                "textAlign": "center",
+                "_alignItems": "center"
+            },
+            "children": [
+                "uditzv",
+                "ssewpz",
+                "viidwl",
+                "mqtgbl"
+            ],
+            "parent": "votcks"
+        },
+        {
+            "id": "uditzv",
+            "name": "heading",
+            "settings": {
+                "text": "REVIEWS",
+                "tag": "h4",
+                "_typography": {
+                    "color": {
+                        "hex": "#3B82F6",
+                        "id": "primary-blue"
+                    },
+                    "font-size": "16px",
+                    "font-family": "Inter",
+                    "font-weight": "700",
+                    "letter-spacing": "1px",
+                    "text-align": "center"
+                },
+                "_margin": {
+                    "bottom": "15"
+                }
+            },
+            "children": [],
+            "parent": "msagcc"
+        },
+        {
+            "id": "ssewpz",
+            "name": "heading",
+            "settings": {
+                "text": "Top startups love Simple",
+                "tag": "h2",
+                "_typography": {
+                    "color": {
+                        "hex": "#111827",
+                        "id": "dark-text"
+                    },
+                    "font-size": "42px",
+                    "font-family": "Inter",
+                    "font-weight": "800",
+                    "line-height": "1.2",
+                    "text-align": "center"
+                },
+                "_margin": {
+                    "bottom": "20"
+                },
+                "_width": "100%"
+            },
+            "children": [],
+            "parent": "msagcc"
+        },
+        {
+            "id": "viidwl",
+            "name": "text",
+            "settings": {
+                "text": "",
+                "_display": "none"
+            },
+            "children": [],
+            "parent": "msagcc"
+        },
+        {
+            "id": "mqtgbl",
+            "name": "button",
+            "settings": {
+                "_display": "none"
+            },
+            "children": [],
+            "parent": "msagcc"
+        },
+        {
+            "id": "jqayrc",
+            "name": "testimonials",
+            "settings": {
+                "items": [
+                    {
+                        "content": "<h3>Game Changer</h3>\nSimple has revolutionized the way we build websites. It's incredibly fast and easy to use.",
+                        "name": "Sarah Johnson",
+                        "image": {
+                            "url": "",
+                            "full": ""
+                        },
+                        "id": "kvuztk"
+                    },
+                    {
+                        "content": "<h3>Best Investment</h3>\nWe saved thousands of dollars by switching to Simple. The templates are beautiful and the code is clean.",
+                        "name": "Mark Thompson",
+                        "image": {
+                            "url": "",
+                            "full": ""
+                        },
+                        "id": "enqcqh"
+                    },
+                    {
+                        "content": "<h3>Highly Recommended</h3>\nI suggest Simple to all my clients. It's the perfect balance between power and ease of use.",
+                        "name": "Emily Davis",
+                        "image": {
+                            "url": "",
+                            "full": ""
+                        },
+                        "id": "tkqfrt"
+                    },
+                    {
+                        "content": "<h3>Simply Amazing</h3>\nThe customer support is top-notch and the platform keeps getting better every week.",
+                        "name": "David Wilson",
+                        "image": {
+                            "url": "",
+                            "full": ""
+                        },
+                        "id": "qhferk"
+                    }
+                ],
+                "infinite": true,
+                "initialSlide": "1",
+                "imagePosition": "left",
+                "imageSize": "60",
+                "imageBorder": {
+                    "radius": {
+                        "top": "100",
+                        "right": "100",
+                        "bottom": "100",
+                        "left": "100"
+                    }
+                },
+                "_padding": {
+                    "top": "25",
+                    "right": "25",
+                    "bottom": "25",
+                    "left": "25"
+                },
+                "_background": {
+                    "color": {
+                        "hex": "#ffffff"
+                    }
+                },
+                "_border": {
+                    "radius": {
+                        "top": "16",
+                        "right": "16",
+                        "bottom": "16",
+                        "left": "16"
+                    }
+                },
+                "typographyContent": {
+                    "color": {
+                        "hex": "#4B5563",
+                        "id": "gray-text"
+                    },
+                    "font-family": "Inter",
+                    "font-size": "16px",
+                    "line-height": "1.6"
+                },
+                "typographyName": {
+                    "color": {
+                        "hex": "#111827",
+                        "id": "dark-text"
+                    },
+                    "font-size": "18px",
+                    "font-family": "Inter",
+                    "font-weight": "700"
+                },
+                "slidesToShow": "2",
+                "_margin": {
+                    "top": "0"
+                },
+                "slidesToScroll": "1",
+                "gutter": "30",
+                "dots": true,
+                "dotsColor": {
+                    "hex": "#D1D5DB"
+                },
+                "dotsActiveColor": {
+                    "hex": "#3B82F6"
+                },
+                "dotsBottom": "-40",
+                "_boxShadow": {
+                    "values": {
+                        "offsetY": "10",
+                        "blur": "20"
+                    },
+                    "color": {
+                        "hex": "#E5E7EB"
+                    }
+                }
+            },
+            "children": [],
+            "parent": "votcks"
+        }
+    ],
+    "templateType": "section"
+}

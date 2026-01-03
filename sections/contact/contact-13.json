@@ -1,0 +1,265 @@
+{
+  "content": [
+    {
+      "id": "guhthj",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "sjjunc"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jkkjia",
+          "nlujfa",
+          "upuhyr",
+          "wwdxtt",
+          "gpnmpl"
+        ],
+        "_background": {
+          "image": {
+            "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/Renmoe-Library-Placeholder-Image-Full-Width.jpg",
+            "external": true,
+            "filename": "Renmoe-Library-Placeholder-Image-Full-Width.jpg"
+          }
+        }
+      }
+    },
+    {
+      "id": "sjjunc",
+      "name": "container",
+      "parent": "guhthj",
+      "children": [
+        "jjbjnt",
+        "qxleou"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "duychn",
+          "zbmxmc"
+        ],
+        "_direction": "row",
+        "_direction:tablet_portrait": "column"
+      }
+    },
+    {
+      "id": "jjbjnt",
+      "name": "block",
+      "parent": "sjjunc",
+      "children": [
+        "fnsmde",
+        "uooecj",
+        "bdnhiq"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "knafbb"
+        ]
+      },
+      "label": "Column"
+    },
+    {
+      "id": "fnsmde",
+      "name": "heading",
+      "parent": "jjbjnt",
+      "children": [],
+      "settings": {
+        "text": "Pre-header",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "kbxyvq",
+          "cfldig"
+        ]
+      }
+    },
+    {
+      "id": "uooecj",
+      "name": "heading",
+      "parent": "jjbjnt",
+      "children": [],
+      "settings": {
+        "text": "Replace this text with your own headline",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "ulvqfz",
+          "cfldig"
+        ],
+        "_width:mobile_landscape": "100%"
+      }
+    },
+    {
+      "id": "bdnhiq",
+      "name": "text",
+      "parent": "jjbjnt",
+      "children": [],
+      "settings": {
+        "text": "<p>Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas, or information effectively. Your words are what give life and purpose to this space, and I eagerly await the transformation that will make this text truly yours.</p>",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "cfldig"
+        ],
+        "_width:mobile_landscape": "100%"
+      }
+    },
+    {
+      "id": "qxleou",
+      "name": "block",
+      "parent": "sjjunc",
+      "children": [],
+      "settings": [],
+      "label": "Column"
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://renmoe.com/bricksnativeglobal",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "jkkjia",
+      "name": "ren-pad-top-bottom-lg",
+      "settings": {
+        "_padding": {
+          "bottom": "var(--spacing-lg)",
+          "top": "var(--spacing-lg)"
+        }
+      }
+    },
+    {
+      "id": "nlujfa",
+      "name": "ren-bg-img-cover",
+      "settings": {
+        "_background": {
+          "size": "cover"
+        }
+      },
+      "modified": 1734051417,
+      "user_id": 1
+    },
+    {
+      "id": "upuhyr",
+      "name": "ren-bg-img-center",
+      "settings": {
+        "_background": {
+          "position": "center center"
+        }
+      },
+      "modified": 1734051663,
+      "user_id": 1
+    },
+    {
+      "id": "wwdxtt",
+      "name": "ren-bg-overlay-primary",
+      "settings": {
+        "_gradient": {
+          "applyTo": "overlay",
+          "colors": [
+            {
+              "id": "okjqaw",
+              "color": {
+                "hex": "#7f4afc",
+                "rgb": "rgba(127, 74, 252, 0.75)",
+                "hsl": "hsla(258, 97%, 64%, 0.75)"
+              }
+            },
+            {
+              "id": "okjqaw",
+              "color": {
+                "hex": "#7f4afc",
+                "rgb": "rgba(127, 74, 252, 0.75)",
+                "hsl": "hsla(258, 97%, 64%, 0.75)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gpnmpl",
+      "name": "ren-bg-img-no-repeat",
+      "settings": {
+        "_background": {
+          "repeat": "no-repeat"
+        }
+      },
+      "modified": 1735204481,
+      "user_id": 1
+    },
+    {
+      "id": "duychn",
+      "name": "ren-container-width-lg",
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      },
+      "modified": 1739690341,
+      "user_id": 1
+    },
+    {
+      "id": "zbmxmc",
+      "name": "ren-gap-lg",
+      "settings": {
+        "_columnGap": "var(--spacing-lg)",
+        "_rowGap": "var(--spacing-lg)"
+      }
+    },
+    {
+      "id": "knafbb",
+      "name": "ren-gap-xs",
+      "settings": {
+        "_columnGap": "var(--spacing-xs)",
+        "_rowGap": "var(--spacing-xs)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "kbxyvq",
+      "name": "ren-pre-header",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter",
+          "font-weight": "500"
+        },
+        "_margin": {
+          "bottom": "-1rem"
+        }
+      },
+      "modified": 1740312141,
+      "user_id": 1
+    },
+    {
+      "id": "cfldig",
+      "name": "ren-text-light",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-light)"
+          }
+        }
+      }
+    },
+    {
+      "id": "ulvqfz",
+      "name": "ren-heading-2",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-2xl)"
+        }
+      },
+      "modified": 1733551470,
+      "user_id": 1
+    },
+    {
+      "id": "ywlqpc",
+      "name": "ren-text-p",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter"
+        }
+      }
+    }
+  ],
+  "globalElements": []
+}

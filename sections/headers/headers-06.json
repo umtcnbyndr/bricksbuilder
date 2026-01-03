@@ -1,0 +1,327 @@
+{
+  "content": [
+    {
+      "id": "jsqxez",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "ufjake",
+        "gvusnn"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jkkjia",
+          "hzanub"
+        ]
+      }
+    },
+    {
+      "id": "ufjake",
+      "name": "container",
+      "parent": "jsqxez",
+      "children": [
+        "xqklqf",
+        "gtwyqg"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "duychn",
+          "knafbb"
+        ],
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "xqklqf",
+      "name": "heading",
+      "parent": "ufjake",
+      "children": [],
+      "settings": {
+        "text": "Pre-header",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "kbxyvq",
+          "qqnlaw",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "gtwyqg",
+      "name": "heading",
+      "parent": "ufjake",
+      "children": [],
+      "settings": {
+        "text": "Replace this text with your own headline",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "ulvqfz",
+          "qqnlaw",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "gvusnn",
+      "name": "container",
+      "parent": "jsqxez",
+      "children": [
+        "ilvcfv"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "duychn"
+        ],
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "ilvcfv",
+      "name": "block",
+      "parent": "gvusnn",
+      "children": [
+        "xprypx",
+        "eubfxl",
+        "hnwnge",
+        "yixrav",
+        "rtchvs",
+        "djlsiz"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jzhsjg",
+          "zznifr"
+        ],
+        "_justifyItemsGrid": "center",
+        "_alignItemsGrid": "center",
+        "_gridTemplateColumns:mobile_portrait": "var(--grid-2)",
+        "_gridTemplateColumns:tablet_portrait": "var(--grid-3)"
+      },
+      "label": "Grid"
+    },
+    {
+      "id": "xprypx",
+      "name": "image",
+      "parent": "ilvcfv",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/logoipsum-211.svg",
+          "external": true,
+          "filename": "logoipsum-211.svg"
+        },
+        "_cssGlobalClasses": [
+          "mcaawo"
+        ]
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "eubfxl",
+      "name": "image",
+      "parent": "ilvcfv",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/logoipsum-214.svg",
+          "external": true,
+          "filename": "logoipsum-214.svg"
+        },
+        "_cssGlobalClasses": [
+          "mcaawo"
+        ]
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "hnwnge",
+      "name": "image",
+      "parent": "ilvcfv",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/logoipsum-217.svg",
+          "external": true,
+          "filename": "logoipsum-217.svg"
+        },
+        "_cssGlobalClasses": [
+          "mcaawo"
+        ]
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "yixrav",
+      "name": "image",
+      "parent": "ilvcfv",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/logoipsum-216.svg",
+          "external": true,
+          "filename": "logoipsum-216.svg"
+        },
+        "_cssGlobalClasses": [
+          "mcaawo"
+        ]
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "rtchvs",
+      "name": "image",
+      "parent": "ilvcfv",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/logoipsum-213.svg",
+          "external": true,
+          "filename": "logoipsum-213.svg"
+        },
+        "_cssGlobalClasses": [
+          "mcaawo"
+        ]
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "djlsiz",
+      "name": "image",
+      "parent": "ilvcfv",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/logoipsum-218.svg",
+          "external": true,
+          "filename": "logoipsum-218.svg"
+        },
+        "_cssGlobalClasses": [
+          "mcaawo"
+        ]
+      },
+      "themeStyles": []
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://renmoe.com/bricksnativeglobal",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "jkkjia",
+      "name": "ren-pad-top-bottom-lg",
+      "settings": {
+        "_padding": {
+          "bottom": "var(--spacing-lg)",
+          "top": "var(--spacing-lg)"
+        }
+      }
+    },
+    {
+      "id": "hzanub",
+      "name": "ren-gap-md",
+      "settings": {
+        "_columnGap": "var(--spacing-md)",
+        "_rowGap": "var(--spacing-md)"
+      },
+      "modified": 1734227689,
+      "user_id": 1
+    },
+    {
+      "id": "duychn",
+      "name": "ren-container-width-lg",
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      },
+      "modified": 1739690341,
+      "user_id": 1
+    },
+    {
+      "id": "knafbb",
+      "name": "ren-gap-xs",
+      "settings": {
+        "_columnGap": "var(--spacing-xs)",
+        "_rowGap": "var(--spacing-xs)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "kbxyvq",
+      "name": "ren-pre-header",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter",
+          "font-weight": "500"
+        },
+        "_margin": {
+          "bottom": "-1rem"
+        }
+      },
+      "modified": 1740312141,
+      "user_id": 1
+    },
+    {
+      "id": "qqnlaw",
+      "name": "ren-text-secondary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-secondary)"
+          }
+        }
+      },
+      "modified": 1733661236,
+      "user_id": 1
+    },
+    {
+      "id": "sddasx",
+      "name": "ren-text-center",
+      "settings": {
+        "_typography": {
+          "text-align": "center"
+        }
+      }
+    },
+    {
+      "id": "ulvqfz",
+      "name": "ren-heading-2",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-2xl)"
+        }
+      },
+      "modified": 1733551470,
+      "user_id": 1
+    },
+    {
+      "id": "jzhsjg",
+      "name": "ren-grid-6col",
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "var(--grid-6)"
+      },
+      "modified": 1738303996,
+      "user_id": 1
+    },
+    {
+      "id": "zznifr",
+      "name": "ren-grid-gap-md",
+      "settings": {
+        "_gridGap": "var(--spacing-md)"
+      },
+      "modified": 1734224977,
+      "user_id": 1
+    },
+    {
+      "id": "mcaawo",
+      "name": "ren-object-fit-contain",
+      "settings": {
+        "_objectFit": "contain"
+      }
+    }
+  ],
+  "globalElements": []
+}

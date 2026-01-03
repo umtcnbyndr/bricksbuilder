@@ -1,0 +1,377 @@
+{
+  "content": [
+    {
+      "id": "gqipdc",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "ywrcvc"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jkkjia"
+        ]
+      }
+    },
+    {
+      "id": "ywrcvc",
+      "name": "container",
+      "parent": "gqipdc",
+      "children": [
+        "dsdqvp",
+        "eevflb"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "duychn",
+          "zbmxmc"
+        ],
+        "_direction": "row",
+        "_direction:tablet_portrait": "column"
+      }
+    },
+    {
+      "id": "dsdqvp",
+      "name": "block",
+      "parent": "ywrcvc",
+      "children": [
+        "srepod",
+        "eenbke",
+        "othnrg",
+        "vglxnt"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "knafbb"
+        ]
+      },
+      "label": "Column"
+    },
+    {
+      "id": "srepod",
+      "name": "heading",
+      "parent": "dsdqvp",
+      "children": [],
+      "settings": {
+        "text": "Pre-header",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "kbxyvq",
+          "qqnlaw"
+        ]
+      }
+    },
+    {
+      "id": "eenbke",
+      "name": "heading",
+      "parent": "dsdqvp",
+      "children": [],
+      "settings": {
+        "text": "Contact Us",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "ulvqfz",
+          "qqnlaw"
+        ]
+      }
+    },
+    {
+      "id": "othnrg",
+      "name": "text",
+      "parent": "dsdqvp",
+      "children": [],
+      "settings": {
+        "text": "<p>Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas, or information effectively.</p>",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "qagqdx"
+        ]
+      }
+    },
+    {
+      "id": "vglxnt",
+      "name": "list",
+      "parent": "dsdqvp",
+      "children": [],
+      "settings": {
+        "items": [
+          {
+            "title": "hello@renmoe.com",
+            "id": "fqfffc",
+            "link": {
+              "type": "external",
+              "newTab": true
+            },
+            "icon": {
+              "library": "fontawesomeSolid",
+              "icon": "fas fa-envelope"
+            }
+          },
+          {
+            "title": "+6 (253) 288-1916",
+            "id": "jxrjly",
+            "link": {
+              "type": "external",
+              "newTab": true
+            },
+            "icon": {
+              "library": "fontawesomeSolid",
+              "icon": "fas fa-phone"
+            }
+          },
+          {
+            "title": "123 Sample St, Rosario L.U. 2700 PH",
+            "id": "uomlvq",
+            "link": {
+              "type": "external",
+              "newTab": true
+            },
+            "icon": {
+              "library": "fontawesomeSolid",
+              "icon": "fas fa-location-dot"
+            }
+          }
+        ],
+        "_cssGlobalClasses": [
+          "baqzfu"
+        ],
+        "titleMargin": {
+          "left": "1rem"
+        }
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "eevflb",
+      "name": "block",
+      "parent": "ywrcvc",
+      "children": [
+        "mfmjwx"
+      ],
+      "settings": [],
+      "label": "Column"
+    },
+    {
+      "id": "mfmjwx",
+      "name": "form",
+      "parent": "eevflb",
+      "children": [],
+      "settings": {
+        "fields": [
+          {
+            "type": "text",
+            "label": "Name",
+            "placeholder": "Your name",
+            "id": "50f355",
+            "width": "100"
+          },
+          {
+            "type": "email",
+            "label": "Email",
+            "placeholder": "Your email",
+            "required": true,
+            "id": "izbbrg",
+            "width": "100"
+          },
+          {
+            "type": "textarea",
+            "label": "Message",
+            "placeholder": "Type your message...",
+            "id": "kplxzi",
+            "width": "100"
+          }
+        ],
+        "actions": [
+          "email"
+        ],
+        "successMessage": "Message successfully sent. We will get back to you as soon as possible.",
+        "emailSubject": "Contact form request",
+        "emailTo": "admin_email",
+        "fromName": "Renmoe",
+        "emailErrorMessage": "Submission failed. Please reload the page and try to submit the form again.",
+        "htmlEmail": true,
+        "mailchimpPendingMessage": "Please check your email to confirm your subscription.",
+        "mailchimpErrorMessage": "Sorry, but we could not subscribe you.",
+        "sendgridErrorMessage": "Sorry, but we could not subscribe you.",
+        "submitButtonText": "Submit",
+        "_cssGlobalClasses": [
+          "kteppv",
+          "gihrlu"
+        ],
+        "submitButtonSize": "xl"
+      },
+      "themeStyles": []
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://renmoe.com/bricksnativeglobal",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "jkkjia",
+      "name": "ren-pad-top-bottom-lg",
+      "settings": {
+        "_padding": {
+          "bottom": "var(--spacing-lg)",
+          "top": "var(--spacing-lg)"
+        }
+      }
+    },
+    {
+      "id": "duychn",
+      "name": "ren-container-width-lg",
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      },
+      "modified": 1739690341,
+      "user_id": 1
+    },
+    {
+      "id": "zbmxmc",
+      "name": "ren-gap-lg",
+      "settings": {
+        "_columnGap": "var(--spacing-lg)",
+        "_rowGap": "var(--spacing-lg)"
+      }
+    },
+    {
+      "id": "knafbb",
+      "name": "ren-gap-xs",
+      "settings": {
+        "_columnGap": "var(--spacing-xs)",
+        "_rowGap": "var(--spacing-xs)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "kbxyvq",
+      "name": "ren-pre-header",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter",
+          "font-weight": "500"
+        },
+        "_margin": {
+          "bottom": "-1rem"
+        }
+      },
+      "modified": 1740312141,
+      "user_id": 1
+    },
+    {
+      "id": "qqnlaw",
+      "name": "ren-text-secondary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-secondary)"
+          }
+        }
+      },
+      "modified": 1733661236,
+      "user_id": 1
+    },
+    {
+      "id": "ulvqfz",
+      "name": "ren-heading-2",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-2xl)"
+        }
+      },
+      "modified": 1733551470,
+      "user_id": 1
+    },
+    {
+      "id": "ywlqpc",
+      "name": "ren-text-p",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter"
+        }
+      }
+    },
+    {
+      "id": "qagqdx",
+      "name": "ren-text-tertiary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-tertiary)"
+          }
+        }
+      },
+      "modified": 1733661236,
+      "user_id": 1
+    },
+    {
+      "id": "baqzfu",
+      "name": "ren-footer__link-list",
+      "settings": {
+        "separatorDisable": true,
+        "itemMargin": {
+          "bottom": "1.5rem"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "color": {
+            "raw": "var(--color-tertiary)"
+          },
+          "font-size": "var(--text-sm)"
+        },
+        "itemJustifyContent": "flex-start"
+      },
+      "modified": 1737703992,
+      "user_id": 1
+    },
+    {
+      "id": "kteppv",
+      "name": "ren-form",
+      "settings": {
+        "fieldPadding": {
+          "top": "0.6rem",
+          "bottom": "0.6rem",
+          "left": "2rem",
+          "right": "2rem"
+        },
+        "submitButtonBackgroundColor": {
+          "raw": "var(--color-primary)"
+        },
+        "submitButtonTypography": {
+          "color": {
+            "hex": "#000000",
+            "raw": "var(--color-light)"
+          }
+        },
+        "submitButtonWidth": "35%",
+        "submitButtonWidth:mobile_portrait": "100%",
+        "submitButtonWidth:tablet_portrait": "45%",
+        "fieldMargin": {
+          "bottom": "3rem"
+        },
+        "fieldBorder": {
+          "style": "none"
+        }
+      },
+      "modified": 1737976510,
+      "user_id": 1
+    },
+    {
+      "id": "gihrlu",
+      "name": "ren-form--style-box",
+      "settings": {
+        "fieldBorder": {
+          "style": "solid"
+        }
+      },
+      "modified": 1738037148,
+      "user_id": 1
+    }
+  ],
+  "globalElements": []
+}

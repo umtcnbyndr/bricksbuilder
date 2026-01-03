@@ -1,0 +1,370 @@
+{
+  "content": [
+    {
+      "id": "eejohq",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "nmtkka"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jkkjia",
+          "nlujfa",
+          "upuhyr",
+          "yhtlrd",
+          "gpnmpl"
+        ],
+        "_background": {
+          "image": {
+            "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/Renmoe-Library-Placeholder-Image-Full-Width.jpg",
+            "external": true,
+            "filename": "Renmoe-Library-Placeholder-Image-Full-Width.jpg"
+          }
+        }
+      }
+    },
+    {
+      "id": "nmtkka",
+      "name": "container",
+      "parent": "eejohq",
+      "children": [
+        "dqqsvd",
+        "miknvm",
+        "iovgxn",
+        "yqyqyt"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "knafbb",
+          "xzcptv"
+        ],
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "dqqsvd",
+      "name": "heading",
+      "parent": "nmtkka",
+      "children": [],
+      "settings": {
+        "text": "Pre-header",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "kbxyvq",
+          "cfldig",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "miknvm",
+      "name": "heading",
+      "parent": "nmtkka",
+      "children": [],
+      "settings": {
+        "text": "Replace this text with your own headline",
+        "tag": "h1",
+        "_cssGlobalClasses": [
+          "cfldig",
+          "yoigqo",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "iovgxn",
+      "name": "text",
+      "parent": "nmtkka",
+      "children": [],
+      "settings": {
+        "text": "<p>Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas, or information effectively. </p>",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "cfldig",
+          "sddasx"
+        ]
+      }
+    },
+    {
+      "id": "yqyqyt",
+      "name": "block",
+      "parent": "nmtkka",
+      "children": [
+        "lodqay",
+        "jvozxz"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "knafbb",
+          "cvrqka"
+        ],
+        "_direction": "row",
+        "_justifyContent": "center"
+      }
+    },
+    {
+      "id": "lodqay",
+      "name": "button",
+      "parent": "yqyqyt",
+      "children": [],
+      "settings": {
+        "text": "Button One",
+        "iconPosition": "left",
+        "_cssGlobalClasses": [
+          "iuamyl",
+          "ibdwck"
+        ]
+      }
+    },
+    {
+      "id": "jvozxz",
+      "name": "button",
+      "parent": "yqyqyt",
+      "children": [],
+      "settings": {
+        "text": "Button Two",
+        "iconPosition": "left",
+        "_cssGlobalClasses": [
+          "iuamyl",
+          "iqckko"
+        ]
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://renmoe.com/bricksnativeglobal",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "jkkjia",
+      "name": "ren-pad-top-bottom-lg",
+      "settings": {
+        "_padding": {
+          "bottom": "var(--spacing-lg)",
+          "top": "var(--spacing-lg)"
+        }
+      }
+    },
+    {
+      "id": "nlujfa",
+      "name": "ren-bg-img-cover",
+      "settings": {
+        "_background": {
+          "size": "cover"
+        }
+      },
+      "modified": 1734051417,
+      "user_id": 1
+    },
+    {
+      "id": "upuhyr",
+      "name": "ren-bg-img-center",
+      "settings": {
+        "_background": {
+          "position": "center center"
+        }
+      },
+      "modified": 1734051663,
+      "user_id": 1
+    },
+    {
+      "id": "yhtlrd",
+      "name": "ren-bg-overlay-dark",
+      "settings": {
+        "_gradient": {
+          "applyTo": "overlay",
+          "colors": [
+            {
+              "id": "qcwwvk",
+              "color": {
+                "hex": "#000000",
+                "rgb": "rgba(0, 0, 0, 0.5)",
+                "hsl": "hsla(0, 0%, 0%, 0.5)"
+              }
+            },
+            {
+              "id": "qcwwvk",
+              "color": {
+                "hex": "#000000",
+                "rgb": "rgba(0, 0, 0, 0.5)",
+                "hsl": "hsla(0, 0%, 0%, 0.5)"
+              }
+            }
+          ]
+        }
+      },
+      "modified": 1739255096,
+      "user_id": 1
+    },
+    {
+      "id": "gpnmpl",
+      "name": "ren-bg-img-no-repeat",
+      "settings": {
+        "_background": {
+          "repeat": "no-repeat"
+        }
+      },
+      "modified": 1735204481,
+      "user_id": 1
+    },
+    {
+      "id": "knafbb",
+      "name": "ren-gap-xs",
+      "settings": {
+        "_columnGap": "var(--spacing-xs)",
+        "_rowGap": "var(--spacing-xs)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "xzcptv",
+      "name": "ren-container-width-sm",
+      "settings": {
+        "_width": "90%",
+        "_widthMax": "750"
+      },
+      "modified": 1739553536,
+      "user_id": 1
+    },
+    {
+      "id": "kbxyvq",
+      "name": "ren-pre-header",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter",
+          "font-weight": "500"
+        },
+        "_margin": {
+          "bottom": "-1rem"
+        }
+      },
+      "modified": 1740312141,
+      "user_id": 1
+    },
+    {
+      "id": "cfldig",
+      "name": "ren-text-light",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-light)"
+          }
+        }
+      }
+    },
+    {
+      "id": "sddasx",
+      "name": "ren-text-center",
+      "settings": {
+        "_typography": {
+          "text-align": "center"
+        }
+      }
+    },
+    {
+      "id": "yoigqo",
+      "name": "ren-heading-1",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-3xl)"
+        }
+      },
+      "modified": 1733551470,
+      "user_id": 1
+    },
+    {
+      "id": "ywlqpc",
+      "name": "ren-text-p",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter"
+        }
+      }
+    },
+    {
+      "id": "cvrqka",
+      "name": "ren-margin-top-xs",
+      "settings": {
+        "_margin": {
+          "top": "var(--spacing-xs)"
+        }
+      }
+    },
+    {
+      "id": "iuamyl",
+      "name": "ren-btn",
+      "settings": {
+        "_padding": {
+          "top": "var(--spacing-3xs)",
+          "bottom": "var(--spacing-3xs)",
+          "left": "var(--spacing-sm)",
+          "right": "var(--spacing-sm)"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-weight": "500"
+        },
+        "_border": {
+          "width": {
+            "top": "2",
+            "right": "2",
+            "bottom": "2",
+            "left": "2"
+          },
+          "style": "solid"
+        },
+        "_widthMin:mobile_portrait": "100%"
+      },
+      "modified": 1733658941,
+      "user_id": 1
+    },
+    {
+      "id": "ibdwck",
+      "name": "ren-btn--light",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-secondary)"
+          }
+        },
+        "_background": {
+          "color": {
+            "raw": "var(--color-light)"
+          }
+        },
+        "_border": {
+          "color": {
+            "raw": "var(--color-light)"
+          }
+        }
+      },
+      "modified": 1735129422,
+      "user_id": 1
+    },
+    {
+      "id": "iqckko",
+      "name": "ren-btn--outline-light",
+      "settings": {
+        "_border": {
+          "color": {
+            "hex": "#000000",
+            "raw": "var(--color-light)"
+          }
+        },
+        "_typography": {
+          "color": {
+            "raw": "var(--color-light)"
+          }
+        }
+      },
+      "modified": 1735099338,
+      "user_id": 1
+    }
+  ],
+  "globalElements": []
+}

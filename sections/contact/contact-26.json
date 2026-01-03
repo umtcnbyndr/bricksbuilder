@@ -1,0 +1,220 @@
+{
+  "content": [
+    {
+      "id": "zdupxf",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "iyyrbh"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jkkjia"
+        ]
+      }
+    },
+    {
+      "id": "iyyrbh",
+      "name": "container",
+      "parent": "zdupxf",
+      "children": [
+        "jsaulv",
+        "wcpaxz"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "duychn",
+          "zbmxmc",
+          "jltrtr"
+        ],
+        "_direction": "row",
+        "_alignItems": "center",
+        "_direction:tablet_portrait": "column"
+      }
+    },
+    {
+      "id": "jsaulv",
+      "name": "block",
+      "parent": "iyyrbh",
+      "children": [
+        "jkpttg",
+        "eujehv"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "knafbb"
+        ]
+      },
+      "label": "Column"
+    },
+    {
+      "id": "jkpttg",
+      "name": "heading",
+      "parent": "jsaulv",
+      "children": [],
+      "settings": {
+        "text": "Pre-header",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "kbxyvq",
+          "qqnlaw"
+        ]
+      }
+    },
+    {
+      "id": "eujehv",
+      "name": "heading",
+      "parent": "jsaulv",
+      "children": [],
+      "settings": {
+        "text": "Replace with your own headline",
+        "tag": "h1",
+        "_cssGlobalClasses": [
+          "yoigqo",
+          "qqnlaw"
+        ]
+      }
+    },
+    {
+      "id": "wcpaxz",
+      "name": "block",
+      "parent": "iyyrbh",
+      "children": [
+        "nzfngj"
+      ],
+      "settings": {
+        "_cssGlobalClasses": []
+      },
+      "label": "Column"
+    },
+    {
+      "id": "nzfngj",
+      "name": "text",
+      "parent": "wcpaxz",
+      "children": [],
+      "settings": {
+        "text": "<p>Please feel free to replace me with your own unique and meaningful message or content to convey your thoughts, ideas, or information effectively. Your words are what give life and purpose to this space, and I eagerly await the transformation that will make this text truly yours.</p>",
+        "_cssGlobalClasses": [
+          "ywlqpc",
+          "qagqdx"
+        ]
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://renmoe.com/bricksnativeglobal",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "jkkjia",
+      "name": "ren-pad-top-bottom-lg",
+      "settings": {
+        "_padding": {
+          "bottom": "var(--spacing-lg)",
+          "top": "var(--spacing-lg)"
+        }
+      }
+    },
+    {
+      "id": "duychn",
+      "name": "ren-container-width-lg",
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      },
+      "modified": 1739690341,
+      "user_id": 1
+    },
+    {
+      "id": "zbmxmc",
+      "name": "ren-gap-lg",
+      "settings": {
+        "_columnGap": "var(--spacing-lg)",
+        "_rowGap": "var(--spacing-lg)"
+      }
+    },
+    {
+      "id": "jltrtr",
+      "name": "ren-gap-md-xs",
+      "settings": {
+        "_columnGap:tablet_portrait": "var(--spacing-xs)",
+        "_rowGap:tablet_portrait": "var(--spacing-xs)"
+      }
+    },
+    {
+      "id": "knafbb",
+      "name": "ren-gap-xs",
+      "settings": {
+        "_columnGap": "var(--spacing-xs)",
+        "_rowGap": "var(--spacing-xs)"
+      },
+      "modified": 1734224582,
+      "user_id": 1
+    },
+    {
+      "id": "kbxyvq",
+      "name": "ren-pre-header",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter",
+          "font-weight": "500"
+        },
+        "_margin": {
+          "bottom": "-1rem"
+        }
+      },
+      "modified": 1740312141,
+      "user_id": 1
+    },
+    {
+      "id": "qqnlaw",
+      "name": "ren-text-secondary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-secondary)"
+          }
+        }
+      },
+      "modified": 1733661236,
+      "user_id": 1
+    },
+    {
+      "id": "yoigqo",
+      "name": "ren-heading-1",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-3xl)"
+        }
+      },
+      "modified": 1733551470,
+      "user_id": 1
+    },
+    {
+      "id": "ywlqpc",
+      "name": "ren-text-p",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text-sm)",
+          "font-family": "Inter"
+        }
+      }
+    },
+    {
+      "id": "qagqdx",
+      "name": "ren-text-tertiary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "raw": "var(--color-tertiary)"
+          }
+        }
+      },
+      "modified": 1733661236,
+      "user_id": 1
+    }
+  ],
+  "globalElements": []
+}

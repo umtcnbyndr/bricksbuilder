@@ -1,0 +1,445 @@
+{
+  "content": [
+    {
+      "id": "azuehg",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "bbqhdu"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "resmex"
+        ]
+      }
+    },
+    {
+      "id": "bbqhdu",
+      "name": "container",
+      "parent": "azuehg",
+      "children": [
+        "vnkbwg",
+        "twqvra"
+      ],
+      "settings": {
+        "_direction": "row",
+        "_cssGlobalClasses": [
+          "duychn",
+          "zbmxmc"
+        ],
+        "_alignItems": "center",
+        "_flexWrap:mobile_landscape": "nowrap"
+      }
+    },
+    {
+      "id": "vnkbwg",
+      "name": "block",
+      "parent": "bbqhdu",
+      "children": [
+        "iwzhsn"
+      ],
+      "settings": {
+        "_width": "33%",
+        "_width:tablet_portrait": "50%"
+      },
+      "label": "Column"
+    },
+    {
+      "id": "iwzhsn",
+      "name": "logo",
+      "parent": "vnkbwg",
+      "children": [],
+      "settings": {
+        "logoWidth": "clamp(16.0rem, 14.7763rem + 3.8241vw, 20.0rem)",
+        "logo": {
+          "url": "https://renmoe.com/bricksnativeglobal/wp-content/uploads/2025/01/logoipsum-218.svg",
+          "external": true,
+          "filename": "logoipsum-218.svg"
+        }
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "twqvra",
+      "name": "block",
+      "parent": "bbqhdu",
+      "children": [
+        "vloxta"
+      ],
+      "settings": {
+        "_width": "67%",
+        "_alignItems": "flex-end",
+        "_width:tablet_portrait": "50%"
+      },
+      "label": "Column"
+    },
+    {
+      "id": "vloxta",
+      "name": "nav-nested",
+      "parent": "twqvra",
+      "children": [
+        "mngisa",
+        "cugpsn"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "blkizb"
+        ],
+        "mobileMenu": "tablet_portrait"
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "mngisa",
+      "name": "block",
+      "parent": "vloxta",
+      "children": [
+        "mljahy",
+        "bvztss",
+        "jobyde",
+        "rfrpnv",
+        "wjitvu"
+      ],
+      "settings": {
+        "tag": "ul",
+        "_hidden": {
+          "_cssClasses": "brx-nav-nested-items"
+        },
+        "_cssGlobalClasses": [
+          "kggmlv"
+        ],
+        "_rowGap": "var(--spacing-xs)"
+      },
+      "label": "Nav items",
+      "cloneable": false,
+      "deletable": false
+    },
+    {
+      "id": "mljahy",
+      "name": "text-link",
+      "parent": "mngisa",
+      "children": [],
+      "settings": {
+        "text": "Link One",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        }
+      },
+      "label": "Nav link"
+    },
+    {
+      "id": "bvztss",
+      "name": "text-link",
+      "parent": "mngisa",
+      "children": [],
+      "settings": {
+        "text": "Link Two",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        }
+      },
+      "label": "Nav link"
+    },
+    {
+      "id": "jobyde",
+      "name": "dropdown",
+      "parent": "mngisa",
+      "children": [
+        "vrcrsp"
+      ],
+      "settings": {
+        "text": "Dropdown",
+        "_cssGlobalClasses": [
+          "aabwdy"
+        ]
+      },
+      "label": "Dropdown",
+      "themeStyles": []
+    },
+    {
+      "id": "vrcrsp",
+      "name": "div",
+      "parent": "jobyde",
+      "children": [
+        "rybfdn",
+        "rxudun",
+        "zvqsfn"
+      ],
+      "settings": {
+        "_hidden": {
+          "_cssClasses": "brx-dropdown-content"
+        },
+        "tag": "ul",
+        "_cssGlobalClasses": [
+          "mvajkk"
+        ]
+      },
+      "label": "Content",
+      "cloneable": false,
+      "deletable": false
+    },
+    {
+      "id": "rybfdn",
+      "name": "text-link",
+      "parent": "vrcrsp",
+      "children": [],
+      "settings": {
+        "text": "Dropdown link 1",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        }
+      },
+      "label": "Nav link"
+    },
+    {
+      "id": "rxudun",
+      "name": "text-link",
+      "parent": "vrcrsp",
+      "children": [],
+      "settings": {
+        "text": "Dropdown link 2",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        }
+      },
+      "label": "Nav link"
+    },
+    {
+      "id": "zvqsfn",
+      "name": "text-link",
+      "parent": "vrcrsp",
+      "children": [],
+      "settings": {
+        "text": "Dropdown link 3",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        }
+      },
+      "label": "Nav link"
+    },
+    {
+      "id": "rfrpnv",
+      "name": "text-link",
+      "parent": "mngisa",
+      "children": [],
+      "settings": {
+        "text": "Link Four",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        }
+      },
+      "label": "Nav link"
+    },
+    {
+      "id": "wjitvu",
+      "name": "button",
+      "parent": "mngisa",
+      "children": [],
+      "settings": {
+        "text": "Button",
+        "iconPosition": "left",
+        "_cssGlobalClasses": [
+          "iuamyl",
+          "mklmkx"
+        ],
+        "_margin:tablet_portrait": {
+          "top": "1.5rem"
+        }
+      }
+    },
+    {
+      "id": "cugpsn",
+      "name": "toggle",
+      "parent": "vloxta",
+      "children": [],
+      "settings": {
+        "barColor:tablet_portrait": {
+          "raw": "var(--color-secondary)"
+        },
+        "_cssGlobalClasses": [],
+        "animation": "spin",
+        "barScale:tablet_portrait": "0.8"
+      },
+      "label": "Toggle (Open: Mobile)",
+      "themeStyles": []
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://renmoe.com/bricksnativeglobal",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "resmex",
+      "name": "ren-pad-top-bottom-xs",
+      "settings": {
+        "_padding": {
+          "bottom": "var(--spacing-xs)",
+          "top": "var(--spacing-xs)"
+        }
+      }
+    },
+    {
+      "id": "duychn",
+      "name": "ren-container-width-lg",
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      },
+      "modified": 1739690341,
+      "user_id": 1
+    },
+    {
+      "id": "zbmxmc",
+      "name": "ren-gap-lg",
+      "settings": {
+        "_columnGap": "var(--spacing-lg)",
+        "_rowGap": "var(--spacing-lg)"
+      }
+    },
+    {
+      "id": "blkizb",
+      "name": "ren-navbar",
+      "settings": {
+        "mobileMenuJustifyContent": "flex-start",
+        "mobileMenuHeight": "100vh",
+        "mobileMenuWidth": "40rem",
+        "mobileMenuJustifyContent:tablet_portrait": "flex-start",
+        "mobileMenuWidth:mobile_portrait": "75%",
+        "_typography": {
+          "font-size": "var(--text-xs)",
+          "color": {
+            "raw": "var(--color-tertiary)"
+          },
+          "font-family": "Inter",
+          "font-weight": "500"
+        }
+      },
+      "modified": 1737890083,
+      "user_id": 1
+    },
+    {
+      "id": "kggmlv",
+      "name": "ren-navbar__nav-items",
+      "settings": {
+        "_boxShadow:tablet_portrait": {
+          "values": {
+            "offsetX": "5",
+            "offsetY": "0",
+            "blur": "10"
+          },
+          "color": {
+            "hex": "#212121",
+            "rgb": "rgba(33, 33, 33, 0.06)",
+            "hsl": "hsla(0, 0%, 13%, 0.06)"
+          }
+        },
+        "_padding:tablet_portrait": {
+          "top": "var(--spacing-sm)",
+          "right": "var(--spacing-sm)",
+          "bottom": "var(--spacing-sm)",
+          "left": "var(--spacing-sm)"
+        }
+      },
+      "modified": 1737788142,
+      "user_id": 1
+    },
+    {
+      "id": "aabwdy",
+      "name": "ren-navbar__dropdown",
+      "settings": {
+        "contentBackground": {
+          "color": {
+            "raw": "var(--color-dark)"
+          }
+        },
+        "contentItemPadding": {
+          "left": "var(--spacing-3xs)",
+          "top": "var(--spacing-3xs)",
+          "right": "var(--spacing-3xs)",
+          "bottom": "var(--spacing-3xs)"
+        },
+        "contentTypography": {
+          "color": {
+            "raw": "var(--color-light)"
+          }
+        }
+      },
+      "modified": 1737784665,
+      "user_id": 1
+    },
+    {
+      "id": "mvajkk",
+      "name": "ren-navbar__dropdown-content",
+      "settings": {
+        "_padding": {
+          "left": "var(--spacing-xs)",
+          "top": "var(--spacing-xs)",
+          "right": "var(--spacing-xs)",
+          "bottom": "var(--spacing-xs)"
+        },
+        "_margin": {
+          "top": "var(--spacing-xs)",
+          "bottom": "var(--spacing-xs)"
+        }
+      },
+      "modified": 1737784665,
+      "user_id": 1
+    },
+    {
+      "id": "iuamyl",
+      "name": "ren-btn",
+      "settings": {
+        "_padding": {
+          "top": "var(--spacing-3xs)",
+          "bottom": "var(--spacing-3xs)",
+          "left": "var(--spacing-sm)",
+          "right": "var(--spacing-sm)"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-weight": "500"
+        },
+        "_border": {
+          "width": {
+            "top": "2",
+            "right": "2",
+            "bottom": "2",
+            "left": "2"
+          },
+          "style": "solid"
+        },
+        "_widthMin:mobile_portrait": "100%"
+      },
+      "modified": 1733658941,
+      "user_id": 1
+    },
+    {
+      "id": "mklmkx",
+      "name": "ren-btn--primary",
+      "settings": {
+        "_background": {
+          "color": {
+            "raw": "var(--color-primary)"
+          }
+        },
+        "_typography": {
+          "color": {
+            "raw": "var(--color-light)"
+          }
+        },
+        "_border": {
+          "color": {
+            "raw": "var(--color-primary)"
+          }
+        }
+      }
+    }
+  ],
+  "globalElements": []
+}

@@ -1,0 +1,173 @@
+{
+    "id": "header-simple-generated",
+    "name": "header-simple-generated",
+    "title": "Header - Simple Generated",
+    "date": "2023-10-27 12:00:00",
+    "date_formatted": "October 27, 2023",
+    "author": {
+        "name": "admin",
+        "avatar": "",
+        "url": ""
+    },
+    "permalink": "",
+    "thumbnail": false,
+    "bundles": [
+        "simple"
+    ],
+    "tags": [],
+    "type": "header",
+    "header": [
+        {
+            "id": "empwrc",
+            "name": "container",
+            "settings": {
+                "_direction": "row",
+                "_background": {
+                    "color": {
+                        "hex": "#ffffff",
+                        "id": "white-bg"
+                    }
+                },
+                "_width": "100%",
+                "_alignItems": "center",
+                "_justifyContent": "center",
+                "_padding_tablet_portrait": {
+                    "right": "15",
+                    "left": "15"
+                },
+                "_zIndex": "100"
+            },
+            "children": [
+                "sadzdp"
+            ],
+            "parent": 0,
+            "label": "Header"
+        },
+        {
+            "id": "sadzdp",
+            "name": "container",
+            "settings": {
+                "_padding": {
+                    "top": "15",
+                    "bottom": "15"
+                },
+                "_direction": "row",
+                "_alignSelf": "center",
+                "_alignItems": "center",
+                "_justifyContent": "space-between",
+                "_width": "1200px",
+                "_justifyContent_tablet_portrait": "space-between"
+            },
+            "children": [
+                "zmffdc",
+                "jcyyym",
+                "lsbqhf"
+            ],
+            "parent": "empwrc"
+        },
+        {
+            "id": "jcyyym",
+            "name": "nav-menu",
+            "settings": {
+                "menuTypography": {
+                    "font-size": "16px",
+                    "color": {
+                        "hex": "#111827",
+                        "id": "dark-text"
+                    },
+                    "font-family": "Inter",
+                    "font-weight": "500"
+                },
+                "menu": "26",
+                "mobileMenuPosition": "right",
+                "mobileMenu": "tablet_portrait",
+                "_order_tablet_portrait": "2",
+                "mobileMenuToggleColor_tablet_portrait": {
+                    "hex": "#111827",
+                    "id": "dark-text"
+                },
+                "mobileMenuToggleColorClose_tablet_portrait": {
+                    "hex": "#ffffff",
+                    "id": "white-text"
+                },
+                "mobileMenuAlignment_tablet_portrait": "flex-start",
+                "mobileMenuAlignment_mobile_landscape": "center"
+            },
+            "children": [],
+            "parent": "sadzdp"
+        },
+        {
+            "id": "lsbqhf",
+            "name": "button",
+            "settings": {
+                "text": "Sign Up",
+                "style": "primary",
+                "circle": true,
+                "_typography": {
+                    "font-size": "16px",
+                    "color": {
+                        "hex": "#ffffff",
+                        "id": "white-text"
+                    },
+                    "font-family": "Inter",
+                    "font-weight": "600"
+                },
+                "_background": {
+                    "color": {
+                        "hex": "#000000",
+                        "id": "black-bg"
+                    }
+                },
+                "_boxShadow_hover": {
+                    "values": {
+                        "offsetY": 5,
+                        "blur": "5",
+                        "spread": "1"
+                    },
+                    "color": {
+                        "hex": "#000000",
+                        "rgb": "rgba(0, 0, 0, 0.2)"
+                    }
+                },
+                "_transform_hover": {
+                    "translateY": "-2px"
+                },
+                "_cssTransition": "all 0.3s ease-in",
+                "iconPosition": "right",
+                "_display_mobile_landscape": "none"
+            },
+            "children": [],
+            "parent": "sadzdp"
+        },
+        {
+            "id": "zmffdc",
+            "name": "logo",
+            "settings": {
+                "logoText": "Simple.",
+                "_typography": {
+                    "font-family": "Inter",
+                    "font-weight": "800",
+                    "font-size": "24px",
+                    "color": {
+                        "hex": "#3B82F6"
+                    }
+                }
+            },
+            "children": [],
+            "parent": "sadzdp"
+        }
+    ],
+    "pageSettings": {
+        "headerSticky": "true",
+        "templateConditions": [
+            {
+                "id": "fqvqrc",
+                "main": "ids",
+                "ids": [
+                    "679"
+                ]
+            }
+        ]
+    },
+    "templateType": "header"
+}

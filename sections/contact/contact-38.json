@@ -1,0 +1,886 @@
+{
+  "content": [
+    {
+      "id": "rwsbou",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "oljxvl"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "shlfip"
+        ]
+      },
+      "label": "Pricing 11"
+    },
+    {
+      "id": "oljxvl",
+      "name": "container",
+      "parent": "rwsbou",
+      "children": [
+        "agocos",
+        "zcfoan"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "txvgid"
+        ]
+      }
+    },
+    {
+      "id": "agocos",
+      "name": "div",
+      "parent": "oljxvl",
+      "children": [
+        "daikki",
+        "fwitgc",
+        "pieuiz"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "muadbq",
+          "jhiwic",
+          "acss_import_width--m"
+        ],
+        "_typography": {
+          "text-align": "left"
+        }
+      },
+      "label": "Intro"
+    },
+    {
+      "id": "daikki",
+      "name": "heading",
+      "parent": "agocos",
+      "children": [],
+      "settings": {
+        "text": "Long headline to turn your visitors into users",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "wnpikx"
+        ]
+      }
+    },
+    {
+      "id": "fwitgc",
+      "name": "text-basic",
+      "parent": "agocos",
+      "children": [],
+      "settings": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "_cssGlobalClasses": [
+          "prgilv"
+        ],
+        "tag": "p"
+      }
+    },
+    {
+      "id": "pieuiz",
+      "name": "text-basic",
+      "parent": "agocos",
+      "children": [],
+      "settings": {
+        "text": "Tagline",
+        "_cssGlobalClasses": [
+          "samysq"
+        ],
+        "tag": "span"
+      },
+      "label": "Tagline"
+    },
+    {
+      "id": "zcfoan",
+      "name": "block",
+      "parent": "oljxvl",
+      "children": [
+        "erjklw",
+        "mdfxjz",
+        "zdqhuc",
+        "vqdtad",
+        "ajvsrk",
+        "dxjosz"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "fvazkz"
+        ],
+        "tag": "ul"
+      },
+      "label": "Price List"
+    },
+    {
+      "id": "erjklw",
+      "name": "block",
+      "parent": "zcfoan",
+      "children": [
+        "ojgiki",
+        "cpjuys"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "mpopyk"
+        ],
+        "tag": "li"
+      },
+      "label": "Card"
+    },
+    {
+      "id": "ojgiki",
+      "name": "block",
+      "parent": "erjklw",
+      "children": [
+        "rwwdji",
+        "sfkmzn"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "eohcir"
+        ]
+      },
+      "label": "Menu item"
+    },
+    {
+      "id": "rwwdji",
+      "name": "heading",
+      "parent": "ojgiki",
+      "children": [],
+      "settings": {
+        "text": "Large beard trim",
+        "_cssGlobalClasses": [
+          "klefsg"
+        ]
+      }
+    },
+    {
+      "id": "sfkmzn",
+      "name": "text-basic",
+      "parent": "ojgiki",
+      "children": [],
+      "settings": {
+        "text": "Duis aute irure dolor in reprehenderit",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "stfxvt"
+        ]
+      },
+      "label": "Extra information"
+    },
+    {
+      "id": "cpjuys",
+      "name": "block",
+      "parent": "erjklw",
+      "children": [
+        "dvhfdz",
+        "qdjhal"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "dxwcni"
+        ]
+      },
+      "label": "Price wrapper"
+    },
+    {
+      "id": "dvhfdz",
+      "name": "text-basic",
+      "parent": "cpjuys",
+      "children": [],
+      "settings": {
+        "text": "$",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "wjdnar"
+        ]
+      },
+      "label": "Currency"
+    },
+    {
+      "id": "qdjhal",
+      "name": "text-basic",
+      "parent": "cpjuys",
+      "children": [],
+      "settings": {
+        "text": "20.00",
+        "_cssGlobalClasses": [
+          "jdmyao"
+        ],
+        "tag": "span"
+      },
+      "label": "Pricing"
+    },
+    {
+      "id": "mdfxjz",
+      "name": "block",
+      "parent": "zcfoan",
+      "children": [
+        "wjugbt",
+        "wvsipw"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "mpopyk"
+        ],
+        "tag": "li"
+      },
+      "label": "Card"
+    },
+    {
+      "id": "wjugbt",
+      "name": "block",
+      "parent": "mdfxjz",
+      "children": [
+        "aanksw",
+        "qpogyj"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "eohcir"
+        ]
+      },
+      "label": "Menu item"
+    },
+    {
+      "id": "aanksw",
+      "name": "heading",
+      "parent": "wjugbt",
+      "children": [],
+      "settings": {
+        "text": "Large beard trim",
+        "_cssGlobalClasses": [
+          "klefsg"
+        ]
+      }
+    },
+    {
+      "id": "qpogyj",
+      "name": "text-basic",
+      "parent": "wjugbt",
+      "children": [],
+      "settings": {
+        "text": "Duis aute irure dolor in reprehenderit",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "stfxvt"
+        ]
+      },
+      "label": "Extra information"
+    },
+    {
+      "id": "wvsipw",
+      "name": "block",
+      "parent": "mdfxjz",
+      "children": [
+        "jhtfpu",
+        "nhwztf"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "dxwcni"
+        ]
+      },
+      "label": "Price wrapper"
+    },
+    {
+      "id": "jhtfpu",
+      "name": "text-basic",
+      "parent": "wvsipw",
+      "children": [],
+      "settings": {
+        "text": "$",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "wjdnar"
+        ]
+      },
+      "label": "Currency"
+    },
+    {
+      "id": "nhwztf",
+      "name": "text-basic",
+      "parent": "wvsipw",
+      "children": [],
+      "settings": {
+        "text": "20.00",
+        "_cssGlobalClasses": [
+          "jdmyao"
+        ],
+        "tag": "span"
+      },
+      "label": "Pricing"
+    },
+    {
+      "id": "zdqhuc",
+      "name": "block",
+      "parent": "zcfoan",
+      "children": [
+        "yxanhv",
+        "bkkzia"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "mpopyk"
+        ],
+        "tag": "li"
+      },
+      "label": "Card"
+    },
+    {
+      "id": "yxanhv",
+      "name": "block",
+      "parent": "zdqhuc",
+      "children": [
+        "yzxccq",
+        "cyceia"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "eohcir"
+        ]
+      },
+      "label": "Menu item"
+    },
+    {
+      "id": "yzxccq",
+      "name": "heading",
+      "parent": "yxanhv",
+      "children": [],
+      "settings": {
+        "text": "Large beard trim",
+        "_cssGlobalClasses": [
+          "klefsg"
+        ]
+      }
+    },
+    {
+      "id": "cyceia",
+      "name": "text-basic",
+      "parent": "yxanhv",
+      "children": [],
+      "settings": {
+        "text": "Duis aute irure dolor in reprehenderit",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "stfxvt"
+        ]
+      },
+      "label": "Extra information"
+    },
+    {
+      "id": "bkkzia",
+      "name": "block",
+      "parent": "zdqhuc",
+      "children": [
+        "jmeiok",
+        "zcpbqw"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "dxwcni"
+        ]
+      },
+      "label": "Price wrapper"
+    },
+    {
+      "id": "jmeiok",
+      "name": "text-basic",
+      "parent": "bkkzia",
+      "children": [],
+      "settings": {
+        "text": "$",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "wjdnar"
+        ]
+      },
+      "label": "Currency"
+    },
+    {
+      "id": "zcpbqw",
+      "name": "text-basic",
+      "parent": "bkkzia",
+      "children": [],
+      "settings": {
+        "text": "20.00",
+        "_cssGlobalClasses": [
+          "jdmyao"
+        ],
+        "tag": "span"
+      },
+      "label": "Pricing"
+    },
+    {
+      "id": "vqdtad",
+      "name": "block",
+      "parent": "zcfoan",
+      "children": [
+        "skgrwc",
+        "ylqbgj"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "mpopyk"
+        ],
+        "tag": "li"
+      },
+      "label": "Card"
+    },
+    {
+      "id": "skgrwc",
+      "name": "block",
+      "parent": "vqdtad",
+      "children": [
+        "rjaefy",
+        "qtbbfy"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "eohcir"
+        ]
+      },
+      "label": "Menu item"
+    },
+    {
+      "id": "rjaefy",
+      "name": "heading",
+      "parent": "skgrwc",
+      "children": [],
+      "settings": {
+        "text": "Large beard trim",
+        "_cssGlobalClasses": [
+          "klefsg"
+        ]
+      }
+    },
+    {
+      "id": "qtbbfy",
+      "name": "text-basic",
+      "parent": "skgrwc",
+      "children": [],
+      "settings": {
+        "text": "Duis aute irure dolor in reprehenderit",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "stfxvt"
+        ]
+      },
+      "label": "Extra information"
+    },
+    {
+      "id": "ylqbgj",
+      "name": "block",
+      "parent": "vqdtad",
+      "children": [
+        "qtdote",
+        "ibyfkp"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "dxwcni"
+        ]
+      },
+      "label": "Price wrapper"
+    },
+    {
+      "id": "qtdote",
+      "name": "text-basic",
+      "parent": "ylqbgj",
+      "children": [],
+      "settings": {
+        "text": "$",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "wjdnar"
+        ]
+      },
+      "label": "Currency"
+    },
+    {
+      "id": "ibyfkp",
+      "name": "text-basic",
+      "parent": "ylqbgj",
+      "children": [],
+      "settings": {
+        "text": "20.00",
+        "_cssGlobalClasses": [
+          "jdmyao"
+        ],
+        "tag": "span"
+      },
+      "label": "Pricing"
+    },
+    {
+      "id": "ajvsrk",
+      "name": "block",
+      "parent": "zcfoan",
+      "children": [
+        "jalxkd",
+        "hsfgdc"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "mpopyk"
+        ],
+        "tag": "li"
+      },
+      "label": "Card"
+    },
+    {
+      "id": "jalxkd",
+      "name": "block",
+      "parent": "ajvsrk",
+      "children": [
+        "daqheu",
+        "bwrska"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "eohcir"
+        ]
+      },
+      "label": "Menu item"
+    },
+    {
+      "id": "daqheu",
+      "name": "heading",
+      "parent": "jalxkd",
+      "children": [],
+      "settings": {
+        "text": "Large beard trim",
+        "_cssGlobalClasses": [
+          "klefsg"
+        ]
+      }
+    },
+    {
+      "id": "bwrska",
+      "name": "text-basic",
+      "parent": "jalxkd",
+      "children": [],
+      "settings": {
+        "text": "Duis aute irure dolor in reprehenderit",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "stfxvt"
+        ]
+      },
+      "label": "Extra information"
+    },
+    {
+      "id": "hsfgdc",
+      "name": "block",
+      "parent": "ajvsrk",
+      "children": [
+        "hcdadv",
+        "sardlj"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "dxwcni"
+        ]
+      },
+      "label": "Price wrapper"
+    },
+    {
+      "id": "hcdadv",
+      "name": "text-basic",
+      "parent": "hsfgdc",
+      "children": [],
+      "settings": {
+        "text": "$",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "wjdnar"
+        ]
+      },
+      "label": "Currency"
+    },
+    {
+      "id": "sardlj",
+      "name": "text-basic",
+      "parent": "hsfgdc",
+      "children": [],
+      "settings": {
+        "text": "20.00",
+        "_cssGlobalClasses": [
+          "jdmyao"
+        ],
+        "tag": "span"
+      },
+      "label": "Pricing"
+    },
+    {
+      "id": "dxjosz",
+      "name": "block",
+      "parent": "zcfoan",
+      "children": [
+        "wiqszk",
+        "tipijz"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "mpopyk"
+        ],
+        "tag": "li"
+      },
+      "label": "Card"
+    },
+    {
+      "id": "wiqszk",
+      "name": "block",
+      "parent": "dxjosz",
+      "children": [
+        "bztddl",
+        "jnbflq"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "eohcir"
+        ]
+      },
+      "label": "Menu item"
+    },
+    {
+      "id": "bztddl",
+      "name": "heading",
+      "parent": "wiqszk",
+      "children": [],
+      "settings": {
+        "text": "Large beard trim",
+        "_cssGlobalClasses": [
+          "klefsg"
+        ]
+      }
+    },
+    {
+      "id": "jnbflq",
+      "name": "text-basic",
+      "parent": "wiqszk",
+      "children": [],
+      "settings": {
+        "text": "Duis aute irure dolor in reprehenderit",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "stfxvt"
+        ]
+      },
+      "label": "Extra information"
+    },
+    {
+      "id": "tipijz",
+      "name": "block",
+      "parent": "dxjosz",
+      "children": [
+        "pkoocy",
+        "dynewu"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "dxwcni"
+        ]
+      },
+      "label": "Price wrapper"
+    },
+    {
+      "id": "pkoocy",
+      "name": "text-basic",
+      "parent": "tipijz",
+      "children": [],
+      "settings": {
+        "text": "$",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "wjdnar"
+        ]
+      },
+      "label": "Currency"
+    },
+    {
+      "id": "dynewu",
+      "name": "text-basic",
+      "parent": "tipijz",
+      "children": [],
+      "settings": {
+        "text": "20.00",
+        "_cssGlobalClasses": [
+          "jdmyao"
+        ],
+        "tag": "span"
+      },
+      "label": "Pricing"
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://css.bricksmaven.com",
+  "version": "1.9.6.1",
+  "globalClasses": [
+    {
+      "id": "shlfip",
+      "name": "pricing-11",
+      "settings": {
+        "_padding": {
+          "top": "8rem",
+          "right": "4rem",
+          "bottom": "8rem",
+          "left": "4rem"
+        }
+      }
+    },
+    {
+      "id": "txvgid",
+      "name": "pricing-11-container",
+      "settings": {
+        "_rowGap": "6.4rem",
+        "_rowGap:mobile_landscape": "3.2rem"
+      }
+    },
+    {
+      "id": "muadbq",
+      "name": "intro__head",
+      "settings": {
+        "_typography": {
+          "text-align": "center"
+        },
+        "_direction": "column",
+        "_display": "flex",
+        "_alignItems": "center",
+        "_rowGap": "2.4rem",
+        "_width:mobile_landscape": "100%",
+        "_alignSelf": "center",
+        "_width": "100%"
+      }
+    },
+    {
+      "id": "jhiwic",
+      "name": "intro--left",
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_alignItems": "flex-start",
+        "_typography": {
+          "text-align": "left"
+        },
+        "_alignSelf": "flex-start"
+      }
+    },
+    {
+      "id": "acss_import_width--m",
+      "name": "width--m",
+      "settings": []
+    },
+    {
+      "id": "wnpikx",
+      "name": "intro__heading",
+      "settings": {
+        "_margin": {
+          "top": "0"
+        }
+      }
+    },
+    {
+      "id": "prgilv",
+      "name": "intro__subheading",
+      "settings": []
+    },
+    {
+      "id": "samysq",
+      "name": "intro__accent-heading",
+      "settings": {
+        "_typography": {
+          "color": {
+            "hex": "#db2323",
+            "id": "anxxov",
+            "name": "Color #13"
+          }
+        },
+        "_order": "-1"
+      }
+    },
+    {
+      "id": "fvazkz",
+      "name": "pricing-11-list",
+      "settings": {
+        "_rowGap": "calc(var(--content-gap) * 1.6)",
+        "_display": "block",
+        "_cssCustom": ".pricing-11-list {\n\tcolumn-count: 2;\n}",
+        "_cssCustom:mobile_portrait": ".pricing-11-list {\n\tcolumn-count: 1;\n}",
+        "_padding": {
+          "left": "0"
+        }
+      }
+    },
+    {
+      "id": "mpopyk",
+      "name": "pricing-11-card",
+      "settings": {
+        "_display": "grid",
+        "_gridGap": "calc(1.6rem * 2)",
+        "_gridTemplateColumns": "minmax(0, 3fr) minmax(0, 1fr)",
+        "_padding": {
+          "bottom": "2.4rem",
+          "right": "2.4rem"
+        },
+        "_border": {
+          "width": {
+            "bottom": ".1rem"
+          },
+          "style": "solid",
+          "color": {
+            "hex": "#ededed",
+            "id": "upxqtf",
+            "name": "Color #16"
+          }
+        },
+        "_margin": {
+          "bottom": "3.2rem"
+        },
+        "_gridTemplateColumns:mobile_landscape": "repeat(1, minmax(0, 1fr))",
+        "_gridGap:mobile_landscape": ".6rem"
+      }
+    },
+    {
+      "id": "eohcir",
+      "name": "pricing-11-card__menu-item",
+      "settings": {
+        "_rowGap": "calc(1.6rem / 2)"
+      }
+    },
+    {
+      "id": "klefsg",
+      "name": "pricing-11-card__heading",
+      "settings": []
+    },
+    {
+      "id": "stfxvt",
+      "name": "pricing-11-card__extra-info",
+      "settings": []
+    },
+    {
+      "id": "dxwcni",
+      "name": "pricing-11-card__price-wrapper",
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "calc(2.4rem / 6)",
+        "_typography": {
+          "font-size": "2.4rem",
+          "font-weight": "700"
+        },
+        "_justifyContent": "flex-end",
+        "_flexWrap": "nowrap",
+        "_justifyContent:mobile_landscape": "flex-start"
+      }
+    },
+    {
+      "id": "wjdnar",
+      "name": "pricing-11-card__currency",
+      "settings": []
+    },
+    {
+      "id": "jdmyao",
+      "name": "pricing-11-card__price",
+      "settings": []
+    }
+  ],
+  "globalElements": []
+}

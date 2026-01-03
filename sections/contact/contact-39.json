@@ -1,0 +1,729 @@
+{
+  "content": [
+    {
+      "id": "hvulvn",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "akwrio"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "nnjrbx"
+        ]
+      },
+      "label": "Testimonial 34"
+    },
+    {
+      "id": "akwrio",
+      "name": "container",
+      "parent": "hvulvn",
+      "children": [
+        "cmbrtu",
+        "mxevvy"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "zwcbkq"
+        ]
+      }
+    },
+    {
+      "id": "cmbrtu",
+      "name": "div",
+      "parent": "akwrio",
+      "children": [
+        "hgnlaz",
+        "buolot",
+        "ejypct"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "muadbq",
+          "jhiwic"
+        ],
+        "_typography": {
+          "text-align": "left"
+        }
+      },
+      "label": "Intro"
+    },
+    {
+      "id": "hgnlaz",
+      "name": "heading",
+      "parent": "cmbrtu",
+      "children": [],
+      "settings": {
+        "text": "Long headline to turn your visitors into users",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "wnpikx"
+        ]
+      }
+    },
+    {
+      "id": "buolot",
+      "name": "text-basic",
+      "parent": "cmbrtu",
+      "children": [],
+      "settings": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "_cssGlobalClasses": [
+          "prgilv"
+        ],
+        "tag": "p"
+      }
+    },
+    {
+      "id": "ejypct",
+      "name": "text-basic",
+      "parent": "cmbrtu",
+      "children": [],
+      "settings": {
+        "text": "Tagline",
+        "_cssGlobalClasses": [
+          "samysq"
+        ],
+        "tag": "span"
+      },
+      "label": "Tagline"
+    },
+    {
+      "id": "mxevvy",
+      "name": "block",
+      "parent": "akwrio",
+      "children": [
+        "vpwycs"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "jslhdw"
+        ]
+      },
+      "label": "Testimonial List"
+    },
+    {
+      "id": "vpwycs",
+      "name": "slider-nested",
+      "parent": "mxevvy",
+      "children": [
+        "mogxtp",
+        "ehudej",
+        "akhueb",
+        "krahlp",
+        "ucfpco",
+        "rwzqbv"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "qqjldz"
+        ],
+        "type": "slide",
+        "height": "100%",
+        "arrows": true,
+        "gap": "calc(2.4rem* 2)",
+        "perPage": "3",
+        "perPage:mobile_landscape": "2",
+        "perPage:mobile_portrait": "1"
+      },
+      "themeStyles": []
+    },
+    {
+      "id": "mogxtp",
+      "name": "block",
+      "parent": "vpwycs",
+      "children": [
+        "ivnqxn",
+        "idweoo"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "ntfosh"
+        ],
+        "tag": "article"
+      },
+      "label": "Slide 1"
+    },
+    {
+      "id": "ivnqxn",
+      "name": "text-basic",
+      "parent": "mogxtp",
+      "children": [],
+      "settings": {
+        "text": "\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "tag": "p",
+        "_cssGlobalClasses": [
+          "ivulbu"
+        ]
+      },
+      "label": "Quote"
+    },
+    {
+      "id": "idweoo",
+      "name": "div",
+      "parent": "mogxtp",
+      "children": [
+        "rmcfzx",
+        "xjdkbo"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "xnyjfb"
+        ]
+      },
+      "label": "Client Data"
+    },
+    {
+      "id": "rmcfzx",
+      "name": "text-basic",
+      "parent": "idweoo",
+      "children": [],
+      "settings": {
+        "text": "John Smith",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "wfluvo"
+        ]
+      },
+      "label": "Client name"
+    },
+    {
+      "id": "xjdkbo",
+      "name": "text-basic",
+      "parent": "idweoo",
+      "children": [],
+      "settings": {
+        "text": "Melbourne",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "jqkawf"
+        ]
+      },
+      "label": "City"
+    },
+    {
+      "id": "ehudej",
+      "name": "block",
+      "parent": "vpwycs",
+      "children": [
+        "mjrhfc",
+        "btadam"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "ntfosh"
+        ],
+        "tag": "article"
+      },
+      "label": "Slide 1"
+    },
+    {
+      "id": "mjrhfc",
+      "name": "text-basic",
+      "parent": "ehudej",
+      "children": [],
+      "settings": {
+        "text": "\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "tag": "p",
+        "_cssGlobalClasses": [
+          "ivulbu"
+        ]
+      },
+      "label": "Quote"
+    },
+    {
+      "id": "btadam",
+      "name": "div",
+      "parent": "ehudej",
+      "children": [
+        "lxszcq",
+        "utxmsn"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "xnyjfb"
+        ]
+      },
+      "label": "Client Data"
+    },
+    {
+      "id": "lxszcq",
+      "name": "text-basic",
+      "parent": "btadam",
+      "children": [],
+      "settings": {
+        "text": "John Smith",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "wfluvo"
+        ]
+      },
+      "label": "Client name"
+    },
+    {
+      "id": "utxmsn",
+      "name": "text-basic",
+      "parent": "btadam",
+      "children": [],
+      "settings": {
+        "text": "Melbourne",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "jqkawf"
+        ]
+      },
+      "label": "City"
+    },
+    {
+      "id": "akhueb",
+      "name": "block",
+      "parent": "vpwycs",
+      "children": [
+        "upvlfu",
+        "viyuur"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "ntfosh"
+        ],
+        "tag": "article"
+      },
+      "label": "Slide 1"
+    },
+    {
+      "id": "upvlfu",
+      "name": "text-basic",
+      "parent": "akhueb",
+      "children": [],
+      "settings": {
+        "text": "\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "tag": "p",
+        "_cssGlobalClasses": [
+          "ivulbu"
+        ]
+      },
+      "label": "Quote"
+    },
+    {
+      "id": "viyuur",
+      "name": "div",
+      "parent": "akhueb",
+      "children": [
+        "rgbltb",
+        "hmpbhv"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "xnyjfb"
+        ]
+      },
+      "label": "Client Data"
+    },
+    {
+      "id": "rgbltb",
+      "name": "text-basic",
+      "parent": "viyuur",
+      "children": [],
+      "settings": {
+        "text": "John Smith",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "wfluvo"
+        ]
+      },
+      "label": "Client name"
+    },
+    {
+      "id": "hmpbhv",
+      "name": "text-basic",
+      "parent": "viyuur",
+      "children": [],
+      "settings": {
+        "text": "Melbourne",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "jqkawf"
+        ]
+      },
+      "label": "City"
+    },
+    {
+      "id": "krahlp",
+      "name": "block",
+      "parent": "vpwycs",
+      "children": [
+        "yfrubq",
+        "gzkbsk"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "ntfosh"
+        ],
+        "tag": "article"
+      },
+      "label": "Slide 1"
+    },
+    {
+      "id": "yfrubq",
+      "name": "text-basic",
+      "parent": "krahlp",
+      "children": [],
+      "settings": {
+        "text": "\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "tag": "p",
+        "_cssGlobalClasses": [
+          "ivulbu"
+        ]
+      },
+      "label": "Quote"
+    },
+    {
+      "id": "gzkbsk",
+      "name": "div",
+      "parent": "krahlp",
+      "children": [
+        "sjtzir",
+        "kkjwtq"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "xnyjfb"
+        ]
+      },
+      "label": "Client Data"
+    },
+    {
+      "id": "sjtzir",
+      "name": "text-basic",
+      "parent": "gzkbsk",
+      "children": [],
+      "settings": {
+        "text": "John Smith",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "wfluvo"
+        ]
+      },
+      "label": "Client name"
+    },
+    {
+      "id": "kkjwtq",
+      "name": "text-basic",
+      "parent": "gzkbsk",
+      "children": [],
+      "settings": {
+        "text": "Melbourne",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "jqkawf"
+        ]
+      },
+      "label": "City"
+    },
+    {
+      "id": "ucfpco",
+      "name": "block",
+      "parent": "vpwycs",
+      "children": [
+        "opspkw",
+        "zdwmtf"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "ntfosh"
+        ],
+        "tag": "article"
+      },
+      "label": "Slide 1"
+    },
+    {
+      "id": "opspkw",
+      "name": "text-basic",
+      "parent": "ucfpco",
+      "children": [],
+      "settings": {
+        "text": "\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "tag": "p",
+        "_cssGlobalClasses": [
+          "ivulbu"
+        ]
+      },
+      "label": "Quote"
+    },
+    {
+      "id": "zdwmtf",
+      "name": "div",
+      "parent": "ucfpco",
+      "children": [
+        "wbwbsq",
+        "cdhbmi"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "xnyjfb"
+        ]
+      },
+      "label": "Client Data"
+    },
+    {
+      "id": "wbwbsq",
+      "name": "text-basic",
+      "parent": "zdwmtf",
+      "children": [],
+      "settings": {
+        "text": "John Smith",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "wfluvo"
+        ]
+      },
+      "label": "Client name"
+    },
+    {
+      "id": "cdhbmi",
+      "name": "text-basic",
+      "parent": "zdwmtf",
+      "children": [],
+      "settings": {
+        "text": "Melbourne",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "jqkawf"
+        ]
+      },
+      "label": "City"
+    },
+    {
+      "id": "rwzqbv",
+      "name": "block",
+      "parent": "vpwycs",
+      "children": [
+        "jakhre",
+        "padbto"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "ntfosh"
+        ],
+        "tag": "article"
+      },
+      "label": "Slide 1"
+    },
+    {
+      "id": "jakhre",
+      "name": "text-basic",
+      "parent": "rwzqbv",
+      "children": [],
+      "settings": {
+        "text": "\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "tag": "p",
+        "_cssGlobalClasses": [
+          "ivulbu"
+        ]
+      },
+      "label": "Quote"
+    },
+    {
+      "id": "padbto",
+      "name": "div",
+      "parent": "rwzqbv",
+      "children": [
+        "qbfquv",
+        "imjfic"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "xnyjfb"
+        ]
+      },
+      "label": "Client Data"
+    },
+    {
+      "id": "qbfquv",
+      "name": "text-basic",
+      "parent": "padbto",
+      "children": [],
+      "settings": {
+        "text": "John Smith",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "wfluvo"
+        ]
+      },
+      "label": "Client name"
+    },
+    {
+      "id": "imjfic",
+      "name": "text-basic",
+      "parent": "padbto",
+      "children": [],
+      "settings": {
+        "text": "Melbourne",
+        "tag": "span",
+        "_cssGlobalClasses": [
+          "jqkawf"
+        ]
+      },
+      "label": "City"
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://css.bricksmaven.com",
+  "version": "1.9.6.1",
+  "globalClasses": [
+    {
+      "id": "nnjrbx",
+      "name": "testimonial-34",
+      "settings": {
+        "_overflow": "hidden",
+        "_padding": {
+          "top": "8rem",
+          "right": "4rem",
+          "bottom": "8rem",
+          "left": "4rem"
+        }
+      }
+    },
+    {
+      "id": "zwcbkq",
+      "name": "testimonial-34-container",
+      "settings": {
+        "_rowGap": "6.4rem",
+        "_rowGap:mobile_landscape": "4rem"
+      }
+    },
+    {
+      "id": "muadbq",
+      "name": "intro__head",
+      "settings": {
+        "_typography": {
+          "text-align": "center"
+        },
+        "_direction": "column",
+        "_display": "flex",
+        "_alignItems": "center",
+        "_rowGap": "2.4rem",
+        "_width:mobile_landscape": "100%",
+        "_alignSelf": "center",
+        "_width": "100%"
+      }
+    },
+    {
+      "id": "jhiwic",
+      "name": "intro--left",
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_alignItems": "flex-start",
+        "_typography": {
+          "text-align": "left"
+        },
+        "_alignSelf": "flex-start"
+      }
+    },
+    {
+      "id": "wnpikx",
+      "name": "intro__heading",
+      "settings": {
+        "_margin": {
+          "top": "0"
+        }
+      }
+    },
+    {
+      "id": "prgilv",
+      "name": "intro__subheading",
+      "settings": []
+    },
+    {
+      "id": "samysq",
+      "name": "intro__accent-heading",
+      "settings": {
+        "_typography": {
+          "color": {
+            "hex": "#db2323",
+            "id": "anxxov",
+            "name": "Color #13"
+          }
+        },
+        "_order": "-1"
+      }
+    },
+    {
+      "id": "jslhdw",
+      "name": "testimonial-34-list",
+      "settings": []
+    },
+    {
+      "id": "qqjldz",
+      "name": "testimonial-34-slider",
+      "settings": {
+        "_cssCustom": ".testimonial-34-slider .splide__arrows {\n\tposition: absolute;\n  display: flex;\n  flex-direction: row;\n  width: auto;\n  gap: 2.4rem;\n  bottom: calc((2.4rem + 5rem) * -1 );\n  \n}\n\n.testimonial-34-slider .splide__arrow {\n\tposition: relative;\n  width: 2.4rem;\n  transform: unset !important;\n}\n\n.brxe-slider-nested .splide__arrows:not(.custom) .splide__arrow--prev {\n    transform: translateY(0%) scaleX(-1) !important;\n}\n\n.testimonial-34-slider .splide__track {\n\toverflow: visible;\n}\n\n/* Hide overflow left */\n/*\n.testimonial-34-slider::before {\n\tcontent: \"\";\n  position: absolute;\n  top: 0;\n  right: 100%;\n  width: 100%;\n  max-width: 100%;\n  height: 100%;\n  min-height: 100%;\n  max-height: 100%;\n  background-color: var(--white);\n  z-index: 1;\n}\n\n*/"
+      }
+    },
+    {
+      "id": "ntfosh",
+      "name": "testimonial-34-slide",
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "calc(2.4rem * 2)",
+        "_padding": {
+          "top": "2.4rem",
+          "right": "2.4rem",
+          "bottom": "2.4rem",
+          "left": "2.4rem"
+        },
+        "_background": {
+          "color": {
+            "hex": "#ededed",
+            "id": "upxqtf",
+            "name": "Color #16"
+          }
+        },
+        "_alignItems": "flex-start"
+      }
+    },
+    {
+      "id": "ivulbu",
+      "name": "testimonial-34-slide__quote",
+      "settings": []
+    },
+    {
+      "id": "xnyjfb",
+      "name": "testimonial-34-slide__client-data",
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "2.4rem"
+      }
+    },
+    {
+      "id": "wfluvo",
+      "name": "testimonial-34-slide__client-name",
+      "settings": {
+        "_typography": {
+          "color": {
+            "hex": "#db2323",
+            "id": "anxxov",
+            "name": "Color #13"
+          }
+        }
+      }
+    },
+    {
+      "id": "jqkawf",
+      "name": "testimonial-34-slide__client-city",
+      "settings": {
+        "_typography": {
+          "color": {
+            "hex": "#242424",
+            "id": "kzmpsb",
+            "name": "Color #3"
+          }
+        }
+      }
+    }
+  ],
+  "globalElements": []
+}
