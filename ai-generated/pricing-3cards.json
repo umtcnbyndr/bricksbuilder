@@ -1,0 +1,1807 @@
+{
+  "content": [
+    {
+      "id": "pricing1",
+      "name": "section",
+      "parent": 0,
+      "children": ["pricingcont"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "120",
+          "bottom": "120"
+        },
+        "_padding:tablet_portrait": {
+          "top": "100",
+          "bottom": "100"
+        },
+        "_padding:mobile_portrait": {
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "label": "Pricing Section"
+    },
+    {
+      "id": "pricingcont",
+      "name": "container",
+      "parent": "pricing1",
+      "children": ["pricingheader", "pricinggrid"],
+      "settings": {
+        "_width": "90%",
+        "_widthMax": "1400",
+        "_direction": "column",
+        "_rowGap": "60"
+      }
+    },
+    {
+      "id": "pricingheader",
+      "name": "block",
+      "parent": "pricingcont",
+      "children": ["pricingbadge", "pricingtitle", "pricingsubtitle"],
+      "settings": {
+        "_width": "100%",
+        "_direction": "column",
+        "_alignItems": "center",
+        "_rowGap": "20",
+        "_textAlign": "center"
+      },
+      "label": "Section Header"
+    },
+    {
+      "id": "pricingbadge",
+      "name": "block",
+      "parent": "pricingheader",
+      "children": ["pricingbadgetext"],
+      "settings": {
+        "_width": "auto",
+        "_display": "inline-flex",
+        "_padding": {
+          "top": "8",
+          "bottom": "8",
+          "left": "20",
+          "right": "20"
+        },
+        "_background": {
+          "color": {
+            "rgb": "rgba(59, 130, 246, 0.1)"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "100",
+            "right": "100",
+            "bottom": "100",
+            "left": "100"
+          }
+        }
+      }
+    },
+    {
+      "id": "pricingbadgetext",
+      "name": "text-basic",
+      "parent": "pricingbadge",
+      "children": [],
+      "settings": {
+        "text": "FİYATLANDIRMA",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "13px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#3b82f6"
+          },
+          "letter-spacing": "1px"
+        }
+      }
+    },
+    {
+      "id": "pricingtitle",
+      "name": "heading",
+      "parent": "pricingheader",
+      "children": [],
+      "settings": {
+        "text": "Size Uygun Planı Seçin",
+        "tag": "h2",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-size:tablet_portrait": "38px",
+          "font-size:mobile_portrait": "32px",
+          "font-weight": "800",
+          "color": {
+            "hex": "#1a1a1a"
+          },
+          "line-height": "1.2",
+          "letter-spacing": "-0.5px"
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "pricingsubtitle",
+      "name": "text-basic",
+      "parent": "pricingheader",
+      "children": [],
+      "settings": {
+        "text": "Her işletme için esnek fiyatlandırma seçenekleri. İstediğiniz zaman değiştirebilir veya iptal edebilirsiniz.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "18px",
+          "font-size:mobile_portrait": "16px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.6"
+        },
+        "_width": "100%",
+        "_widthMax": "700"
+      }
+    },
+    {
+      "id": "pricinggrid",
+      "name": "block",
+      "parent": "pricingcont",
+      "children": ["plan1", "plan2", "plan3"],
+      "settings": {
+        "_width": "100%",
+        "_display": "grid",
+        "_gridTemplateColumns": "1fr 1fr 1fr",
+        "_gridTemplateColumns:tablet_portrait": "1fr",
+        "_columnGap": "32",
+        "_rowGap": "32"
+      }
+    },
+    {
+      "id": "plan1",
+      "name": "block",
+      "parent": "pricinggrid",
+      "children": ["p1name", "p1price", "p1desc", "p1features", "p1btn"],
+      "settings": {
+        "_direction": "column",
+        "_padding": {
+          "top": "40",
+          "bottom": "40",
+          "left": "32",
+          "right": "32"
+        },
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_border": {
+          "width": {
+            "top": "2",
+            "right": "2",
+            "bottom": "2",
+            "left": "2"
+          },
+          "color": {
+            "hex": "#e2e8f0"
+          },
+          "radius": {
+            "top": "16",
+            "right": "16",
+            "bottom": "16",
+            "left": "16"
+          }
+        },
+        "_cssTransition": "all 0.3s ease"
+      },
+      "label": "Başlangıç Planı"
+    },
+    {
+      "id": "p1name",
+      "name": "heading",
+      "parent": "plan1",
+      "children": [],
+      "settings": {
+        "text": "Başlangıç",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "24px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "8"
+        }
+      }
+    },
+    {
+      "id": "p1price",
+      "name": "block",
+      "parent": "plan1",
+      "children": ["p1amount", "p1period"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_alignItems": "baseline",
+        "_columnGap": "8",
+        "_margin": {
+          "bottom": "8"
+        }
+      }
+    },
+    {
+      "id": "p1amount",
+      "name": "heading",
+      "parent": "p1price",
+      "children": [],
+      "settings": {
+        "text": "₺99",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-weight": "800",
+          "color": {
+            "hex": "#1a1a1a"
+          },
+          "letter-spacing": "-1px"
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "p1period",
+      "name": "text-basic",
+      "parent": "p1price",
+      "children": [],
+      "settings": {
+        "text": "/ay",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#64748b"
+          }
+        }
+      }
+    },
+    {
+      "id": "p1desc",
+      "name": "text-basic",
+      "parent": "plan1",
+      "children": [],
+      "settings": {
+        "text": "Küçük işletmeler ve bireysel kullanıcılar için ideal",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.5"
+        },
+        "_margin": {
+          "bottom": "24"
+        }
+      }
+    },
+    {
+      "id": "p1features",
+      "name": "block",
+      "parent": "plan1",
+      "children": ["p1f1", "p1f2", "p1f3", "p1f4", "p1f5"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "12",
+        "_margin": {
+          "bottom": "32"
+        }
+      }
+    },
+    {
+      "id": "p1f1",
+      "name": "block",
+      "parent": "p1features",
+      "children": ["p1f1icon", "p1f1text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p1f1icon",
+      "name": "icon",
+      "parent": "p1f1",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p1f1text",
+      "name": "text-basic",
+      "parent": "p1f1",
+      "children": [],
+      "settings": {
+        "text": "5 Proje",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p1f2",
+      "name": "block",
+      "parent": "p1features",
+      "children": ["p1f2icon", "p1f2text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p1f2icon",
+      "name": "icon",
+      "parent": "p1f2",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p1f2text",
+      "name": "text-basic",
+      "parent": "p1f2",
+      "children": [],
+      "settings": {
+        "text": "10 GB Depolama",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p1f3",
+      "name": "block",
+      "parent": "p1features",
+      "children": ["p1f3icon", "p1f3text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p1f3icon",
+      "name": "icon",
+      "parent": "p1f3",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p1f3text",
+      "name": "text-basic",
+      "parent": "p1f3",
+      "children": [],
+      "settings": {
+        "text": "E-posta Desteği",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p1f4",
+      "name": "block",
+      "parent": "p1features",
+      "children": ["p1f4icon", "p1f4text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p1f4icon",
+      "name": "icon",
+      "parent": "p1f4",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p1f4text",
+      "name": "text-basic",
+      "parent": "p1f4",
+      "children": [],
+      "settings": {
+        "text": "Temel Raporlar",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p1f5",
+      "name": "block",
+      "parent": "p1features",
+      "children": ["p1f5icon", "p1f5text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p1f5icon",
+      "name": "icon",
+      "parent": "p1f5",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p1f5text",
+      "name": "text-basic",
+      "parent": "p1f5",
+      "children": [],
+      "settings": {
+        "text": "Mobil Uygulama",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p1btn",
+      "name": "button",
+      "parent": "plan1",
+      "children": [],
+      "settings": {
+        "text": "Başla",
+        "link": {
+          "type": "internal",
+          "url": "#signup"
+        },
+        "_width": "100%",
+        "_display": "flex",
+        "_justifyContent": "center",
+        "_background": {
+          "color": {
+            "hex": "#f8fafc"
+          }
+        },
+        "_background_hover": {
+          "color": {
+            "hex": "#f1f5f9"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_padding": {
+          "top": "14",
+          "bottom": "14",
+          "left": "28",
+          "right": "28"
+        },
+        "_border": {
+          "width": {
+            "top": "2",
+            "right": "2",
+            "bottom": "2",
+            "left": "2"
+          },
+          "color": {
+            "hex": "#e2e8f0"
+          },
+          "radius": {
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8"
+          }
+        },
+        "_cssTransition": "all 0.3s ease"
+      }
+    },
+    {
+      "id": "plan2",
+      "name": "block",
+      "parent": "pricinggrid",
+      "children": ["p2badge", "p2name", "p2price", "p2desc", "p2features", "p2btn"],
+      "settings": {
+        "_direction": "column",
+        "_padding": {
+          "top": "40",
+          "bottom": "40",
+          "left": "32",
+          "right": "32"
+        },
+        "_position": "relative",
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_border": {
+          "width": {
+            "top": "2",
+            "right": "2",
+            "bottom": "2",
+            "left": "2"
+          },
+          "color": {
+            "hex": "#3b82f6"
+          },
+          "radius": {
+            "top": "16",
+            "right": "16",
+            "bottom": "16",
+            "left": "16"
+          }
+        },
+        "_boxShadow": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "8",
+            "blur": "30"
+          },
+          "color": {
+            "rgb": "rgba(59, 130, 246, 0.15)"
+          }
+        },
+        "_transform": {
+          "scaleY": "1.05"
+        },
+        "_transform:tablet_portrait": {
+          "scaleY": "1"
+        }
+      },
+      "label": "Profesyonel Planı (POPULAR)"
+    },
+    {
+      "id": "p2badge",
+      "name": "block",
+      "parent": "plan2",
+      "children": ["p2badgetext"],
+      "settings": {
+        "_width": "auto",
+        "_display": "inline-flex",
+        "_position": "absolute",
+        "_top": "-12px",
+        "_left": "50%",
+        "_transform": {
+          "translateX": "-50%"
+        },
+        "_padding": {
+          "top": "6",
+          "bottom": "6",
+          "left": "16",
+          "right": "16"
+        },
+        "_background": {
+          "color": {
+            "hex": "#3b82f6"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "100",
+            "right": "100",
+            "bottom": "100",
+            "left": "100"
+          }
+        }
+      }
+    },
+    {
+      "id": "p2badgetext",
+      "name": "text-basic",
+      "parent": "p2badge",
+      "children": [],
+      "settings": {
+        "text": "EN POPÜLER",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "11px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#ffffff"
+          },
+          "letter-spacing": "0.5px"
+        }
+      }
+    },
+    {
+      "id": "p2name",
+      "name": "heading",
+      "parent": "plan2",
+      "children": [],
+      "settings": {
+        "text": "Profesyonel",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "24px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "8",
+          "top": "8"
+        }
+      }
+    },
+    {
+      "id": "p2price",
+      "name": "block",
+      "parent": "plan2",
+      "children": ["p2amount", "p2period"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_alignItems": "baseline",
+        "_columnGap": "8",
+        "_margin": {
+          "bottom": "8"
+        }
+      }
+    },
+    {
+      "id": "p2amount",
+      "name": "heading",
+      "parent": "p2price",
+      "children": [],
+      "settings": {
+        "text": "₺249",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-weight": "800",
+          "color": {
+            "hex": "#3b82f6"
+          },
+          "letter-spacing": "-1px"
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "p2period",
+      "name": "text-basic",
+      "parent": "p2price",
+      "children": [],
+      "settings": {
+        "text": "/ay",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#64748b"
+          }
+        }
+      }
+    },
+    {
+      "id": "p2desc",
+      "name": "text-basic",
+      "parent": "plan2",
+      "children": [],
+      "settings": {
+        "text": "Büyüyen işletmeler ve ekipler için en iyi seçenek",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.5"
+        },
+        "_margin": {
+          "bottom": "24"
+        }
+      }
+    },
+    {
+      "id": "p2features",
+      "name": "block",
+      "parent": "plan2",
+      "children": ["p2f1", "p2f2", "p2f3", "p2f4", "p2f5", "p2f6", "p2f7"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "12",
+        "_margin": {
+          "bottom": "32"
+        }
+      }
+    },
+    {
+      "id": "p2f1",
+      "name": "block",
+      "parent": "p2features",
+      "children": ["p2f1icon", "p2f1text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p2f1icon",
+      "name": "icon",
+      "parent": "p2f1",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p2f1text",
+      "name": "text-basic",
+      "parent": "p2f1",
+      "children": [],
+      "settings": {
+        "text": "Sınırsız Proje",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p2f2",
+      "name": "block",
+      "parent": "p2features",
+      "children": ["p2f2icon", "p2f2text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p2f2icon",
+      "name": "icon",
+      "parent": "p2f2",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p2f2text",
+      "name": "text-basic",
+      "parent": "p2f2",
+      "children": [],
+      "settings": {
+        "text": "100 GB Depolama",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p2f3",
+      "name": "block",
+      "parent": "p2features",
+      "children": ["p2f3icon", "p2f3text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p2f3icon",
+      "name": "icon",
+      "parent": "p2f3",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p2f3text",
+      "name": "text-basic",
+      "parent": "p2f3",
+      "children": [],
+      "settings": {
+        "text": "Öncelikli Destek",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p2f4",
+      "name": "block",
+      "parent": "p2features",
+      "children": ["p2f4icon", "p2f4text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p2f4icon",
+      "name": "icon",
+      "parent": "p2f4",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p2f4text",
+      "name": "text-basic",
+      "parent": "p2f4",
+      "children": [],
+      "settings": {
+        "text": "Gelişmiş Raporlar",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p2f5",
+      "name": "block",
+      "parent": "p2features",
+      "children": ["p2f5icon", "p2f5text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p2f5icon",
+      "name": "icon",
+      "parent": "p2f5",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p2f5text",
+      "name": "text-basic",
+      "parent": "p2f5",
+      "children": [],
+      "settings": {
+        "text": "API Erişimi",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p2f6",
+      "name": "block",
+      "parent": "p2features",
+      "children": ["p2f6icon", "p2f6text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p2f6icon",
+      "name": "icon",
+      "parent": "p2f6",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p2f6text",
+      "name": "text-basic",
+      "parent": "p2f6",
+      "children": [],
+      "settings": {
+        "text": "Özel Entegrasyonlar",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p2f7",
+      "name": "block",
+      "parent": "p2features",
+      "children": ["p2f7icon", "p2f7text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p2f7icon",
+      "name": "icon",
+      "parent": "p2f7",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p2f7text",
+      "name": "text-basic",
+      "parent": "p2f7",
+      "children": [],
+      "settings": {
+        "text": "Beyaz Etiket",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p2btn",
+      "name": "button",
+      "parent": "plan2",
+      "children": [],
+      "settings": {
+        "text": "Hemen Başla",
+        "link": {
+          "type": "internal",
+          "url": "#signup"
+        },
+        "_width": "100%",
+        "_display": "flex",
+        "_justifyContent": "center",
+        "_background": {
+          "color": {
+            "hex": "#3b82f6"
+          }
+        },
+        "_background_hover": {
+          "color": {
+            "hex": "#2563eb"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "14",
+          "bottom": "14",
+          "left": "28",
+          "right": "28"
+        },
+        "_border": {
+          "radius": {
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8"
+          }
+        },
+        "_cssTransition": "all 0.3s ease",
+        "_boxShadow": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "4",
+            "blur": "16"
+          },
+          "color": {
+            "rgb": "rgba(59, 130, 246, 0.3)"
+          }
+        },
+        "_boxShadow_hover": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "8",
+            "blur": "24"
+          },
+          "color": {
+            "rgb": "rgba(59, 130, 246, 0.4)"
+          }
+        }
+      }
+    },
+    {
+      "id": "plan3",
+      "name": "block",
+      "parent": "pricinggrid",
+      "children": ["p3name", "p3price", "p3desc", "p3features", "p3btn"],
+      "settings": {
+        "_direction": "column",
+        "_padding": {
+          "top": "40",
+          "bottom": "40",
+          "left": "32",
+          "right": "32"
+        },
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_border": {
+          "width": {
+            "top": "2",
+            "right": "2",
+            "bottom": "2",
+            "left": "2"
+          },
+          "color": {
+            "hex": "#e2e8f0"
+          },
+          "radius": {
+            "top": "16",
+            "right": "16",
+            "bottom": "16",
+            "left": "16"
+          }
+        },
+        "_cssTransition": "all 0.3s ease"
+      },
+      "label": "Kurumsal Planı"
+    },
+    {
+      "id": "p3name",
+      "name": "heading",
+      "parent": "plan3",
+      "children": [],
+      "settings": {
+        "text": "Kurumsal",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "24px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "8"
+        }
+      }
+    },
+    {
+      "id": "p3price",
+      "name": "block",
+      "parent": "plan3",
+      "children": ["p3amount", "p3period"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_alignItems": "baseline",
+        "_columnGap": "8",
+        "_margin": {
+          "bottom": "8"
+        }
+      }
+    },
+    {
+      "id": "p3amount",
+      "name": "heading",
+      "parent": "p3price",
+      "children": [],
+      "settings": {
+        "text": "₺499",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-weight": "800",
+          "color": {
+            "hex": "#1a1a1a"
+          },
+          "letter-spacing": "-1px"
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "p3period",
+      "name": "text-basic",
+      "parent": "p3price",
+      "children": [],
+      "settings": {
+        "text": "/ay",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#64748b"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3desc",
+      "name": "text-basic",
+      "parent": "plan3",
+      "children": [],
+      "settings": {
+        "text": "Büyük organizasyonlar için özelleştirilmiş çözümler",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#64748b"
+          },
+          "line-height": "1.5"
+        },
+        "_margin": {
+          "bottom": "24"
+        }
+      }
+    },
+    {
+      "id": "p3features",
+      "name": "block",
+      "parent": "plan3",
+      "children": ["p3f1", "p3f2", "p3f3", "p3f4", "p3f5", "p3f6", "p3f7", "p3f8"],
+      "settings": {
+        "_direction": "column",
+        "_rowGap": "12",
+        "_margin": {
+          "bottom": "32"
+        }
+      }
+    },
+    {
+      "id": "p3f1",
+      "name": "block",
+      "parent": "p3features",
+      "children": ["p3f1icon", "p3f1text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p3f1icon",
+      "name": "icon",
+      "parent": "p3f1",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3f1text",
+      "name": "text-basic",
+      "parent": "p3f1",
+      "children": [],
+      "settings": {
+        "text": "Tüm Profesyonel Özellikler",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3f2",
+      "name": "block",
+      "parent": "p3features",
+      "children": ["p3f2icon", "p3f2text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p3f2icon",
+      "name": "icon",
+      "parent": "p3f2",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3f2text",
+      "name": "text-basic",
+      "parent": "p3f2",
+      "children": [],
+      "settings": {
+        "text": "Sınırsız Depolama",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3f3",
+      "name": "block",
+      "parent": "p3features",
+      "children": ["p3f3icon", "p3f3text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p3f3icon",
+      "name": "icon",
+      "parent": "p3f3",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3f3text",
+      "name": "text-basic",
+      "parent": "p3f3",
+      "children": [],
+      "settings": {
+        "text": "Özel Hesap Yöneticisi",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3f4",
+      "name": "block",
+      "parent": "p3features",
+      "children": ["p3f4icon", "p3f4text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p3f4icon",
+      "name": "icon",
+      "parent": "p3f4",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3f4text",
+      "name": "text-basic",
+      "parent": "p3f4",
+      "children": [],
+      "settings": {
+        "text": "SLA Garantisi",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3f5",
+      "name": "block",
+      "parent": "p3features",
+      "children": ["p3f5icon", "p3f5text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p3f5icon",
+      "name": "icon",
+      "parent": "p3f5",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3f5text",
+      "name": "text-basic",
+      "parent": "p3f5",
+      "children": [],
+      "settings": {
+        "text": "SSO (Tek Oturum Açma)",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3f6",
+      "name": "block",
+      "parent": "p3features",
+      "children": ["p3f6icon", "p3f6text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p3f6icon",
+      "name": "icon",
+      "parent": "p3f6",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3f6text",
+      "name": "text-basic",
+      "parent": "p3f6",
+      "children": [],
+      "settings": {
+        "text": "Özel Eğitim",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3f7",
+      "name": "block",
+      "parent": "p3features",
+      "children": ["p3f7icon", "p3f7text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p3f7icon",
+      "name": "icon",
+      "parent": "p3f7",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3f7text",
+      "name": "text-basic",
+      "parent": "p3f7",
+      "children": [],
+      "settings": {
+        "text": "Gelişmiş Güvenlik",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3f8",
+      "name": "block",
+      "parent": "p3features",
+      "children": ["p3f8icon", "p3f8text"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "row",
+        "_columnGap": "12",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "p3f8icon",
+      "name": "icon",
+      "parent": "p3f8",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#10b981"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3f8text",
+      "name": "text-basic",
+      "parent": "p3f8",
+      "children": [],
+      "settings": {
+        "text": "Özel Sunucu Seçeneği",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "p3btn",
+      "name": "button",
+      "parent": "plan3",
+      "children": [],
+      "settings": {
+        "text": "İletişime Geç",
+        "link": {
+          "type": "internal",
+          "url": "#contact"
+        },
+        "_width": "100%",
+        "_display": "flex",
+        "_justifyContent": "center",
+        "_background": {
+          "color": {
+            "hex": "#f8fafc"
+          }
+        },
+        "_background_hover": {
+          "color": {
+            "hex": "#f1f5f9"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_padding": {
+          "top": "14",
+          "bottom": "14",
+          "left": "28",
+          "right": "28"
+        },
+        "_border": {
+          "width": {
+            "top": "2",
+            "right": "2",
+            "bottom": "2",
+            "left": "2"
+          },
+          "color": {
+            "hex": "#e2e8f0"
+          },
+          "radius": {
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8"
+          }
+        },
+        "_cssTransition": "all 0.3s ease"
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}
