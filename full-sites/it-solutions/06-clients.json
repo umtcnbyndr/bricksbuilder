@@ -1,0 +1,333 @@
+{
+  "content": [
+    {
+      "id": "clients01",
+      "name": "section",
+      "parent": 0,
+      "children": ["clientscon"],
+      "settings": {
+        "_background": {"color": {"hex": "#6C63FF"}},
+        "_padding": {"top": "80", "bottom": "80"}
+      }
+    },
+    {
+      "id": "clientscon",
+      "name": "container",
+      "parent": "clients01",
+      "children": ["clientsleft", "clientsright"],
+      "settings": {
+        "_width": "1200px",
+        "_direction": "row",
+        "_gap": "60px",
+        "_direction:tablet_portrait": "column"
+      }
+    },
+    {
+      "id": "clientsleft",
+      "name": "div",
+      "parent": "clientscon",
+      "children": ["clientsform"],
+      "settings": {
+        "_width": "40%",
+        "_width:tablet_portrait": "100%"
+      }
+    },
+    {
+      "id": "clientsform",
+      "name": "div",
+      "parent": "clientsleft",
+      "children": ["formtitle", "formdesc", "formfields", "formbtn"],
+      "settings": {
+        "_background": {"color": {"hex": "#ffffff"}},
+        "_padding": {"top": "40", "bottom": "40", "left": "35", "right": "35"},
+        "_border": {"radius": {"top": "15", "right": "15", "bottom": "15", "left": "15"}}
+      }
+    },
+    {
+      "id": "formtitle",
+      "name": "heading",
+      "parent": "clientsform",
+      "children": [],
+      "settings": {
+        "text": "Consultation for Free",
+        "tag": "h3",
+        "_typography": {"font-size": "22px", "font-weight": "700", "color": {"hex": "#1a1a2e"}},
+        "_margin": {"bottom": "10"}
+      }
+    },
+    {
+      "id": "formdesc",
+      "name": "text-basic",
+      "parent": "clientsform",
+      "children": [],
+      "settings": {
+        "text": "Please kindly fill out the form below to get your free consultation",
+        "_typography": {"font-size": "14px", "color": {"hex": "#666666"}},
+        "_margin": {"bottom": "25"}
+      }
+    },
+    {
+      "id": "formfields",
+      "name": "div",
+      "parent": "clientsform",
+      "children": ["field1", "field2", "field3"],
+      "settings": {
+        "_gap": "15px",
+        "_margin": {"bottom": "20"}
+      }
+    },
+    {
+      "id": "field1",
+      "name": "text-basic",
+      "parent": "formfields",
+      "children": [],
+      "settings": {
+        "text": "Your name",
+        "_typography": {"font-size": "16px", "color": {"hex": "#333333"}},
+        "_padding": {"bottom": "15"},
+        "_border": {"bottom": {"width": "1", "style": "solid", "color": {"hex": "#eeeeee"}}}
+      }
+    },
+    {
+      "id": "field2",
+      "name": "text-basic",
+      "parent": "formfields",
+      "children": [],
+      "settings": {
+        "text": "Email address",
+        "_typography": {"font-size": "16px", "color": {"hex": "#333333"}},
+        "_padding": {"bottom": "15"},
+        "_border": {"bottom": {"width": "1", "style": "solid", "color": {"hex": "#eeeeee"}}}
+      }
+    },
+    {
+      "id": "field3",
+      "name": "text-basic",
+      "parent": "formfields",
+      "children": [],
+      "settings": {
+        "text": "Project category",
+        "_typography": {"font-size": "16px", "color": {"hex": "#333333"}},
+        "_padding": {"bottom": "15"},
+        "_border": {"bottom": {"width": "1", "style": "solid", "color": {"hex": "#eeeeee"}}}
+      }
+    },
+    {
+      "id": "formbtn",
+      "name": "button",
+      "parent": "clientsform",
+      "children": [],
+      "settings": {
+        "text": "SEND",
+        "_background": {"color": {"hex": "#1a1a2e"}},
+        "_typography": {"font-size": "14px", "font-weight": "600", "color": {"hex": "#ffffff"}},
+        "_padding": {"top": "12", "bottom": "12", "left": "30", "right": "30"},
+        "_border": {"radius": {"top": "5", "right": "5", "bottom": "5", "left": "5"}}
+      }
+    },
+    {
+      "id": "clientsright",
+      "name": "div",
+      "parent": "clientscon",
+      "children": ["crlabel", "crtitle", "crdesc", "crservices"],
+      "settings": {
+        "_width": "55%",
+        "_width:tablet_portrait": "100%"
+      }
+    },
+    {
+      "id": "crlabel",
+      "name": "text-basic",
+      "parent": "clientsright",
+      "children": [],
+      "settings": {
+        "text": "OUR SUCCESS",
+        "_typography": {"font-size": "14px", "font-weight": "600", "color": {"hex": "#ffffff", "rgb": "rgba(255,255,255,0.8)"}, "letter-spacing": "2px"},
+        "_margin": {"bottom": "10"}
+      }
+    },
+    {
+      "id": "crtitle",
+      "name": "heading",
+      "parent": "clientsright",
+      "children": [],
+      "settings": {
+        "text": "We have helped more than 700+ worldwide clients",
+        "tag": "h2",
+        "_typography": {"font-size": "36px", "font-weight": "700", "color": {"hex": "#ffffff"}, "font-family": "Poppins"},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "crdesc",
+      "name": "text",
+      "parent": "clientsright",
+      "children": [],
+      "settings": {
+        "text": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse nihil molestiae consequatur.",
+        "_typography": {"font-size": "16px", "color": {"hex": "#ffffff", "rgb": "rgba(255,255,255,0.85)"}},
+        "_margin": {"bottom": "30"}
+      }
+    },
+    {
+      "id": "crservices",
+      "name": "div",
+      "parent": "clientsright",
+      "children": ["crs1", "crs2", "crs3", "crs4"],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(2, 1fr)",
+        "_gap": "20px",
+        "_gridTemplateColumns:mobile_portrait": "1fr"
+      }
+    },
+    {
+      "id": "crs1",
+      "name": "div",
+      "parent": "crservices",
+      "children": ["crs1icon", "crs1title"],
+      "settings": {
+        "_background": {"color": {"hex": "#ffffff", "rgb": "rgba(255,255,255,0.15)"}},
+        "_padding": {"top": "20", "bottom": "20", "left": "20", "right": "20"},
+        "_border": {"radius": {"top": "10", "right": "10", "bottom": "10", "left": "10"}},
+        "_direction": "row",
+        "_alignItems": "center",
+        "_gap": "15px"
+      }
+    },
+    {
+      "id": "crs1icon",
+      "name": "icon",
+      "parent": "crs1",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeSolid", "icon": "fas fa-code"},
+        "_iconSize": "24px",
+        "_iconColor": {"hex": "#ffffff"}
+      }
+    },
+    {
+      "id": "crs1title",
+      "name": "heading",
+      "parent": "crs1",
+      "children": [],
+      "settings": {
+        "text": "Software Development",
+        "tag": "h5",
+        "_typography": {"font-size": "14px", "font-weight": "600", "color": {"hex": "#ffffff"}}
+      }
+    },
+    {
+      "id": "crs2",
+      "name": "div",
+      "parent": "crservices",
+      "children": ["crs2icon", "crs2title"],
+      "settings": {
+        "_background": {"color": {"hex": "#ffffff", "rgb": "rgba(255,255,255,0.15)"}},
+        "_padding": {"top": "20", "bottom": "20", "left": "20", "right": "20"},
+        "_border": {"radius": {"top": "10", "right": "10", "bottom": "10", "left": "10"}},
+        "_direction": "row",
+        "_alignItems": "center",
+        "_gap": "15px"
+      }
+    },
+    {
+      "id": "crs2icon",
+      "name": "icon",
+      "parent": "crs2",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeSolid", "icon": "fas fa-robot"},
+        "_iconSize": "24px",
+        "_iconColor": {"hex": "#ffffff"}
+      }
+    },
+    {
+      "id": "crs2title",
+      "name": "heading",
+      "parent": "crs2",
+      "children": [],
+      "settings": {
+        "text": "AI Programmer & Technical",
+        "tag": "h5",
+        "_typography": {"font-size": "14px", "font-weight": "600", "color": {"hex": "#ffffff"}}
+      }
+    },
+    {
+      "id": "crs3",
+      "name": "div",
+      "parent": "crservices",
+      "children": ["crs3icon", "crs3title"],
+      "settings": {
+        "_background": {"color": {"hex": "#ffffff", "rgb": "rgba(255,255,255,0.15)"}},
+        "_padding": {"top": "20", "bottom": "20", "left": "20", "right": "20"},
+        "_border": {"radius": {"top": "10", "right": "10", "bottom": "10", "left": "10"}},
+        "_direction": "row",
+        "_alignItems": "center",
+        "_gap": "15px"
+      }
+    },
+    {
+      "id": "crs3icon",
+      "name": "icon",
+      "parent": "crs3",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeSolid", "icon": "fas fa-mobile-alt"},
+        "_iconSize": "24px",
+        "_iconColor": {"hex": "#ffffff"}
+      }
+    },
+    {
+      "id": "crs3title",
+      "name": "heading",
+      "parent": "crs3",
+      "children": [],
+      "settings": {
+        "text": "System Application Development",
+        "tag": "h5",
+        "_typography": {"font-size": "14px", "font-weight": "600", "color": {"hex": "#ffffff"}}
+      }
+    },
+    {
+      "id": "crs4",
+      "name": "div",
+      "parent": "crservices",
+      "children": ["crs4icon", "crs4title"],
+      "settings": {
+        "_background": {"color": {"hex": "#ffffff", "rgb": "rgba(255,255,255,0.15)"}},
+        "_padding": {"top": "20", "bottom": "20", "left": "20", "right": "20"},
+        "_border": {"radius": {"top": "10", "right": "10", "bottom": "10", "left": "10"}},
+        "_direction": "row",
+        "_alignItems": "center",
+        "_gap": "15px"
+      }
+    },
+    {
+      "id": "crs4icon",
+      "name": "icon",
+      "parent": "crs4",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeSolid", "icon": "fas fa-server"},
+        "_iconSize": "24px",
+        "_iconColor": {"hex": "#ffffff"}
+      }
+    },
+    {
+      "id": "crs4title",
+      "name": "heading",
+      "parent": "crs4",
+      "children": [],
+      "settings": {
+        "text": "Server and Network Solutions",
+        "tag": "h5",
+        "_typography": {"font-size": "14px", "font-weight": "600", "color": {"hex": "#ffffff"}}
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

@@ -1,0 +1,379 @@
+{
+  "content": [
+    {
+      "id": "team01",
+      "name": "section",
+      "parent": 0,
+      "children": ["teamcon"],
+      "settings": {
+        "_background": {"color": {"hex": "#ffffff"}},
+        "_padding": {"top": "80", "bottom": "80"}
+      }
+    },
+    {
+      "id": "teamcon",
+      "name": "container",
+      "parent": "team01",
+      "children": ["teamheader", "teamgrid"],
+      "settings": {
+        "_width": "1200px"
+      }
+    },
+    {
+      "id": "teamheader",
+      "name": "div",
+      "parent": "teamcon",
+      "children": ["teamlabel", "teamtitle", "teamdesc"],
+      "settings": {
+        "_textAlign": "center",
+        "_margin": {"bottom": "50"}
+      }
+    },
+    {
+      "id": "teamlabel",
+      "name": "text-basic",
+      "parent": "teamheader",
+      "children": [],
+      "settings": {
+        "text": "TEAM",
+        "_typography": {"font-size": "14px", "font-weight": "600", "color": {"hex": "#6C63FF"}, "letter-spacing": "2px"},
+        "_margin": {"bottom": "10"}
+      }
+    },
+    {
+      "id": "teamtitle",
+      "name": "heading",
+      "parent": "teamheader",
+      "children": [],
+      "settings": {
+        "text": "Our certified experts",
+        "tag": "h2",
+        "_typography": {"font-size": "36px", "font-weight": "700", "color": {"hex": "#1a1a2e"}, "font-family": "Poppins"},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "teamdesc",
+      "name": "text",
+      "parent": "teamheader",
+      "children": [],
+      "settings": {
+        "text": "Quis autem vel eum iure reprehenderit qui in ea voluptate vel. Earum asperiores nulla.",
+        "_typography": {"font-size": "16px", "color": {"hex": "#666666"}}
+      }
+    },
+    {
+      "id": "teamgrid",
+      "name": "div",
+      "parent": "teamcon",
+      "children": ["member1", "member2", "member3"],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(3, 1fr)",
+        "_gap": "30px",
+        "_gridTemplateColumns:tablet_portrait": "1fr"
+      }
+    },
+    {
+      "id": "member1",
+      "name": "div",
+      "parent": "teamgrid",
+      "children": ["m1img", "m1name", "m1role", "m1social"],
+      "settings": {
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "m1img",
+      "name": "image",
+      "parent": "member1",
+      "children": [],
+      "settings": {
+        "image": {"url": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300", "external": true},
+        "_width": "200px",
+        "_height": "200px",
+        "_border": {"radius": {"top": "50%", "right": "50%", "bottom": "50%", "left": "50%"}},
+        "_objectFit": "cover",
+        "_margin": {"bottom": "20", "left": "auto", "right": "auto"}
+      }
+    },
+    {
+      "id": "m1name",
+      "name": "heading",
+      "parent": "member1",
+      "children": [],
+      "settings": {
+        "text": "SEBASTIAN DOE",
+        "tag": "h4",
+        "_typography": {"font-size": "18px", "font-weight": "600", "color": {"hex": "#1a1a2e"}},
+        "_margin": {"bottom": "5"}
+      }
+    },
+    {
+      "id": "m1role",
+      "name": "text-basic",
+      "parent": "member1",
+      "children": [],
+      "settings": {
+        "text": "Code Expert",
+        "_typography": {"font-size": "14px", "color": {"hex": "#6C63FF"}},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "m1social",
+      "name": "div",
+      "parent": "member1",
+      "children": ["m1s1", "m1s2", "m1s3"],
+      "settings": {
+        "_direction": "row",
+        "_justifyContent": "center",
+        "_gap": "10px"
+      }
+    },
+    {
+      "id": "m1s1",
+      "name": "icon",
+      "parent": "m1social",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeBrands", "icon": "fab fa-facebook-f"},
+        "_iconSize": "14px",
+        "_iconColor": {"hex": "#ffffff"},
+        "_background": {"color": {"hex": "#6C63FF"}},
+        "_padding": {"top": "10", "bottom": "10", "left": "10", "right": "10"},
+        "_border": {"radius": {"top": "50%", "right": "50%", "bottom": "50%", "left": "50%"}}
+      }
+    },
+    {
+      "id": "m1s2",
+      "name": "icon",
+      "parent": "m1social",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeBrands", "icon": "fab fa-twitter"},
+        "_iconSize": "14px",
+        "_iconColor": {"hex": "#ffffff"},
+        "_background": {"color": {"hex": "#6C63FF"}},
+        "_padding": {"top": "10", "bottom": "10", "left": "10", "right": "10"},
+        "_border": {"radius": {"top": "50%", "right": "50%", "bottom": "50%", "left": "50%"}}
+      }
+    },
+    {
+      "id": "m1s3",
+      "name": "icon",
+      "parent": "m1social",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeBrands", "icon": "fab fa-linkedin-in"},
+        "_iconSize": "14px",
+        "_iconColor": {"hex": "#ffffff"},
+        "_background": {"color": {"hex": "#6C63FF"}},
+        "_padding": {"top": "10", "bottom": "10", "left": "10", "right": "10"},
+        "_border": {"radius": {"top": "50%", "right": "50%", "bottom": "50%", "left": "50%"}}
+      }
+    },
+    {
+      "id": "member2",
+      "name": "div",
+      "parent": "teamgrid",
+      "children": ["m2img", "m2name", "m2role", "m2social"],
+      "settings": {
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "m2img",
+      "name": "image",
+      "parent": "member2",
+      "children": [],
+      "settings": {
+        "image": {"url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300", "external": true},
+        "_width": "200px",
+        "_height": "200px",
+        "_border": {"radius": {"top": "50%", "right": "50%", "bottom": "50%", "left": "50%"}},
+        "_objectFit": "cover",
+        "_margin": {"bottom": "20", "left": "auto", "right": "auto"}
+      }
+    },
+    {
+      "id": "m2name",
+      "name": "heading",
+      "parent": "member2",
+      "children": [],
+      "settings": {
+        "text": "STEVE DOE",
+        "tag": "h4",
+        "_typography": {"font-size": "18px", "font-weight": "600", "color": {"hex": "#1a1a2e"}},
+        "_margin": {"bottom": "5"}
+      }
+    },
+    {
+      "id": "m2role",
+      "name": "text-basic",
+      "parent": "member2",
+      "children": [],
+      "settings": {
+        "text": "Software Engineer",
+        "_typography": {"font-size": "14px", "color": {"hex": "#6C63FF"}},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "m2social",
+      "name": "div",
+      "parent": "member2",
+      "children": ["m2s1", "m2s2", "m2s3"],
+      "settings": {
+        "_direction": "row",
+        "_justifyContent": "center",
+        "_gap": "10px"
+      }
+    },
+    {
+      "id": "m2s1",
+      "name": "icon",
+      "parent": "m2social",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeBrands", "icon": "fab fa-facebook-f"},
+        "_iconSize": "14px",
+        "_iconColor": {"hex": "#ffffff"},
+        "_background": {"color": {"hex": "#6C63FF"}},
+        "_padding": {"top": "10", "bottom": "10", "left": "10", "right": "10"},
+        "_border": {"radius": {"top": "50%", "right": "50%", "bottom": "50%", "left": "50%"}}
+      }
+    },
+    {
+      "id": "m2s2",
+      "name": "icon",
+      "parent": "m2social",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeBrands", "icon": "fab fa-twitter"},
+        "_iconSize": "14px",
+        "_iconColor": {"hex": "#ffffff"},
+        "_background": {"color": {"hex": "#6C63FF"}},
+        "_padding": {"top": "10", "bottom": "10", "left": "10", "right": "10"},
+        "_border": {"radius": {"top": "50%", "right": "50%", "bottom": "50%", "left": "50%"}}
+      }
+    },
+    {
+      "id": "m2s3",
+      "name": "icon",
+      "parent": "m2social",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeBrands", "icon": "fab fa-linkedin-in"},
+        "_iconSize": "14px",
+        "_iconColor": {"hex": "#ffffff"},
+        "_background": {"color": {"hex": "#6C63FF"}},
+        "_padding": {"top": "10", "bottom": "10", "left": "10", "right": "10"},
+        "_border": {"radius": {"top": "50%", "right": "50%", "bottom": "50%", "left": "50%"}}
+      }
+    },
+    {
+      "id": "member3",
+      "name": "div",
+      "parent": "teamgrid",
+      "children": ["m3img", "m3name", "m3role", "m3social"],
+      "settings": {
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "m3img",
+      "name": "image",
+      "parent": "member3",
+      "children": [],
+      "settings": {
+        "image": {"url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=300", "external": true},
+        "_width": "200px",
+        "_height": "200px",
+        "_border": {"radius": {"top": "50%", "right": "50%", "bottom": "50%", "left": "50%"}},
+        "_objectFit": "cover",
+        "_margin": {"bottom": "20", "left": "auto", "right": "auto"}
+      }
+    },
+    {
+      "id": "m3name",
+      "name": "heading",
+      "parent": "member3",
+      "children": [],
+      "settings": {
+        "text": "SARAH DOE",
+        "tag": "h4",
+        "_typography": {"font-size": "18px", "font-weight": "600", "color": {"hex": "#1a1a2e"}},
+        "_margin": {"bottom": "5"}
+      }
+    },
+    {
+      "id": "m3role",
+      "name": "text-basic",
+      "parent": "member3",
+      "children": [],
+      "settings": {
+        "text": "Researcher",
+        "_typography": {"font-size": "14px", "color": {"hex": "#6C63FF"}},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "m3social",
+      "name": "div",
+      "parent": "member3",
+      "children": ["m3s1", "m3s2", "m3s3"],
+      "settings": {
+        "_direction": "row",
+        "_justifyContent": "center",
+        "_gap": "10px"
+      }
+    },
+    {
+      "id": "m3s1",
+      "name": "icon",
+      "parent": "m3social",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeBrands", "icon": "fab fa-facebook-f"},
+        "_iconSize": "14px",
+        "_iconColor": {"hex": "#ffffff"},
+        "_background": {"color": {"hex": "#6C63FF"}},
+        "_padding": {"top": "10", "bottom": "10", "left": "10", "right": "10"},
+        "_border": {"radius": {"top": "50%", "right": "50%", "bottom": "50%", "left": "50%"}}
+      }
+    },
+    {
+      "id": "m3s2",
+      "name": "icon",
+      "parent": "m3social",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeBrands", "icon": "fab fa-twitter"},
+        "_iconSize": "14px",
+        "_iconColor": {"hex": "#ffffff"},
+        "_background": {"color": {"hex": "#6C63FF"}},
+        "_padding": {"top": "10", "bottom": "10", "left": "10", "right": "10"},
+        "_border": {"radius": {"top": "50%", "right": "50%", "bottom": "50%", "left": "50%"}}
+      }
+    },
+    {
+      "id": "m3s3",
+      "name": "icon",
+      "parent": "m3social",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeBrands", "icon": "fab fa-linkedin-in"},
+        "_iconSize": "14px",
+        "_iconColor": {"hex": "#ffffff"},
+        "_background": {"color": {"hex": "#6C63FF"}},
+        "_padding": {"top": "10", "bottom": "10", "left": "10", "right": "10"},
+        "_border": {"radius": {"top": "50%", "right": "50%", "bottom": "50%", "left": "50%"}}
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

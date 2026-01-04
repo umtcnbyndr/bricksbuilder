@@ -1,0 +1,298 @@
+{
+  "content": [
+    {
+      "id": "services01",
+      "name": "section",
+      "parent": 0,
+      "children": ["servicescon"],
+      "settings": {
+        "_background": {"color": {"hex": "#ffffff"}},
+        "_padding": {"top": "80", "bottom": "80"}
+      }
+    },
+    {
+      "id": "servicescon",
+      "name": "container",
+      "parent": "services01",
+      "children": ["servicestitle", "servicesgrid"],
+      "settings": {
+        "_width": "1200px",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "servicestitle",
+      "name": "div",
+      "parent": "servicescon",
+      "children": ["servlabel", "servheading"],
+      "settings": {
+        "_textAlign": "center",
+        "_margin": {"bottom": "50"}
+      }
+    },
+    {
+      "id": "servlabel",
+      "name": "text-basic",
+      "parent": "servicestitle",
+      "children": [],
+      "settings": {
+        "text": "SERVICES",
+        "_typography": {"font-size": "14px", "font-weight": "600", "color": {"hex": "#6C63FF"}, "letter-spacing": "2px"},
+        "_margin": {"bottom": "10"}
+      }
+    },
+    {
+      "id": "servheading",
+      "name": "heading",
+      "parent": "servicestitle",
+      "children": [],
+      "settings": {
+        "text": "We provide All-in-one Solution<br>for every IT job",
+        "tag": "h2",
+        "_typography": {"font-size": "36px", "font-weight": "700", "color": {"hex": "#1a1a2e"}, "font-family": "Poppins"}
+      }
+    },
+    {
+      "id": "servicesgrid",
+      "name": "div",
+      "parent": "servicescon",
+      "children": ["servcard1", "servcard2", "servcard3", "servcard4"],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(4, 1fr)",
+        "_gap": "25px",
+        "_gridTemplateColumns:tablet_portrait": "repeat(2, 1fr)",
+        "_gridTemplateColumns:mobile_portrait": "1fr"
+      }
+    },
+    {
+      "id": "servcard1",
+      "name": "div",
+      "parent": "servicesgrid",
+      "children": ["serv1icon", "serv1title", "serv1desc", "serv1link"],
+      "settings": {
+        "_background": {"color": {"hex": "#f8f9fa"}},
+        "_padding": {"top": "30", "bottom": "30", "left": "25", "right": "25"},
+        "_border": {"radius": {"top": "10", "right": "10", "bottom": "10", "left": "10"}},
+        "_transition": "all 0.3s ease"
+      }
+    },
+    {
+      "id": "serv1icon",
+      "name": "icon",
+      "parent": "servcard1",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeSolid", "icon": "fas fa-chart-pie"},
+        "_iconSize": "40px",
+        "_iconColor": {"hex": "#6C63FF"},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "serv1title",
+      "name": "heading",
+      "parent": "servcard1",
+      "children": [],
+      "settings": {
+        "text": "IT Consulting",
+        "tag": "h4",
+        "_typography": {"font-size": "18px", "font-weight": "600", "color": {"hex": "#1a1a2e"}},
+        "_margin": {"bottom": "10"}
+      }
+    },
+    {
+      "id": "serv1desc",
+      "name": "text-basic",
+      "parent": "servcard1",
+      "children": [],
+      "settings": {
+        "text": "Strategic technology consulting to drive business growth",
+        "_typography": {"font-size": "14px", "color": {"hex": "#666666"}},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "serv1link",
+      "name": "text-link",
+      "parent": "servcard1",
+      "children": [],
+      "settings": {
+        "text": "LEARN MORE →",
+        "_typography": {"font-size": "12px", "font-weight": "600", "color": {"hex": "#6C63FF"}}
+      }
+    },
+    {
+      "id": "servcard2",
+      "name": "div",
+      "parent": "servicesgrid",
+      "children": ["serv2icon", "serv2title", "serv2desc", "serv2link"],
+      "settings": {
+        "_background": {"color": {"hex": "#6C63FF"}},
+        "_padding": {"top": "30", "bottom": "30", "left": "25", "right": "25"},
+        "_border": {"radius": {"top": "10", "right": "10", "bottom": "10", "left": "10"}}
+      }
+    },
+    {
+      "id": "serv2icon",
+      "name": "icon",
+      "parent": "servcard2",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeSolid", "icon": "fas fa-code"},
+        "_iconSize": "40px",
+        "_iconColor": {"hex": "#ffffff"},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "serv2title",
+      "name": "heading",
+      "parent": "servcard2",
+      "children": [],
+      "settings": {
+        "text": "Custom Software Development",
+        "tag": "h4",
+        "_typography": {"font-size": "18px", "font-weight": "600", "color": {"hex": "#ffffff"}},
+        "_margin": {"bottom": "10"}
+      }
+    },
+    {
+      "id": "serv2desc",
+      "name": "text-basic",
+      "parent": "servcard2",
+      "children": [],
+      "settings": {
+        "text": "Tailored software solutions for your unique needs",
+        "_typography": {"font-size": "14px", "color": {"hex": "#ffffff", "rgb": "rgba(255,255,255,0.85)"}},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "serv2link",
+      "name": "text-link",
+      "parent": "servcard2",
+      "children": [],
+      "settings": {
+        "text": "LEARN MORE →",
+        "_typography": {"font-size": "12px", "font-weight": "600", "color": {"hex": "#ffffff"}}
+      }
+    },
+    {
+      "id": "servcard3",
+      "name": "div",
+      "parent": "servicesgrid",
+      "children": ["serv3icon", "serv3title", "serv3desc", "serv3link"],
+      "settings": {
+        "_background": {"color": {"hex": "#f8f9fa"}},
+        "_padding": {"top": "30", "bottom": "30", "left": "25", "right": "25"},
+        "_border": {"radius": {"top": "10", "right": "10", "bottom": "10", "left": "10"}}
+      }
+    },
+    {
+      "id": "serv3icon",
+      "name": "icon",
+      "parent": "servcard3",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeSolid", "icon": "fas fa-shield-alt"},
+        "_iconSize": "40px",
+        "_iconColor": {"hex": "#6C63FF"},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "serv3title",
+      "name": "heading",
+      "parent": "servcard3",
+      "children": [],
+      "settings": {
+        "text": "Cyber Security",
+        "tag": "h4",
+        "_typography": {"font-size": "18px", "font-weight": "600", "color": {"hex": "#1a1a2e"}},
+        "_margin": {"bottom": "10"}
+      }
+    },
+    {
+      "id": "serv3desc",
+      "name": "text-basic",
+      "parent": "servcard3",
+      "children": [],
+      "settings": {
+        "text": "Protect your business from cyber threats",
+        "_typography": {"font-size": "14px", "color": {"hex": "#666666"}},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "serv3link",
+      "name": "text-link",
+      "parent": "servcard3",
+      "children": [],
+      "settings": {
+        "text": "LEARN MORE →",
+        "_typography": {"font-size": "12px", "font-weight": "600", "color": {"hex": "#6C63FF"}}
+      }
+    },
+    {
+      "id": "servcard4",
+      "name": "div",
+      "parent": "servicesgrid",
+      "children": ["serv4icon", "serv4title", "serv4desc", "serv4link"],
+      "settings": {
+        "_background": {"color": {"hex": "#f8f9fa"}},
+        "_padding": {"top": "30", "bottom": "30", "left": "25", "right": "25"},
+        "_border": {"radius": {"top": "10", "right": "10", "bottom": "10", "left": "10"}}
+      }
+    },
+    {
+      "id": "serv4icon",
+      "name": "icon",
+      "parent": "servcard4",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeSolid", "icon": "fas fa-cloud"},
+        "_iconSize": "40px",
+        "_iconColor": {"hex": "#6C63FF"},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "serv4title",
+      "name": "heading",
+      "parent": "servcard4",
+      "children": [],
+      "settings": {
+        "text": "Cloud Solutions",
+        "tag": "h4",
+        "_typography": {"font-size": "18px", "font-weight": "600", "color": {"hex": "#1a1a2e"}},
+        "_margin": {"bottom": "10"}
+      }
+    },
+    {
+      "id": "serv4desc",
+      "name": "text-basic",
+      "parent": "servcard4",
+      "children": [],
+      "settings": {
+        "text": "Scalable cloud infrastructure and services",
+        "_typography": {"font-size": "14px", "color": {"hex": "#666666"}},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "serv4link",
+      "name": "text-link",
+      "parent": "servcard4",
+      "children": [],
+      "settings": {
+        "text": "LEARN MORE →",
+        "_typography": {"font-size": "12px", "font-weight": "600", "color": {"hex": "#6C63FF"}}
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

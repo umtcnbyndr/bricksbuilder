@@ -1,0 +1,101 @@
+{
+  "content": [
+    {
+      "id": "header01",
+      "name": "section",
+      "parent": 0,
+      "children": ["headercon"],
+      "settings": {
+        "_background": {"color": {"hex": "#ffffff"}},
+        "_padding": {"top": "15", "bottom": "15"},
+        "_boxShadow": {"values": {"offsetX": "0", "offsetY": "2", "blur": "10", "spread": "0"}, "color": {"hex": "#000000", "rgb": "rgba(0,0,0,0.08)"}},
+        "_zIndex": "1000"
+      }
+    },
+    {
+      "id": "headercon",
+      "name": "container",
+      "parent": "header01",
+      "children": ["logo01", "navmenu01", "headerbtn"],
+      "settings": {
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_alignItems": "center",
+        "_width": "1200px"
+      }
+    },
+    {
+      "id": "logo01",
+      "name": "div",
+      "parent": "headercon",
+      "children": ["logoicon", "logotext"],
+      "settings": {
+        "_direction": "row",
+        "_alignItems": "center",
+        "_gap": "8px"
+      }
+    },
+    {
+      "id": "logoicon",
+      "name": "icon",
+      "parent": "logo01",
+      "children": [],
+      "settings": {
+        "icon": {"library": "fontawesomeSolid", "icon": "fas fa-cube"},
+        "_iconSize": "32px",
+        "_iconColor": {"hex": "#6C63FF"}
+      }
+    },
+    {
+      "id": "logotext",
+      "name": "heading",
+      "parent": "logo01",
+      "children": [],
+      "settings": {
+        "text": "apps",
+        "tag": "h1",
+        "_typography": {"font-size": "24px", "font-weight": "700", "color": {"hex": "#1a1a2e"}, "font-family": "Poppins"}
+      }
+    },
+    {
+      "id": "navmenu01",
+      "name": "nav-menu",
+      "parent": "headercon",
+      "children": [],
+      "settings": {
+        "menuTypography": {"font-size": "15px", "font-weight": "500", "color": {"hex": "#333333"}, "font-family": "Poppins"},
+        "mobileMenu": "tablet_portrait",
+        "mobileMenuToggleColor_tablet_portrait": {"hex": "#6C63FF"}
+      }
+    },
+    {
+      "id": "headerbtn",
+      "name": "div",
+      "parent": "headercon",
+      "children": ["phonebtn"],
+      "settings": {
+        "_display_tablet_portrait": "none"
+      }
+    },
+    {
+      "id": "phonebtn",
+      "name": "button",
+      "parent": "headerbtn",
+      "children": [],
+      "settings": {
+        "text": "+25-4895-122",
+        "style": "primary",
+        "icon": {"library": "fontawesomeSolid", "icon": "fas fa-phone"},
+        "iconPosition": "left",
+        "_background": {"color": {"hex": "#6C63FF"}},
+        "_typography": {"font-size": "14px", "font-weight": "600", "color": {"hex": "#ffffff"}, "font-family": "Poppins"},
+        "_padding": {"top": "12", "bottom": "12", "left": "20", "right": "20"},
+        "_border": {"radius": {"top": "25", "right": "25", "bottom": "25", "left": "25"}}
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

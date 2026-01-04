@@ -1,0 +1,145 @@
+{
+  "content": [
+    {
+      "id": "proj01",
+      "name": "section",
+      "parent": 0,
+      "children": ["projcon"],
+      "settings": {
+        "_background": {"color": {"hex": "#ffffff"}},
+        "_padding": {"top": "80", "bottom": "80"}
+      }
+    },
+    {
+      "id": "projcon",
+      "name": "container",
+      "parent": "proj01",
+      "children": ["projleft", "projright"],
+      "settings": {
+        "_width": "1200px",
+        "_direction": "row",
+        "_gap": "60px",
+        "_alignItems": "center",
+        "_direction:tablet_portrait": "column"
+      }
+    },
+    {
+      "id": "projleft",
+      "name": "div",
+      "parent": "projcon",
+      "children": ["projimages"],
+      "settings": {
+        "_width": "50%",
+        "_width:tablet_portrait": "100%"
+      }
+    },
+    {
+      "id": "projimages",
+      "name": "div",
+      "parent": "projleft",
+      "children": ["projimg1", "projimg2"],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(2, 1fr)",
+        "_gap": "15px"
+      }
+    },
+    {
+      "id": "projimg1",
+      "name": "image",
+      "parent": "projimages",
+      "children": [],
+      "settings": {
+        "image": {"url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400", "external": true},
+        "_border": {"radius": {"top": "10", "right": "10", "bottom": "10", "left": "10"}},
+        "_objectFit": "cover",
+        "_height": "250px"
+      }
+    },
+    {
+      "id": "projimg2",
+      "name": "image",
+      "parent": "projimages",
+      "children": [],
+      "settings": {
+        "image": {"url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400", "external": true},
+        "_border": {"radius": {"top": "10", "right": "10", "bottom": "10", "left": "10"}},
+        "_objectFit": "cover",
+        "_height": "250px",
+        "_margin": {"top": "40"}
+      }
+    },
+    {
+      "id": "projright",
+      "name": "div",
+      "parent": "projcon",
+      "children": ["projlabel", "projtitle", "projdesc", "projpoints", "projbtn"],
+      "settings": {
+        "_width": "45%",
+        "_width:tablet_portrait": "100%"
+      }
+    },
+    {
+      "id": "projlabel",
+      "name": "text-basic",
+      "parent": "projright",
+      "children": [],
+      "settings": {
+        "text": "PROJECTS",
+        "_typography": {"font-size": "14px", "font-weight": "600", "color": {"hex": "#6C63FF"}, "letter-spacing": "2px"},
+        "_margin": {"bottom": "10"}
+      }
+    },
+    {
+      "id": "projtitle",
+      "name": "heading",
+      "parent": "projright",
+      "children": [],
+      "settings": {
+        "text": "Our amazing project that has been completed",
+        "tag": "h2",
+        "_typography": {"font-size": "36px", "font-weight": "700", "color": {"hex": "#1a1a2e"}, "font-family": "Poppins", "line-height": "1.2"},
+        "_margin": {"bottom": "20"}
+      }
+    },
+    {
+      "id": "projdesc",
+      "name": "text",
+      "parent": "projright",
+      "children": [],
+      "settings": {
+        "text": "Lorem ipsum is free for istum iure eam a vero rem accusant. Quasi eligendi modi dolores cum laborum reiciendis quae vident minus.",
+        "_typography": {"font-size": "15px", "color": {"hex": "#666666"}, "line-height": "1.7"},
+        "_margin": {"bottom": "20"}
+      }
+    },
+    {
+      "id": "projpoints",
+      "name": "text",
+      "parent": "projright",
+      "children": [],
+      "settings": {
+        "text": "Explicabo eos natus est aut magni vitae ipsa.<br>Recusand. dolorib. volupt enim obcae premi.",
+        "_typography": {"font-size": "15px", "color": {"hex": "#666666"}, "line-height": "1.8"},
+        "_margin": {"bottom": "25"}
+      }
+    },
+    {
+      "id": "projbtn",
+      "name": "button",
+      "parent": "projright",
+      "children": [],
+      "settings": {
+        "text": "RECENT PROJECTS",
+        "_background": {"color": {"hex": "#6C63FF"}},
+        "_typography": {"font-size": "13px", "font-weight": "600", "color": {"hex": "#ffffff"}},
+        "_padding": {"top": "14", "bottom": "14", "left": "25", "right": "25"},
+        "_border": {"radius": {"top": "5", "right": "5", "bottom": "5", "left": "5"}}
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

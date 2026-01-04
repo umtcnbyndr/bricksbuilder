@@ -1,0 +1,359 @@
+{
+  "content": [
+    {
+      "id": "test01",
+      "name": "section",
+      "parent": 0,
+      "children": ["testcon"],
+      "settings": {
+        "_background": {"color": {"hex": "#f8f9fa"}},
+        "_padding": {"top": "80", "bottom": "80"}
+      }
+    },
+    {
+      "id": "testcon",
+      "name": "container",
+      "parent": "test01",
+      "children": ["testheader", "testgrid"],
+      "settings": {
+        "_width": "1200px"
+      }
+    },
+    {
+      "id": "testheader",
+      "name": "div",
+      "parent": "testcon",
+      "children": ["testlabel", "testtitle"],
+      "settings": {
+        "_textAlign": "center",
+        "_margin": {"bottom": "50"}
+      }
+    },
+    {
+      "id": "testlabel",
+      "name": "text-basic",
+      "parent": "testheader",
+      "children": [],
+      "settings": {
+        "text": "TESTIMONIALS",
+        "_typography": {"font-size": "14px", "font-weight": "600", "color": {"hex": "#6C63FF"}, "letter-spacing": "2px"},
+        "_margin": {"bottom": "10"}
+      }
+    },
+    {
+      "id": "testtitle",
+      "name": "heading",
+      "parent": "testheader",
+      "children": [],
+      "settings": {
+        "text": "Our successful clients",
+        "tag": "h2",
+        "_typography": {"font-size": "36px", "font-weight": "700", "color": {"hex": "#1a1a2e"}, "font-family": "Poppins"}
+      }
+    },
+    {
+      "id": "testgrid",
+      "name": "div",
+      "parent": "testcon",
+      "children": ["tcard1", "tcard2", "tcard3"],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(3, 1fr)",
+        "_gap": "30px",
+        "_gridTemplateColumns:tablet_portrait": "1fr"
+      }
+    },
+    {
+      "id": "tcard1",
+      "name": "div",
+      "parent": "testgrid",
+      "children": ["tc1quote", "tc1text", "tc1stars", "tc1author"],
+      "settings": {
+        "_background": {"color": {"hex": "#ffffff"}},
+        "_padding": {"top": "35", "bottom": "35", "left": "30", "right": "30"},
+        "_border": {"radius": {"top": "15", "right": "15", "bottom": "15", "left": "15"}},
+        "_boxShadow": {"values": {"offsetX": "0", "offsetY": "10", "blur": "30", "spread": "0"}, "color": {"hex": "#000000", "rgb": "rgba(0,0,0,0.08)"}}
+      }
+    },
+    {
+      "id": "tc1quote",
+      "name": "text-basic",
+      "parent": "tcard1",
+      "children": [],
+      "settings": {
+        "text": "❝",
+        "_typography": {"font-size": "60px", "color": {"hex": "#6C63FF"}, "line-height": "1"},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "tc1text",
+      "name": "text",
+      "parent": "tcard1",
+      "children": [],
+      "settings": {
+        "text": "Best impact to transform our business a new level! Thanks apps studio for great experience and dedication.",
+        "_typography": {"font-size": "15px", "color": {"hex": "#333333"}, "line-height": "1.7"},
+        "_margin": {"bottom": "20"}
+      }
+    },
+    {
+      "id": "tc1stars",
+      "name": "text-basic",
+      "parent": "tcard1",
+      "children": [],
+      "settings": {
+        "text": "★★★★★",
+        "_typography": {"font-size": "16px", "color": {"hex": "#FFD700"}},
+        "_margin": {"bottom": "20"}
+      }
+    },
+    {
+      "id": "tc1author",
+      "name": "div",
+      "parent": "tcard1",
+      "children": ["tc1avatar", "tc1info"],
+      "settings": {
+        "_direction": "row",
+        "_alignItems": "center",
+        "_gap": "15px"
+      }
+    },
+    {
+      "id": "tc1avatar",
+      "name": "image",
+      "parent": "tc1author",
+      "children": [],
+      "settings": {
+        "image": {"url": "https://i.pravatar.cc/60?img=1", "external": true},
+        "_width": "50px",
+        "_height": "50px",
+        "_border": {"radius": {"top": "50%", "right": "50%", "bottom": "50%", "left": "50%"}}
+      }
+    },
+    {
+      "id": "tc1info",
+      "name": "div",
+      "parent": "tc1author",
+      "children": ["tc1name", "tc1role"],
+      "settings": {}
+    },
+    {
+      "id": "tc1name",
+      "name": "heading",
+      "parent": "tc1info",
+      "children": [],
+      "settings": {
+        "text": "JULIA DOE",
+        "tag": "h5",
+        "_typography": {"font-size": "14px", "font-weight": "600", "color": {"hex": "#1a1a2e"}}
+      }
+    },
+    {
+      "id": "tc1role",
+      "name": "text-basic",
+      "parent": "tc1info",
+      "children": [],
+      "settings": {
+        "text": "Business Owner",
+        "_typography": {"font-size": "12px", "color": {"hex": "#666666"}}
+      }
+    },
+    {
+      "id": "tcard2",
+      "name": "div",
+      "parent": "testgrid",
+      "children": ["tc2quote", "tc2text", "tc2stars", "tc2author"],
+      "settings": {
+        "_background": {"color": {"hex": "#ffffff"}},
+        "_padding": {"top": "35", "bottom": "35", "left": "30", "right": "30"},
+        "_border": {"radius": {"top": "15", "right": "15", "bottom": "15", "left": "15"}},
+        "_boxShadow": {"values": {"offsetX": "0", "offsetY": "10", "blur": "30", "spread": "0"}, "color": {"hex": "#000000", "rgb": "rgba(0,0,0,0.08)"}}
+      }
+    },
+    {
+      "id": "tc2quote",
+      "name": "text-basic",
+      "parent": "tcard2",
+      "children": [],
+      "settings": {
+        "text": "❝",
+        "_typography": {"font-size": "60px", "color": {"hex": "#6C63FF"}, "line-height": "1"},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "tc2text",
+      "name": "text",
+      "parent": "tcard2",
+      "children": [],
+      "settings": {
+        "text": "With long term support. Team apps studio special dedication and long quality for support all product.",
+        "_typography": {"font-size": "15px", "color": {"hex": "#333333"}, "line-height": "1.7"},
+        "_margin": {"bottom": "20"}
+      }
+    },
+    {
+      "id": "tc2stars",
+      "name": "text-basic",
+      "parent": "tcard2",
+      "children": [],
+      "settings": {
+        "text": "★★★★★",
+        "_typography": {"font-size": "16px", "color": {"hex": "#FFD700"}},
+        "_margin": {"bottom": "20"}
+      }
+    },
+    {
+      "id": "tc2author",
+      "name": "div",
+      "parent": "tcard2",
+      "children": ["tc2avatar", "tc2info"],
+      "settings": {
+        "_direction": "row",
+        "_alignItems": "center",
+        "_gap": "15px"
+      }
+    },
+    {
+      "id": "tc2avatar",
+      "name": "image",
+      "parent": "tc2author",
+      "children": [],
+      "settings": {
+        "image": {"url": "https://i.pravatar.cc/60?img=5", "external": true},
+        "_width": "50px",
+        "_height": "50px",
+        "_border": {"radius": {"top": "50%", "right": "50%", "bottom": "50%", "left": "50%"}}
+      }
+    },
+    {
+      "id": "tc2info",
+      "name": "div",
+      "parent": "tc2author",
+      "children": ["tc2name", "tc2role"],
+      "settings": {}
+    },
+    {
+      "id": "tc2name",
+      "name": "heading",
+      "parent": "tc2info",
+      "children": [],
+      "settings": {
+        "text": "SARAH DOE",
+        "tag": "h5",
+        "_typography": {"font-size": "14px", "font-weight": "600", "color": {"hex": "#1a1a2e"}}
+      }
+    },
+    {
+      "id": "tc2role",
+      "name": "text-basic",
+      "parent": "tc2info",
+      "children": [],
+      "settings": {
+        "text": "Brand Consultant",
+        "_typography": {"font-size": "12px", "color": {"hex": "#666666"}}
+      }
+    },
+    {
+      "id": "tcard3",
+      "name": "div",
+      "parent": "testgrid",
+      "children": ["tc3quote", "tc3text", "tc3stars", "tc3author"],
+      "settings": {
+        "_background": {"color": {"hex": "#ffffff"}},
+        "_padding": {"top": "35", "bottom": "35", "left": "30", "right": "30"},
+        "_border": {"radius": {"top": "15", "right": "15", "bottom": "15", "left": "15"}},
+        "_boxShadow": {"values": {"offsetX": "0", "offsetY": "10", "blur": "30", "spread": "0"}, "color": {"hex": "#000000", "rgb": "rgba(0,0,0,0.08)"}}
+      }
+    },
+    {
+      "id": "tc3quote",
+      "name": "text-basic",
+      "parent": "tcard3",
+      "children": [],
+      "settings": {
+        "text": "❝",
+        "_typography": {"font-size": "60px", "color": {"hex": "#6C63FF"}, "line-height": "1"},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "tc3text",
+      "name": "text",
+      "parent": "tcard3",
+      "children": [],
+      "settings": {
+        "text": "We'd known already smart IT solution organization with flagship solution all around the world.",
+        "_typography": {"font-size": "15px", "color": {"hex": "#333333"}, "line-height": "1.7"},
+        "_margin": {"bottom": "20"}
+      }
+    },
+    {
+      "id": "tc3stars",
+      "name": "text-basic",
+      "parent": "tcard3",
+      "children": [],
+      "settings": {
+        "text": "★★★★★",
+        "_typography": {"font-size": "16px", "color": {"hex": "#FFD700"}},
+        "_margin": {"bottom": "20"}
+      }
+    },
+    {
+      "id": "tc3author",
+      "name": "div",
+      "parent": "tcard3",
+      "children": ["tc3avatar", "tc3info"],
+      "settings": {
+        "_direction": "row",
+        "_alignItems": "center",
+        "_gap": "15px"
+      }
+    },
+    {
+      "id": "tc3avatar",
+      "name": "image",
+      "parent": "tc3author",
+      "children": [],
+      "settings": {
+        "image": {"url": "https://i.pravatar.cc/60?img=8", "external": true},
+        "_width": "50px",
+        "_height": "50px",
+        "_border": {"radius": {"top": "50%", "right": "50%", "bottom": "50%", "left": "50%"}}
+      }
+    },
+    {
+      "id": "tc3info",
+      "name": "div",
+      "parent": "tc3author",
+      "children": ["tc3name", "tc3role"],
+      "settings": {}
+    },
+    {
+      "id": "tc3name",
+      "name": "heading",
+      "parent": "tc3info",
+      "children": [],
+      "settings": {
+        "text": "ROBERT DOE",
+        "tag": "h5",
+        "_typography": {"font-size": "14px", "font-weight": "600", "color": {"hex": "#1a1a2e"}}
+      }
+    },
+    {
+      "id": "tc3role",
+      "name": "text-basic",
+      "parent": "tc3info",
+      "children": [],
+      "settings": {
+        "text": "Businessman",
+        "_typography": {"font-size": "12px", "color": {"hex": "#666666"}}
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

@@ -1,0 +1,227 @@
+{
+  "content": [
+    {
+      "id": "hero01",
+      "name": "section",
+      "parent": 0,
+      "children": ["herocon"],
+      "settings": {
+        "_background": {
+          "color": {"hex": "#6C63FF"},
+          "image": {"url": ""},
+          "gradient": {
+            "colors": [
+              {"color": {"hex": "#6C63FF"}, "stop": "0"},
+              {"color": {"hex": "#5a52e0"}, "stop": "100"}
+            ],
+            "angle": "135"
+          }
+        },
+        "_padding": {"top": "80", "bottom": "100"},
+        "_overflow": "hidden"
+      }
+    },
+    {
+      "id": "herocon",
+      "name": "container",
+      "parent": "hero01",
+      "children": ["heroleft", "heroright"],
+      "settings": {
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_alignItems": "center",
+        "_width": "1200px",
+        "_gap": "60px",
+        "_direction:tablet_portrait": "column"
+      }
+    },
+    {
+      "id": "heroleft",
+      "name": "div",
+      "parent": "herocon",
+      "children": ["herotitle", "herodesc", "herobtnwrap", "heropartners"],
+      "settings": {
+        "_width": "50%",
+        "_width:tablet_portrait": "100%"
+      }
+    },
+    {
+      "id": "herotitle",
+      "name": "heading",
+      "parent": "heroleft",
+      "children": [],
+      "settings": {
+        "text": "High quality IT-Solutions for help your problems about technology.",
+        "tag": "h1",
+        "_typography": {"font-size": "42px", "font-weight": "700", "color": {"hex": "#ffffff"}, "font-family": "Poppins", "line-height": "1.2"},
+        "_margin": {"bottom": "20"},
+        "_typography:mobile_portrait": {"font-size": "32px"}
+      }
+    },
+    {
+      "id": "herodesc",
+      "name": "text",
+      "parent": "heroleft",
+      "children": [],
+      "settings": {
+        "text": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse nihil molestiae consequatur.",
+        "_typography": {"font-size": "16px", "color": {"hex": "#ffffff", "rgb": "rgba(255,255,255,0.85)"}, "font-family": "Poppins"},
+        "_margin": {"bottom": "30"}
+      }
+    },
+    {
+      "id": "herobtnwrap",
+      "name": "div",
+      "parent": "heroleft",
+      "children": ["herobtn"],
+      "settings": {
+        "_margin": {"bottom": "40"}
+      }
+    },
+    {
+      "id": "herobtn",
+      "name": "button",
+      "parent": "herobtnwrap",
+      "children": [],
+      "settings": {
+        "text": "Enter your email",
+        "style": "primary",
+        "_background": {"color": {"hex": "#1a1a2e"}},
+        "_typography": {"font-size": "14px", "font-weight": "500", "color": {"hex": "#ffffff"}, "font-family": "Poppins"},
+        "_padding": {"top": "15", "bottom": "15", "left": "30", "right": "30"},
+        "_border": {"radius": {"top": "5", "right": "5", "bottom": "5", "left": "5"}}
+      }
+    },
+    {
+      "id": "heropartners",
+      "name": "div",
+      "parent": "heroleft",
+      "children": ["partnerlabel", "partnerlogos"],
+      "settings": {}
+    },
+    {
+      "id": "partnerlabel",
+      "name": "text-basic",
+      "parent": "heropartners",
+      "children": [],
+      "settings": {
+        "text": "FEATURED IN",
+        "_typography": {"font-size": "12px", "font-weight": "600", "color": {"hex": "#ffffff", "rgb": "rgba(255,255,255,0.7)"}, "letter-spacing": "2px"},
+        "_margin": {"bottom": "15"}
+      }
+    },
+    {
+      "id": "partnerlogos",
+      "name": "div",
+      "parent": "heropartners",
+      "children": ["plogo1", "plogo2", "plogo3", "plogo4"],
+      "settings": {
+        "_direction": "row",
+        "_gap": "30px",
+        "_alignItems": "center",
+        "_flexWrap": "wrap"
+      }
+    },
+    {
+      "id": "plogo1",
+      "name": "text-basic",
+      "parent": "partnerlogos",
+      "children": [],
+      "settings": {
+        "text": "PAGODA",
+        "_typography": {"font-size": "14px", "font-weight": "700", "color": {"hex": "#ffffff", "rgb": "rgba(255,255,255,0.8)"}}
+      }
+    },
+    {
+      "id": "plogo2",
+      "name": "text-basic",
+      "parent": "partnerlogos",
+      "children": [],
+      "settings": {
+        "text": "D-Dip",
+        "_typography": {"font-size": "14px", "font-weight": "700", "color": {"hex": "#ffffff", "rgb": "rgba(255,255,255,0.8)"}}
+      }
+    },
+    {
+      "id": "plogo3",
+      "name": "text-basic",
+      "parent": "partnerlogos",
+      "children": [],
+      "settings": {
+        "text": "startup",
+        "_typography": {"font-size": "14px", "font-weight": "700", "color": {"hex": "#ffffff", "rgb": "rgba(255,255,255,0.8)"}}
+      }
+    },
+    {
+      "id": "plogo4",
+      "name": "text-basic",
+      "parent": "partnerlogos",
+      "children": [],
+      "settings": {
+        "text": "1.0.8",
+        "_typography": {"font-size": "14px", "font-weight": "700", "color": {"hex": "#ffffff", "rgb": "rgba(255,255,255,0.8)"}}
+      }
+    },
+    {
+      "id": "heroright",
+      "name": "div",
+      "parent": "herocon",
+      "children": ["heroimg", "herobadge"],
+      "settings": {
+        "_width": "45%",
+        "_position": "relative",
+        "_width:tablet_portrait": "100%"
+      }
+    },
+    {
+      "id": "heroimg",
+      "name": "image",
+      "parent": "heroright",
+      "children": [],
+      "settings": {
+        "image": {"url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500", "external": true},
+        "_border": {"radius": {"top": "10", "right": "10", "bottom": "10", "left": "10"}},
+        "_boxShadow": {"values": {"offsetX": "0", "offsetY": "20", "blur": "40", "spread": "0"}, "color": {"hex": "#000000", "rgb": "rgba(0,0,0,0.3)"}}
+      }
+    },
+    {
+      "id": "herobadge",
+      "name": "div",
+      "parent": "heroright",
+      "children": ["badgetext", "badgestars"],
+      "settings": {
+        "_background": {"color": {"hex": "#ffffff"}},
+        "_padding": {"top": "15", "bottom": "15", "left": "20", "right": "20"},
+        "_border": {"radius": {"top": "8", "right": "8", "bottom": "8", "left": "8"}},
+        "_position": "absolute",
+        "_top": "20px",
+        "_right": "-20px",
+        "_boxShadow": {"values": {"offsetX": "0", "offsetY": "10", "blur": "30", "spread": "0"}, "color": {"hex": "#000000", "rgb": "rgba(0,0,0,0.15)"}}
+      }
+    },
+    {
+      "id": "badgetext",
+      "name": "text-basic",
+      "parent": "herobadge",
+      "children": [],
+      "settings": {
+        "text": "4.9/5 Rating from Our Clients",
+        "_typography": {"font-size": "12px", "font-weight": "500", "color": {"hex": "#333333"}}
+      }
+    },
+    {
+      "id": "badgestars",
+      "name": "text-basic",
+      "parent": "herobadge",
+      "children": [],
+      "settings": {
+        "text": "★★★★★",
+        "_typography": {"font-size": "14px", "color": {"hex": "#FFD700"}}
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

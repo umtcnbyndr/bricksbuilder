@@ -1,0 +1,57 @@
+{
+  "content": [
+    {
+      "id": "cta01",
+      "name": "section",
+      "parent": 0,
+      "children": ["ctacon"],
+      "settings": {
+        "_background": {"color": {"hex": "#6C63FF"}},
+        "_padding": {"top": "50", "bottom": "50"}
+      }
+    },
+    {
+      "id": "ctacon",
+      "name": "container",
+      "parent": "cta01",
+      "children": ["ctatext", "ctabtn"],
+      "settings": {
+        "_width": "1200px",
+        "_direction": "row",
+        "_justifyContent": "space-between",
+        "_alignItems": "center",
+        "_direction:tablet_portrait": "column",
+        "_gap": "20px"
+      }
+    },
+    {
+      "id": "ctatext",
+      "name": "heading",
+      "parent": "ctacon",
+      "children": [],
+      "settings": {
+        "text": "Service discount up to 30% for any project",
+        "tag": "h3",
+        "_typography": {"font-size": "24px", "font-weight": "600", "color": {"hex": "#ffffff"}, "font-family": "Poppins"},
+        "_textAlign:tablet_portrait": "center"
+      }
+    },
+    {
+      "id": "ctabtn",
+      "name": "button",
+      "parent": "ctacon",
+      "children": [],
+      "settings": {
+        "text": "START PROJECT NOW",
+        "_background": {"color": {"hex": "#1a1a2e"}},
+        "_typography": {"font-size": "13px", "font-weight": "600", "color": {"hex": "#ffffff"}, "letter-spacing": "1px"},
+        "_padding": {"top": "15", "bottom": "15", "left": "30", "right": "30"},
+        "_border": {"radius": {"top": "5", "right": "5", "bottom": "5", "left": "5"}}
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

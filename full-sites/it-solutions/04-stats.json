@@ -1,0 +1,153 @@
+{
+  "content": [
+    {
+      "id": "stats01",
+      "name": "section",
+      "parent": 0,
+      "children": ["statscon"],
+      "settings": {
+        "_background": {"color": {"hex": "#ffffff"}},
+        "_padding": {"top": "60", "bottom": "60"},
+        "_border": {"top": {"width": "1", "style": "solid", "color": {"hex": "#eeeeee"}}, "bottom": {"width": "1", "style": "solid", "color": {"hex": "#eeeeee"}}}
+      }
+    },
+    {
+      "id": "statscon",
+      "name": "container",
+      "parent": "stats01",
+      "children": ["stat1", "stat2", "stat3", "stat4"],
+      "settings": {
+        "_width": "1200px",
+        "_direction": "row",
+        "_justifyContent": "space-around",
+        "_alignItems": "center",
+        "_flexWrap": "wrap",
+        "_gap": "30px"
+      }
+    },
+    {
+      "id": "stat1",
+      "name": "div",
+      "parent": "statscon",
+      "children": ["stat1num", "stat1label"],
+      "settings": {
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "stat1num",
+      "name": "heading",
+      "parent": "stat1",
+      "children": [],
+      "settings": {
+        "text": "782",
+        "tag": "h2",
+        "_typography": {"font-size": "48px", "font-weight": "700", "color": {"hex": "#1a1a2e"}, "font-family": "Poppins"}
+      }
+    },
+    {
+      "id": "stat1label",
+      "name": "text-basic",
+      "parent": "stat1",
+      "children": [],
+      "settings": {
+        "text": "WORLDWIDE CUSTOMERS",
+        "_typography": {"font-size": "12px", "font-weight": "500", "color": {"hex": "#666666"}, "letter-spacing": "1px"}
+      }
+    },
+    {
+      "id": "stat2",
+      "name": "div",
+      "parent": "statscon",
+      "children": ["stat2num", "stat2label"],
+      "settings": {
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "stat2num",
+      "name": "heading",
+      "parent": "stat2",
+      "children": [],
+      "settings": {
+        "text": "12 K",
+        "tag": "h2",
+        "_typography": {"font-size": "48px", "font-weight": "700", "color": {"hex": "#1a1a2e"}, "font-family": "Poppins"}
+      }
+    },
+    {
+      "id": "stat2label",
+      "name": "text-basic",
+      "parent": "stat2",
+      "children": [],
+      "settings": {
+        "text": "PROJECTS DONE",
+        "_typography": {"font-size": "12px", "font-weight": "500", "color": {"hex": "#666666"}, "letter-spacing": "1px"}
+      }
+    },
+    {
+      "id": "stat3",
+      "name": "div",
+      "parent": "statscon",
+      "children": ["stat3num", "stat3label"],
+      "settings": {
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "stat3num",
+      "name": "heading",
+      "parent": "stat3",
+      "children": [],
+      "settings": {
+        "text": "5,896",
+        "tag": "h2",
+        "_typography": {"font-size": "48px", "font-weight": "700", "color": {"hex": "#1a1a2e"}, "font-family": "Poppins"}
+      }
+    },
+    {
+      "id": "stat3label",
+      "name": "text-basic",
+      "parent": "stat3",
+      "children": [],
+      "settings": {
+        "text": "IT PRODUCTS",
+        "_typography": {"font-size": "12px", "font-weight": "500", "color": {"hex": "#666666"}, "letter-spacing": "1px"}
+      }
+    },
+    {
+      "id": "stat4",
+      "name": "div",
+      "parent": "statscon",
+      "children": ["stat4num", "stat4label"],
+      "settings": {
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "stat4num",
+      "name": "heading",
+      "parent": "stat4",
+      "children": [],
+      "settings": {
+        "text": "$ 890 K",
+        "tag": "h2",
+        "_typography": {"font-size": "48px", "font-weight": "700", "color": {"hex": "#1a1a2e"}, "font-family": "Poppins"}
+      }
+    },
+    {
+      "id": "stat4label",
+      "name": "text-basic",
+      "parent": "stat4",
+      "children": [],
+      "settings": {
+        "text": "PROJECTS SPEND",
+        "_typography": {"font-size": "12px", "font-weight": "500", "color": {"hex": "#666666"}, "letter-spacing": "1px"}
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}
