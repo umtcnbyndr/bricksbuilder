@@ -1,0 +1,3609 @@
+{
+  "content": [
+    {
+      "id": "o6i6d4",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "m5ryzs"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc011k",
+          "gc002b"
+        ],
+        "_background": {
+          "image": {
+            "useDynamicData": false,
+            "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0",
+            "size": "cover"
+          },
+          "gradient": {
+            "angle": "135",
+            "colors": [
+              {
+                "hex": "#4A3AFF",
+                "position": "0"
+              },
+              {
+                "hex": "#7B68EE",
+                "position": "100"
+              }
+            ]
+          }
+        }
+      },
+      "label": "Hero"
+    },
+    {
+      "id": "m5ryzs",
+      "name": "container",
+      "parent": "o6i6d4",
+      "children": [
+        "x71axd"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a"
+        ]
+      }
+    },
+    {
+      "id": "x71axd",
+      "name": "block",
+      "parent": "m5ryzs",
+      "children": [
+        "nb3twm",
+        "uvdbcq"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc020t",
+          "gc004d"
+        ],
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "nb3twm",
+      "name": "block",
+      "parent": "x71axd",
+      "children": [
+        "zfgo23",
+        "2x7vmv",
+        "y7749i"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      },
+      "label": "Content Column"
+    },
+    {
+      "id": "zfgo23",
+      "name": "heading",
+      "parent": "nb3twm",
+      "children": [],
+      "settings": {
+        "text": "High quality IT-Solutions for your problems about technology.",
+        "tag": "h1",
+        "_cssGlobalClasses": [
+          "gc007g",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "2x7vmv",
+      "name": "text-basic",
+      "parent": "nb3twm",
+      "children": [],
+      "settings": {
+        "text": "We understand that every business has unique challenges. Our team of expert IT professionals delivers tailored solutions that drive innovation and efficiency.",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "y7749i",
+      "name": "button",
+      "parent": "nb3twm",
+      "children": [],
+      "settings": {
+        "text": "Enter your email",
+        "_cssGlobalClasses": [
+          "gc016p"
+        ]
+      }
+    },
+    {
+      "id": "uvdbcq",
+      "name": "block",
+      "parent": "x71axd",
+      "children": [
+        "psq4l4"
+      ],
+      "settings": {},
+      "label": "Image Column"
+    },
+    {
+      "id": "psq4l4",
+      "name": "image",
+      "parent": "uvdbcq",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
+          "alt": "Team collaboration in modern office",
+          "filename": "team-collaboration.jpg"
+        },
+        "_width": "100%",
+        "_border": {
+          "radius": {
+            "top": "16",
+            "right": "16",
+            "bottom": "16",
+            "left": "16"
+          }
+        }
+      }
+    },
+    {
+      "id": "sfiwjr",
+      "name": "block",
+      "parent": "y517kx",
+      "children": [
+        "q7bk5n",
+        "e583ih",
+        "brwbb5"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f",
+          "gc011k"
+        ]
+      }
+    },
+    {
+      "id": "q7bk5n",
+      "name": "heading",
+      "parent": "sfiwjr",
+      "children": [],
+      "settings": {
+        "text": "LEARN MORE 1",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "e583ih",
+      "name": "text-basic",
+      "parent": "sfiwjr",
+      "children": [],
+      "settings": {
+        "text": "Cloud Solutions",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "brwbb5",
+      "name": "button",
+      "parent": "sfiwjr",
+      "children": [],
+      "settings": {
+        "text": "Learn more \u2192",
+        "_background": {
+          "color": {
+            "hex": "#FFD93D"
+          }
+        },
+        "_padding": {
+          "top": "10",
+          "right": "24",
+          "bottom": "10",
+          "left": "24"
+        },
+        "_border": {
+          "radius": {
+            "top": "4",
+            "right": "4",
+            "bottom": "4",
+            "left": "4"
+          }
+        },
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "57pwv1",
+      "name": "block",
+      "parent": "y517kx",
+      "children": [
+        "tydnvu",
+        "gkscgh",
+        "xjuyv0"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "tydnvu",
+      "name": "heading",
+      "parent": "57pwv1",
+      "children": [],
+      "settings": {
+        "text": "LEARN MORE 2",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "gkscgh",
+      "name": "text-basic",
+      "parent": "57pwv1",
+      "children": [],
+      "settings": {
+        "text": "Data Analytics",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "xjuyv0",
+      "name": "button",
+      "parent": "57pwv1",
+      "children": [],
+      "settings": {
+        "text": "Learn more \u2192",
+        "_background": {
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        },
+        "_padding": {
+          "top": "10",
+          "right": "24",
+          "bottom": "10",
+          "left": "24"
+        },
+        "_border": {
+          "radius": {
+            "top": "4",
+            "right": "4",
+            "bottom": "4",
+            "left": "4"
+          }
+        },
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "vt1rnd",
+      "name": "block",
+      "parent": "y517kx",
+      "children": [
+        "mb40z0",
+        "ghc4uj",
+        "omkko5"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f",
+          "gc011k"
+        ]
+      }
+    },
+    {
+      "id": "mb40z0",
+      "name": "heading",
+      "parent": "vt1rnd",
+      "children": [],
+      "settings": {
+        "text": "LEARN MORE 3",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "ghc4uj",
+      "name": "text-basic",
+      "parent": "vt1rnd",
+      "children": [],
+      "settings": {
+        "text": "Cybersecurity",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "omkko5",
+      "name": "button",
+      "parent": "vt1rnd",
+      "children": [],
+      "settings": {
+        "text": "Learn more \u2192",
+        "_background": {
+          "color": {
+            "hex": "#FFD93D"
+          }
+        },
+        "_padding": {
+          "top": "10",
+          "right": "24",
+          "bottom": "10",
+          "left": "24"
+        },
+        "_border": {
+          "radius": {
+            "top": "4",
+            "right": "4",
+            "bottom": "4",
+            "left": "4"
+          }
+        },
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "lzc8nf",
+      "name": "block",
+      "parent": "y517kx",
+      "children": [
+        "ztyjlr",
+        "d0a933",
+        "dv6xxy"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f",
+          "gc011k"
+        ]
+      }
+    },
+    {
+      "id": "ztyjlr",
+      "name": "heading",
+      "parent": "lzc8nf",
+      "children": [],
+      "settings": {
+        "text": "LEARN MORE 4",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "d0a933",
+      "name": "text-basic",
+      "parent": "lzc8nf",
+      "children": [],
+      "settings": {
+        "text": "IT Consulting",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "dv6xxy",
+      "name": "button",
+      "parent": "lzc8nf",
+      "children": [],
+      "settings": {
+        "text": "Learn more \u2192",
+        "_background": {
+          "color": {
+            "hex": "#FFD93D"
+          }
+        },
+        "_padding": {
+          "top": "10",
+          "right": "24",
+          "bottom": "10",
+          "left": "24"
+        },
+        "_border": {
+          "radius": {
+            "top": "4",
+            "right": "4",
+            "bottom": "4",
+            "left": "4"
+          }
+        },
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "3l1cth",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "tca0ik"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc012l",
+          "gc002b"
+        ]
+      },
+      "label": "Services"
+    },
+    {
+      "id": "tca0ik",
+      "name": "container",
+      "parent": "3l1cth",
+      "children": [
+        "skewv6",
+        "y517kx"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "skewv6",
+      "name": "block",
+      "parent": "tca0ik",
+      "children": [
+        "fy7l0t"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc022v"
+        ]
+      }
+    },
+    {
+      "id": "fy7l0t",
+      "name": "heading",
+      "parent": "skewv6",
+      "children": [],
+      "settings": {
+        "text": "We provide All-in-one Solution for every IT job",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "gc008h",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "y517kx",
+      "name": "block",
+      "parent": "tca0ik",
+      "children": [
+        "sfiwjr",
+        "57pwv1",
+        "vt1rnd",
+        "lzc8nf"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc019s",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "9xs5qx",
+      "name": "block",
+      "parent": "z4o34t",
+      "children": [
+        "mi3ymp",
+        "vd8cq6"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "mi3ymp",
+      "name": "heading",
+      "parent": "9xs5qx",
+      "children": [],
+      "settings": {
+        "text": "782",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "vd8cq6",
+      "name": "text-basic",
+      "parent": "9xs5qx",
+      "children": [],
+      "settings": {
+        "text": "Happy Customers",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "kdw99y",
+      "name": "block",
+      "parent": "z4o34t",
+      "children": [
+        "rkb0mg",
+        "07g7nd"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "rkb0mg",
+      "name": "heading",
+      "parent": "kdw99y",
+      "children": [],
+      "settings": {
+        "text": "12 K",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "07g7nd",
+      "name": "text-basic",
+      "parent": "kdw99y",
+      "children": [],
+      "settings": {
+        "text": "Project Done",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "d04blu",
+      "name": "block",
+      "parent": "z4o34t",
+      "children": [
+        "iji9fe",
+        "7uny27"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "iji9fe",
+      "name": "heading",
+      "parent": "d04blu",
+      "children": [],
+      "settings": {
+        "text": "5,896",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "7uny27",
+      "name": "text-basic",
+      "parent": "d04blu",
+      "children": [],
+      "settings": {
+        "text": "Total Users",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "33oynd",
+      "name": "block",
+      "parent": "z4o34t",
+      "children": [
+        "2u3mpx",
+        "i2d3t0"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "2u3mpx",
+      "name": "heading",
+      "parent": "33oynd",
+      "children": [],
+      "settings": {
+        "text": "$890 K",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "i2d3t0",
+      "name": "text-basic",
+      "parent": "33oynd",
+      "children": [],
+      "settings": {
+        "text": "Annual Revenue",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "nbdg02",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "0byg61"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc003c"
+        ]
+      },
+      "label": "Stats"
+    },
+    {
+      "id": "0byg61",
+      "name": "container",
+      "parent": "nbdg02",
+      "children": [
+        "z4o34t"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a"
+        ]
+      }
+    },
+    {
+      "id": "z4o34t",
+      "name": "block",
+      "parent": "0byg61",
+      "children": [
+        "9xs5qx",
+        "kdw99y",
+        "d04blu",
+        "33oynd"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc019s",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "9fq3r3",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "1awsbv"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc012l",
+          "gc002b"
+        ]
+      },
+      "label": "About"
+    },
+    {
+      "id": "1awsbv",
+      "name": "container",
+      "parent": "9fq3r3",
+      "children": [
+        "z1284d"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a"
+        ]
+      }
+    },
+    {
+      "id": "z1284d",
+      "name": "block",
+      "parent": "1awsbv",
+      "children": [
+        "tittfo",
+        "fh7xhw"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc020t",
+          "gc004d"
+        ],
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "tittfo",
+      "name": "block",
+      "parent": "z1284d",
+      "children": [
+        "fcapnl",
+        "hpuesx",
+        "tu0bud"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "fcapnl",
+      "name": "text-basic",
+      "parent": "tittfo",
+      "children": [],
+      "settings": {
+        "text": "ABOUT US",
+        "_cssGlobalClasses": [
+          "gc014n"
+        ],
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "text-transform": "uppercase",
+          "letter-spacing": "1px"
+        }
+      }
+    },
+    {
+      "id": "hpuesx",
+      "name": "heading",
+      "parent": "tittfo",
+      "children": [],
+      "settings": {
+        "text": "We have over 25+ years in the Tech Industry",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "gc008h",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "tu0bud",
+      "name": "block",
+      "parent": "tittfo",
+      "children": [
+        "tcxzda",
+        "h400b6",
+        "58ti8m"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "tcxzda",
+      "name": "text-basic",
+      "parent": "tu0bud",
+      "children": [],
+      "settings": {
+        "text": "\u2713 DEDICATED TEAM - We provide dedicated team to handle all your IT needs",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "h400b6",
+      "name": "text-basic",
+      "parent": "tu0bud",
+      "children": [],
+      "settings": {
+        "text": "\u2713 UPDATED TECHNOLOGY - Stay ahead with our cutting-edge solutions",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "58ti8m",
+      "name": "text-basic",
+      "parent": "tu0bud",
+      "children": [],
+      "settings": {
+        "text": "\u2713 24/7 SUPPORT TEAM - Round-the-clock support for your business",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "fh7xhw",
+      "name": "block",
+      "parent": "z1284d",
+      "children": [
+        "55fkyu"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc020t",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "55fkyu",
+      "name": "image",
+      "parent": "fh7xhw",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf",
+          "alt": "Professional team working together",
+          "filename": "team-working.jpg"
+        },
+        "_width": "100%",
+        "_border": {
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        }
+      }
+    },
+    {
+      "id": "7ijf0a",
+      "name": "block",
+      "parent": "fvdqq1",
+      "children": [
+        "h9auxg",
+        "ety5tv",
+        "vn4pfq"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f"
+        ],
+        "_background": {
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "h9auxg",
+      "name": "text-basic",
+      "parent": "7ijf0a",
+      "children": [],
+      "settings": {
+        "text": "\ud83c\udfc6",
+        "_typography": {
+          "font-size": "32px"
+        }
+      }
+    },
+    {
+      "id": "ety5tv",
+      "name": "heading",
+      "parent": "7ijf0a",
+      "children": [],
+      "settings": {
+        "text": "Quality",
+        "tag": "h4",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "vn4pfq",
+      "name": "text-basic",
+      "parent": "7ijf0a",
+      "children": [],
+      "settings": {
+        "text": "Best in class service",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "51n9m6",
+      "name": "block",
+      "parent": "fvdqq1",
+      "children": [
+        "wm781x",
+        "vjbtf6",
+        "9intkt"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f"
+        ],
+        "_background": {
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "wm781x",
+      "name": "text-basic",
+      "parent": "51n9m6",
+      "children": [],
+      "settings": {
+        "text": "\u26a1",
+        "_typography": {
+          "font-size": "32px"
+        }
+      }
+    },
+    {
+      "id": "vjbtf6",
+      "name": "heading",
+      "parent": "51n9m6",
+      "children": [],
+      "settings": {
+        "text": "Speed",
+        "tag": "h4",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "9intkt",
+      "name": "text-basic",
+      "parent": "51n9m6",
+      "children": [],
+      "settings": {
+        "text": "Fast delivery guaranteed",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "su6t4z",
+      "name": "block",
+      "parent": "fvdqq1",
+      "children": [
+        "kmljt5",
+        "j1v987",
+        "ymoqu2"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f"
+        ],
+        "_background": {
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "kmljt5",
+      "name": "text-basic",
+      "parent": "su6t4z",
+      "children": [],
+      "settings": {
+        "text": "\ud83d\udee1\ufe0f",
+        "_typography": {
+          "font-size": "32px"
+        }
+      }
+    },
+    {
+      "id": "j1v987",
+      "name": "heading",
+      "parent": "su6t4z",
+      "children": [],
+      "settings": {
+        "text": "Security",
+        "tag": "h4",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "ymoqu2",
+      "name": "text-basic",
+      "parent": "su6t4z",
+      "children": [],
+      "settings": {
+        "text": "Enterprise-grade protection",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "vwknie",
+      "name": "block",
+      "parent": "fvdqq1",
+      "children": [
+        "3e5ye2",
+        "esycwd",
+        "vi99n3"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f"
+        ],
+        "_background": {
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "3e5ye2",
+      "name": "text-basic",
+      "parent": "vwknie",
+      "children": [],
+      "settings": {
+        "text": "\ud83d\udcb0",
+        "_typography": {
+          "font-size": "32px"
+        }
+      }
+    },
+    {
+      "id": "esycwd",
+      "name": "heading",
+      "parent": "vwknie",
+      "children": [],
+      "settings": {
+        "text": "Affordable",
+        "tag": "h4",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "vi99n3",
+      "name": "text-basic",
+      "parent": "vwknie",
+      "children": [],
+      "settings": {
+        "text": "Competitive pricing",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "0gw7so",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "c3q9he"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc011k",
+          "gc002b"
+        ]
+      },
+      "label": "Success Story"
+    },
+    {
+      "id": "c3q9he",
+      "name": "container",
+      "parent": "0gw7so",
+      "children": [
+        "iehawq",
+        "dq2mqs"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "iehawq",
+      "name": "heading",
+      "parent": "c3q9he",
+      "children": [],
+      "settings": {
+        "text": "We have helped more than 700+ worldwide clients",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "gc008h",
+          "gc013m",
+          "gc022v"
+        ]
+      }
+    },
+    {
+      "id": "dq2mqs",
+      "name": "block",
+      "parent": "c3q9he",
+      "children": [
+        "4q60mi",
+        "ho8yhr"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc020t",
+          "gc004d"
+        ]
+      }
+    },
+    {
+      "id": "4q60mi",
+      "name": "block",
+      "parent": "dq2mqs",
+      "children": [
+        "jmpeu3"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q"
+        ],
+        "_background": {
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "jmpeu3",
+      "name": "form",
+      "parent": "4q60mi",
+      "children": [
+        "lfvq52",
+        "v1y7lz",
+        "p1z6yt",
+        "3e44m6",
+        "3ttgcl",
+        "1tdlmg"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "lfvq52",
+      "name": "heading",
+      "parent": "jmpeu3",
+      "children": [],
+      "settings": {
+        "text": "Consultation for Free",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "v1y7lz",
+      "name": "text-basic",
+      "parent": "jmpeu3",
+      "children": [],
+      "settings": {
+        "text": "Get expert advice tailored to your business needs",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "p1z6yt",
+      "name": "form-field",
+      "parent": "jmpeu3",
+      "children": [],
+      "settings": {
+        "type": "text",
+        "label": "Your name",
+        "required": true
+      }
+    },
+    {
+      "id": "3e44m6",
+      "name": "form-field",
+      "parent": "jmpeu3",
+      "children": [],
+      "settings": {
+        "type": "email",
+        "label": "Email address",
+        "required": true
+      }
+    },
+    {
+      "id": "3ttgcl",
+      "name": "form-field",
+      "parent": "jmpeu3",
+      "children": [],
+      "settings": {
+        "type": "select",
+        "label": "Project category",
+        "options": [
+          {
+            "value": "cloud",
+            "label": "Cloud Solutions"
+          },
+          {
+            "value": "security",
+            "label": "Cybersecurity"
+          },
+          {
+            "value": "analytics",
+            "label": "Data Analytics"
+          },
+          {
+            "value": "consulting",
+            "label": "IT Consulting"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1tdlmg",
+      "name": "button",
+      "parent": "jmpeu3",
+      "children": [],
+      "settings": {
+        "text": "Submit",
+        "_cssGlobalClasses": [
+          "gc016p"
+        ],
+        "_width": "100%"
+      }
+    },
+    {
+      "id": "ho8yhr",
+      "name": "block",
+      "parent": "dq2mqs",
+      "children": [
+        "fvdqq1"
+      ],
+      "settings": {}
+    },
+    {
+      "id": "fvdqq1",
+      "name": "block",
+      "parent": "ho8yhr",
+      "children": [
+        "7ijf0a",
+        "51n9m6",
+        "su6t4z",
+        "vwknie"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc020t",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "t2v48b",
+      "name": "block",
+      "parent": "w4qdtl",
+      "children": [
+        "r69ms5",
+        "m3h7hv",
+        "h8lkyb"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "r69ms5",
+      "name": "text-basic",
+      "parent": "t2v48b",
+      "children": [],
+      "settings": {
+        "text": "\"Outstanding service! Their team transformed our entire IT infrastructure with minimal downtime.\"",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "m3h7hv",
+      "name": "text-basic",
+      "parent": "t2v48b",
+      "children": [],
+      "settings": {
+        "text": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+        "_typography": {
+          "font-size": "20px"
+        }
+      }
+    },
+    {
+      "id": "h8lkyb",
+      "name": "block",
+      "parent": "t2v48b",
+      "children": [
+        "txt8mb",
+        "ln61tp"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_flexDirection": "column",
+        "_rowGap": "4"
+      }
+    },
+    {
+      "id": "txt8mb",
+      "name": "text-basic",
+      "parent": "h8lkyb",
+      "children": [],
+      "settings": {
+        "text": "Sarah Johnson",
+        "_typography": {
+          "font-weight": "600",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "ln61tp",
+      "name": "text-basic",
+      "parent": "h8lkyb",
+      "children": [],
+      "settings": {
+        "text": "CEO, Tech Corp",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "2bxp22",
+      "name": "block",
+      "parent": "w4qdtl",
+      "children": [
+        "3ohqc9",
+        "jc4swi",
+        "vky6cf"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "3ohqc9",
+      "name": "text-basic",
+      "parent": "2bxp22",
+      "children": [],
+      "settings": {
+        "text": "\"Professional, efficient, and always available. Best IT partner we've ever worked with.\"",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "jc4swi",
+      "name": "text-basic",
+      "parent": "2bxp22",
+      "children": [],
+      "settings": {
+        "text": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+        "_typography": {
+          "font-size": "20px"
+        }
+      }
+    },
+    {
+      "id": "vky6cf",
+      "name": "block",
+      "parent": "2bxp22",
+      "children": [
+        "a610i1",
+        "afa4d6"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_flexDirection": "column",
+        "_rowGap": "4"
+      }
+    },
+    {
+      "id": "a610i1",
+      "name": "text-basic",
+      "parent": "vky6cf",
+      "children": [],
+      "settings": {
+        "text": "Michael Chen",
+        "_typography": {
+          "font-weight": "600",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "afa4d6",
+      "name": "text-basic",
+      "parent": "vky6cf",
+      "children": [],
+      "settings": {
+        "text": "CTO, Innovation Labs",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "piwv0a",
+      "name": "block",
+      "parent": "w4qdtl",
+      "children": [
+        "irs67h",
+        "jxr6p7",
+        "ewopzo"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "irs67h",
+      "name": "text-basic",
+      "parent": "piwv0a",
+      "children": [],
+      "settings": {
+        "text": "\"Their expertise in cloud migration saved us both time and money. Highly recommended!\"",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "jxr6p7",
+      "name": "text-basic",
+      "parent": "piwv0a",
+      "children": [],
+      "settings": {
+        "text": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+        "_typography": {
+          "font-size": "20px"
+        }
+      }
+    },
+    {
+      "id": "ewopzo",
+      "name": "block",
+      "parent": "piwv0a",
+      "children": [
+        "sha1px",
+        "71ve6h"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_flexDirection": "column",
+        "_rowGap": "4"
+      }
+    },
+    {
+      "id": "sha1px",
+      "name": "text-basic",
+      "parent": "ewopzo",
+      "children": [],
+      "settings": {
+        "text": "Emily Rodriguez",
+        "_typography": {
+          "font-weight": "600",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "71ve6h",
+      "name": "text-basic",
+      "parent": "ewopzo",
+      "children": [],
+      "settings": {
+        "text": "Director, Global Systems",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "w2qjf4",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "63w0si"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc012l",
+          "gc002b"
+        ]
+      },
+      "label": "Testimonials"
+    },
+    {
+      "id": "63w0si",
+      "name": "container",
+      "parent": "w2qjf4",
+      "children": [
+        "1gcwyz",
+        "w4qdtl"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "1gcwyz",
+      "name": "block",
+      "parent": "63w0si",
+      "children": [
+        "fa8p79",
+        "b4w7im"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "fa8p79",
+      "name": "text-basic",
+      "parent": "1gcwyz",
+      "children": [],
+      "settings": {
+        "text": "TESTIMONIALS",
+        "_cssGlobalClasses": [
+          "gc014n"
+        ],
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "text-transform": "uppercase",
+          "letter-spacing": "1px"
+        }
+      }
+    },
+    {
+      "id": "b4w7im",
+      "name": "heading",
+      "parent": "1gcwyz",
+      "children": [],
+      "settings": {
+        "text": "Our successful clients",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "gc008h",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "w4qdtl",
+      "name": "block",
+      "parent": "63w0si",
+      "children": [
+        "t2v48b",
+        "2bxp22",
+        "piwv0a"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc018r",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "dr6bzx",
+      "name": "block",
+      "parent": "2pf8m8",
+      "children": [
+        "hvrbe5",
+        "15ck3b"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q"
+        ],
+        "_padding": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        }
+      }
+    },
+    {
+      "id": "hvrbe5",
+      "name": "image",
+      "parent": "dr6bzx",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+          "alt": "E-Commerce Platform",
+          "filename": "e-commerce-platform.jpg"
+        },
+        "_width": "100%",
+        "_aspectRatio": "16/9",
+        "_objectFit": "cover"
+      }
+    },
+    {
+      "id": "15ck3b",
+      "name": "block",
+      "parent": "dr6bzx",
+      "children": [
+        "bml8qo",
+        "inkmk7"
+      ],
+      "settings": {
+        "_padding": {
+          "top": "var(--spacing-md)",
+          "right": "var(--spacing-md)",
+          "bottom": "var(--spacing-md)",
+          "left": "var(--spacing-md)"
+        },
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "bml8qo",
+      "name": "heading",
+      "parent": "15ck3b",
+      "children": [],
+      "settings": {
+        "text": "E-Commerce Platform",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "inkmk7",
+      "name": "text-basic",
+      "parent": "15ck3b",
+      "children": [],
+      "settings": {
+        "text": "Web Development",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "evb1gh",
+      "name": "block",
+      "parent": "2pf8m8",
+      "children": [
+        "oyv903",
+        "dw1mn5"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q"
+        ],
+        "_padding": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        }
+      }
+    },
+    {
+      "id": "oyv903",
+      "name": "image",
+      "parent": "evb1gh",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+          "alt": "Mobile Banking App",
+          "filename": "mobile-banking-app.jpg"
+        },
+        "_width": "100%",
+        "_aspectRatio": "16/9",
+        "_objectFit": "cover"
+      }
+    },
+    {
+      "id": "dw1mn5",
+      "name": "block",
+      "parent": "evb1gh",
+      "children": [
+        "bfm17p",
+        "yqt0v4"
+      ],
+      "settings": {
+        "_padding": {
+          "top": "var(--spacing-md)",
+          "right": "var(--spacing-md)",
+          "bottom": "var(--spacing-md)",
+          "left": "var(--spacing-md)"
+        },
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "bfm17p",
+      "name": "heading",
+      "parent": "dw1mn5",
+      "children": [],
+      "settings": {
+        "text": "Mobile Banking App",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "yqt0v4",
+      "name": "text-basic",
+      "parent": "dw1mn5",
+      "children": [],
+      "settings": {
+        "text": "Mobile Development",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "u0jg0n",
+      "name": "block",
+      "parent": "2pf8m8",
+      "children": [
+        "neo6q1",
+        "qa1jmy"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q"
+        ],
+        "_padding": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        }
+      }
+    },
+    {
+      "id": "neo6q1",
+      "name": "image",
+      "parent": "u0jg0n",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+          "alt": "Cloud Migration",
+          "filename": "cloud-migration.jpg"
+        },
+        "_width": "100%",
+        "_aspectRatio": "16/9",
+        "_objectFit": "cover"
+      }
+    },
+    {
+      "id": "qa1jmy",
+      "name": "block",
+      "parent": "u0jg0n",
+      "children": [
+        "zk1sgy",
+        "oa3mhk"
+      ],
+      "settings": {
+        "_padding": {
+          "top": "var(--spacing-md)",
+          "right": "var(--spacing-md)",
+          "bottom": "var(--spacing-md)",
+          "left": "var(--spacing-md)"
+        },
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "zk1sgy",
+      "name": "heading",
+      "parent": "qa1jmy",
+      "children": [],
+      "settings": {
+        "text": "Cloud Migration",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "oa3mhk",
+      "name": "text-basic",
+      "parent": "qa1jmy",
+      "children": [],
+      "settings": {
+        "text": "Cloud Solutions",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "nf90j4",
+      "name": "block",
+      "parent": "2pf8m8",
+      "children": [
+        "80jg7z",
+        "2k3t36"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q"
+        ],
+        "_padding": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        }
+      }
+    },
+    {
+      "id": "80jg7z",
+      "name": "image",
+      "parent": "nf90j4",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+          "alt": "Data Analytics Dashboard",
+          "filename": "data-analytics-dashboard.jpg"
+        },
+        "_width": "100%",
+        "_aspectRatio": "16/9",
+        "_objectFit": "cover"
+      }
+    },
+    {
+      "id": "2k3t36",
+      "name": "block",
+      "parent": "nf90j4",
+      "children": [
+        "0dcuwm",
+        "zwnjba"
+      ],
+      "settings": {
+        "_padding": {
+          "top": "var(--spacing-md)",
+          "right": "var(--spacing-md)",
+          "bottom": "var(--spacing-md)",
+          "left": "var(--spacing-md)"
+        },
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "0dcuwm",
+      "name": "heading",
+      "parent": "2k3t36",
+      "children": [],
+      "settings": {
+        "text": "Data Analytics Dashboard",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "zwnjba",
+      "name": "text-basic",
+      "parent": "2k3t36",
+      "children": [],
+      "settings": {
+        "text": "Data Science",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "0vcik4",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "eura0f"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc003c"
+        ]
+      },
+      "label": "Projects"
+    },
+    {
+      "id": "eura0f",
+      "name": "container",
+      "parent": "0vcik4",
+      "children": [
+        "332103",
+        "2pf8m8"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "332103",
+      "name": "block",
+      "parent": "eura0f",
+      "children": [
+        "60uwo5",
+        "hkbqy3"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "60uwo5",
+      "name": "text-basic",
+      "parent": "332103",
+      "children": [],
+      "settings": {
+        "text": "PROJECTS",
+        "_cssGlobalClasses": [
+          "gc014n"
+        ],
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "text-transform": "uppercase",
+          "letter-spacing": "1px"
+        }
+      }
+    },
+    {
+      "id": "hkbqy3",
+      "name": "heading",
+      "parent": "332103",
+      "children": [],
+      "settings": {
+        "text": "Our amazing project that has been completed",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "gc008h",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "2pf8m8",
+      "name": "block",
+      "parent": "eura0f",
+      "children": [
+        "dr6bzx",
+        "evb1gh",
+        "u0jg0n",
+        "nf90j4"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc019s",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "pyi7y5",
+      "name": "block",
+      "parent": "yadyar",
+      "children": [
+        "dikenm",
+        "hkyvuo"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "dikenm",
+      "name": "block",
+      "parent": "pyi7y5",
+      "children": [
+        "0nxr3j",
+        "g6hhwn"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_justifyContent": "space-between",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "0nxr3j",
+      "name": "text-basic",
+      "parent": "dikenm",
+      "children": [],
+      "settings": {
+        "text": "FRONTEND / PHP / LARAVEL",
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "g6hhwn",
+      "name": "text-basic",
+      "parent": "dikenm",
+      "children": [],
+      "settings": {
+        "text": "95%",
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "hkyvuo",
+      "name": "block",
+      "parent": "pyi7y5",
+      "children": [
+        "vrg5uu"
+      ],
+      "settings": {
+        "_width": "100%",
+        "_height": "8px",
+        "_background": {
+          "color": {
+            "hex": "#E5E7EB"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "vrg5uu",
+      "name": "block",
+      "parent": "hkyvuo",
+      "children": [],
+      "settings": {
+        "_width": "95%",
+        "_height": "100%",
+        "_background": {
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "ienwc6",
+      "name": "block",
+      "parent": "yadyar",
+      "children": [
+        "xjwu5a",
+        "dig9uq"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "xjwu5a",
+      "name": "block",
+      "parent": "ienwc6",
+      "children": [
+        "mp8iv4",
+        "c6zgty"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_justifyContent": "space-between",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "mp8iv4",
+      "name": "text-basic",
+      "parent": "xjwu5a",
+      "children": [],
+      "settings": {
+        "text": "BACKEND / PYTHON / AI",
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "c6zgty",
+      "name": "text-basic",
+      "parent": "xjwu5a",
+      "children": [],
+      "settings": {
+        "text": "90%",
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "dig9uq",
+      "name": "block",
+      "parent": "ienwc6",
+      "children": [
+        "iqheid"
+      ],
+      "settings": {
+        "_width": "100%",
+        "_height": "8px",
+        "_background": {
+          "color": {
+            "hex": "#E5E7EB"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "iqheid",
+      "name": "block",
+      "parent": "dig9uq",
+      "children": [],
+      "settings": {
+        "_width": "90%",
+        "_height": "100%",
+        "_background": {
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "qtigqk",
+      "name": "block",
+      "parent": "yadyar",
+      "children": [
+        "oj0lvd",
+        "w2e75x"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "oj0lvd",
+      "name": "block",
+      "parent": "qtigqk",
+      "children": [
+        "cauoti",
+        "ao9nfy"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_justifyContent": "space-between",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "cauoti",
+      "name": "text-basic",
+      "parent": "oj0lvd",
+      "children": [],
+      "settings": {
+        "text": "HTML / CSS / JS",
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "ao9nfy",
+      "name": "text-basic",
+      "parent": "oj0lvd",
+      "children": [],
+      "settings": {
+        "text": "98%",
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "w2e75x",
+      "name": "block",
+      "parent": "qtigqk",
+      "children": [
+        "pem9gm"
+      ],
+      "settings": {
+        "_width": "100%",
+        "_height": "8px",
+        "_background": {
+          "color": {
+            "hex": "#E5E7EB"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "pem9gm",
+      "name": "block",
+      "parent": "w2e75x",
+      "children": [],
+      "settings": {
+        "_width": "98%",
+        "_height": "100%",
+        "_background": {
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "wdkggu",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "avmbbz"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc012l",
+          "gc002b"
+        ]
+      },
+      "label": "Skills"
+    },
+    {
+      "id": "avmbbz",
+      "name": "container",
+      "parent": "wdkggu",
+      "children": [
+        "bjwss3",
+        "yadyar"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "bjwss3",
+      "name": "heading",
+      "parent": "avmbbz",
+      "children": [],
+      "settings": {
+        "text": "We have experts in their respective fields",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "gc008h",
+          "gc015o",
+          "gc022v"
+        ]
+      }
+    },
+    {
+      "id": "yadyar",
+      "name": "block",
+      "parent": "avmbbz",
+      "children": [
+        "pyi7y5",
+        "ienwc6",
+        "qtigqk"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "f1tw9g",
+      "name": "block",
+      "parent": "3mj2dh",
+      "children": [
+        "qkcx3i",
+        "01ur8v",
+        "4v0psh",
+        "5o8akj"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "qkcx3i",
+      "name": "image",
+      "parent": "f1tw9g",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1560250097-0b93528c311a",
+          "alt": "John Smith",
+          "filename": "john-smith.jpg"
+        },
+        "_width": "120px",
+        "_height": "120px",
+        "_objectFit": "cover",
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "01ur8v",
+      "name": "heading",
+      "parent": "f1tw9g",
+      "children": [],
+      "settings": {
+        "text": "John Smith",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "4v0psh",
+      "name": "text-basic",
+      "parent": "f1tw9g",
+      "children": [],
+      "settings": {
+        "text": "Senior Developer",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "5o8akj",
+      "name": "text-basic",
+      "parent": "f1tw9g",
+      "children": [],
+      "settings": {
+        "text": "\ud83d\udd17 LinkedIn",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "ha2jxu",
+      "name": "block",
+      "parent": "3mj2dh",
+      "children": [
+        "3hrb6l",
+        "01u6ie",
+        "m43hlb",
+        "wftik6"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "3hrb6l",
+      "name": "image",
+      "parent": "ha2jxu",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2",
+          "alt": "Lisa Anderson",
+          "filename": "lisa-anderson.jpg"
+        },
+        "_width": "120px",
+        "_height": "120px",
+        "_objectFit": "cover",
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "01u6ie",
+      "name": "heading",
+      "parent": "ha2jxu",
+      "children": [],
+      "settings": {
+        "text": "Lisa Anderson",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "m43hlb",
+      "name": "text-basic",
+      "parent": "ha2jxu",
+      "children": [],
+      "settings": {
+        "text": "Cloud Architect",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "wftik6",
+      "name": "text-basic",
+      "parent": "ha2jxu",
+      "children": [],
+      "settings": {
+        "text": "\ud83d\udd17 LinkedIn",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "8eyuu0",
+      "name": "block",
+      "parent": "3mj2dh",
+      "children": [
+        "0k7mea",
+        "1reylc",
+        "r9u4pe",
+        "5e1jgb"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "0k7mea",
+      "name": "image",
+      "parent": "8eyuu0",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7",
+          "alt": "David Wilson",
+          "filename": "david-wilson.jpg"
+        },
+        "_width": "120px",
+        "_height": "120px",
+        "_objectFit": "cover",
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "1reylc",
+      "name": "heading",
+      "parent": "8eyuu0",
+      "children": [],
+      "settings": {
+        "text": "David Wilson",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "r9u4pe",
+      "name": "text-basic",
+      "parent": "8eyuu0",
+      "children": [],
+      "settings": {
+        "text": "DevOps Engineer",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "5e1jgb",
+      "name": "text-basic",
+      "parent": "8eyuu0",
+      "children": [],
+      "settings": {
+        "text": "\ud83d\udd17 LinkedIn",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "xuya5u",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "3jqlmw"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc003c"
+        ]
+      },
+      "label": "Team"
+    },
+    {
+      "id": "3jqlmw",
+      "name": "container",
+      "parent": "xuya5u",
+      "children": [
+        "7a9cff",
+        "3mj2dh"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "7a9cff",
+      "name": "block",
+      "parent": "3jqlmw",
+      "children": [
+        "1eldek",
+        "227vp9"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "1eldek",
+      "name": "text-basic",
+      "parent": "7a9cff",
+      "children": [],
+      "settings": {
+        "text": "OUR TEAM",
+        "_cssGlobalClasses": [
+          "gc014n"
+        ],
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "text-transform": "uppercase",
+          "letter-spacing": "1px"
+        }
+      }
+    },
+    {
+      "id": "227vp9",
+      "name": "heading",
+      "parent": "7a9cff",
+      "children": [],
+      "settings": {
+        "text": "Our certified experts",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "gc008h",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "3mj2dh",
+      "name": "block",
+      "parent": "3jqlmw",
+      "children": [
+        "f1tw9g",
+        "ha2jxu",
+        "8eyuu0"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc018r",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "3dzjoe",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "v2tupe"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc011k",
+          "gc003c"
+        ]
+      },
+      "label": "Newsletter Banner"
+    },
+    {
+      "id": "v2tupe",
+      "name": "container",
+      "parent": "3dzjoe",
+      "children": [
+        "4m2a6a"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a"
+        ]
+      }
+    },
+    {
+      "id": "4m2a6a",
+      "name": "block",
+      "parent": "v2tupe",
+      "children": [
+        "8udtj0",
+        "mglklz"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc021u",
+          "gc006f"
+        ],
+        "_flexDirection": "column"
+      }
+    },
+    {
+      "id": "8udtj0",
+      "name": "heading",
+      "parent": "4m2a6a",
+      "children": [],
+      "settings": {
+        "text": "Service discount up to 30% for any project",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "gc008h",
+          "gc013m",
+          "gc022v"
+        ]
+      }
+    },
+    {
+      "id": "mglklz",
+      "name": "button",
+      "parent": "4m2a6a",
+      "children": [],
+      "settings": {
+        "text": "Enter your email",
+        "_cssGlobalClasses": [
+          "gc016p"
+        ]
+      }
+    },
+    {
+      "id": "5dk9un",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "tvlqzz",
+        "gx0sq9"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc011k",
+          "gc002b"
+        ]
+      },
+      "label": "Footer"
+    },
+    {
+      "id": "tvlqzz",
+      "name": "container",
+      "parent": "5dk9un",
+      "children": [
+        "crkih2"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a"
+        ]
+      }
+    },
+    {
+      "id": "crkih2",
+      "name": "block",
+      "parent": "tvlqzz",
+      "children": [
+        "yk91gc",
+        "ph2o4l",
+        "c2qgxg",
+        "khlehb"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc019s",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "yk91gc",
+      "name": "block",
+      "parent": "crkih2",
+      "children": [
+        "gckr9p",
+        "1q8tjq",
+        "589qxh"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "gckr9p",
+      "name": "heading",
+      "parent": "yk91gc",
+      "children": [],
+      "settings": {
+        "text": "RENS",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "24px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "1q8tjq",
+      "name": "text-basic",
+      "parent": "yk91gc",
+      "children": [],
+      "settings": {
+        "text": "High quality IT-Solutions company. We help businesses transform digitally with cutting-edge technology.",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "589qxh",
+      "name": "text-basic",
+      "parent": "yk91gc",
+      "children": [],
+      "settings": {
+        "text": "\ud83d\udce7 hello@rens.com<br>\ud83d\udcde +1 234 567 8900",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "ph2o4l",
+      "name": "block",
+      "parent": "crkih2",
+      "children": [
+        "a3f0h6",
+        "srk310",
+        "5brwi5",
+        "pu3dl4"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "a3f0h6",
+      "name": "heading",
+      "parent": "ph2o4l",
+      "children": [],
+      "settings": {
+        "text": "Pages",
+        "tag": "h4",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "srk310",
+      "name": "text-link",
+      "parent": "ph2o4l",
+      "children": [],
+      "settings": {
+        "text": "Home",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "5brwi5",
+      "name": "text-link",
+      "parent": "ph2o4l",
+      "children": [],
+      "settings": {
+        "text": "About",
+        "link": {
+          "type": "internal",
+          "url": "#about"
+        },
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "pu3dl4",
+      "name": "text-link",
+      "parent": "ph2o4l",
+      "children": [],
+      "settings": {
+        "text": "Services",
+        "link": {
+          "type": "internal",
+          "url": "#services"
+        },
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "c2qgxg",
+      "name": "block",
+      "parent": "crkih2",
+      "children": [
+        "dik1xv",
+        "juozxo",
+        "sr7hto",
+        "p7elhe"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "dik1xv",
+      "name": "heading",
+      "parent": "c2qgxg",
+      "children": [],
+      "settings": {
+        "text": "Services",
+        "tag": "h4",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "juozxo",
+      "name": "text-link",
+      "parent": "c2qgxg",
+      "children": [],
+      "settings": {
+        "text": "Cloud Solutions",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "sr7hto",
+      "name": "text-link",
+      "parent": "c2qgxg",
+      "children": [],
+      "settings": {
+        "text": "Cybersecurity",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "p7elhe",
+      "name": "text-link",
+      "parent": "c2qgxg",
+      "children": [],
+      "settings": {
+        "text": "IT Consulting",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "khlehb",
+      "name": "block",
+      "parent": "crkih2",
+      "children": [
+        "m1i2ii",
+        "knswry",
+        "cjh4kc"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "m1i2ii",
+      "name": "heading",
+      "parent": "khlehb",
+      "children": [],
+      "settings": {
+        "text": "Newsletter",
+        "tag": "h4",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "knswry",
+      "name": "text-basic",
+      "parent": "khlehb",
+      "children": [],
+      "settings": {
+        "text": "Get the latest updates and offers",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "cjh4kc",
+      "name": "button",
+      "parent": "khlehb",
+      "children": [],
+      "settings": {
+        "text": "Enter your email",
+        "_cssGlobalClasses": [
+          "gc016p"
+        ],
+        "_width": "100%"
+      }
+    },
+    {
+      "id": "gx0sq9",
+      "name": "container",
+      "parent": "5dk9un",
+      "children": [
+        "jl26bl"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a"
+        ],
+        "_borderTop": {
+          "style": "solid",
+          "width": "1",
+          "color": {
+            "hex": "#FFFFFF",
+            "rgb": "rgba(255, 255, 255, 0.2)"
+          }
+        },
+        "_padding": {
+          "top": "var(--spacing-md)",
+          "bottom": "var(--spacing-md)"
+        }
+      }
+    },
+    {
+      "id": "jl26bl",
+      "name": "text-basic",
+      "parent": "gx0sq9",
+      "children": [],
+      "settings": {
+        "text": "\u00a9 2025 RENS IT Solutions. All rights reserved.",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m",
+          "gc022v"
+        ]
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [
+    {
+      "id": "gc001a",
+      "name": "ren-container-width-xl",
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      }
+    },
+    {
+      "id": "gc002b",
+      "name": "ren-pad-section-lg",
+      "settings": {
+        "_padding": {
+          "top": "var(--spacing-2xl)",
+          "bottom": "var(--spacing-2xl)"
+        }
+      }
+    },
+    {
+      "id": "gc003c",
+      "name": "ren-pad-section-md",
+      "settings": {
+        "_padding": {
+          "top": "var(--spacing-xl)",
+          "bottom": "var(--spacing-xl)"
+        }
+      }
+    },
+    {
+      "id": "gc004d",
+      "name": "ren-gap-xl",
+      "settings": {
+        "_columnGap": "var(--spacing-xl)",
+        "_rowGap": "var(--spacing-xl)"
+      }
+    },
+    {
+      "id": "gc005e",
+      "name": "ren-gap-lg",
+      "settings": {
+        "_columnGap": "var(--spacing-lg)",
+        "_rowGap": "var(--spacing-lg)"
+      }
+    },
+    {
+      "id": "gc006f",
+      "name": "ren-gap-md",
+      "settings": {
+        "_columnGap": "var(--spacing-md)",
+        "_rowGap": "var(--spacing-md)"
+      }
+    },
+    {
+      "id": "gc007g",
+      "name": "ren-heading-1",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-3xl)",
+          "font-weight": "var(--font-bold)",
+          "line-height": "1.2"
+        }
+      }
+    },
+    {
+      "id": "gc008h",
+      "name": "ren-heading-2",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-2xl)",
+          "font-weight": "var(--font-bold)",
+          "line-height": "1.3"
+        }
+      }
+    },
+    {
+      "id": "gc009i",
+      "name": "ren-heading-3",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-xl)",
+          "font-weight": "var(--font-semibold)"
+        }
+      }
+    },
+    {
+      "id": "gc010j",
+      "name": "ren-text-body",
+      "settings": {
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-md)",
+          "line-height": "1.6"
+        }
+      }
+    },
+    {
+      "id": "gc011k",
+      "name": "ren-bg-primary",
+      "settings": {
+        "_background": {
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "gc012l",
+      "name": "ren-bg-light",
+      "settings": {
+        "_background": {
+          "color": {
+            "hex": "#F8F9FA"
+          }
+        }
+      }
+    },
+    {
+      "id": "gc013m",
+      "name": "ren-text-white",
+      "settings": {
+        "_typography": {
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "gc014n",
+      "name": "ren-text-primary",
+      "settings": {
+        "_typography": {
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "gc015o",
+      "name": "ren-text-dark",
+      "settings": {
+        "_typography": {
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "gc016p",
+      "name": "ren-button-primary",
+      "settings": {
+        "_background": {
+          "color": {
+            "hex": "#FFD93D"
+          }
+        },
+        "_padding": {
+          "top": "14",
+          "right": "32",
+          "bottom": "14",
+          "left": "32"
+        },
+        "_border": {
+          "radius": {
+            "top": "4",
+            "right": "4",
+            "bottom": "4",
+            "left": "4"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-md)",
+          "font-weight": "var(--font-semibold)",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "gc017q",
+      "name": "ren-card",
+      "settings": {
+        "_background": {
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        },
+        "_padding": {
+          "top": "var(--spacing-lg)",
+          "right": "var(--spacing-md)",
+          "bottom": "var(--spacing-lg)",
+          "left": "var(--spacing-md)"
+        },
+        "_border": {
+          "radius": {
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8"
+          }
+        },
+        "_boxShadow": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "4",
+            "blur": "20"
+          },
+          "color": {
+            "hex": "#000000",
+            "rgb": "rgba(0, 0, 0, 0.08)"
+          }
+        }
+      }
+    },
+    {
+      "id": "gc018r",
+      "name": "ren-grid-3-col",
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(3, 1fr)",
+        "_gridTemplateColumns:tablet_portrait": "repeat(2, 1fr)",
+        "_gridTemplateColumns:mobile_portrait": "1fr"
+      }
+    },
+    {
+      "id": "gc019s",
+      "name": "ren-grid-4-col",
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(4, 1fr)",
+        "_gridTemplateColumns:tablet_portrait": "repeat(2, 1fr)",
+        "_gridTemplateColumns:mobile_portrait": "1fr"
+      }
+    },
+    {
+      "id": "gc020t",
+      "name": "ren-grid-2-col",
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(2, 1fr)",
+        "_gridTemplateColumns:mobile_portrait": "1fr"
+      }
+    },
+    {
+      "id": "gc021u",
+      "name": "ren-flex-center",
+      "settings": {
+        "_display": "flex",
+        "_justifyContent": "center",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "gc022v",
+      "name": "ren-text-center",
+      "settings": {
+        "_textAlign": "center"
+      }
+    }
+  ],
+  "globalElements": []
+}
