@@ -1,0 +1,52 @@
+{
+  "content": [
+    {
+      "id": "nbdg02",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "0byg61"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc003c"
+        ]
+      },
+      "label": "Stats"
+    },
+    {
+      "id": "0byg61",
+      "name": "container",
+      "parent": "nbdg02",
+      "children": [
+        "z4o34t"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a"
+        ]
+      }
+    },
+    {
+      "id": "z4o34t",
+      "name": "block",
+      "parent": "0byg61",
+      "children": [
+        "9xs5qx",
+        "kdw99y",
+        "d04blu",
+        "33oynd"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc019s",
+          "gc005e"
+        ]
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

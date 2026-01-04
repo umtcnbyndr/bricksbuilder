@@ -1,0 +1,266 @@
+{
+  "content": [
+    {
+      "id": "3l1cth",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "tca0ik"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc012l",
+          "gc002b"
+        ]
+      },
+      "label": "Services"
+    },
+    {
+      "id": "tca0ik",
+      "name": "container",
+      "parent": "3l1cth",
+      "children": [
+        "skewv6",
+        "y517kx"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "skewv6",
+      "name": "block",
+      "parent": "tca0ik",
+      "children": [
+        "fy7l0t"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc022v"
+        ]
+      }
+    },
+    {
+      "id": "fy7l0t",
+      "name": "heading",
+      "parent": "skewv6",
+      "children": [],
+      "settings": {
+        "text": "We provide All-in-one Solution for every IT job",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "gc008h",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "y517kx",
+      "name": "block",
+      "parent": "tca0ik",
+      "children": [
+        "sfiwjr",
+        "57pwv1",
+        "vt1rnd",
+        "lzc8nf"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc019s",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "9xs5qx",
+      "name": "block",
+      "parent": "z4o34t",
+      "children": [
+        "mi3ymp",
+        "vd8cq6"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "mi3ymp",
+      "name": "heading",
+      "parent": "9xs5qx",
+      "children": [],
+      "settings": {
+        "text": "782",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "vd8cq6",
+      "name": "text-basic",
+      "parent": "9xs5qx",
+      "children": [],
+      "settings": {
+        "text": "Happy Customers",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "kdw99y",
+      "name": "block",
+      "parent": "z4o34t",
+      "children": [
+        "rkb0mg",
+        "07g7nd"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "rkb0mg",
+      "name": "heading",
+      "parent": "kdw99y",
+      "children": [],
+      "settings": {
+        "text": "12 K",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "07g7nd",
+      "name": "text-basic",
+      "parent": "kdw99y",
+      "children": [],
+      "settings": {
+        "text": "Project Done",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "d04blu",
+      "name": "block",
+      "parent": "z4o34t",
+      "children": [
+        "iji9fe",
+        "7uny27"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "iji9fe",
+      "name": "heading",
+      "parent": "d04blu",
+      "children": [],
+      "settings": {
+        "text": "5,896",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "7uny27",
+      "name": "text-basic",
+      "parent": "d04blu",
+      "children": [],
+      "settings": {
+        "text": "Total Users",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "33oynd",
+      "name": "block",
+      "parent": "z4o34t",
+      "children": [
+        "2u3mpx",
+        "i2d3t0"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "2u3mpx",
+      "name": "heading",
+      "parent": "33oynd",
+      "children": [],
+      "settings": {
+        "text": "$890 K",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "48px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "i2d3t0",
+      "name": "text-basic",
+      "parent": "33oynd",
+      "children": [],
+      "settings": {
+        "text": "Annual Revenue",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc015o"
+        ]
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

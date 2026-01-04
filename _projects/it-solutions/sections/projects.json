@@ -1,0 +1,425 @@
+{
+  "content": [
+    {
+      "id": "0vcik4",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "eura0f"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc003c"
+        ]
+      },
+      "label": "Projects"
+    },
+    {
+      "id": "eura0f",
+      "name": "container",
+      "parent": "0vcik4",
+      "children": [
+        "332103",
+        "2pf8m8"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "332103",
+      "name": "block",
+      "parent": "eura0f",
+      "children": [
+        "60uwo5",
+        "hkbqy3"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "60uwo5",
+      "name": "text-basic",
+      "parent": "332103",
+      "children": [],
+      "settings": {
+        "text": "PROJECTS",
+        "_cssGlobalClasses": [
+          "gc014n"
+        ],
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "text-transform": "uppercase",
+          "letter-spacing": "1px"
+        }
+      }
+    },
+    {
+      "id": "hkbqy3",
+      "name": "heading",
+      "parent": "332103",
+      "children": [],
+      "settings": {
+        "text": "Our amazing project that has been completed",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "gc008h",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "2pf8m8",
+      "name": "block",
+      "parent": "eura0f",
+      "children": [
+        "dr6bzx",
+        "evb1gh",
+        "u0jg0n",
+        "nf90j4"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc019s",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "pyi7y5",
+      "name": "block",
+      "parent": "yadyar",
+      "children": [
+        "dikenm",
+        "hkyvuo"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "dikenm",
+      "name": "block",
+      "parent": "pyi7y5",
+      "children": [
+        "0nxr3j",
+        "g6hhwn"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_justifyContent": "space-between",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "0nxr3j",
+      "name": "text-basic",
+      "parent": "dikenm",
+      "children": [],
+      "settings": {
+        "text": "FRONTEND / PHP / LARAVEL",
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "g6hhwn",
+      "name": "text-basic",
+      "parent": "dikenm",
+      "children": [],
+      "settings": {
+        "text": "95%",
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "hkyvuo",
+      "name": "block",
+      "parent": "pyi7y5",
+      "children": [
+        "vrg5uu"
+      ],
+      "settings": {
+        "_width": "100%",
+        "_height": "8px",
+        "_background": {
+          "color": {
+            "hex": "#E5E7EB"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "vrg5uu",
+      "name": "block",
+      "parent": "hkyvuo",
+      "children": [],
+      "settings": {
+        "_width": "95%",
+        "_height": "100%",
+        "_background": {
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "ienwc6",
+      "name": "block",
+      "parent": "yadyar",
+      "children": [
+        "xjwu5a",
+        "dig9uq"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "xjwu5a",
+      "name": "block",
+      "parent": "ienwc6",
+      "children": [
+        "mp8iv4",
+        "c6zgty"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_justifyContent": "space-between",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "mp8iv4",
+      "name": "text-basic",
+      "parent": "xjwu5a",
+      "children": [],
+      "settings": {
+        "text": "BACKEND / PYTHON / AI",
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "c6zgty",
+      "name": "text-basic",
+      "parent": "xjwu5a",
+      "children": [],
+      "settings": {
+        "text": "90%",
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "dig9uq",
+      "name": "block",
+      "parent": "ienwc6",
+      "children": [
+        "iqheid"
+      ],
+      "settings": {
+        "_width": "100%",
+        "_height": "8px",
+        "_background": {
+          "color": {
+            "hex": "#E5E7EB"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "iqheid",
+      "name": "block",
+      "parent": "dig9uq",
+      "children": [],
+      "settings": {
+        "_width": "90%",
+        "_height": "100%",
+        "_background": {
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "qtigqk",
+      "name": "block",
+      "parent": "yadyar",
+      "children": [
+        "oj0lvd",
+        "w2e75x"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "oj0lvd",
+      "name": "block",
+      "parent": "qtigqk",
+      "children": [
+        "cauoti",
+        "ao9nfy"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_justifyContent": "space-between",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "cauoti",
+      "name": "text-basic",
+      "parent": "oj0lvd",
+      "children": [],
+      "settings": {
+        "text": "HTML / CSS / JS",
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "ao9nfy",
+      "name": "text-basic",
+      "parent": "oj0lvd",
+      "children": [],
+      "settings": {
+        "text": "98%",
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "w2e75x",
+      "name": "block",
+      "parent": "qtigqk",
+      "children": [
+        "pem9gm"
+      ],
+      "settings": {
+        "_width": "100%",
+        "_height": "8px",
+        "_background": {
+          "color": {
+            "hex": "#E5E7EB"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "pem9gm",
+      "name": "block",
+      "parent": "w2e75x",
+      "children": [],
+      "settings": {
+        "_width": "98%",
+        "_height": "100%",
+        "_background": {
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

@@ -1,0 +1,471 @@
+{
+  "content": [
+    {
+      "id": "0gw7so",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "c3q9he"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc011k",
+          "gc002b"
+        ]
+      },
+      "label": "Success Story"
+    },
+    {
+      "id": "c3q9he",
+      "name": "container",
+      "parent": "0gw7so",
+      "children": [
+        "iehawq",
+        "dq2mqs"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "iehawq",
+      "name": "heading",
+      "parent": "c3q9he",
+      "children": [],
+      "settings": {
+        "text": "We have helped more than 700+ worldwide clients",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "gc008h",
+          "gc013m",
+          "gc022v"
+        ]
+      }
+    },
+    {
+      "id": "dq2mqs",
+      "name": "block",
+      "parent": "c3q9he",
+      "children": [
+        "4q60mi",
+        "ho8yhr"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc020t",
+          "gc004d"
+        ]
+      }
+    },
+    {
+      "id": "4q60mi",
+      "name": "block",
+      "parent": "dq2mqs",
+      "children": [
+        "jmpeu3"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q"
+        ],
+        "_background": {
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "jmpeu3",
+      "name": "form",
+      "parent": "4q60mi",
+      "children": [
+        "lfvq52",
+        "v1y7lz",
+        "p1z6yt",
+        "3e44m6",
+        "3ttgcl",
+        "1tdlmg"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "lfvq52",
+      "name": "heading",
+      "parent": "jmpeu3",
+      "children": [],
+      "settings": {
+        "text": "Consultation for Free",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "v1y7lz",
+      "name": "text-basic",
+      "parent": "jmpeu3",
+      "children": [],
+      "settings": {
+        "text": "Get expert advice tailored to your business needs",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "p1z6yt",
+      "name": "form-field",
+      "parent": "jmpeu3",
+      "children": [],
+      "settings": {
+        "type": "text",
+        "label": "Your name",
+        "required": true
+      }
+    },
+    {
+      "id": "3e44m6",
+      "name": "form-field",
+      "parent": "jmpeu3",
+      "children": [],
+      "settings": {
+        "type": "email",
+        "label": "Email address",
+        "required": true
+      }
+    },
+    {
+      "id": "3ttgcl",
+      "name": "form-field",
+      "parent": "jmpeu3",
+      "children": [],
+      "settings": {
+        "type": "select",
+        "label": "Project category",
+        "options": [
+          {
+            "value": "cloud",
+            "label": "Cloud Solutions"
+          },
+          {
+            "value": "security",
+            "label": "Cybersecurity"
+          },
+          {
+            "value": "analytics",
+            "label": "Data Analytics"
+          },
+          {
+            "value": "consulting",
+            "label": "IT Consulting"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1tdlmg",
+      "name": "button",
+      "parent": "jmpeu3",
+      "children": [],
+      "settings": {
+        "text": "Submit",
+        "_cssGlobalClasses": [
+          "gc016p"
+        ],
+        "_width": "100%"
+      }
+    },
+    {
+      "id": "ho8yhr",
+      "name": "block",
+      "parent": "dq2mqs",
+      "children": [
+        "fvdqq1"
+      ],
+      "settings": {}
+    },
+    {
+      "id": "fvdqq1",
+      "name": "block",
+      "parent": "ho8yhr",
+      "children": [
+        "7ijf0a",
+        "51n9m6",
+        "su6t4z",
+        "vwknie"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc020t",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "t2v48b",
+      "name": "block",
+      "parent": "w4qdtl",
+      "children": [
+        "r69ms5",
+        "m3h7hv",
+        "h8lkyb"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "r69ms5",
+      "name": "text-basic",
+      "parent": "t2v48b",
+      "children": [],
+      "settings": {
+        "text": "\"Outstanding service! Their team transformed our entire IT infrastructure with minimal downtime.\"",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "m3h7hv",
+      "name": "text-basic",
+      "parent": "t2v48b",
+      "children": [],
+      "settings": {
+        "text": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+        "_typography": {
+          "font-size": "20px"
+        }
+      }
+    },
+    {
+      "id": "h8lkyb",
+      "name": "block",
+      "parent": "t2v48b",
+      "children": [
+        "txt8mb",
+        "ln61tp"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_flexDirection": "column",
+        "_rowGap": "4"
+      }
+    },
+    {
+      "id": "txt8mb",
+      "name": "text-basic",
+      "parent": "h8lkyb",
+      "children": [],
+      "settings": {
+        "text": "Sarah Johnson",
+        "_typography": {
+          "font-weight": "600",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "ln61tp",
+      "name": "text-basic",
+      "parent": "h8lkyb",
+      "children": [],
+      "settings": {
+        "text": "CEO, Tech Corp",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "2bxp22",
+      "name": "block",
+      "parent": "w4qdtl",
+      "children": [
+        "3ohqc9",
+        "jc4swi",
+        "vky6cf"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "3ohqc9",
+      "name": "text-basic",
+      "parent": "2bxp22",
+      "children": [],
+      "settings": {
+        "text": "\"Professional, efficient, and always available. Best IT partner we've ever worked with.\"",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "jc4swi",
+      "name": "text-basic",
+      "parent": "2bxp22",
+      "children": [],
+      "settings": {
+        "text": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+        "_typography": {
+          "font-size": "20px"
+        }
+      }
+    },
+    {
+      "id": "vky6cf",
+      "name": "block",
+      "parent": "2bxp22",
+      "children": [
+        "a610i1",
+        "afa4d6"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_flexDirection": "column",
+        "_rowGap": "4"
+      }
+    },
+    {
+      "id": "a610i1",
+      "name": "text-basic",
+      "parent": "vky6cf",
+      "children": [],
+      "settings": {
+        "text": "Michael Chen",
+        "_typography": {
+          "font-weight": "600",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "afa4d6",
+      "name": "text-basic",
+      "parent": "vky6cf",
+      "children": [],
+      "settings": {
+        "text": "CTO, Innovation Labs",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "piwv0a",
+      "name": "block",
+      "parent": "w4qdtl",
+      "children": [
+        "irs67h",
+        "jxr6p7",
+        "ewopzo"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "irs67h",
+      "name": "text-basic",
+      "parent": "piwv0a",
+      "children": [],
+      "settings": {
+        "text": "\"Their expertise in cloud migration saved us both time and money. Highly recommended!\"",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "jxr6p7",
+      "name": "text-basic",
+      "parent": "piwv0a",
+      "children": [],
+      "settings": {
+        "text": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+        "_typography": {
+          "font-size": "20px"
+        }
+      }
+    },
+    {
+      "id": "ewopzo",
+      "name": "block",
+      "parent": "piwv0a",
+      "children": [
+        "sha1px",
+        "71ve6h"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_flexDirection": "column",
+        "_rowGap": "4"
+      }
+    },
+    {
+      "id": "sha1px",
+      "name": "text-basic",
+      "parent": "ewopzo",
+      "children": [],
+      "settings": {
+        "text": "Emily Rodriguez",
+        "_typography": {
+          "font-weight": "600",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        }
+      }
+    },
+    {
+      "id": "71ve6h",
+      "name": "text-basic",
+      "parent": "ewopzo",
+      "children": [],
+      "settings": {
+        "text": "Director, Global Systems",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

@@ -1,0 +1,441 @@
+{
+  "content": [
+    {
+      "id": "w2qjf4",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "63w0si"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc012l",
+          "gc002b"
+        ]
+      },
+      "label": "Testimonials"
+    },
+    {
+      "id": "63w0si",
+      "name": "container",
+      "parent": "w2qjf4",
+      "children": [
+        "1gcwyz",
+        "w4qdtl"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "1gcwyz",
+      "name": "block",
+      "parent": "63w0si",
+      "children": [
+        "fa8p79",
+        "b4w7im"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "fa8p79",
+      "name": "text-basic",
+      "parent": "1gcwyz",
+      "children": [],
+      "settings": {
+        "text": "TESTIMONIALS",
+        "_cssGlobalClasses": [
+          "gc014n"
+        ],
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "text-transform": "uppercase",
+          "letter-spacing": "1px"
+        }
+      }
+    },
+    {
+      "id": "b4w7im",
+      "name": "heading",
+      "parent": "1gcwyz",
+      "children": [],
+      "settings": {
+        "text": "Our successful clients",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "gc008h",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "w4qdtl",
+      "name": "block",
+      "parent": "63w0si",
+      "children": [
+        "t2v48b",
+        "2bxp22",
+        "piwv0a"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc018r",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "dr6bzx",
+      "name": "block",
+      "parent": "2pf8m8",
+      "children": [
+        "hvrbe5",
+        "15ck3b"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q"
+        ],
+        "_padding": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        }
+      }
+    },
+    {
+      "id": "hvrbe5",
+      "name": "image",
+      "parent": "dr6bzx",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+          "alt": "E-Commerce Platform",
+          "filename": "e-commerce-platform.jpg"
+        },
+        "_width": "100%",
+        "_aspectRatio": "16/9",
+        "_objectFit": "cover"
+      }
+    },
+    {
+      "id": "15ck3b",
+      "name": "block",
+      "parent": "dr6bzx",
+      "children": [
+        "bml8qo",
+        "inkmk7"
+      ],
+      "settings": {
+        "_padding": {
+          "top": "var(--spacing-md)",
+          "right": "var(--spacing-md)",
+          "bottom": "var(--spacing-md)",
+          "left": "var(--spacing-md)"
+        },
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "bml8qo",
+      "name": "heading",
+      "parent": "15ck3b",
+      "children": [],
+      "settings": {
+        "text": "E-Commerce Platform",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "inkmk7",
+      "name": "text-basic",
+      "parent": "15ck3b",
+      "children": [],
+      "settings": {
+        "text": "Web Development",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "evb1gh",
+      "name": "block",
+      "parent": "2pf8m8",
+      "children": [
+        "oyv903",
+        "dw1mn5"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q"
+        ],
+        "_padding": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        }
+      }
+    },
+    {
+      "id": "oyv903",
+      "name": "image",
+      "parent": "evb1gh",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+          "alt": "Mobile Banking App",
+          "filename": "mobile-banking-app.jpg"
+        },
+        "_width": "100%",
+        "_aspectRatio": "16/9",
+        "_objectFit": "cover"
+      }
+    },
+    {
+      "id": "dw1mn5",
+      "name": "block",
+      "parent": "evb1gh",
+      "children": [
+        "bfm17p",
+        "yqt0v4"
+      ],
+      "settings": {
+        "_padding": {
+          "top": "var(--spacing-md)",
+          "right": "var(--spacing-md)",
+          "bottom": "var(--spacing-md)",
+          "left": "var(--spacing-md)"
+        },
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "bfm17p",
+      "name": "heading",
+      "parent": "dw1mn5",
+      "children": [],
+      "settings": {
+        "text": "Mobile Banking App",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "yqt0v4",
+      "name": "text-basic",
+      "parent": "dw1mn5",
+      "children": [],
+      "settings": {
+        "text": "Mobile Development",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "u0jg0n",
+      "name": "block",
+      "parent": "2pf8m8",
+      "children": [
+        "neo6q1",
+        "qa1jmy"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q"
+        ],
+        "_padding": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        }
+      }
+    },
+    {
+      "id": "neo6q1",
+      "name": "image",
+      "parent": "u0jg0n",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+          "alt": "Cloud Migration",
+          "filename": "cloud-migration.jpg"
+        },
+        "_width": "100%",
+        "_aspectRatio": "16/9",
+        "_objectFit": "cover"
+      }
+    },
+    {
+      "id": "qa1jmy",
+      "name": "block",
+      "parent": "u0jg0n",
+      "children": [
+        "zk1sgy",
+        "oa3mhk"
+      ],
+      "settings": {
+        "_padding": {
+          "top": "var(--spacing-md)",
+          "right": "var(--spacing-md)",
+          "bottom": "var(--spacing-md)",
+          "left": "var(--spacing-md)"
+        },
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "zk1sgy",
+      "name": "heading",
+      "parent": "qa1jmy",
+      "children": [],
+      "settings": {
+        "text": "Cloud Migration",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "oa3mhk",
+      "name": "text-basic",
+      "parent": "qa1jmy",
+      "children": [],
+      "settings": {
+        "text": "Cloud Solutions",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "nf90j4",
+      "name": "block",
+      "parent": "2pf8m8",
+      "children": [
+        "80jg7z",
+        "2k3t36"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q"
+        ],
+        "_padding": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        }
+      }
+    },
+    {
+      "id": "80jg7z",
+      "name": "image",
+      "parent": "nf90j4",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+          "alt": "Data Analytics Dashboard",
+          "filename": "data-analytics-dashboard.jpg"
+        },
+        "_width": "100%",
+        "_aspectRatio": "16/9",
+        "_objectFit": "cover"
+      }
+    },
+    {
+      "id": "2k3t36",
+      "name": "block",
+      "parent": "nf90j4",
+      "children": [
+        "0dcuwm",
+        "zwnjba"
+      ],
+      "settings": {
+        "_padding": {
+          "top": "var(--spacing-md)",
+          "right": "var(--spacing-md)",
+          "bottom": "var(--spacing-md)",
+          "left": "var(--spacing-md)"
+        },
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "0dcuwm",
+      "name": "heading",
+      "parent": "2k3t36",
+      "children": [],
+      "settings": {
+        "text": "Data Analytics Dashboard",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "zwnjba",
+      "name": "text-basic",
+      "parent": "2k3t36",
+      "children": [],
+      "settings": {
+        "text": "Data Science",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

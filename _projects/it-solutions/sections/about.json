@@ -1,0 +1,422 @@
+{
+  "content": [
+    {
+      "id": "9fq3r3",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "1awsbv"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc012l",
+          "gc002b"
+        ]
+      },
+      "label": "About"
+    },
+    {
+      "id": "1awsbv",
+      "name": "container",
+      "parent": "9fq3r3",
+      "children": [
+        "z1284d"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a"
+        ]
+      }
+    },
+    {
+      "id": "z1284d",
+      "name": "block",
+      "parent": "1awsbv",
+      "children": [
+        "tittfo",
+        "fh7xhw"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc020t",
+          "gc004d"
+        ],
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "tittfo",
+      "name": "block",
+      "parent": "z1284d",
+      "children": [
+        "fcapnl",
+        "hpuesx",
+        "tu0bud"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "fcapnl",
+      "name": "text-basic",
+      "parent": "tittfo",
+      "children": [],
+      "settings": {
+        "text": "ABOUT US",
+        "_cssGlobalClasses": [
+          "gc014n"
+        ],
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "text-transform": "uppercase",
+          "letter-spacing": "1px"
+        }
+      }
+    },
+    {
+      "id": "hpuesx",
+      "name": "heading",
+      "parent": "tittfo",
+      "children": [],
+      "settings": {
+        "text": "We have over 25+ years in the Tech Industry",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "gc008h",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "tu0bud",
+      "name": "block",
+      "parent": "tittfo",
+      "children": [
+        "tcxzda",
+        "h400b6",
+        "58ti8m"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "tcxzda",
+      "name": "text-basic",
+      "parent": "tu0bud",
+      "children": [],
+      "settings": {
+        "text": "\u2713 DEDICATED TEAM - We provide dedicated team to handle all your IT needs",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "h400b6",
+      "name": "text-basic",
+      "parent": "tu0bud",
+      "children": [],
+      "settings": {
+        "text": "\u2713 UPDATED TECHNOLOGY - Stay ahead with our cutting-edge solutions",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "58ti8m",
+      "name": "text-basic",
+      "parent": "tu0bud",
+      "children": [],
+      "settings": {
+        "text": "\u2713 24/7 SUPPORT TEAM - Round-the-clock support for your business",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "fh7xhw",
+      "name": "block",
+      "parent": "z1284d",
+      "children": [
+        "55fkyu"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc020t",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "55fkyu",
+      "name": "image",
+      "parent": "fh7xhw",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf",
+          "alt": "Professional team working together",
+          "filename": "team-working.jpg"
+        },
+        "_width": "100%",
+        "_border": {
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        }
+      }
+    },
+    {
+      "id": "7ijf0a",
+      "name": "block",
+      "parent": "fvdqq1",
+      "children": [
+        "h9auxg",
+        "ety5tv",
+        "vn4pfq"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f"
+        ],
+        "_background": {
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "h9auxg",
+      "name": "text-basic",
+      "parent": "7ijf0a",
+      "children": [],
+      "settings": {
+        "text": "\ud83c\udfc6",
+        "_typography": {
+          "font-size": "32px"
+        }
+      }
+    },
+    {
+      "id": "ety5tv",
+      "name": "heading",
+      "parent": "7ijf0a",
+      "children": [],
+      "settings": {
+        "text": "Quality",
+        "tag": "h4",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "vn4pfq",
+      "name": "text-basic",
+      "parent": "7ijf0a",
+      "children": [],
+      "settings": {
+        "text": "Best in class service",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "51n9m6",
+      "name": "block",
+      "parent": "fvdqq1",
+      "children": [
+        "wm781x",
+        "vjbtf6",
+        "9intkt"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f"
+        ],
+        "_background": {
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "wm781x",
+      "name": "text-basic",
+      "parent": "51n9m6",
+      "children": [],
+      "settings": {
+        "text": "\u26a1",
+        "_typography": {
+          "font-size": "32px"
+        }
+      }
+    },
+    {
+      "id": "vjbtf6",
+      "name": "heading",
+      "parent": "51n9m6",
+      "children": [],
+      "settings": {
+        "text": "Speed",
+        "tag": "h4",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "9intkt",
+      "name": "text-basic",
+      "parent": "51n9m6",
+      "children": [],
+      "settings": {
+        "text": "Fast delivery guaranteed",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "su6t4z",
+      "name": "block",
+      "parent": "fvdqq1",
+      "children": [
+        "kmljt5",
+        "j1v987",
+        "ymoqu2"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f"
+        ],
+        "_background": {
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "kmljt5",
+      "name": "text-basic",
+      "parent": "su6t4z",
+      "children": [],
+      "settings": {
+        "text": "\ud83d\udee1\ufe0f",
+        "_typography": {
+          "font-size": "32px"
+        }
+      }
+    },
+    {
+      "id": "j1v987",
+      "name": "heading",
+      "parent": "su6t4z",
+      "children": [],
+      "settings": {
+        "text": "Security",
+        "tag": "h4",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "ymoqu2",
+      "name": "text-basic",
+      "parent": "su6t4z",
+      "children": [],
+      "settings": {
+        "text": "Enterprise-grade protection",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    },
+    {
+      "id": "vwknie",
+      "name": "block",
+      "parent": "fvdqq1",
+      "children": [
+        "3e5ye2",
+        "esycwd",
+        "vi99n3"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc006f"
+        ],
+        "_background": {
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "3e5ye2",
+      "name": "text-basic",
+      "parent": "vwknie",
+      "children": [],
+      "settings": {
+        "text": "\ud83d\udcb0",
+        "_typography": {
+          "font-size": "32px"
+        }
+      }
+    },
+    {
+      "id": "esycwd",
+      "name": "heading",
+      "parent": "vwknie",
+      "children": [],
+      "settings": {
+        "text": "Affordable",
+        "tag": "h4",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "vi99n3",
+      "name": "text-basic",
+      "parent": "vwknie",
+      "children": [],
+      "settings": {
+        "text": "Competitive pricing",
+        "_cssGlobalClasses": [
+          "gc010j"
+        ]
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

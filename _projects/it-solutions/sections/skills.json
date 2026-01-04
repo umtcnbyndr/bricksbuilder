@@ -1,0 +1,326 @@
+{
+  "content": [
+    {
+      "id": "wdkggu",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "avmbbz"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc012l",
+          "gc002b"
+        ]
+      },
+      "label": "Skills"
+    },
+    {
+      "id": "avmbbz",
+      "name": "container",
+      "parent": "wdkggu",
+      "children": [
+        "bjwss3",
+        "yadyar"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "bjwss3",
+      "name": "heading",
+      "parent": "avmbbz",
+      "children": [],
+      "settings": {
+        "text": "We have experts in their respective fields",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "gc008h",
+          "gc015o",
+          "gc022v"
+        ]
+      }
+    },
+    {
+      "id": "yadyar",
+      "name": "block",
+      "parent": "avmbbz",
+      "children": [
+        "pyi7y5",
+        "ienwc6",
+        "qtigqk"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "f1tw9g",
+      "name": "block",
+      "parent": "3mj2dh",
+      "children": [
+        "qkcx3i",
+        "01ur8v",
+        "4v0psh",
+        "5o8akj"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "qkcx3i",
+      "name": "image",
+      "parent": "f1tw9g",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1560250097-0b93528c311a",
+          "alt": "John Smith",
+          "filename": "john-smith.jpg"
+        },
+        "_width": "120px",
+        "_height": "120px",
+        "_objectFit": "cover",
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "01ur8v",
+      "name": "heading",
+      "parent": "f1tw9g",
+      "children": [],
+      "settings": {
+        "text": "John Smith",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "4v0psh",
+      "name": "text-basic",
+      "parent": "f1tw9g",
+      "children": [],
+      "settings": {
+        "text": "Senior Developer",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "5o8akj",
+      "name": "text-basic",
+      "parent": "f1tw9g",
+      "children": [],
+      "settings": {
+        "text": "\ud83d\udd17 LinkedIn",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "ha2jxu",
+      "name": "block",
+      "parent": "3mj2dh",
+      "children": [
+        "3hrb6l",
+        "01u6ie",
+        "m43hlb",
+        "wftik6"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "3hrb6l",
+      "name": "image",
+      "parent": "ha2jxu",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2",
+          "alt": "Lisa Anderson",
+          "filename": "lisa-anderson.jpg"
+        },
+        "_width": "120px",
+        "_height": "120px",
+        "_objectFit": "cover",
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "01u6ie",
+      "name": "heading",
+      "parent": "ha2jxu",
+      "children": [],
+      "settings": {
+        "text": "Lisa Anderson",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "m43hlb",
+      "name": "text-basic",
+      "parent": "ha2jxu",
+      "children": [],
+      "settings": {
+        "text": "Cloud Architect",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "wftik6",
+      "name": "text-basic",
+      "parent": "ha2jxu",
+      "children": [],
+      "settings": {
+        "text": "\ud83d\udd17 LinkedIn",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "8eyuu0",
+      "name": "block",
+      "parent": "3mj2dh",
+      "children": [
+        "0k7mea",
+        "1reylc",
+        "r9u4pe",
+        "5e1jgb"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc017q",
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "0k7mea",
+      "name": "image",
+      "parent": "8eyuu0",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7",
+          "alt": "David Wilson",
+          "filename": "david-wilson.jpg"
+        },
+        "_width": "120px",
+        "_height": "120px",
+        "_objectFit": "cover",
+        "_border": {
+          "radius": {
+            "top": "999",
+            "right": "999",
+            "bottom": "999",
+            "left": "999"
+          }
+        }
+      }
+    },
+    {
+      "id": "1reylc",
+      "name": "heading",
+      "parent": "8eyuu0",
+      "children": [],
+      "settings": {
+        "text": "David Wilson",
+        "tag": "h3",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "r9u4pe",
+      "name": "text-basic",
+      "parent": "8eyuu0",
+      "children": [],
+      "settings": {
+        "text": "DevOps Engineer",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#6B7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "5e1jgb",
+      "name": "text-basic",
+      "parent": "8eyuu0",
+      "children": [],
+      "settings": {
+        "text": "\ud83d\udd17 LinkedIn",
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

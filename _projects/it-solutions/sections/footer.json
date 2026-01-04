@@ -1,0 +1,369 @@
+{
+  "content": [
+    {
+      "id": "5dk9un",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "tvlqzz",
+        "gx0sq9"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc011k",
+          "gc002b"
+        ]
+      },
+      "label": "Footer"
+    },
+    {
+      "id": "tvlqzz",
+      "name": "container",
+      "parent": "5dk9un",
+      "children": [
+        "crkih2"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a"
+        ]
+      }
+    },
+    {
+      "id": "crkih2",
+      "name": "block",
+      "parent": "tvlqzz",
+      "children": [
+        "yk91gc",
+        "ph2o4l",
+        "c2qgxg",
+        "khlehb"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc019s",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "yk91gc",
+      "name": "block",
+      "parent": "crkih2",
+      "children": [
+        "gckr9p",
+        "1q8tjq",
+        "589qxh"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "gckr9p",
+      "name": "heading",
+      "parent": "yk91gc",
+      "children": [],
+      "settings": {
+        "text": "RENS",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "24px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#FFFFFF"
+          }
+        }
+      }
+    },
+    {
+      "id": "1q8tjq",
+      "name": "text-basic",
+      "parent": "yk91gc",
+      "children": [],
+      "settings": {
+        "text": "High quality IT-Solutions company. We help businesses transform digitally with cutting-edge technology.",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "589qxh",
+      "name": "text-basic",
+      "parent": "yk91gc",
+      "children": [],
+      "settings": {
+        "text": "\ud83d\udce7 hello@rens.com<br>\ud83d\udcde +1 234 567 8900",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "ph2o4l",
+      "name": "block",
+      "parent": "crkih2",
+      "children": [
+        "a3f0h6",
+        "srk310",
+        "5brwi5",
+        "pu3dl4"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "a3f0h6",
+      "name": "heading",
+      "parent": "ph2o4l",
+      "children": [],
+      "settings": {
+        "text": "Pages",
+        "tag": "h4",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "srk310",
+      "name": "text-link",
+      "parent": "ph2o4l",
+      "children": [],
+      "settings": {
+        "text": "Home",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "5brwi5",
+      "name": "text-link",
+      "parent": "ph2o4l",
+      "children": [],
+      "settings": {
+        "text": "About",
+        "link": {
+          "type": "internal",
+          "url": "#about"
+        },
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "pu3dl4",
+      "name": "text-link",
+      "parent": "ph2o4l",
+      "children": [],
+      "settings": {
+        "text": "Services",
+        "link": {
+          "type": "internal",
+          "url": "#services"
+        },
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "c2qgxg",
+      "name": "block",
+      "parent": "crkih2",
+      "children": [
+        "dik1xv",
+        "juozxo",
+        "sr7hto",
+        "p7elhe"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "dik1xv",
+      "name": "heading",
+      "parent": "c2qgxg",
+      "children": [],
+      "settings": {
+        "text": "Services",
+        "tag": "h4",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "juozxo",
+      "name": "text-link",
+      "parent": "c2qgxg",
+      "children": [],
+      "settings": {
+        "text": "Cloud Solutions",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "sr7hto",
+      "name": "text-link",
+      "parent": "c2qgxg",
+      "children": [],
+      "settings": {
+        "text": "Cybersecurity",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "p7elhe",
+      "name": "text-link",
+      "parent": "c2qgxg",
+      "children": [],
+      "settings": {
+        "text": "IT Consulting",
+        "link": {
+          "type": "internal",
+          "url": "#"
+        },
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "khlehb",
+      "name": "block",
+      "parent": "crkih2",
+      "children": [
+        "m1i2ii",
+        "knswry",
+        "cjh4kc"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "m1i2ii",
+      "name": "heading",
+      "parent": "khlehb",
+      "children": [],
+      "settings": {
+        "text": "Newsletter",
+        "tag": "h4",
+        "_cssGlobalClasses": [
+          "gc009i",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "knswry",
+      "name": "text-basic",
+      "parent": "khlehb",
+      "children": [],
+      "settings": {
+        "text": "Get the latest updates and offers",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m"
+        ]
+      }
+    },
+    {
+      "id": "cjh4kc",
+      "name": "button",
+      "parent": "khlehb",
+      "children": [],
+      "settings": {
+        "text": "Enter your email",
+        "_cssGlobalClasses": [
+          "gc016p"
+        ],
+        "_width": "100%"
+      }
+    },
+    {
+      "id": "gx0sq9",
+      "name": "container",
+      "parent": "5dk9un",
+      "children": [
+        "jl26bl"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a"
+        ],
+        "_borderTop": {
+          "style": "solid",
+          "width": "1",
+          "color": {
+            "hex": "#FFFFFF",
+            "rgb": "rgba(255, 255, 255, 0.2)"
+          }
+        },
+        "_padding": {
+          "top": "var(--spacing-md)",
+          "bottom": "var(--spacing-md)"
+        }
+      }
+    },
+    {
+      "id": "jl26bl",
+      "name": "text-basic",
+      "parent": "gx0sq9",
+      "children": [],
+      "settings": {
+        "text": "\u00a9 2025 RENS IT Solutions. All rights reserved.",
+        "_cssGlobalClasses": [
+          "gc010j",
+          "gc013m",
+          "gc022v"
+        ]
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

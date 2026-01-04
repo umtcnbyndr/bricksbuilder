@@ -1,6 +1,146 @@
 {
   "content": [
     {
+      "id": "iiug8w",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "x5q6e7"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc012l"
+        ],
+        "_padding": {
+          "top": "var(--spacing-sm)",
+          "bottom": "var(--spacing-sm)"
+        },
+        "_position": "fixed",
+        "top": "0",
+        "left": "0",
+        "right": "0",
+        "zIndex": "1000",
+        "_boxShadow": {
+          "values": {
+            "offsetX": "0",
+            "offsetY": "2",
+            "blur": "8"
+          },
+          "color": {
+            "hex": "#000000",
+            "rgb": "rgba(0, 0, 0, 0.05)"
+          }
+        },
+        "tag": "header"
+      },
+      "label": "Header"
+    },
+    {
+      "id": "x5q6e7",
+      "name": "container",
+      "parent": "iiug8w",
+      "children": [
+        "s9lmdm"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a"
+        ]
+      }
+    },
+    {
+      "id": "s9lmdm",
+      "name": "block",
+      "parent": "x5q6e7",
+      "children": [
+        "maoq8x",
+        "sxgow2",
+        "9afsz6"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_justifyContent": "space-between",
+        "_alignItems": "center",
+        "_columnGap": "var(--spacing-lg)"
+      }
+    },
+    {
+      "id": "maoq8x",
+      "name": "heading",
+      "parent": "s9lmdm",
+      "children": [],
+      "settings": {
+        "text": "RENS",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "24px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#4A3AFF"
+          }
+        }
+      },
+      "label": "Logo"
+    },
+    {
+      "id": "sxgow2",
+      "name": "nav-menu",
+      "parent": "s9lmdm",
+      "children": [],
+      "settings": {
+        "menu": [
+          {
+            "text": "Home",
+            "url": "#home"
+          },
+          {
+            "text": "Services",
+            "url": "#services"
+          },
+          {
+            "text": "About",
+            "url": "#about"
+          },
+          {
+            "text": "Projects",
+            "url": "#projects"
+          },
+          {
+            "text": "Team",
+            "url": "#team"
+          },
+          {
+            "text": "Contact",
+            "url": "#contact"
+          }
+        ],
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-base)",
+          "font-weight": "500",
+          "color": {
+            "hex": "#1A1D2E"
+          }
+        },
+        "_display:tablet_portrait": "none"
+      },
+      "label": "Navigation Menu"
+    },
+    {
+      "id": "9afsz6",
+      "name": "button",
+      "parent": "s9lmdm",
+      "children": [],
+      "settings": {
+        "text": "Get Started",
+        "_cssGlobalClasses": [
+          "gc016p"
+        ]
+      },
+      "label": "CTA Button"
+    },
+    {
       "id": "o6i6d4",
       "name": "section",
       "parent": 0,
@@ -3396,7 +3536,7 @@
         "_typography": {
           "font-family": "Inter",
           "font-size": "var(--text-3xl)",
-          "font-weight": "var(--font-bold)",
+          "font-weight": "700",
           "line-height": "1.2"
         }
       }
@@ -3408,7 +3548,7 @@
         "_typography": {
           "font-family": "Inter",
           "font-size": "var(--text-2xl)",
-          "font-weight": "var(--font-bold)",
+          "font-weight": "700",
           "line-height": "1.3"
         }
       }
@@ -3420,7 +3560,7 @@
         "_typography": {
           "font-family": "Inter",
           "font-size": "var(--text-xl)",
-          "font-weight": "var(--font-semibold)"
+          "font-weight": "600"
         }
       }
     },
@@ -3430,7 +3570,7 @@
       "settings": {
         "_typography": {
           "font-family": "Inter",
-          "font-size": "var(--text-md)",
+          "font-size": "var(--text-base)",
           "line-height": "1.6"
         }
       }
@@ -3515,8 +3655,8 @@
         },
         "_typography": {
           "font-family": "Inter",
-          "font-size": "var(--text-md)",
-          "font-weight": "var(--font-semibold)",
+          "font-size": "var(--text-base)",
+          "font-weight": "600",
           "color": {
             "hex": "#1A1D2E"
           }

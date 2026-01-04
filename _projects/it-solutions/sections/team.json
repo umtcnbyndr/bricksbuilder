@@ -1,0 +1,100 @@
+{
+  "content": [
+    {
+      "id": "xuya5u",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "3jqlmw"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc003c"
+        ]
+      },
+      "label": "Team"
+    },
+    {
+      "id": "3jqlmw",
+      "name": "container",
+      "parent": "xuya5u",
+      "children": [
+        "7a9cff",
+        "3mj2dh"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc001a",
+          "gc005e"
+        ]
+      }
+    },
+    {
+      "id": "7a9cff",
+      "name": "block",
+      "parent": "3jqlmw",
+      "children": [
+        "1eldek",
+        "227vp9"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc022v",
+          "gc006f"
+        ]
+      }
+    },
+    {
+      "id": "1eldek",
+      "name": "text-basic",
+      "parent": "7a9cff",
+      "children": [],
+      "settings": {
+        "text": "OUR TEAM",
+        "_cssGlobalClasses": [
+          "gc014n"
+        ],
+        "_typography": {
+          "font-size": "14px",
+          "font-weight": "600",
+          "text-transform": "uppercase",
+          "letter-spacing": "1px"
+        }
+      }
+    },
+    {
+      "id": "227vp9",
+      "name": "heading",
+      "parent": "7a9cff",
+      "children": [],
+      "settings": {
+        "text": "Our certified experts",
+        "tag": "h2",
+        "_cssGlobalClasses": [
+          "gc008h",
+          "gc015o"
+        ]
+      }
+    },
+    {
+      "id": "3mj2dh",
+      "name": "block",
+      "parent": "3jqlmw",
+      "children": [
+        "f1tw9g",
+        "ha2jxu",
+        "8eyuu0"
+      ],
+      "settings": {
+        "_cssGlobalClasses": [
+          "gc018r",
+          "gc005e"
+        ]
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}
