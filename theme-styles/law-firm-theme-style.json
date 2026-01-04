@@ -1,0 +1,175 @@
+{
+  "law-firm-professional": {
+    "label": "Law Firm Professional Theme",
+    "settings": {
+      "colors": {
+        "palette": [
+          {
+            "id": "navy-primary",
+            "name": "Navy Primary",
+            "value": {
+              "hex": "#1e3a8a"
+            }
+          },
+          {
+            "id": "navy-secondary",
+            "name": "Navy Secondary",
+            "value": {
+              "hex": "#1e40af"
+            }
+          },
+          {
+            "id": "blue-light",
+            "name": "Blue Light",
+            "value": {
+              "hex": "#3b82f6"
+            }
+          },
+          {
+            "id": "blue-lightest",
+            "name": "Blue Lightest",
+            "value": {
+              "hex": "#dbeafe"
+            }
+          },
+          {
+            "id": "gold-accent",
+            "name": "Gold Accent",
+            "value": {
+              "hex": "#d4af37"
+            }
+          },
+          {
+            "id": "gold-dark",
+            "name": "Gold Dark",
+            "value": {
+              "hex": "#b8941f"
+            }
+          },
+          {
+            "id": "dark-heading",
+            "name": "Dark Heading",
+            "value": {
+              "hex": "#1f2937"
+            }
+          },
+          {
+            "id": "gray-text",
+            "name": "Gray Text",
+            "value": {
+              "hex": "#6b7280"
+            }
+          },
+          {
+            "id": "gray-light",
+            "name": "Gray Light",
+            "value": {
+              "hex": "#f9fafb"
+            }
+          },
+          {
+            "id": "white",
+            "name": "White",
+            "value": {
+              "hex": "#ffffff"
+            }
+          },
+          {
+            "id": "blue-gradient-start",
+            "name": "Blue Gradient Start",
+            "value": {
+              "hex": "#e0e7ff"
+            }
+          }
+        ]
+      },
+      "typography": {
+        "primary": {
+          "font-family": "Inter",
+          "font-weight": "400"
+        },
+        "heading": {
+          "font-family": "Inter",
+          "font-weight": "700"
+        }
+      },
+      "general": {
+        "containerWidth": "1200",
+        "contentWidth": "800"
+      },
+      "button": {
+        "_background": {
+          "color": {
+            "hex": "#1e3a8a",
+            "id": "navy-primary"
+          }
+        },
+        "_background_hover": {
+          "color": {
+            "hex": "#1e40af",
+            "id": "navy-secondary"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-weight": "600",
+          "color": {
+            "hex": "#ffffff",
+            "id": "white"
+          }
+        },
+        "_padding": {
+          "top": "12",
+          "bottom": "12",
+          "left": "28",
+          "right": "28"
+        },
+        "_border": {
+          "radius": {
+            "top": "25",
+            "right": "25",
+            "bottom": "25",
+            "left": "25"
+          }
+        }
+      },
+      "heading": {
+        "h1": {
+          "_typography": {
+            "font-family": "Inter",
+            "font-size": "56px",
+            "font-weight": "700",
+            "line-height": "1.2",
+            "color": {
+              "hex": "#1f2937",
+              "id": "dark-heading"
+            }
+          }
+        },
+        "h2": {
+          "_typography": {
+            "font-family": "Inter",
+            "font-size": "42px",
+            "font-weight": "700",
+            "line-height": "1.3",
+            "color": {
+              "hex": "#1f2937",
+              "id": "dark-heading"
+            }
+          }
+        },
+        "h3": {
+          "_typography": {
+            "font-family": "Inter",
+            "font-size": "28px",
+            "font-weight": "700",
+            "color": {
+              "hex": "#1f2937",
+              "id": "dark-heading"
+            }
+          }
+        }
+      }
+    }
+  }
+}
