@@ -4,7 +4,9 @@
       "id": "top-bar",
       "name": "section",
       "parent": 0,
-      "children": ["top-bar-container"],
+      "children": [
+        "top-bar-container"
+      ],
       "settings": {
         "_width": "100%",
         "_background": {
@@ -23,7 +25,9 @@
       "id": "top-bar-container",
       "name": "container",
       "parent": "top-bar",
-      "children": ["top-bar-flex"],
+      "children": [
+        "top-bar-flex"
+      ],
       "settings": {
         "_width": "95%",
         "_widthMax": "1200"
@@ -33,7 +37,11 @@
       "id": "top-bar-flex",
       "name": "block",
       "parent": "top-bar-container",
-      "children": ["top-info-1", "top-info-2", "top-info-3"],
+      "children": [
+        "top-info-1",
+        "top-info-2",
+        "top-info-3"
+      ],
       "settings": {
         "_display": "flex",
         "_justifyContent": "center",
@@ -46,7 +54,10 @@
       "id": "top-info-1",
       "name": "block",
       "parent": "top-bar-flex",
-      "children": ["icon-check", "text-analiza"],
+      "children": [
+        "icon-check",
+        "text-analiza"
+      ],
       "settings": {
         "_display": "flex",
         "_alignItems": "center",
@@ -92,7 +103,10 @@
       "id": "top-info-2",
       "name": "block",
       "parent": "top-bar-flex",
-      "children": ["icon-calendar", "text-pakiety"],
+      "children": [
+        "icon-calendar",
+        "text-pakiety"
+      ],
       "settings": {
         "_display": "flex",
         "_alignItems": "center",
@@ -138,7 +152,10 @@
       "id": "top-info-3",
       "name": "block",
       "parent": "top-bar-flex",
-      "children": ["icon-user", "text-trener"],
+      "children": [
+        "icon-user",
+        "text-trener"
+      ],
       "settings": {
         "_display": "flex",
         "_alignItems": "center",
@@ -184,7 +201,9 @@
       "id": "header",
       "name": "section",
       "parent": 0,
-      "children": ["header-container"],
+      "children": [
+        "header-container"
+      ],
       "settings": {
         "_width": "100%",
         "_background": {
@@ -206,7 +225,9 @@
       "id": "header-container",
       "name": "container",
       "parent": "header",
-      "children": ["header-flex"],
+      "children": [
+        "header-flex"
+      ],
       "settings": {
         "_width": "95%",
         "_widthMax": "1200"
@@ -216,7 +237,11 @@
       "id": "header-flex",
       "name": "block",
       "parent": "header-container",
-      "children": ["header-logo-group", "header-nav-group", "header-btn"],
+      "children": [
+        "header-logo-group",
+        "header-nav-group",
+        "header-btn"
+      ],
       "settings": {
         "_display": "flex",
         "_justifyContent": "space-between",
@@ -248,7 +273,14 @@
       "id": "header-nav-group",
       "name": "block",
       "parent": "header-flex",
-      "children": ["nav-studio", "nav-ems", "nav-opinie", "nav-cennik", "nav-faq", "nav-kontakt"],
+      "children": [
+        "nav-studio",
+        "nav-ems",
+        "nav-opinie",
+        "nav-cennik",
+        "nav-faq",
+        "nav-kontakt"
+      ],
       "settings": {
         "_display": "flex",
         "_columnGap": "32",
@@ -432,7 +464,10 @@
       "id": "hero",
       "name": "section",
       "parent": 0,
-      "children": ["hero-bg-shape", "hero-container"],
+      "children": [
+        "hero-bg-shape",
+        "hero-container"
+      ],
       "settings": {
         "_width": "100%",
         "_background": {
@@ -504,7 +539,9 @@
       "id": "hero-container",
       "name": "container",
       "parent": "hero",
-      "children": ["hero-grid"],
+      "children": [
+        "hero-grid"
+      ],
       "settings": {
         "_width": "95%",
         "_widthMax": "1200",
@@ -516,7 +553,10 @@
       "id": "hero-grid",
       "name": "block",
       "parent": "hero-container",
-      "children": ["hero-img-block", "hero-content-block"],
+      "children": [
+        "hero-img-block",
+        "hero-content-block"
+      ],
       "settings": {
         "_display": "grid",
         "_gridTemplateColumns": "1fr 1fr",
@@ -530,7 +570,9 @@
       "id": "hero-img-block",
       "name": "block",
       "parent": "hero-grid",
-      "children": ["hero-image"],
+      "children": [
+        "hero-image"
+      ],
       "settings": {
         "_width": "100%",
         "_widthMax": "500",
@@ -556,7 +598,11 @@
       "id": "hero-content-block",
       "name": "block",
       "parent": "hero-grid",
-      "children": ["hero-h1", "hero-desc", "hero-cta"],
+      "children": [
+        "hero-h1",
+        "hero-desc",
+        "hero-cta"
+      ],
       "settings": {
         "_display": "flex",
         "_direction": "column",
@@ -649,6 +695,2977 @@
             "right": "30",
             "bottom": "30",
             "left": "30"
+          }
+        }
+      }
+    },
+    {
+      "id": "benefits-intro",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "benefits-intro-container"
+      ],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "100",
+          "bottom": "60",
+          "top:mobile_portrait": "60",
+          "bottom:mobile_portrait": "40"
+        }
+      },
+      "label": "Benefits Intro"
+    },
+    {
+      "id": "benefits-intro-container",
+      "name": "container",
+      "parent": "benefits-intro",
+      "children": [
+        "benefits-intro-content"
+      ],
+      "settings": {
+        "_width": "95%",
+        "_widthMax": "1200"
+      }
+    },
+    {
+      "id": "benefits-intro-content",
+      "name": "block",
+      "parent": "benefits-intro-container",
+      "children": [
+        "benefits-h2",
+        "benefits-desc"
+      ],
+      "settings": {
+        "_widthMax": "600",
+        "_padding": {
+          "left": "24"
+        },
+        "_borderLeft": {
+          "style": "solid",
+          "width": "3",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "benefits-h2",
+      "name": "heading",
+      "parent": "benefits-intro-content",
+      "children": [],
+      "settings": {
+        "text": "Każdy z nas potrzebuje ruchu.",
+        "tag": "h2",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "42px",
+          "font-weight": "700",
+          "line-height": "1.2",
+          "color": {
+            "hex": "#1a1a1a"
+          },
+          "font-size:mobile_portrait": "32px"
+        },
+        "_margin": {
+          "bottom": "20"
+        }
+      }
+    },
+    {
+      "id": "benefits-desc",
+      "name": "text-basic",
+      "parent": "benefits-intro-content",
+      "children": [],
+      "settings": {
+        "text": "Cieszcie się wolności ruchu swoim ciało nieuwawnienia odskoki czasami",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "1.7",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "benefits-grid",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "benefits-grid-container"
+      ],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "40",
+          "bottom": "80",
+          "top:mobile_portrait": "20",
+          "bottom:mobile_portrait": "60"
+        }
+      },
+      "label": "Benefits Grid"
+    },
+    {
+      "id": "benefits-grid-container",
+      "name": "container",
+      "parent": "benefits-grid",
+      "children": [
+        "benefits-grid-block"
+      ],
+      "settings": {
+        "_width": "95%",
+        "_widthMax": "1200"
+      }
+    },
+    {
+      "id": "benefits-grid-block",
+      "name": "block",
+      "parent": "benefits-grid-container",
+      "children": [
+        "ben1",
+        "ben2",
+        "ben3",
+        "ben4",
+        "ben5",
+        "ben6"
+      ],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(3, 1fr)",
+        "_gridTemplateColumns:tablet_portrait": "repeat(2, 1fr)",
+        "_gridTemplateColumns:mobile_portrait": "1fr",
+        "_columnGap": "60",
+        "_rowGap": "40"
+      }
+    },
+    {
+      "id": "ben1",
+      "name": "block",
+      "parent": "benefits-grid-block",
+      "children": [
+        "ben1-icon",
+        "ben1-title",
+        "ben1-text"
+      ],
+      "settings": {
+        "_padding": {
+          "top": "20"
+        },
+        "_borderTop": {
+          "style": "solid",
+          "width": "1",
+          "color": {
+            "hex": "#e5e7eb"
+          }
+        }
+      }
+    },
+    {
+      "id": "ben1-icon",
+      "name": "icon",
+      "parent": "ben1",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-fire"
+        },
+        "_typography": {
+          "font-size": "48px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        },
+        "_margin": {
+          "bottom": "16"
+        }
+      }
+    },
+    {
+      "id": "ben1-title",
+      "name": "heading",
+      "parent": "ben1",
+      "children": [],
+      "settings": {
+        "text": "Przyspiesz <span style=\"color:#F4A5A5\">metabolizm</span>",
+        "tag": "h4",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "18px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "12"
+        }
+      }
+    },
+    {
+      "id": "ben1-text",
+      "name": "text-basic",
+      "parent": "ben1",
+      "children": [],
+      "settings": {
+        "text": "Treningi EMS przyspieszają metabolizm, co pomaga w spalaniu tłuszczu.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "line-height": "1.6",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "ben2",
+      "name": "block",
+      "parent": "benefits-grid-block",
+      "children": [
+        "ben2-icon",
+        "ben2-title",
+        "ben2-text"
+      ],
+      "settings": {
+        "_padding": {
+          "top": "20"
+        },
+        "_borderTop": {
+          "style": "solid",
+          "width": "1",
+          "color": {
+            "hex": "#e5e7eb"
+          }
+        }
+      }
+    },
+    {
+      "id": "ben2-icon",
+      "name": "icon",
+      "parent": "ben2",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-running"
+        },
+        "_typography": {
+          "font-size": "48px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        },
+        "_margin": {
+          "bottom": "16"
+        }
+      }
+    },
+    {
+      "id": "ben2-title",
+      "name": "heading",
+      "parent": "ben2",
+      "children": [],
+      "settings": {
+        "text": "Modeluj <span style=\"color:#F4A5A5\">sylwetkę</span>",
+        "tag": "h4",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "18px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "12"
+        }
+      }
+    },
+    {
+      "id": "ben2-text",
+      "name": "text-basic",
+      "parent": "ben2",
+      "children": [],
+      "settings": {
+        "text": "Buduj szczupłą, umięśnioną sylwetkę bez nadmiernej masy.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "line-height": "1.6",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "ben3",
+      "name": "block",
+      "parent": "benefits-grid-block",
+      "children": [
+        "ben3-icon",
+        "ben3-title",
+        "ben3-text"
+      ],
+      "settings": {
+        "_padding": {
+          "top": "20"
+        },
+        "_borderTop": {
+          "style": "solid",
+          "width": "1",
+          "color": {
+            "hex": "#e5e7eb"
+          }
+        }
+      }
+    },
+    {
+      "id": "ben3-icon",
+      "name": "icon",
+      "parent": "ben3",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-heartbeat"
+        },
+        "_typography": {
+          "font-size": "48px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        },
+        "_margin": {
+          "bottom": "16"
+        }
+      }
+    },
+    {
+      "id": "ben3-title",
+      "name": "heading",
+      "parent": "ben3",
+      "children": [],
+      "settings": {
+        "text": "Redukuj <span style=\"color:#F4A5A5\">ból pleców</span>",
+        "tag": "h4",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "18px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "12"
+        }
+      }
+    },
+    {
+      "id": "ben3-text",
+      "name": "text-basic",
+      "parent": "ben3",
+      "children": [],
+      "settings": {
+        "text": "Wzmacniaj mięśnie głębokie, które stabilizują kręgosłup.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "line-height": "1.6",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "ben4",
+      "name": "block",
+      "parent": "benefits-grid-block",
+      "children": [
+        "ben4-icon",
+        "ben4-title",
+        "ben4-text"
+      ],
+      "settings": {
+        "_padding": {
+          "top": "20"
+        },
+        "_borderTop": {
+          "style": "solid",
+          "width": "1",
+          "color": {
+            "hex": "#e5e7eb"
+          }
+        }
+      }
+    },
+    {
+      "id": "ben4-icon",
+      "name": "icon",
+      "parent": "ben4",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-shield-alt"
+        },
+        "_typography": {
+          "font-size": "48px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        },
+        "_margin": {
+          "bottom": "16"
+        }
+      }
+    },
+    {
+      "id": "ben4-title",
+      "name": "heading",
+      "parent": "ben4",
+      "children": [],
+      "settings": {
+        "text": "Trenuj <span style=\"color:#F4A5A5\">bezpiecznie</span>",
+        "tag": "h4",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "18px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "12"
+        }
+      }
+    },
+    {
+      "id": "ben4-text",
+      "name": "text-basic",
+      "parent": "ben4",
+      "children": [],
+      "settings": {
+        "text": "Trening EMS chroni stawy i minimalizuje ryzyko kontuzji.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "line-height": "1.6",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "ben5",
+      "name": "block",
+      "parent": "benefits-grid-block",
+      "children": [
+        "ben5-icon",
+        "ben5-title",
+        "ben5-text"
+      ],
+      "settings": {
+        "_padding": {
+          "top": "20"
+        },
+        "_borderTop": {
+          "style": "solid",
+          "width": "1",
+          "color": {
+            "hex": "#e5e7eb"
+          }
+        }
+      }
+    },
+    {
+      "id": "ben5-icon",
+      "name": "icon",
+      "parent": "ben5",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-dumbbell"
+        },
+        "_typography": {
+          "font-size": "48px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        },
+        "_margin": {
+          "bottom": "16"
+        }
+      }
+    },
+    {
+      "id": "ben5-title",
+      "name": "heading",
+      "parent": "ben5",
+      "children": [],
+      "settings": {
+        "text": "Wzmacniaj <span style=\"color:#F4A5A5\">mięśnie</span>",
+        "tag": "h4",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "18px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "12"
+        }
+      }
+    },
+    {
+      "id": "ben5-text",
+      "name": "text-basic",
+      "parent": "ben5",
+      "children": [],
+      "settings": {
+        "text": "Zwiększ siłę i wytrzymałość mięśni w krótkim czasie.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "line-height": "1.6",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "ben6",
+      "name": "block",
+      "parent": "benefits-grid-block",
+      "children": [
+        "ben6-icon",
+        "ben6-title",
+        "ben6-text"
+      ],
+      "settings": {
+        "_padding": {
+          "top": "20"
+        },
+        "_borderTop": {
+          "style": "solid",
+          "width": "1",
+          "color": {
+            "hex": "#e5e7eb"
+          }
+        }
+      }
+    },
+    {
+      "id": "ben6-icon",
+      "name": "icon",
+      "parent": "ben6",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-spa"
+        },
+        "_typography": {
+          "font-size": "48px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        },
+        "_margin": {
+          "bottom": "16"
+        }
+      }
+    },
+    {
+      "id": "ben6-title",
+      "name": "heading",
+      "parent": "ben6",
+      "children": [],
+      "settings": {
+        "text": "Regeneruj <span style=\"color:#F4A5A5\">się</span>",
+        "tag": "h4",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "18px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "12"
+        }
+      }
+    },
+    {
+      "id": "ben6-text",
+      "name": "text-basic",
+      "parent": "ben6",
+      "children": [],
+      "settings": {
+        "text": "Popraw krążenie i przyspiesz regenerację po wysiłku.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "400",
+          "line-height": "1.6",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "about-studio",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "about-grid"
+      ],
+      "settings": {
+        "_width": "100%",
+        "_padding": {
+          "top": "0",
+          "bottom": "0"
+        }
+      },
+      "label": "About Studio"
+    },
+    {
+      "id": "about-grid",
+      "name": "block",
+      "parent": "about-studio",
+      "children": [
+        "about-left",
+        "about-right"
+      ],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "1fr 1fr",
+        "_gridTemplateColumns:tablet_portrait": "1fr",
+        "_minHeight": "600"
+      }
+    },
+    {
+      "id": "about-left",
+      "name": "block",
+      "parent": "about-grid",
+      "children": [
+        "about-subtitle",
+        "about-h2",
+        "about-desc",
+        "about-label",
+        "about-contacts"
+      ],
+      "settings": {
+        "_background": {
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_padding": {
+          "top": "80",
+          "bottom": "80",
+          "left": "60",
+          "right": "60",
+          "left:mobile_portrait": "30",
+          "right:mobile_portrait": "30"
+        },
+        "_display": "flex",
+        "_direction": "column",
+        "_justifyContent": "center"
+      }
+    },
+    {
+      "id": "about-subtitle",
+      "name": "text-basic",
+      "parent": "about-left",
+      "children": [],
+      "settings": {
+        "text": "TRENING EMS OPOLE",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#F4A5A5"
+          },
+          "text-transform": "uppercase",
+          "letter-spacing": "1px"
+        },
+        "_margin": {
+          "bottom": "16"
+        }
+      }
+    },
+    {
+      "id": "about-h2",
+      "name": "heading",
+      "parent": "about-left",
+      "children": [],
+      "settings": {
+        "text": "WELL BODY to studia EMS w modelu premium",
+        "tag": "h2",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "36px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#ffffff"
+          },
+          "line-height": "1.3",
+          "font-size:mobile_portrait": "28px"
+        },
+        "_margin": {
+          "bottom": "24"
+        }
+      }
+    },
+    {
+      "id": "about-desc",
+      "name": "text-basic",
+      "parent": "about-left",
+      "children": [],
+      "settings": {
+        "text": "Nasza misja to pomóc Ci osiągnąć najlepszą formę życia poprzez efektywny trening EMS. Profesjonalny sprzęt i doświadczeni trenerzy gwarantują bezpieczeństwo i skuteczność.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "color": {
+            "hex": "#ffffffbb"
+          },
+          "line-height": "1.7"
+        },
+        "_margin": {
+          "bottom": "32"
+        }
+      }
+    },
+    {
+      "id": "about-label",
+      "name": "text-basic",
+      "parent": "about-left",
+      "children": [],
+      "settings": {
+        "text": "Nasza lokalizacja",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_margin": {
+          "bottom": "12"
+        }
+      }
+    },
+    {
+      "id": "about-contacts",
+      "name": "block",
+      "parent": "about-left",
+      "children": [
+        "contact-address",
+        "contact-phone",
+        "contact-email"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "12"
+      }
+    },
+    {
+      "id": "contact-address",
+      "name": "block",
+      "parent": "about-contacts",
+      "children": [
+        "addr-icon",
+        "addr-text"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "addr-icon",
+      "name": "icon",
+      "parent": "contact-address",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-map-marker-alt"
+        },
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "addr-text",
+      "name": "text-basic",
+      "parent": "contact-address",
+      "children": [],
+      "settings": {
+        "text": "ul. Przykładowa 123, Opole",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "contact-phone",
+      "name": "block",
+      "parent": "about-contacts",
+      "children": [
+        "phone-icon",
+        "phone-link"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "phone-icon",
+      "name": "icon",
+      "parent": "contact-phone",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-phone"
+        },
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "phone-link",
+      "name": "text-link",
+      "parent": "contact-phone",
+      "children": [],
+      "settings": {
+        "text": "+48 123 456 789",
+        "link": {
+          "type": "external",
+          "url": "tel:+48123456789"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "contact-email",
+      "name": "block",
+      "parent": "about-contacts",
+      "children": [
+        "email-icon",
+        "email-link"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "email-icon",
+      "name": "icon",
+      "parent": "contact-email",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-envelope"
+        },
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "email-link",
+      "name": "text-link",
+      "parent": "contact-email",
+      "children": [],
+      "settings": {
+        "text": "kontakt@wellbody.pl",
+        "link": {
+          "type": "external",
+          "url": "mailto:kontakt@wellbody.pl"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "about-right",
+      "name": "image",
+      "parent": "about-grid",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=600&fit=crop",
+          "alt": "WELL BODY gym interior"
+        },
+        "_width": "100%",
+        "_height": "100%",
+        "_objectFit": "cover"
+      }
+    },
+    {
+      "id": "pricing",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "pricing-container"
+      ],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "80",
+          "bottom": "80",
+          "top:mobile_portrait": "60",
+          "bottom:mobile_portrait": "60"
+        }
+      },
+      "label": "Pricing"
+    },
+    {
+      "id": "pricing-container",
+      "name": "container",
+      "parent": "pricing",
+      "children": [
+        "pricing-tabs",
+        "promo-box",
+        "pricing-grid"
+      ],
+      "settings": {
+        "_width": "95%",
+        "_widthMax": "1200"
+      }
+    },
+    {
+      "id": "pricing-tabs",
+      "name": "block",
+      "parent": "pricing-container",
+      "children": [
+        "tab-1",
+        "tab-2",
+        "tab-3"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_columnGap": "8",
+        "_margin": {
+          "bottom": "32"
+        }
+      }
+    },
+    {
+      "id": "tab-1",
+      "name": "button",
+      "parent": "pricing-tabs",
+      "children": [],
+      "settings": {
+        "text": "1 osoba",
+        "_background": {
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "12",
+          "bottom": "12",
+          "left": "24",
+          "right": "24"
+        },
+        "_border": {
+          "radius": {
+            "top": "25",
+            "right": "25",
+            "bottom": "25",
+            "left": "25"
+          }
+        }
+      }
+    },
+    {
+      "id": "tab-2",
+      "name": "button",
+      "parent": "pricing-tabs",
+      "children": [],
+      "settings": {
+        "text": "2 osoby",
+        "_background": {
+          "color": {
+            "hex": "transparent"
+          }
+        },
+        "_border": {
+          "style": "solid",
+          "width": "1",
+          "color": {
+            "hex": "#e5e7eb"
+          },
+          "radius": {
+            "top": "25",
+            "right": "25",
+            "bottom": "25",
+            "left": "25"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#4b5563"
+          }
+        },
+        "_padding": {
+          "top": "12",
+          "bottom": "12",
+          "left": "24",
+          "right": "24"
+        }
+      }
+    },
+    {
+      "id": "tab-3",
+      "name": "button",
+      "parent": "pricing-tabs",
+      "children": [],
+      "settings": {
+        "text": "Aktualne Promocje",
+        "_background": {
+          "color": {
+            "hex": "transparent"
+          }
+        },
+        "_border": {
+          "style": "solid",
+          "width": "1",
+          "color": {
+            "hex": "#e5e7eb"
+          },
+          "radius": {
+            "top": "25",
+            "right": "25",
+            "bottom": "25",
+            "left": "25"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#4b5563"
+          }
+        },
+        "_padding": {
+          "top": "12",
+          "bottom": "12",
+          "left": "24",
+          "right": "24"
+        }
+      }
+    },
+    {
+      "id": "promo-box",
+      "name": "block",
+      "parent": "pricing-container",
+      "children": [
+        "promo-heading",
+        "promo-icon",
+        "promo-old-price",
+        "promo-new-price"
+      ],
+      "settings": {
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_border": {
+          "style": "solid",
+          "width": "2",
+          "color": {
+            "hex": "#1a1a1a"
+          },
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        },
+        "_padding": {
+          "top": "24",
+          "bottom": "24",
+          "left": "32",
+          "right": "32"
+        },
+        "_display": "flex",
+        "_alignItems": "center",
+        "_justifyContent": "space-between",
+        "_margin": {
+          "bottom": "48"
+        },
+        "_direction:mobile_portrait": "column",
+        "_rowGap:mobile_portrait": "16"
+      }
+    },
+    {
+      "id": "promo-heading",
+      "name": "heading",
+      "parent": "promo-box",
+      "children": [],
+      "settings": {
+        "text": "Pierwszy trening EMS dla 1 osoby",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "18px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "promo-icon",
+      "name": "icon",
+      "parent": "promo-box",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-user"
+        },
+        "_typography": {
+          "font-size": "24px",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    },
+    {
+      "id": "promo-old-price",
+      "name": "text-basic",
+      "parent": "promo-box",
+      "children": [],
+      "settings": {
+        "text": "<span style=\"text-decoration: line-through; color: #9ca3af; font-size: 20px;\">180 zł</span>",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "20px",
+          "color": {
+            "hex": "#9ca3af"
+          }
+        }
+      }
+    },
+    {
+      "id": "promo-new-price",
+      "name": "heading",
+      "parent": "promo-box",
+      "children": [],
+      "settings": {
+        "text": "90 zł",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "32px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "pricing-grid",
+      "name": "block",
+      "parent": "pricing-container",
+      "children": [
+        "price-card-1",
+        "price-card-2",
+        "price-card-3",
+        "price-card-4"
+      ],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "repeat(4, 1fr)",
+        "_gridTemplateColumns:tablet_portrait": "repeat(2, 1fr)",
+        "_gridTemplateColumns:mobile_portrait": "1fr",
+        "_columnGap": "24",
+        "_rowGap": "24"
+      }
+    },
+    {
+      "id": "price-card-1",
+      "name": "block",
+      "parent": "pricing-grid",
+      "children": [
+        "price-card-1-h3",
+        "price-card-1-features",
+        "price-card-1-price"
+      ],
+      "settings": {
+        "_border": {
+          "style": "solid",
+          "width": "1",
+          "color": {
+            "hex": "#e5e7eb"
+          },
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        },
+        "_padding": {
+          "top": "32",
+          "bottom": "32",
+          "left": "24",
+          "right": "24"
+        }
+      }
+    },
+    {
+      "id": "price-card-1-h3",
+      "name": "heading",
+      "parent": "price-card-1",
+      "children": [],
+      "settings": {
+        "text": "Pakiet 4",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "24px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "24"
+        }
+      }
+    },
+    {
+      "id": "price-card-1-features",
+      "name": "block",
+      "parent": "price-card-1",
+      "children": [
+        "price-card-1-f1",
+        "price-card-1-f2",
+        "price-card-1-f3"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "12",
+        "_margin": {
+          "bottom": "24"
+        }
+      }
+    },
+    {
+      "id": "price-card-1-f1",
+      "name": "block",
+      "parent": "price-card-1-features",
+      "children": [
+        "price-card-1-f1-icon",
+        "price-card-1-f1-text"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "price-card-1-f1-icon",
+      "name": "icon",
+      "parent": "price-card-1-f1",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-1-f1-text",
+      "name": "text-basic",
+      "parent": "price-card-1-f1",
+      "children": [],
+      "settings": {
+        "text": "4 treningi EMS",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#4b5563"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-1-f2",
+      "name": "block",
+      "parent": "price-card-1-features",
+      "children": [
+        "price-card-1-f2-icon",
+        "price-card-1-f2-text"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "price-card-1-f2-icon",
+      "name": "icon",
+      "parent": "price-card-1-f2",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-1-f2-text",
+      "name": "text-basic",
+      "parent": "price-card-1-f2",
+      "children": [],
+      "settings": {
+        "text": "Dla 1 osoby",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#4b5563"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-1-f3",
+      "name": "block",
+      "parent": "price-card-1-features",
+      "children": [
+        "price-card-1-f3-icon",
+        "price-card-1-f3-text"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "price-card-1-f3-icon",
+      "name": "icon",
+      "parent": "price-card-1-f3",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-1-f3-text",
+      "name": "text-basic",
+      "parent": "price-card-1-f3",
+      "children": [],
+      "settings": {
+        "text": "Cena za pakiet: 640 zł",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#4b5563"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-1-price",
+      "name": "block",
+      "parent": "price-card-1",
+      "children": [
+        "price-card-1-amount",
+        "price-card-1-period"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "baseline",
+        "_columnGap": "8"
+      }
+    },
+    {
+      "id": "price-card-1-amount",
+      "name": "heading",
+      "parent": "price-card-1-price",
+      "children": [],
+      "settings": {
+        "text": "160 zł",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "36px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "price-card-1-period",
+      "name": "text-basic",
+      "parent": "price-card-1-price",
+      "children": [],
+      "settings": {
+        "text": "/trening",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-2",
+      "name": "block",
+      "parent": "pricing-grid",
+      "children": [
+        "price-card-2-h3",
+        "price-card-2-features",
+        "price-card-2-price"
+      ],
+      "settings": {
+        "_border": {
+          "style": "solid",
+          "width": "1",
+          "color": {
+            "hex": "#e5e7eb"
+          },
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        },
+        "_padding": {
+          "top": "32",
+          "bottom": "32",
+          "left": "24",
+          "right": "24"
+        }
+      }
+    },
+    {
+      "id": "price-card-2-h3",
+      "name": "heading",
+      "parent": "price-card-2",
+      "children": [],
+      "settings": {
+        "text": "Pakiet 8",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "24px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "24"
+        }
+      }
+    },
+    {
+      "id": "price-card-2-features",
+      "name": "block",
+      "parent": "price-card-2",
+      "children": [
+        "price-card-2-f1",
+        "price-card-2-f2",
+        "price-card-2-f3"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "12",
+        "_margin": {
+          "bottom": "24"
+        }
+      }
+    },
+    {
+      "id": "price-card-2-f1",
+      "name": "block",
+      "parent": "price-card-2-features",
+      "children": [
+        "price-card-2-f1-icon",
+        "price-card-2-f1-text"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "price-card-2-f1-icon",
+      "name": "icon",
+      "parent": "price-card-2-f1",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-2-f1-text",
+      "name": "text-basic",
+      "parent": "price-card-2-f1",
+      "children": [],
+      "settings": {
+        "text": "8 treningi EMS",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#4b5563"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-2-f2",
+      "name": "block",
+      "parent": "price-card-2-features",
+      "children": [
+        "price-card-2-f2-icon",
+        "price-card-2-f2-text"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "price-card-2-f2-icon",
+      "name": "icon",
+      "parent": "price-card-2-f2",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-2-f2-text",
+      "name": "text-basic",
+      "parent": "price-card-2-f2",
+      "children": [],
+      "settings": {
+        "text": "Dla 1 osoby",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#4b5563"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-2-f3",
+      "name": "block",
+      "parent": "price-card-2-features",
+      "children": [
+        "price-card-2-f3-icon",
+        "price-card-2-f3-text"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "price-card-2-f3-icon",
+      "name": "icon",
+      "parent": "price-card-2-f3",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-2-f3-text",
+      "name": "text-basic",
+      "parent": "price-card-2-f3",
+      "children": [],
+      "settings": {
+        "text": "Cena za pakiet: 1200 zł",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#4b5563"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-2-price",
+      "name": "block",
+      "parent": "price-card-2",
+      "children": [
+        "price-card-2-amount",
+        "price-card-2-period"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "baseline",
+        "_columnGap": "8"
+      }
+    },
+    {
+      "id": "price-card-2-amount",
+      "name": "heading",
+      "parent": "price-card-2-price",
+      "children": [],
+      "settings": {
+        "text": "150 zł",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "36px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "price-card-2-period",
+      "name": "text-basic",
+      "parent": "price-card-2-price",
+      "children": [],
+      "settings": {
+        "text": "/trening",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-3",
+      "name": "block",
+      "parent": "pricing-grid",
+      "children": [
+        "price-card-3-h3",
+        "price-card-3-features",
+        "price-card-3-price"
+      ],
+      "settings": {
+        "_border": {
+          "style": "solid",
+          "width": "1",
+          "color": {
+            "hex": "#e5e7eb"
+          },
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        },
+        "_padding": {
+          "top": "32",
+          "bottom": "32",
+          "left": "24",
+          "right": "24"
+        }
+      }
+    },
+    {
+      "id": "price-card-3-h3",
+      "name": "heading",
+      "parent": "price-card-3",
+      "children": [],
+      "settings": {
+        "text": "Pakiet 12",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "24px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "24"
+        }
+      }
+    },
+    {
+      "id": "price-card-3-features",
+      "name": "block",
+      "parent": "price-card-3",
+      "children": [
+        "price-card-3-f1",
+        "price-card-3-f2",
+        "price-card-3-f3"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "12",
+        "_margin": {
+          "bottom": "24"
+        }
+      }
+    },
+    {
+      "id": "price-card-3-f1",
+      "name": "block",
+      "parent": "price-card-3-features",
+      "children": [
+        "price-card-3-f1-icon",
+        "price-card-3-f1-text"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "price-card-3-f1-icon",
+      "name": "icon",
+      "parent": "price-card-3-f1",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-3-f1-text",
+      "name": "text-basic",
+      "parent": "price-card-3-f1",
+      "children": [],
+      "settings": {
+        "text": "12 treningi EMS",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#4b5563"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-3-f2",
+      "name": "block",
+      "parent": "price-card-3-features",
+      "children": [
+        "price-card-3-f2-icon",
+        "price-card-3-f2-text"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "price-card-3-f2-icon",
+      "name": "icon",
+      "parent": "price-card-3-f2",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-3-f2-text",
+      "name": "text-basic",
+      "parent": "price-card-3-f2",
+      "children": [],
+      "settings": {
+        "text": "Dla 1 osoby",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#4b5563"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-3-f3",
+      "name": "block",
+      "parent": "price-card-3-features",
+      "children": [
+        "price-card-3-f3-icon",
+        "price-card-3-f3-text"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "price-card-3-f3-icon",
+      "name": "icon",
+      "parent": "price-card-3-f3",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-3-f3-text",
+      "name": "text-basic",
+      "parent": "price-card-3-f3",
+      "children": [],
+      "settings": {
+        "text": "Cena za pakiet: 1680 zł",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#4b5563"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-3-price",
+      "name": "block",
+      "parent": "price-card-3",
+      "children": [
+        "price-card-3-amount",
+        "price-card-3-period"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "baseline",
+        "_columnGap": "8"
+      }
+    },
+    {
+      "id": "price-card-3-amount",
+      "name": "heading",
+      "parent": "price-card-3-price",
+      "children": [],
+      "settings": {
+        "text": "140 zł",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "36px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "price-card-3-period",
+      "name": "text-basic",
+      "parent": "price-card-3-price",
+      "children": [],
+      "settings": {
+        "text": "/trening",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-4",
+      "name": "block",
+      "parent": "pricing-grid",
+      "children": [
+        "price-card-4-h3",
+        "price-card-4-features",
+        "price-card-4-price"
+      ],
+      "settings": {
+        "_border": {
+          "style": "solid",
+          "width": "1",
+          "color": {
+            "hex": "#e5e7eb"
+          },
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        },
+        "_padding": {
+          "top": "32",
+          "bottom": "32",
+          "left": "24",
+          "right": "24"
+        }
+      }
+    },
+    {
+      "id": "price-card-4-h3",
+      "name": "heading",
+      "parent": "price-card-4",
+      "children": [],
+      "settings": {
+        "text": "Pakiet 20",
+        "tag": "h3",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "24px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "24"
+        }
+      }
+    },
+    {
+      "id": "price-card-4-features",
+      "name": "block",
+      "parent": "price-card-4",
+      "children": [
+        "price-card-4-f1",
+        "price-card-4-f2",
+        "price-card-4-f3"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "12",
+        "_margin": {
+          "bottom": "24"
+        }
+      }
+    },
+    {
+      "id": "price-card-4-f1",
+      "name": "block",
+      "parent": "price-card-4-features",
+      "children": [
+        "price-card-4-f1-icon",
+        "price-card-4-f1-text"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "price-card-4-f1-icon",
+      "name": "icon",
+      "parent": "price-card-4-f1",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-4-f1-text",
+      "name": "text-basic",
+      "parent": "price-card-4-f1",
+      "children": [],
+      "settings": {
+        "text": "20 treningi EMS",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#4b5563"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-4-f2",
+      "name": "block",
+      "parent": "price-card-4-features",
+      "children": [
+        "price-card-4-f2-icon",
+        "price-card-4-f2-text"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "price-card-4-f2-icon",
+      "name": "icon",
+      "parent": "price-card-4-f2",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-4-f2-text",
+      "name": "text-basic",
+      "parent": "price-card-4-f2",
+      "children": [],
+      "settings": {
+        "text": "Dla 1 osoby",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#4b5563"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-4-f3",
+      "name": "block",
+      "parent": "price-card-4-features",
+      "children": [
+        "price-card-4-f3-icon",
+        "price-card-4-f3-text"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "price-card-4-f3-icon",
+      "name": "icon",
+      "parent": "price-card-4-f3",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-4-f3-text",
+      "name": "text-basic",
+      "parent": "price-card-4-f3",
+      "children": [],
+      "settings": {
+        "text": "Cena za pakiet: 2600 zł",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#4b5563"
+          }
+        }
+      }
+    },
+    {
+      "id": "price-card-4-price",
+      "name": "block",
+      "parent": "price-card-4",
+      "children": [
+        "price-card-4-amount",
+        "price-card-4-period"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "baseline",
+        "_columnGap": "8"
+      }
+    },
+    {
+      "id": "price-card-4-amount",
+      "name": "heading",
+      "parent": "price-card-4-price",
+      "children": [],
+      "settings": {
+        "text": "130 zł",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "36px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "price-card-4-period",
+      "name": "text-basic",
+      "parent": "price-card-4-price",
+      "children": [],
+      "settings": {
+        "text": "/trening",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#6b7280"
+          }
+        }
+      }
+    },
+    {
+      "id": "contact",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "contact-container"
+      ],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "80",
+          "bottom": "80",
+          "top:mobile_portrait": "60",
+          "bottom:mobile_portrait": "60"
+        }
+      },
+      "label": "Contact Form"
+    },
+    {
+      "id": "contact-container",
+      "name": "container",
+      "parent": "contact",
+      "children": [
+        "contact-grid"
+      ],
+      "settings": {
+        "_width": "95%",
+        "_widthMax": "1200"
+      }
+    },
+    {
+      "id": "contact-grid",
+      "name": "block",
+      "parent": "contact-container",
+      "children": [
+        "contact-left",
+        "contact-right"
+      ],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "0.8fr 1.2fr",
+        "_gridTemplateColumns:tablet_portrait": "1fr",
+        "_columnGap": "60",
+        "_alignItems": "start"
+      }
+    },
+    {
+      "id": "contact-left",
+      "name": "image",
+      "parent": "contact-grid",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=600&h=800&fit=crop",
+          "alt": "Personal trainer"
+        },
+        "_width": "100%",
+        "_objectFit": "cover",
+        "_border": {
+          "radius": {
+            "top": "12",
+            "right": "12",
+            "bottom": "12",
+            "left": "12"
+          }
+        }
+      }
+    },
+    {
+      "id": "contact-right",
+      "name": "block",
+      "parent": "contact-grid",
+      "children": [
+        "contact-h2",
+        "contact-desc",
+        "contact-form"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "24"
+      }
+    },
+    {
+      "id": "contact-h2",
+      "name": "heading",
+      "parent": "contact-right",
+      "children": [],
+      "settings": {
+        "text": "Umów się na swój pierwszy trening.",
+        "tag": "h2",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "36px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#1a1a1a"
+          },
+          "font-size:mobile_portrait": "28px"
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "contact-desc",
+      "name": "text-basic",
+      "parent": "contact-right",
+      "children": [],
+      "settings": {
+        "text": "Wypełnij formularz, a nasz trener skontaktuje się z Tobą w ciągu 24 godzin.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "15px",
+          "color": {
+            "hex": "#6b7280"
+          },
+          "line-height": "1.6"
+        }
+      }
+    },
+    {
+      "id": "contact-form",
+      "name": "form",
+      "parent": "contact-right",
+      "children": [
+        "form-name",
+        "form-email",
+        "form-phone",
+        "form-submit"
+      ],
+      "settings": {
+        "formType": "sendEmail",
+        "emailTo": "kontakt@wellbody.pl",
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "20"
+      }
+    },
+    {
+      "id": "form-name",
+      "name": "form-field",
+      "parent": "contact-form",
+      "children": [],
+      "settings": {
+        "type": "text",
+        "label": "Imię i Nazwisko",
+        "required": true,
+        "_border": {
+          "style": "none",
+          "bottom": {
+            "style": "solid",
+            "width": "1",
+            "color": {
+              "hex": "#e5e7eb"
+            }
+          }
+        },
+        "_padding": {
+          "top": "12",
+          "bottom": "12"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px"
+        }
+      }
+    },
+    {
+      "id": "form-email",
+      "name": "form-field",
+      "parent": "contact-form",
+      "children": [],
+      "settings": {
+        "type": "email",
+        "label": "Email",
+        "required": true,
+        "_border": {
+          "style": "none",
+          "bottom": {
+            "style": "solid",
+            "width": "1",
+            "color": {
+              "hex": "#e5e7eb"
+            }
+          }
+        },
+        "_padding": {
+          "top": "12",
+          "bottom": "12"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px"
+        }
+      }
+    },
+    {
+      "id": "form-phone",
+      "name": "form-field",
+      "parent": "contact-form",
+      "children": [],
+      "settings": {
+        "type": "tel",
+        "label": "Numer telefonu",
+        "required": true,
+        "_border": {
+          "style": "none",
+          "bottom": {
+            "style": "solid",
+            "width": "1",
+            "color": {
+              "hex": "#e5e7eb"
+            }
+          }
+        },
+        "_padding": {
+          "top": "12",
+          "bottom": "12"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px"
+        }
+      }
+    },
+    {
+      "id": "form-submit",
+      "name": "button",
+      "parent": "contact-form",
+      "children": [],
+      "settings": {
+        "text": "Wyślij formularz",
+        "type": "submit",
+        "_background": {
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        },
+        "_background_hover": {
+          "color": {
+            "hex": "#E8847C"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "16",
+          "bottom": "16",
+          "left": "32",
+          "right": "32"
+        },
+        "_border": {
+          "radius": {
+            "top": "25",
+            "right": "25",
+            "bottom": "25",
+            "left": "25"
+          }
+        },
+        "_margin": {
+          "top": "24"
+        }
+      }
+    },
+    {
+      "id": "footer",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "footer-container"
+      ],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "gradient": {
+            "type": "linear",
+            "angle": "180",
+            "colors": [
+              {
+                "hex": "#F4A5A5",
+                "position": "0"
+              },
+              {
+                "hex": "#E8847C",
+                "position": "100"
+              }
+            ]
+          }
+        },
+        "_padding": {
+          "top": "60",
+          "bottom": "40",
+          "top:mobile_portrait": "50",
+          "bottom:mobile_portrait": "30"
+        }
+      },
+      "label": "Footer"
+    },
+    {
+      "id": "footer-container",
+      "name": "container",
+      "parent": "footer",
+      "children": [
+        "footer-logo",
+        "footer-grid"
+      ],
+      "settings": {
+        "_width": "95%",
+        "_widthMax": "1200"
+      }
+    },
+    {
+      "id": "footer-logo",
+      "name": "heading",
+      "parent": "footer-container",
+      "children": [],
+      "settings": {
+        "text": "WELL BODY",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "24px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_margin": {
+          "bottom": "40"
+        },
+        "_textAlign": "center"
+      }
+    },
+    {
+      "id": "footer-grid",
+      "name": "block",
+      "parent": "footer-container",
+      "children": [
+        "footer-col-1",
+        "footer-col-2"
+      ],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "1fr 1fr",
+        "_gridTemplateColumns:mobile_portrait": "1fr",
+        "_columnGap": "60",
+        "_rowGap": "40"
+      }
+    },
+    {
+      "id": "footer-col-1",
+      "name": "block",
+      "parent": "footer-grid",
+      "children": [
+        "fc1-link-1",
+        "fc1-link-2",
+        "fc1-link-3",
+        "fc1-link-4"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "12"
+      }
+    },
+    {
+      "id": "fc1-link-1",
+      "name": "text-link",
+      "parent": "footer-col-1",
+      "children": [],
+      "settings": {
+        "text": "O studiu",
+        "link": {
+          "type": "internal",
+          "url": "#studio"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "fc1-link-2",
+      "name": "text-link",
+      "parent": "footer-col-1",
+      "children": [],
+      "settings": {
+        "text": "Dla kogo jest trening EMS",
+        "link": {
+          "type": "internal",
+          "url": "#ems"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "fc1-link-3",
+      "name": "text-link",
+      "parent": "footer-col-1",
+      "children": [],
+      "settings": {
+        "text": "Cennik i pakiety",
+        "link": {
+          "type": "internal",
+          "url": "#cennik"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "fc1-link-4",
+      "name": "text-link",
+      "parent": "footer-col-1",
+      "children": [],
+      "settings": {
+        "text": "FAQ",
+        "link": {
+          "type": "internal",
+          "url": "#faq"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "footer-col-2",
+      "name": "block",
+      "parent": "footer-grid",
+      "children": [
+        "fc2-info-1",
+        "fc2-info-2",
+        "fc2-info-3"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "12"
+      }
+    },
+    {
+      "id": "fc2-info-1",
+      "name": "block",
+      "parent": "footer-col-2",
+      "children": [
+        "fc2-icon-1",
+        "fc2-text-1"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "fc2-icon-1",
+      "name": "icon",
+      "parent": "fc2-info-1",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-map-marker-alt"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "fc2-text-1",
+      "name": "text-basic",
+      "parent": "fc2-info-1",
+      "children": [],
+      "settings": {
+        "text": "ul. Przykładowa 123, Opole",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "fc2-info-2",
+      "name": "block",
+      "parent": "footer-col-2",
+      "children": [
+        "fc2-icon-2",
+        "fc2-link-2"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "fc2-icon-2",
+      "name": "icon",
+      "parent": "fc2-info-2",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-phone"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "fc2-link-2",
+      "name": "text-link",
+      "parent": "fc2-info-2",
+      "children": [],
+      "settings": {
+        "text": "+48 123 456 789",
+        "link": {
+          "type": "external",
+          "url": "tel:+48123456789"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "fc2-info-3",
+      "name": "block",
+      "parent": "footer-col-2",
+      "children": [
+        "fc2-icon-3",
+        "fc2-link-3"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "12"
+      }
+    },
+    {
+      "id": "fc2-icon-3",
+      "name": "icon",
+      "parent": "fc2-info-3",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-envelope"
+        },
+        "_typography": {
+          "font-size": "16px",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "fc2-link-3",
+      "name": "text-link",
+      "parent": "fc2-info-3",
+      "children": [],
+      "settings": {
+        "text": "kontakt@wellbody.pl",
+        "link": {
+          "type": "external",
+          "url": "mailto:kontakt@wellbody.pl"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "color": {
+            "hex": "#ffffff"
           }
         }
       }
