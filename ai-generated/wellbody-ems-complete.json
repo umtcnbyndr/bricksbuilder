@@ -1,0 +1,661 @@
+{
+  "content": [
+    {
+      "id": "top-bar",
+      "name": "section",
+      "parent": 0,
+      "children": ["top-bar-container"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_padding": {
+          "top": "12",
+          "bottom": "12"
+        }
+      },
+      "label": "Top Bar"
+    },
+    {
+      "id": "top-bar-container",
+      "name": "container",
+      "parent": "top-bar",
+      "children": ["top-bar-flex"],
+      "settings": {
+        "_width": "95%",
+        "_widthMax": "1200"
+      }
+    },
+    {
+      "id": "top-bar-flex",
+      "name": "block",
+      "parent": "top-bar-container",
+      "children": ["top-info-1", "top-info-2", "top-info-3"],
+      "settings": {
+        "_display": "flex",
+        "_justifyContent": "center",
+        "_alignItems": "center",
+        "_columnGap": "60",
+        "_display:mobile_portrait": "none"
+      }
+    },
+    {
+      "id": "top-info-1",
+      "name": "block",
+      "parent": "top-bar-flex",
+      "children": ["icon-check", "text-analiza"],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "8"
+      }
+    },
+    {
+      "id": "icon-check",
+      "name": "icon",
+      "parent": "top-info-1",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-check"
+        },
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "text-analiza",
+      "name": "text-basic",
+      "parent": "top-info-1",
+      "children": [],
+      "settings": {
+        "text": "Analiza postępu",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "13px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "top-info-2",
+      "name": "block",
+      "parent": "top-bar-flex",
+      "children": ["icon-calendar", "text-pakiety"],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "8"
+      }
+    },
+    {
+      "id": "icon-calendar",
+      "name": "icon",
+      "parent": "top-info-2",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-calendar-alt"
+        },
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "text-pakiety",
+      "name": "text-basic",
+      "parent": "top-info-2",
+      "children": [],
+      "settings": {
+        "text": "Pakiety bez zobowiązań",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "13px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "top-info-3",
+      "name": "block",
+      "parent": "top-bar-flex",
+      "children": ["icon-user", "text-trener"],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "8"
+      }
+    },
+    {
+      "id": "icon-user",
+      "name": "icon",
+      "parent": "top-info-3",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "fontawesomeSolid",
+          "icon": "fas fa-user"
+        },
+        "_typography": {
+          "font-size": "14px",
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        }
+      }
+    },
+    {
+      "id": "text-trener",
+      "name": "text-basic",
+      "parent": "top-info-3",
+      "children": [],
+      "settings": {
+        "text": "Trening z trenerem 1:1",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "13px",
+          "font-weight": "400",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "header",
+      "name": "section",
+      "parent": 0,
+      "children": ["header-container"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "color": {
+            "hex": "transparent"
+          }
+        },
+        "_position": "sticky",
+        "_top": "0",
+        "_zIndex": "1000",
+        "_padding": {
+          "top": "20",
+          "bottom": "20"
+        }
+      },
+      "label": "Header"
+    },
+    {
+      "id": "header-container",
+      "name": "container",
+      "parent": "header",
+      "children": ["header-flex"],
+      "settings": {
+        "_width": "95%",
+        "_widthMax": "1200"
+      }
+    },
+    {
+      "id": "header-flex",
+      "name": "block",
+      "parent": "header-container",
+      "children": ["header-logo-group", "header-nav-group", "header-btn"],
+      "settings": {
+        "_display": "flex",
+        "_justifyContent": "space-between",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "header-logo-group",
+      "name": "heading",
+      "parent": "header-flex",
+      "children": [],
+      "settings": {
+        "text": "WELL BODY",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "20px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "header-nav-group",
+      "name": "block",
+      "parent": "header-flex",
+      "children": ["nav-studio", "nav-ems", "nav-opinie", "nav-cennik", "nav-faq", "nav-kontakt"],
+      "settings": {
+        "_display": "flex",
+        "_columnGap": "32",
+        "_alignItems": "center",
+        "_display:tablet_portrait": "none"
+      }
+    },
+    {
+      "id": "nav-studio",
+      "name": "text-link",
+      "parent": "header-nav-group",
+      "children": [],
+      "settings": {
+        "text": "Studio",
+        "link": {
+          "type": "internal",
+          "url": "#studio"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "nav-ems",
+      "name": "text-link",
+      "parent": "header-nav-group",
+      "children": [],
+      "settings": {
+        "text": "Trening EMS",
+        "link": {
+          "type": "internal",
+          "url": "#ems"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "nav-opinie",
+      "name": "text-link",
+      "parent": "header-nav-group",
+      "children": [],
+      "settings": {
+        "text": "Opinie",
+        "link": {
+          "type": "internal",
+          "url": "#opinie"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "nav-cennik",
+      "name": "text-link",
+      "parent": "header-nav-group",
+      "children": [],
+      "settings": {
+        "text": "Cennik",
+        "link": {
+          "type": "internal",
+          "url": "#cennik"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "nav-faq",
+      "name": "text-link",
+      "parent": "header-nav-group",
+      "children": [],
+      "settings": {
+        "text": "FAQ",
+        "link": {
+          "type": "internal",
+          "url": "#faq"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "nav-kontakt",
+      "name": "text-link",
+      "parent": "header-nav-group",
+      "children": [],
+      "settings": {
+        "text": "Kontakt",
+        "link": {
+          "type": "internal",
+          "url": "#kontakt"
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "header-btn",
+      "name": "button",
+      "parent": "header-flex",
+      "children": [],
+      "settings": {
+        "text": "Umów się na trening",
+        "link": {
+          "type": "internal",
+          "url": "#kontakt"
+        },
+        "_background": {
+          "color": {
+            "hex": "transparent"
+          }
+        },
+        "_border": {
+          "style": "solid",
+          "width": "1",
+          "color": {
+            "hex": "#ffffff"
+          },
+          "radius": {
+            "top": "25",
+            "right": "25",
+            "bottom": "25",
+            "left": "25"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "13px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "12",
+          "bottom": "12",
+          "left": "24",
+          "right": "24"
+        },
+        "_display:tablet_portrait": "none"
+      }
+    },
+    {
+      "id": "hero",
+      "name": "section",
+      "parent": 0,
+      "children": ["hero-bg-shape", "hero-container"],
+      "settings": {
+        "_width": "100%",
+        "_background": {
+          "gradient": {
+            "type": "linear",
+            "angle": "135",
+            "colors": [
+              {
+                "hex": "#fce4e4",
+                "position": "0"
+              },
+              {
+                "hex": "#f8d7d7",
+                "position": "50"
+              },
+              {
+                "hex": "#F4A5A5",
+                "position": "100"
+              }
+            ]
+          }
+        },
+        "_padding": {
+          "top": "120",
+          "bottom": "80",
+          "top:tablet_portrait": "100",
+          "bottom:tablet_portrait": "60",
+          "top:mobile_portrait": "80",
+          "bottom:mobile_portrait": "40"
+        },
+        "_minHeight": "90vh",
+        "_position": "relative",
+        "_overflow": "hidden"
+      },
+      "label": "Hero"
+    },
+    {
+      "id": "hero-bg-shape",
+      "name": "block",
+      "parent": "hero",
+      "children": [],
+      "settings": {
+        "_position": "absolute",
+        "_top": "0",
+        "_right": "0",
+        "_width": "60%",
+        "_height": "100%",
+        "_background": {
+          "gradient": {
+            "type": "linear",
+            "angle": "180",
+            "colors": [
+              {
+                "hex": "#F4A5A5",
+                "position": "0"
+              },
+              {
+                "hex": "#E8847C",
+                "position": "100"
+              }
+            ]
+          }
+        },
+        "_clipPath": "polygon(30% 0, 100% 0, 100% 100%, 0% 100%)",
+        "_zIndex": "1"
+      }
+    },
+    {
+      "id": "hero-container",
+      "name": "container",
+      "parent": "hero",
+      "children": ["hero-grid"],
+      "settings": {
+        "_width": "95%",
+        "_widthMax": "1200",
+        "_position": "relative",
+        "_zIndex": "2"
+      }
+    },
+    {
+      "id": "hero-grid",
+      "name": "block",
+      "parent": "hero-container",
+      "children": ["hero-img-block", "hero-content-block"],
+      "settings": {
+        "_display": "grid",
+        "_gridTemplateColumns": "1fr 1fr",
+        "_gridTemplateColumns:tablet_portrait": "1fr",
+        "_columnGap": "60",
+        "_rowGap": "40",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "hero-img-block",
+      "name": "block",
+      "parent": "hero-grid",
+      "children": ["hero-image"],
+      "settings": {
+        "_width": "100%",
+        "_widthMax": "500",
+        "_position": "relative",
+        "_zIndex": "2"
+      }
+    },
+    {
+      "id": "hero-image",
+      "name": "image",
+      "parent": "hero-img-block",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=800&fit=crop",
+          "alt": "Fitness woman training"
+        },
+        "_width": "100%",
+        "_objectFit": "cover"
+      }
+    },
+    {
+      "id": "hero-content-block",
+      "name": "block",
+      "parent": "hero-grid",
+      "children": ["hero-h1", "hero-desc", "hero-cta"],
+      "settings": {
+        "_display": "flex",
+        "_direction": "column",
+        "_rowGap": "32",
+        "_textAlign": "left",
+        "_textAlign:tablet_portrait": "center"
+      }
+    },
+    {
+      "id": "hero-h1",
+      "name": "heading",
+      "parent": "hero-content-block",
+      "children": [],
+      "settings": {
+        "text": "Poczuj się lepiej w swoim ciele",
+        "tag": "h1",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "52px",
+          "font-weight": "700",
+          "line-height": "1.2",
+          "color": {
+            "hex": "#ffffff"
+          },
+          "font-size:tablet_portrait": "42px",
+          "font-size:mobile_portrait": "36px"
+        },
+        "_margin": {
+          "bottom": "0"
+        }
+      }
+    },
+    {
+      "id": "hero-desc",
+      "name": "text-basic",
+      "parent": "hero-content-block",
+      "children": [],
+      "settings": {
+        "text": "Trening EMS to nowoczesna metoda ćwiczeń, która pozwala osiągnąć widoczne rezultaty w krótkim czasie bez nadmiernego obciążenia stawów.",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "1.7",
+          "color": {
+            "hex": "#ffffffdd"
+          }
+        },
+        "_widthMax": "450"
+      }
+    },
+    {
+      "id": "hero-cta",
+      "name": "button",
+      "parent": "hero-content-block",
+      "children": [],
+      "settings": {
+        "text": "Umów się na próbny trening",
+        "link": {
+          "type": "internal",
+          "url": "#kontakt"
+        },
+        "_background": {
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_background_hover": {
+          "color": {
+            "hex": "#333333"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_padding": {
+          "top": "16",
+          "bottom": "16",
+          "left": "32",
+          "right": "32"
+        },
+        "_border": {
+          "radius": {
+            "top": "30",
+            "right": "30",
+            "bottom": "30",
+            "left": "30"
+          }
+        }
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}
