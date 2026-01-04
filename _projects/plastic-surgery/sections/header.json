@@ -1,0 +1,208 @@
+{
+  "content": [
+    {
+      "id": "h9fcjh",
+      "name": "section",
+      "parent": 0,
+      "children": [
+        "l07fla"
+      ],
+      "settings": {
+        "_background": {
+          "color": {
+            "hex": "#FFED00"
+          }
+        },
+        "_padding": {
+          "top": "var(--spacing-sm)",
+          "bottom": "var(--spacing-sm)"
+        },
+        "_position": "sticky",
+        "top": "0",
+        "zIndex": "1000",
+        "tag": "header"
+      },
+      "label": "Header"
+    },
+    {
+      "id": "l07fla",
+      "name": "container",
+      "parent": "h9fcjh",
+      "children": [
+        "ftcakl"
+      ],
+      "settings": {
+        "_widthMax": "1366",
+        "_width": "90%"
+      }
+    },
+    {
+      "id": "ftcakl",
+      "name": "block",
+      "parent": "l07fla",
+      "children": [
+        "ynpfa9",
+        "w1q2o5",
+        "04h4ue"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_justifyContent": "space-between",
+        "_alignItems": "center",
+        "_columnGap": "var(--spacing-lg)"
+      }
+    },
+    {
+      "id": "ynpfa9",
+      "name": "block",
+      "parent": "ftcakl",
+      "children": [
+        "nueeva",
+        "fwwms3"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "var(--spacing-xs)"
+      },
+      "label": "Logo"
+    },
+    {
+      "id": "nueeva",
+      "name": "icon",
+      "parent": "ynpfa9",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "ionicons",
+          "icon": "medkit-outline"
+        },
+        "_typography": {
+          "font-size": "32px",
+          "color": {
+            "hex": "#000000"
+          }
+        }
+      }
+    },
+    {
+      "id": "fwwms3",
+      "name": "block",
+      "parent": "ynpfa9",
+      "children": [],
+      "settings": {
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-base)",
+          "font-weight": "600",
+          "color": {
+            "hex": "#000000"
+          },
+          "line-height": "1.2"
+        }
+      },
+      "label": "Logo Text",
+      "content": "<strong style='display:block;'>PlasticSurgery</strong><span style='color:#666;'>ClinicMaster</span>"
+    },
+    {
+      "id": "w1q2o5",
+      "name": "nav-menu",
+      "parent": "ftcakl",
+      "children": [],
+      "settings": {
+        "menu": [
+          {
+            "text": "Home",
+            "url": "#home"
+          },
+          {
+            "text": "Pages",
+            "url": "#pages"
+          },
+          {
+            "text": "Services",
+            "url": "#services"
+          },
+          {
+            "text": "Blogs",
+            "url": "#blogs"
+          },
+          {
+            "text": "Contact Us",
+            "url": "#contact"
+          }
+        ],
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "var(--text-base)",
+          "font-weight": "500",
+          "color": {
+            "hex": "#000000"
+          }
+        },
+        "_display:tablet_portrait": "none"
+      },
+      "label": "Navigation"
+    },
+    {
+      "id": "04h4ue",
+      "name": "block",
+      "parent": "ftcakl",
+      "children": [
+        "5faklz",
+        "8ckwzy"
+      ],
+      "settings": {
+        "_display": "flex",
+        "_alignItems": "center",
+        "_columnGap": "var(--spacing-sm)"
+      },
+      "label": "Icons"
+    },
+    {
+      "id": "5faklz",
+      "name": "icon",
+      "parent": "04h4ue",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "ionicons",
+          "icon": "menu-outline"
+        },
+        "_typography": {
+          "font-size": "28px",
+          "color": {
+            "hex": "#000000"
+          }
+        },
+        "_cursor": "pointer"
+      },
+      "label": "Hamburger Menu"
+    },
+    {
+      "id": "8ckwzy",
+      "name": "icon",
+      "parent": "04h4ue",
+      "children": [],
+      "settings": {
+        "icon": {
+          "library": "ionicons",
+          "icon": "search-outline"
+        },
+        "_typography": {
+          "font-size": "24px",
+          "color": {
+            "hex": "#000000"
+          }
+        },
+        "_cursor": "pointer"
+      },
+      "label": "Search"
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}

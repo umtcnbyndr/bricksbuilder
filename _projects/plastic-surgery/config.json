@@ -1,0 +1,27 @@
+{
+  "name": "Plastic Surgery ClinicMaster",
+  "type": "healthcare",
+  "description": "Modern plastic surgery clinic website",
+  "colors": {
+    "primary": "#FFED00",
+    "secondary": "#000000",
+    "accent": "#1a1a1a",
+    "white": "#FFFFFF",
+    "gray": "#666666"
+  },
+  "fonts": {
+    "heading": "Inter",
+    "body": "Inter"
+  },
+  "sections": [
+    "header",
+    "hero",
+    "services",
+    "about",
+    "gallery",
+    "testimonials",
+    "team",
+    "contact",
+    "footer"
+  ]
+}
