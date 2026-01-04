@@ -1,0 +1,241 @@
+{
+  "colors": {
+    "primary": {
+      "id": "primary",
+      "name": "Primary",
+      "raw": "#6C63FF"
+    },
+    "secondary": {
+      "id": "secondary",
+      "name": "Secondary",
+      "raw": "#1a1a2e"
+    },
+    "accent": {
+      "id": "accent",
+      "name": "Accent",
+      "raw": "#5a52e0"
+    },
+    "text-dark": {
+      "id": "text-dark",
+      "name": "Text Dark",
+      "raw": "#333333"
+    },
+    "text-light": {
+      "id": "text-light",
+      "name": "Text Light",
+      "raw": "#666666"
+    },
+    "text-white": {
+      "id": "text-white",
+      "name": "Text White",
+      "raw": "#ffffff"
+    },
+    "background": {
+      "id": "background",
+      "name": "Background",
+      "raw": "#ffffff"
+    },
+    "background-alt": {
+      "id": "background-alt",
+      "name": "Background Alt",
+      "raw": "#f8f9fa"
+    },
+    "border": {
+      "id": "border",
+      "name": "Border",
+      "raw": "#eeeeee"
+    },
+    "success": {
+      "id": "success",
+      "name": "Success",
+      "raw": "#4CAF50"
+    },
+    "warning": {
+      "id": "warning",
+      "name": "Warning",
+      "raw": "#FFD700"
+    }
+  },
+  "typography": {
+    "font-family": "Poppins",
+    "root-font-size": "16px",
+    "h1": {
+      "font-family": "Poppins",
+      "font-size": "42px",
+      "font-weight": "700",
+      "line-height": "1.2",
+      "color": "var(--bricks-color-secondary)"
+    },
+    "h2": {
+      "font-family": "Poppins",
+      "font-size": "36px",
+      "font-weight": "700",
+      "line-height": "1.2",
+      "color": "var(--bricks-color-secondary)"
+    },
+    "h3": {
+      "font-family": "Poppins",
+      "font-size": "28px",
+      "font-weight": "600",
+      "line-height": "1.3",
+      "color": "var(--bricks-color-secondary)"
+    },
+    "h4": {
+      "font-family": "Poppins",
+      "font-size": "22px",
+      "font-weight": "600",
+      "line-height": "1.4",
+      "color": "var(--bricks-color-secondary)"
+    },
+    "h5": {
+      "font-family": "Poppins",
+      "font-size": "18px",
+      "font-weight": "600",
+      "line-height": "1.4",
+      "color": "var(--bricks-color-secondary)"
+    },
+    "h6": {
+      "font-family": "Poppins",
+      "font-size": "16px",
+      "font-weight": "600",
+      "line-height": "1.5",
+      "color": "var(--bricks-color-secondary)"
+    },
+    "body": {
+      "font-family": "Poppins",
+      "font-size": "16px",
+      "font-weight": "400",
+      "line-height": "1.7",
+      "color": "var(--bricks-color-text-light)"
+    },
+    "lead": {
+      "font-family": "Poppins",
+      "font-size": "18px",
+      "font-weight": "400",
+      "line-height": "1.7",
+      "color": "var(--bricks-color-text-light)"
+    },
+    "small": {
+      "font-family": "Poppins",
+      "font-size": "14px",
+      "font-weight": "400",
+      "line-height": "1.6",
+      "color": "var(--bricks-color-text-light)"
+    },
+    "label": {
+      "font-family": "Poppins",
+      "font-size": "14px",
+      "font-weight": "600",
+      "letter-spacing": "2px",
+      "text-transform": "uppercase",
+      "color": "var(--bricks-color-primary)"
+    }
+  },
+  "buttons": {
+    "primary": {
+      "background-color": "var(--bricks-color-primary)",
+      "color": "#ffffff",
+      "font-family": "Poppins",
+      "font-size": "14px",
+      "font-weight": "600",
+      "padding": "14px 28px",
+      "border-radius": "5px",
+      "border": "none",
+      "transition": "all 0.3s ease",
+      "hover": {
+        "background-color": "var(--bricks-color-accent)",
+        "transform": "translateY(-2px)",
+        "box-shadow": "0 5px 15px rgba(108, 99, 255, 0.3)"
+      }
+    },
+    "secondary": {
+      "background-color": "var(--bricks-color-secondary)",
+      "color": "#ffffff",
+      "font-family": "Poppins",
+      "font-size": "14px",
+      "font-weight": "600",
+      "padding": "14px 28px",
+      "border-radius": "5px",
+      "border": "none",
+      "transition": "all 0.3s ease",
+      "hover": {
+        "background-color": "#2a2a4e",
+        "transform": "translateY(-2px)"
+      }
+    },
+    "outline": {
+      "background-color": "transparent",
+      "color": "var(--bricks-color-primary)",
+      "font-family": "Poppins",
+      "font-size": "14px",
+      "font-weight": "600",
+      "padding": "12px 26px",
+      "border-radius": "5px",
+      "border": "2px solid var(--bricks-color-primary)",
+      "transition": "all 0.3s ease",
+      "hover": {
+        "background-color": "var(--bricks-color-primary)",
+        "color": "#ffffff"
+      }
+    }
+  },
+  "layout": {
+    "content-width": "1200px",
+    "section-padding": {
+      "top": "80px",
+      "bottom": "80px"
+    },
+    "section-padding-small": {
+      "top": "50px",
+      "bottom": "50px"
+    },
+    "container-padding": {
+      "left": "15px",
+      "right": "15px"
+    },
+    "gap-xs": "8px",
+    "gap-sm": "15px",
+    "gap-md": "25px",
+    "gap-lg": "40px",
+    "gap-xl": "60px"
+  },
+  "cards": {
+    "background": "#ffffff",
+    "border-radius": "15px",
+    "padding": "30px",
+    "box-shadow": "0 10px 30px rgba(0, 0, 0, 0.08)",
+    "hover": {
+      "box-shadow": "0 15px 40px rgba(0, 0, 0, 0.12)",
+      "transform": "translateY(-5px)"
+    }
+  },
+  "forms": {
+    "input": {
+      "background": "#ffffff",
+      "border": "1px solid #eeeeee",
+      "border-radius": "5px",
+      "padding": "12px 20px",
+      "font-family": "Poppins",
+      "font-size": "15px",
+      "color": "var(--bricks-color-text-dark)",
+      "focus": {
+        "border-color": "var(--bricks-color-primary)",
+        "box-shadow": "0 0 0 3px rgba(108, 99, 255, 0.1)"
+      }
+    },
+    "label": {
+      "font-family": "Poppins",
+      "font-size": "14px",
+      "font-weight": "500",
+      "color": "var(--bricks-color-text-dark)",
+      "margin-bottom": "8px"
+    }
+  },
+  "breakpoints": {
+    "desktop": "1200px",
+    "tablet_landscape": "1024px",
+    "tablet_portrait": "768px",
+    "mobile_landscape": "576px",
+    "mobile_portrait": "480px"
+  }
+}
