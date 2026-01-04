@@ -1,0 +1,51 @@
+{
+  "_info": "Bu dosyayı kopyala ve proje için düzenle",
+  
+  "name": "Proje Adı",
+  "slug": "proje-adi",
+  "type": "business|ecommerce|blog|portfolio",
+  "language": "tr",
+  
+  "brand": {
+    "name": "Marka Adı",
+    "tagline": "Slogan",
+    "logo": "logo.svg"
+  },
+  
+  "colors": {
+    "primary": "#3b82f6",
+    "secondary": "#1f2937",
+    "tertiary": "#6b7280",
+    "accent": "#10b981",
+    "light": "#f8fafc",
+    "dark": "#111827"
+  },
+  
+  "fonts": {
+    "heading": "Inter",
+    "body": "Inter"
+  },
+  
+  "contact": {
+    "phone": "+90 555 123 4567",
+    "email": "info@example.com",
+    "address": "İstanbul, Türkiye",
+    "social": {
+      "instagram": "https://instagram.com/...",
+      "facebook": "https://facebook.com/...",
+      "linkedin": "https://linkedin.com/..."
+    }
+  },
+  
+  "pages": {
+    "templates": ["header", "footer"],
+    "required": ["home", "about", "contact", "404", "privacy-policy"],
+    "optional": ["services", "blog", "faq", "pricing", "team"]
+  },
+  
+  "seo": {
+    "titleSuffix": " | Marka Adı",
+    "defaultDescription": "Site açıklaması...",
+    "keywords": ["keyword1", "keyword2"]
+  }
+}
