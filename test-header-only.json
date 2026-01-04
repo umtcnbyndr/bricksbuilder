@@ -1,0 +1,145 @@
+{
+  "content": [
+    {
+      "id": "test-header",
+      "name": "section",
+      "parent": 0,
+      "children": ["test-container"],
+      "settings": {
+        "_background": {
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        },
+        "_padding": {
+          "top": "20",
+          "bottom": "20"
+        },
+        "_position": "fixed",
+        "top": "0",
+        "left": "0",
+        "right": "0",
+        "zIndex": "1000"
+      }
+    },
+    {
+      "id": "test-container",
+      "name": "container",
+      "parent": "test-header",
+      "children": ["test-flex"],
+      "settings": {}
+    },
+    {
+      "id": "test-flex",
+      "name": "block",
+      "parent": "test-container",
+      "children": ["test-logo", "test-nav-menu", "test-button"],
+      "settings": {
+        "_display": "flex",
+        "_justifyContent": "space-between",
+        "_alignItems": "center"
+      }
+    },
+    {
+      "id": "test-logo",
+      "name": "heading",
+      "parent": "test-flex",
+      "children": [],
+      "settings": {
+        "text": "WELL BODY",
+        "tag": "div",
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "24px",
+          "font-weight": "700",
+          "color": {
+            "hex": "#ffffff"
+          }
+        }
+      }
+    },
+    {
+      "id": "test-nav-menu",
+      "name": "nav-menu",
+      "parent": "test-flex",
+      "children": [],
+      "settings": {
+        "menu": [
+          {
+            "text": "Studio",
+            "url": "#studio"
+          },
+          {
+            "text": "EMS Trening",
+            "url": "#ems"
+          },
+          {
+            "text": "Opinie",
+            "url": "#opinie"
+          },
+          {
+            "text": "Cennik",
+            "url": "#cennik"
+          },
+          {
+            "text": "FAQ",
+            "url": "#faq"
+          },
+          {
+            "text": "Kontakt",
+            "url": "#kontakt"
+          }
+        ],
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "500",
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "_display:tablet_portrait": "none"
+      }
+    },
+    {
+      "id": "test-button",
+      "name": "button",
+      "parent": "test-flex",
+      "children": [],
+      "settings": {
+        "text": "Rezerwuj trening",
+        "_background": {
+          "color": {
+            "hex": "#F4A5A5"
+          }
+        },
+        "_padding": {
+          "top": "12",
+          "right": "28",
+          "bottom": "12",
+          "left": "28"
+        },
+        "_border": {
+          "radius": {
+            "top": "25",
+            "right": "25",
+            "bottom": "25",
+            "left": "25"
+          }
+        },
+        "_typography": {
+          "font-family": "Inter",
+          "font-size": "14px",
+          "font-weight": "600",
+          "color": {
+            "hex": "#1a1a1a"
+          }
+        }
+      }
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "version": "1.12.3",
+  "globalClasses": [],
+  "globalElements": []
+}
